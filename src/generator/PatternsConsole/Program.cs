@@ -26,6 +26,8 @@ if (!string.IsNullOrEmpty(str))
 var all=await cnt.PatternData.ToArrayAsync();
 foreach(var item in all)
 {
+    Console.WriteLine("---------------");
     Console.WriteLine(item.Title);
+    Console.WriteLine(item.Description);
 }
 
