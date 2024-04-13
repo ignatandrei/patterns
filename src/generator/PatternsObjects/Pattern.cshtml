@@ -1,4 +1,7 @@
 @inherits RazorBlade.PlainTextTemplate<PatternDataGenerator>;
+@{
+    var classNames = Model.ClassWithExamples;
+}
 ---
 id: doc-with-tags
 title: @Model.Title
@@ -19,9 +22,20 @@ tags:
 
 @Model.Description
 
-## Examples in .NET 
+## Examples in .NET : 
 
+@for(var ci = 0; ci < classNames.Length; ci++)
+{
+<text>
+###  @classNames[ci].Name
 
+```csharp
+@classNames[ci].Code
+
+```
+
+</text>
+}
 
 ## Learn More
 

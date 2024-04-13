@@ -8,6 +8,14 @@ public class GeneratorDocusaurus
     {
         this.patterns = patterns.Select(it=> Mapper.MapPDToPDG(it)).ToArray();
     }
+    public async Task<bool> Initialize(string folderCode)
+    {
+        foreach (var item in this.patterns)
+        {
+            await item.Initialize(folderCode);
+        }
+        return true;
+    }
     public async Task<bool> Write(string folder)
     {
         var data=this.patterns.Select(it=>it
