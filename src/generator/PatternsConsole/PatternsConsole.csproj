@@ -11,5 +11,7 @@
     <ProjectReference Include="..\PatternsData\PatternsData.csproj" />
     <ProjectReference Include="..\PatternsObjects\PatternsObjects.csproj" />
   </ItemGroup>
-
+	<ItemGroup>
+		<Watch Include="..\**\*.cshtml"  />
+	</ItemGroup>
 </Project>

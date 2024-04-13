@@ -11,8 +11,15 @@ public class PatternDataGenerator
     public string ClassNames { get; set; } = string.Empty;
     public string Homework { get; set; } = string.Empty;
 
+    public string[] TagsArray()
+    {
+
+        return Tags.Split(",");
+    }
     public async Task<string> DataDocusaurus()
     {
-        return await Task.FromResult($@"{Title} {Description}");
+        var template = new Pattern(this);
+        var data = await template.RenderAsync();
+        return await Task.FromResult(data);
     }
 }

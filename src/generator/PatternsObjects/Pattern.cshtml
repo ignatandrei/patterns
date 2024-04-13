@@ -1,0 +1,34 @@
+@inherits RazorBlade.PlainTextTemplate<PatternDataGenerator>;
+---
+id: doc-with-tags
+title: @Model.Title
+tags:
+  - @Model.Title
+  - https://github.com/ignatandrei/patterns
+  @foreach(var tag in Model.TagsArray())
+  {
+<text>
+  - @tag
+</text>
+  }
+---
+
+# Pattern:  @Model.Title
+
+## Description
+
+@Model.Description
+
+## Examples in .NET 
+
+
+
+## Learn More
+
+[Wikipedia](@Model.LinkWikipedia)
+
+## Homework
+
+@Model.Homework
+
+

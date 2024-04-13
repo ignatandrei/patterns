@@ -32,3 +32,4 @@ var all =await cnt.PatternData.ToArrayAsync();
 //}
 GeneratorDocusaurus generator=new(all);
 await generator.Write(@"D:\gth\patterns\src\patternsSite\docs\patterns");
+Console.WriteLine("done at "+DateTime.Now.ToString("HHmm" ));
