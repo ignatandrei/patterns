@@ -2,12 +2,18 @@
 
 public class DbPatternContext : DbContext
 {
+    public DbPatternContext(string folder)
+    {
+        this.folder = folder;
+    }
     public const string DatabaseName = "patternsData";
+    private readonly string folder;
+
     public DbSet<PatternData> PatternData { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseFileBaseContextDatabase(DatabaseName, @"D:\gth\patterns\src\data");
+        optionsBuilder.UseFileBaseContextDatabase(DatabaseName, folder);
 
 
     }

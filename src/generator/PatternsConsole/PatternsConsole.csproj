@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PatternsData\PatternsData.csproj" />
+    <ProjectReference Include="..\PatternsObjects\PatternsObjects.csproj" />
   </ItemGroup>
 
 </Project>
