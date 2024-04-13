@@ -19,15 +19,9 @@ The intent of the Builder design pattern is to separate the construction of a co
 ## Examples in .NET : 
 
 
-###  UriBuilder
+###  UriBuilder 
 
 ```csharp
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Builder;
 static class UriBuilderDemo
 {
@@ -52,16 +46,9 @@ static class UriBuilderDemo
 ```
 
 
-###  SqlConnectionStringBuilder
+###  SqlConnectionStringBuilder 
 
 ```csharp
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Builder;
 internal class ConnectionStringDemo
 {

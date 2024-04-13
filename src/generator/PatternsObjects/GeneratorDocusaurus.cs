@@ -2,7 +2,7 @@
 
 public class GeneratorDocusaurus
 {
-    private readonly PatternDataGenerator[] patterns;
+    public readonly PatternDataGenerator[] patterns;
 
     public GeneratorDocusaurus(PatternData[] patterns)
     {
@@ -18,14 +18,18 @@ public class GeneratorDocusaurus
     }
     public async Task<bool> Write(string folder)
     {
+        var intro= new Intro(this);
+        var textIntro= await intro.RenderAsync();
+        await File.WriteAllTextAsync(Path.Combine(folder,"intro.md"),textIntro);
         var data=this.patterns.Select(it=>it
         .DataDocusaurus()
         .AddData(it))
             .ToArray();
         var str= await Task.WhenAll(data);
+        var fldPatterns= Path.Combine(folder,"patterns");
         foreach (var it in str)
         {
-            var file = Path.Combine(folder, it.data.Title+".md");
+            var file = Path.Combine(fldPatterns, it.data.Title+".md");
             await File.WriteAllTextAsync(file, it.res);
         }
         return true;

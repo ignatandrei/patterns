@@ -1,0 +1,15 @@
+@inherits RazorBlade.PlainTextTemplate<GeneratorDocusaurus>;
+---
+sidebar_position: 10
+title: Patterns
+---
+
+
+# Patterns :  @Model.patterns.Length
+
+@foreach (var item in Model.patterns)
+{
+    <text>
+    ## @item.Title
+    </text>
+}
