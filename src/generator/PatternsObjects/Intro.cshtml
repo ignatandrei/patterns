@@ -1,18 +1,35 @@
 @inherits RazorBlade.PlainTextTemplate<GeneratorDocusaurus>;
+@{
+    var done = Model.Done();
+    var notDone = Model.NotDone();
+}
 ---
 sidebar_position: 10
 title: Patterns
 ---
 
+# Patterns With Examples :  @done.Length
 
-# Patterns :  @Model.patterns.Length
-
-@foreach (var item in Model.patterns)
+@foreach (var item in done)
 {
-<text>
-## [@item.Title](/docs/patterns/@item.Title)
+    <text>
+        ## [@item.Title](/docs/patterns/@item.Title)
 
 
 
-</text>
+    </text>
+}
+
+@if (notDone.Length > 0)
+{
+    <text>
+        # Patterns to be added : @notDone.Length
+
+        @foreach (var item in notDone)
+        {
+            <text>
+                ## @item.Title
+            </text>
+        }
+    </text>
 }

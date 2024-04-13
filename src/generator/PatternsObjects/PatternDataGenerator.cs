@@ -1,10 +1,15 @@
 ﻿namespace PatternsObjects;
 public class PatternDataGenerator
 {
+
     public int Id { get; set; }
+    public bool CanWrite()
+    {
+        return Stage?.ToLower() == "done";
+    }
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
-
+    public string Stage { get; set; } = string.Empty;
     public string LinkWikipedia { get; set; } = string.Empty;
     public string DemoFileCsproj { get; set; } = string.Empty;
     public string Tags { get; set; } = string.Empty;
@@ -13,7 +18,7 @@ public class PatternDataGenerator
 
     public string[] ClassNamesArray()
     {
-        return ClassNames.Split(",");
+        return (ClassNames??string.Empty).Split(",");
     }
     public string[] TagsArray()
     {
@@ -23,6 +28,8 @@ public class PatternDataGenerator
     public ClassWithExample[] ClassWithExamples=Array.Empty<ClassWithExample>();
     public async Task<bool> Initialize(string rootFolderCode)
     {
+        if(!CanWrite()) return false;
+
         List<ClassWithExample> classes = new();
         foreach (var item in ClassNamesArray())
         {
@@ -48,6 +55,8 @@ public class PatternDataGenerator
     }
     public async Task<string> DataDocusaurus()
     {
+        if(!CanWrite())
+            return string.Empty;
         var template = new Pattern(this);
         var data = await template.RenderAsync();
         return await Task.FromResult(data);

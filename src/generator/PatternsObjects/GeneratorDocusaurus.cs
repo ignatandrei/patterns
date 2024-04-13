@@ -8,6 +8,14 @@ public class GeneratorDocusaurus
     {
         this.patterns = patterns.Select(it=> Mapper.MapPDToPDG(it)).ToArray();
     }
+    public PatternDataGenerator[] Done()
+    {
+        return patterns.Where(it=>it.CanWrite()).ToArray();
+    }
+    public PatternDataGenerator[] NotDone()
+    {
+        return patterns.Except(Done()).ToArray();
+    }
     public async Task<bool> Initialize(string folderCode)
     {
         foreach (var item in this.patterns)
@@ -29,6 +37,8 @@ public class GeneratorDocusaurus
         var fldPatterns= Path.Combine(folder,"patterns");
         foreach (var it in str)
         {
+            if (string.IsNullOrWhiteSpace(it.res))
+                continue;
             var file = Path.Combine(fldPatterns, it.data.Title+".md");
             await File.WriteAllTextAsync(file, it.res);
         }

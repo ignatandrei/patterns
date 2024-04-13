@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "Stage":"done",
     "Title": "Builder",
     "Description":"The intent of the Builder design pattern is to separate the construction of a complex object from its representation",
     "LinkWikipedia":"https://en.wikipedia.org/wiki/Builder_pattern",
@@ -12,6 +13,7 @@
   },
   {
     "Id": 2,
+    "Stage":"done",
     "Title": "NullObject",
     "Description":"Instead of returning null , use an object which implements the expected interface, but whose method body is empty.",
     "LinkWikipedia":"https://en.wikipedia.org/wiki/Null_object_pattern",
@@ -20,6 +22,27 @@
     "Homework":"When retrieving data( e.g. a Person with ID =-1 ) from a database , return a NullObject instead of null. How you will verify that the object is a NullObject?",
     "Tags":"behavior,design pattern"    
 
+  },
+  {
+    "Id": 3,
+    "Stage":"notdone",
+    "Title": "Adapter"    
+  },
+  {
+    "Id": 4,
+    "Stage":"notdone",
+    "Title": "Iterator"    
   }
-  
+  ,
+  {
+    "Id": 5,
+    "Stage":"notdone",
+    "Title": "Prototype"    
+  }
+  ,
+  {
+    "Id": 6,
+    "Stage":"notdone",
+    "Title": "Adapter"    
+  }
 ]
