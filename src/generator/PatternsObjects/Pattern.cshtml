@@ -1,6 +1,11 @@
 @inherits RazorBlade.PlainTextTemplate<PatternDataGenerator>;
 @{
     var classNames = Model.ClassWithExamples;
+    var example = "Examples";
+    if(classNames.Length == 1)
+    {
+        example = "Example";
+    }
 }
 ---
 id: @Model.Title
@@ -22,7 +27,7 @@ tags:
 
 @Model.Description
 
-## Examples in .NET : 
+## @example in .NET : 
 
 @for(var ci = 0; ci < classNames.Length; ci++)
 {

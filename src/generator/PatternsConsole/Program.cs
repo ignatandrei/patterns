@@ -30,7 +30,8 @@ var all =await cnt.PatternData.ToArrayAsync();
 //    Console.WriteLine(item.Title);
 //    Console.WriteLine(item.Description);
 //}
-GeneratorDocusaurus generator=new(all);
+GeneratorFiles generator=new(all);
 await generator.Initialize(@"D:\gth\patterns\src\examples");
-await generator.Write(@"D:\gth\patterns\src\patternsSite\docs\");
-Console.WriteLine("done at "+DateTime.Now.ToString("HHmm" ));
+await generator.WriteDocusaurus(@"D:\gth\patterns\src\patternsSite\docs\");
+Console.WriteLine("done at "+DateTime.Now.ToString("HH:mm" ));
+await generator.WriteBlog(4);

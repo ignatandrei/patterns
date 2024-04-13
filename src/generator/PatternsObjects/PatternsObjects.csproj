@@ -21,6 +21,7 @@
     </PropertyGroup>
 	<ItemGroup>
 		<AdditionalFiles Include="Intro.cshtml" />
+		<AdditionalFiles Include="Blog.cshtml" />
 		<AdditionalFiles Include="Pattern.cshtml" />
 	</ItemGroup>
 	<ItemGroup>

@@ -14,9 +14,9 @@ tags:
 
 ## Description
 
-Iterator design pattern allows in which an iterator is used to traverse a container and access the container's elements.
+Iterator design pattern allows to traverse a container and access the container's elements.
 
-## Examples in .NET : 
+## Example in .NET : 
 
 
 ###  DirectoryEnumerable

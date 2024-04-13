@@ -1,0 +1,38 @@
+@inherits RazorBlade.PlainTextTemplate<PatternDataGenerator>;
+@{
+    var classNames = Model.ClassWithExamples;
+    var example = "Examples";
+    if(classNames.Length == 1)
+    {
+        example = "Example";
+    }
+}
+
+Pattern:  @Model.Title 
+
+<h2> Description</h2>
+
+@Model.Description
+
+<h2> @example in .NET :</h2>
+
+@for(var ci = 0; ci < classNames.Length; ci++)
+{
+<text>
+        <h3>  @classNames[ci].Name </h3>
+[code lang='csharp']
+@classNames[ci].Code
+[/code]
+
+</text>
+}
+
+<h2> Learn More</h2>
+
+<a href="@Model.LinkWikipedia" target="_blank">Wikipedia</a>
+
+<h2> Homework </h2>
+
+@Model.Homework
+
+
