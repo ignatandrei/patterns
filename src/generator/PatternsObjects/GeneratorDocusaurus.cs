@@ -10,11 +10,13 @@ public class GeneratorDocusaurus
     }
     public PatternDataGenerator[] Done()
     {
-        return patterns.Where(it=>it.CanWrite()).ToArray();
+        return patterns.Where(it=>it.CanWrite())
+            .OrderBy(it => it.Title)
+            .ToArray();
     }
     public PatternDataGenerator[] NotDone()
     {
-        return patterns.Except(Done()).ToArray();
+        return patterns.Except(Done()).OrderBy(it=>it.Title).ToArray();
     }
     public async Task<bool> Initialize(string folderCode)
     {

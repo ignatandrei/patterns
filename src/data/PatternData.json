@@ -43,6 +43,46 @@
   {
     "Id": 6,
     "Stage":"notdone",
-    "Title": "Adapter"    
+    "Title": "factory"    
+  },
+  {
+    "Id": 7,
+    "Stage":"notdone",
+    "Title": "facade"    
   }
+  ,
+  {
+    "Id": 8,
+    "Stage":"notdone",
+    "Title": "decorator"    
+  }
+  ,
+  {
+    "Id": 9,
+    "Stage":"notdone",
+    "Title": "chain"    
+  },
+  {
+    "Id": 10,
+    "Stage":"notdone",
+    "Title": "singleton"    
+  },
+  {
+    "Id": 11,
+    "Stage":"notdone",
+    "Title": "strategy"    
+  }
+  ,
+  {
+    "Id": 12,
+    "Stage":"notdone",
+    "Title": "visitor"    
+  },
+  {
+    "Id": 13,
+    "Stage":"notdone",
+    "Title": "InversionOfControl"    
+  }
+
+
 ]

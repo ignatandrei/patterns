@@ -17,14 +17,28 @@ title: Patterns
 
     
 
-        # Patterns to be added : 4
+        # Patterns to be added : 11
 
 
                 ## Adapter
+            
+                ## chain
+            
+                ## decorator
+            
+                ## facade
+            
+                ## factory
+            
+                ## InversionOfControl
             
                 ## Iterator
             
                 ## Prototype
             
-                ## Adapter
+                ## singleton
+            
+                ## strategy
+            
+                ## visitor
                 
