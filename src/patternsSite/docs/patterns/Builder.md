@@ -19,9 +19,8 @@ The intent of the Builder design pattern is to separate the construction of a co
 ## Examples in .NET : 
 
 
-###  UriBuilder 
-
-```csharp
+###  UriBuilder
+```csharp showLineNumbers title="UriBuilder example for Pattern Builder"
 namespace Builder;
 static class UriBuilderDemo
 {
@@ -42,13 +41,11 @@ static class UriBuilderDemo
     }
 }
 
-
 ```
 
 
-###  SqlConnectionStringBuilder 
-
-```csharp
+###  SqlConnectionStringBuilder
+```csharp showLineNumbers title="SqlConnectionStringBuilder example for Pattern Builder"
 namespace Builder;
 internal class ConnectionStringDemo
 {
@@ -64,7 +61,6 @@ internal class ConnectionStringDemo
         //end example 2
     }
 }
-
 
 ```
 

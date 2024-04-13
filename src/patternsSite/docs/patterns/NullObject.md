@@ -19,9 +19,8 @@ Instead of returning null , use an object which implements the expected interfac
 ## Examples in .NET : 
 
 
-###  EmptyFolder 
-
-```csharp
+###  EmptyFolder
+```csharp showLineNumbers title="EmptyFolder example for Pattern NullObject"
 using System;
 using System.IO;
 
@@ -43,13 +42,11 @@ internal class EmptyFolderDemo
     }
 }
 
-
 ```
 
 
-###  NullLogger 
-
-```csharp
+###  NullLogger
+```csharp showLineNumbers title="NullLogger example for Pattern NullObject"
 
 namespace NullObject;
 internal class LogWithData
@@ -64,7 +61,6 @@ internal class LogWithData
         _logger.LogInformation($"start work with {message}");
     }
 }
-
 
 ```
 
