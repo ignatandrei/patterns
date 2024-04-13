@@ -13,5 +13,7 @@
   </ItemGroup>
 	<ItemGroup>
 		<Watch Include="..\**\*.cshtml"  />
+		<Watch Include="..\**\PatternData.json"  />
+
 	</ItemGroup>
 </Project>

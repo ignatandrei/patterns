@@ -1,5 +1,5 @@
 ---
-id: doc-with-tags
+id: Builder
 title: Builder
 tags:
   - Builder

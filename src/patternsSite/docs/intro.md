@@ -4,8 +4,15 @@ title: Patterns
 ---
 
 
-# Patterns :  1
+# Patterns :  2
 
 
-    ## Builder
-    
+## [Builder](/docs/patterns/Builder)
+
+
+
+
+## [NullObject](/docs/patterns/NullObject)
+
+
+

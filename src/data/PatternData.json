@@ -9,6 +9,17 @@
     "Homework":"Imagine that you have a logger that logs to a file and to a console. Implement a builder that will allow you to create a logger with different configurations. For example, you can set the log level, the log format, and the log destination.",
     "Tags":"creational,design pattern"    
 
+  },
+  {
+    "Id": 2,
+    "Title": "NullObject",
+    "Description":"Instead of returning null , use an object which implements the expected interface, but whose method body is empty.",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Null_object_pattern",
+    "DemoFileCsproj":"NullObject.csproj",
+    "ClassNames":"EmptyFolder,NullLogger",
+    "Homework":"When retrieving data( e.g. a Person with ID =-1 ) from a database , return a NullObject instead of null. How you will verify that the object is a NullObject?",
+    "Tags":"behavior,design pattern"    
+
   }
   
 ]
