@@ -9,7 +9,7 @@ public partial class Mapper
     {
         // custom before map code...
         var dto = PatternData2PatternDataGenerator(obj);
-        dto.Title=string.
+        
         // custom after map code...
         return dto;
     }

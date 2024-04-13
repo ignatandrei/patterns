@@ -25,8 +25,14 @@
   },
   {
     "Id": 3,
-    "Stage":"notdone",
-    "Title": "Adapter"    
+    "Stage":"done",
+    "Title": "Adapter",    
+    "Description":"Adapter design pattern allows the interface of an existing class to be used as another interface.It is often used to make existing classes work with others without modifying their source code.",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Adapter_pattern",
+    "DemoFileCsproj":"Adaptor.csproj",
+    "ClassNames":"SQLiteDataAdapter,EncodingAdapter",
+    "Homework":"iPhone 7 does not have a headphone jack. Implement an adapter that will allow you to use your old headphones , that have jack, with the iPhone 7.",
+    "Tags":"structural,design pattern"
   },
   {
     "Id": 4,

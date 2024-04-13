@@ -3,9 +3,14 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples :  2
+# Patterns With Examples :  3
 
 
+        ## [Adapter](/docs/patterns/Adapter)
+
+
+
+    
         ## [Builder](/docs/patterns/Builder)
 
 
@@ -17,11 +22,9 @@ title: Patterns
 
     
 
-        # Patterns to be added : 11
+        # Patterns to be added : 10
 
 
-                ## Adapter
-            
                 ## chain
             
                 ## decorator
