@@ -30,21 +30,21 @@ title: Patterns
         # Patterns to be added : 9
 
 
-                ## chain
+                ## Chain
             
-                ## decorator
+                ## Decorator
             
-                ## facade
+                ## Facade
             
-                ## factory
+                ## Factory
             
                 ## InversionOfControl
             
                 ## Prototype
             
-                ## singleton
+                ## Singleton
             
-                ## strategy
+                ## Strategy
             
-                ## visitor
+                ## Visitor
                 
