@@ -20,24 +20,30 @@
     "DemoFileCsproj":"NullObject.csproj",
     "ClassNames":"EmptyFolder,NullLogger",
     "Homework":"When retrieving data( e.g. a Person with ID =-1 ) from a database , return a NullObject instead of null. How you will verify that the object is a NullObject?",
-    "Tags":"behavior,design pattern"    
+    "Tags":"behavioral,design pattern"    
 
   },
   {
     "Id": 3,
     "Stage":"done",
-    "Title": "Adapter",    
+    "Title": "Iterator",    
+    "Description":"Iterator design pattern allows to traverse a container and access the container's elements.",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/iterator_pattern",
+    "DemoFileCsproj":"Iterator.csproj",
+    "Homework":"With the Yield keyword implement a function that return an IEnumerable of generic int that will return the first 10 numbers of the Fibonacci sequence",
+    "ClassNames":"DirectoryEnumerable",
+    "Tags":"behavioral,design pattern"
+  },
+  {
+    "Id": 4,
+    "Stage":"done",
+    "Title": "Adapter", 
     "Description":"Adapter design pattern allows the interface of an existing class to be used as another interface.It is often used to make existing classes work with others without modifying their source code.",
     "LinkWikipedia":"https://en.wikipedia.org/wiki/Adapter_pattern",
     "DemoFileCsproj":"Adaptor.csproj",
     "ClassNames":"SQLiteDataAdapter,EncodingAdapter",
     "Homework":"iPhone 7 does not have a headphone jack. Implement an adapter that will allow you to use your old headphones , that have jack, with the iPhone 7.",
     "Tags":"structural,design pattern"
-  },
-  {
-    "Id": 4,
-    "Stage":"notdone",
-    "Title": "Iterator"    
   }
   ,
   {

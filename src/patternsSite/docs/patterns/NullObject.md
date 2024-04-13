@@ -5,7 +5,7 @@ tags:
   - NullObject
   - https://github.com/ignatandrei/patterns
 
-  - behavior
+  - behavioral
 
   - design pattern
 ---

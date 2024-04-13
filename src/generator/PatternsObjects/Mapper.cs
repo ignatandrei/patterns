@@ -8,8 +8,7 @@ public partial class Mapper
     public static PatternDataGenerator MapPDToPDG(PatternData obj)
     {
         // custom before map code...
-        var dto = PatternData2PatternDataGenerator(obj);
-        
+        var dto = PatternData2PatternDataGenerator(obj);        
         // custom after map code...
         return dto;
     }

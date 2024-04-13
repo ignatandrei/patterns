@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples :  3
+# Patterns With Examples :  4
 
 
         ## [Adapter](/docs/patterns/Adapter)
@@ -16,13 +16,18 @@ title: Patterns
 
 
     
+        ## [Iterator](/docs/patterns/Iterator)
+
+
+
+    
         ## [NullObject](/docs/patterns/NullObject)
 
 
 
     
 
-        # Patterns to be added : 10
+        # Patterns to be added : 9
 
 
                 ## chain
@@ -34,8 +39,6 @@ title: Patterns
                 ## factory
             
                 ## InversionOfControl
-            
-                ## Iterator
             
                 ## Prototype
             
