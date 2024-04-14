@@ -49,7 +49,14 @@
   {
     "Id": 5,
     "Stage":"notdone",
-    "Title": "Prototype"    
+    "Title": "Prototype",
+    "Description":"It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Prototype_pattern",   
+    "DemoFileCsproj":"Prototype.csproj",
+    "ClassNames":"ICloneable",
+    "Homework":"Imagine that you have a cow farm and you want to create a new cow. Implement a prototype that will allow you to clone a cow. The cow should have a name and a weight",
+    "Tags":"creational,design pattern"
+  } 
   }
   ,
   {
