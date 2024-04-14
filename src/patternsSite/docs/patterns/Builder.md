@@ -8,11 +8,13 @@ tags:
   - creational
 
   - design pattern
+
+  - UriBuilder
+
+  - SqlConnectionStringBuilder
 ---
 
 # Pattern:  Builder
-
-## Description
 
 The intent of the Builder design pattern is to separate the construction of a complex object from its representation
 

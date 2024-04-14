@@ -19,11 +19,15 @@ tags:
   - @tag
 </text>
   }
+  @for (var ci = 0; ci < classNames.Length; ci++)
+  {
+<text>
+  - @classNames[ci].Name
+</text>
+}
 ---
 
 # Pattern:  @Model.Title
-
-## Description
 
 @Model.Description
 

@@ -8,11 +8,11 @@ tags:
   - behavioral
 
   - design pattern
+
+  - DirectoryEnumerable
 ---
 
 # Pattern:  Iterator
-
-## Description
 
 Iterator design pattern allows to traverse a container and access the container's elements.
 

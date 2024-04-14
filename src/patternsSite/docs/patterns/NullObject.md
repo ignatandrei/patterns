@@ -8,11 +8,13 @@ tags:
   - behavioral
 
   - design pattern
+
+  - EmptyFolder
+
+  - NullLogger
 ---
 
 # Pattern:  NullObject
-
-## Description
 
 Instead of returning null , use an object which implements the expected interface, but whose method body is empty.
 

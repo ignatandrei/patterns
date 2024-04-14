@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpatterns_site=self.webpackChunkpatterns_site||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/patterns/blog","blogTitle":"Blog"}')}}]);
