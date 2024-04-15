@@ -48,7 +48,7 @@
   ,
   {
     "Id": 5,
-    "Stage":"notdone",
+    "Stage":"done",
     "Title": "Prototype",
     "Description":"It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects",
     "LinkWikipedia":"https://en.wikipedia.org/wiki/Prototype_pattern",   
@@ -57,7 +57,7 @@
     "Homework":"Imagine that you have a cow farm and you want to create a new cow. Implement a prototype that will allow you to clone a cow. The cow should have a name and a weight",
     "Tags":"creational,design pattern"
   } 
-  }
+  
   ,
   {
     "Id": 6,
@@ -72,8 +72,14 @@
   ,
   {
     "Id": 8,
-    "Stage":"notdone",
-    "Title": "decorator"    
+    "Stage":"done",
+    "Title": "decorator",    
+    "Description":"Decorator allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Prototype_pattern",   
+    "DemoFileCsproj":"Decorator.csproj",
+    "ClassNames":"Decorator",
+    "Homework":"1. Add a logging to DBConnection . 2. Use by decorating a coffee with milk, sugar, and chocolate (and maybe other condiments). The coffee should be able to display the condiments in a Display method and calculate the price of the coffee with milk, sugar, and chocolate.",
+    "Tags":"behavioral,design pattern"
   }
   ,
   {
