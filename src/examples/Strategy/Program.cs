@@ -1,0 +1,3 @@
+﻿using Strategy;
+
+StrategyDemo.SortWithDifferentStrategies();

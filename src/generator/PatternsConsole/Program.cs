@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
 var rootFolderFromGit = @"D:\gth\patterns";
 DbPatternContext cnt = new(Path.Combine(rootFolderFromGit,@"src","data"));
 var all =await cnt.PatternData.ToArrayAsync();
