@@ -48,6 +48,14 @@ public class GeneratorFiles
         }
         return true;
     }
+    public async Task<bool> WriteReadme(string file)
+    {
+        var intro = new Intro(this);
+        var textIntro = await intro.RenderAsync();
+        textIntro = textIntro.Replace("/docs/", "https://ignatandrei.github.io/patterns/docs/");
+        await File.WriteAllTextAsync(file, textIntro);
+        return true;
+    }
     public async Task<bool> WriteBlog(int nr)
     {
         var d=Done();

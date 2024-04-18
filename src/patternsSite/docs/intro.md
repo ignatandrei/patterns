@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples :  12
+# Patterns With Examples from .NET  :  12
 
 
         ## [Adapter](/docs/patterns/Adapter)
