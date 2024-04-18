@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples :  7
+# Patterns With Examples :  8
 
 
         ## [Adapter](/docs/patterns/Adapter)
@@ -17,6 +17,11 @@ title: Patterns
 
     
         ## [Decorator](/docs/patterns/Decorator)
+
+
+
+    
+        ## [Factory](/docs/patterns/Factory)
 
 
 
@@ -42,14 +47,12 @@ title: Patterns
 
     
 
-        # Patterns to be added : 6
+        # Patterns to be added : 5
 
 
                 ## Chain
             
                 ## Facade
-            
-                ## Factory
             
                 ## InversionOfControl
             

@@ -61,13 +61,25 @@
   ,
   {
     "Id": 6,
-    "Stage":"notdone",
-    "Title": "factory"    
+    "Stage":"done",
+    "Title": "factory",    
+    "Description":"A factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be new",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Factory_pattern",   
+    "DemoFileCsproj":"Factory.csproj",
+    "ClassNames":"Factory",
+    "Homework":"having multiple types of drinks( water, tea, coffee) with an IDrink interface  create a factory method ( with a parameter ) to create a drink  ",
+    "Tags":"creational,design pattern"
   },
   {
     "Id": 7,
     "Stage":"notdone",
-    "Title": "facade"    
+    "Title": "facade",
+    "Description":"Facade is is an object that provides a simplified interface to a larger body of code, such as a class library.",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Facade_pattern",
+    "DemoFileCsproj":"Facade.csproj",
+    "ClassNames":"Facade",
+    "Homework":"",
+    "Tags":"structural,design pattern"    
   }
   ,
   {
