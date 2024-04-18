@@ -51,6 +51,6 @@ public class MyDbContext:DbContext
 
 ## Homework
 
-Implement a Facade that will allow you to display a message in a MessageBox with a single method call in a console application .
+Implement a Facade that will allow you to display a question in a MessageBox with a single method call in a console application and return yes/no as a result.
 
 

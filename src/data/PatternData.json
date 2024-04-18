@@ -78,7 +78,7 @@
     "LinkWikipedia":"https://en.wikipedia.org/wiki/Facade_pattern",
     "DemoFileCsproj":"Facade.csproj",
     "ClassNames":"Facade",
-    "Homework":"Implement a Facade that will allow you to display a message in a MessageBox with a single method call in a console application .",
+    "Homework":"Implement a Facade that will allow you to display a question in a MessageBox with a single method call in a console application and return yes/no as a result.",
     "Tags":"structural,design pattern"    
   }
   ,
@@ -96,8 +96,14 @@
   ,
   {
     "Id": 9,
-    "Stage":"notdone",
-    "Title": "chain"    
+    "Stage":"done",
+    "Title": "chain",
+    "Description":"Chain of responsibility pattern allows an object to send a command without knowing what object will receive and handle it. Chain the receiving objects and pass the request along the chain until an object handles it",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern",    
+    "ClassNames":"Chain",
+    "DemoFileCsproj":"Chain.csproj",
+    "Homework":"Implement a middleware in ASP.NET Core that intercepts the exception and logs it to the database. The middleware should be able to pass the exception to the next middleware in the chain.",
+    "Tags":"behavioral,design pattern"
   },
   {
     "Id": 10,

@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{C9F287CA-4AB2-491B-A7D5-1D1A7305297E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{D75A61EA-6DF8-4981-8D7F-568352354900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{D75A61EA-6DF8-4981-8D7F-568352354900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain", "Chain\Chain.csproj", "{6FD2126B-A99C-4528-98F1-3D8A208C00FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{D75A61EA-6DF8-4981-8D7F-568352354900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D75A61EA-6DF8-4981-8D7F-568352354900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D75A61EA-6DF8-4981-8D7F-568352354900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD2126B-A99C-4528-98F1-3D8A208C00FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD2126B-A99C-4528-98F1-3D8A208C00FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD2126B-A99C-4528-98F1-3D8A208C00FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD2126B-A99C-4528-98F1-3D8A208C00FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
