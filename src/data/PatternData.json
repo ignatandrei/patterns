@@ -130,8 +130,14 @@
   ,
   {
     "Id": 12,
-    "Stage":"notdone",
-    "Title": "visitor"    
+    "Stage":"done",
+    "Title": "visitor",
+    "Description":"Visitor pattern is a way of separating an algorithm from an object structure on which it operates. A practical result of this separation is the ability to add new operations to existing object structures without modifying the structures.",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Visitor_pattern",
+    "DemoFileCsproj":"Visitor.csproj",
+    "ClassNames":"Visitor",
+    "Homework":"Implement a visitor that will allow you to calculate the total price of a shopping cart. The shopping cart should contain items with a price and a quantity.Visit every item and make the sum",
+    "Tags":"behavioral,design pattern"    
   },
   {
     "Id": 13,

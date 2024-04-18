@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples :  11
+# Patterns With Examples :  12
 
 
         ## [Adapter](/docs/patterns/Adapter)
@@ -61,11 +61,14 @@ title: Patterns
 
 
     
+        ## [Visitor](/docs/patterns/Visitor)
 
-        # Patterns to be added : 2
+
+
+    
+
+        # Patterns to be added : 1
 
 
                 ## InversionOfControl
-            
-                ## Visitor
                 
