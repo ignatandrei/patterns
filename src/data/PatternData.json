@@ -107,8 +107,14 @@
   },
   {
     "Id": 10,
-    "Stage":"notdone",
-    "Title": "singleton"    
+    "Stage":"done",
+    "Title": "singleton",
+    "Description":"Singleton pattern restricts the instantiation of a class to one object. It is used when you want to have one instance of a class that is shared across the application.",
+    "LinkWikipedia":"https://en.wikipedia.org/wiki/Singleton_pattern",
+    "DemoFileCsproj":"Singleton.csproj",
+    "ClassNames":"Singleton",
+    "Homework":"Implement a singleton that will allow you to create a single instance of a logger that logs to a file and to a console.",
+    "Tags":"creational,design pattern"
   },
   {
     "Id": 11,
