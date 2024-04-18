@@ -72,7 +72,7 @@
   },
   {
     "Id": 7,
-    "Stage":"notdone",
+    "Stage":"done",
     "Title": "facade",
     "Description":"Facade is is an object that provides a simplified interface to a larger body of code, such as a class library.",
     "LinkWikipedia":"https://en.wikipedia.org/wiki/Facade_pattern",
