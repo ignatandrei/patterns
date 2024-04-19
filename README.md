@@ -62,3 +62,21 @@
 
 
     
+TBD:
+
+https://github.com/kamranahmedse/design-patterns-for-humans
+
+
+http://wiki.c2.com/?VisitorPattern
+
+
+https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs
+
+
+https://www.researchgate.net/publication/234819209_Non-software_examples_of_software_design_patterns
+
+http://www.dofactory.com/net/decorator-design-pattern
+
+http://wiki.c2.com/?CategoryPattern
+
+
