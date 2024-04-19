@@ -50,7 +50,7 @@ public class GeneratorFiles
     }
     public async Task<bool> WriteReadme(string file)
     {
-        var intro = new Intro(this);
+        var intro = new Readme(this);
         var textIntro = await intro.RenderAsync();
         textIntro = textIntro.Replace("/docs/", "https://ignatandrei.github.io/patterns/docs/");
         await File.WriteAllTextAsync(file, textIntro);

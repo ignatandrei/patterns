@@ -20,6 +20,7 @@
         <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
     </PropertyGroup>
 	<ItemGroup>
+		<AdditionalFiles Include="Readme.cshtml" />
 		<AdditionalFiles Include="Intro.cshtml" />
 		<AdditionalFiles Include="Blog.cshtml" />
 		<AdditionalFiles Include="Pattern.cshtml" />
@@ -27,5 +28,5 @@
 	<ItemGroup>
 		<Watch Include="**\*.cshtml" />
 	</ItemGroup>
-
+	
 </Project>
