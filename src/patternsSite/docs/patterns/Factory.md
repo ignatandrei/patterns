@@ -73,6 +73,7 @@ class MyControllerFactory : System.Web.Mvc.DefaultControllerFactory
 ## Learn More
 
         <a href="http://wiki.c2.com/?FactoryPattern" target="_blank">C2Wiki</a> <br />
+        <a href="http://www.dofactory.com/net/factory-design-pattern" target="_blank">dofactory</a> <br />
         <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-factory" target="_blank">DPH</a> <br />
         <a href="https://www.danstroot.com/posts/2018-10-03-hammer-factories" target="_blank">Hammer Factories</a> <br />
         <a href="https://en.wikipedia.org/wiki/Factory_pattern" target="_blank">Wikipedia</a> <br />

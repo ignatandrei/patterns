@@ -75,6 +75,5 @@ https://www.researchgate.net/publication/234819209_Non-software_examples_of_soft
 
 http://www.dofactory.com/net/decorator-design-pattern
 
-http://wiki.c2.com/?CategoryPattern
 
 

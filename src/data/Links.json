@@ -271,5 +271,96 @@
     "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-InversionOfControl",
     "Name": "DPH",
     "PatternDataId": null
+  },
+  {
+    "Id": 40,
+    "IDPatternData": 1,
+    "Link": "http://www.dofactory.com/net/Builder-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 41,
+    "IDPatternData": 2,
+    "Link": "http://www.dofactory.com/net/NullObject-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 42,
+    "IDPatternData": 3,
+    "Link": "http://www.dofactory.com/net/Iterator-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 43,
+    "IDPatternData": 4,
+    "Link": "http://www.dofactory.com/net/Adapter-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 44,
+    "IDPatternData": 5,
+    "Link": "http://www.dofactory.com/net/Prototype-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 45,
+    "IDPatternData": 6,
+    "Link": "http://www.dofactory.com/net/factory-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 46,
+    "IDPatternData": 7,
+    "Link": "http://www.dofactory.com/net/facade-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 47,
+    "IDPatternData": 8,
+    "Link": "http://www.dofactory.com/net/decorator-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 48,
+    "IDPatternData": 9,
+    "Link": "http://www.dofactory.com/net/chain-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 49,
+    "IDPatternData": 10,
+    "Link": "http://www.dofactory.com/net/singleton-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 50,
+    "IDPatternData": 11,
+    "Link": "http://www.dofactory.com/net/strategy-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 51,
+    "IDPatternData": 12,
+    "Link": "http://www.dofactory.com/net/visitor-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
+  },
+  {
+    "Id": 52,
+    "IDPatternData": 13,
+    "Link": "http://www.dofactory.com/net/InversionOfControl-design-pattern",
+    "Name": "dofactory",
+    "PatternDataId": null
   }
 ]

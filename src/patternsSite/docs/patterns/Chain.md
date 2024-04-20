@@ -49,6 +49,7 @@ public static class ChainDemo
 ## Learn More
 
         <a href="https://wiki.c2.com/?ChainOfResponsibilityPattern" target="_blank">C2Wiki</a> <br />
+        <a href="http://www.dofactory.com/net/chain-design-pattern" target="_blank">dofactory</a> <br />
         <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-chain" target="_blank">DPH</a> <br />
         <a href="https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern" target="_blank">Wikipedia</a> <br />
 
