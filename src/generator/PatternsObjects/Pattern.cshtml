@@ -46,7 +46,14 @@ tags:
 
 ## Learn More
 
-[Wikipedia](@Model.LinkWikipedia)
+
+@if (Model.Links?.Length > 0)
+{
+    foreach (var link in Model.Links)
+    {
+        <a href="@link.Link" target="_blank">@link.Name</a>
+    }
+}
 
 ## Homework
 

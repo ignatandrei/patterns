@@ -69,7 +69,8 @@ internal class ConnectionStringDemo
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

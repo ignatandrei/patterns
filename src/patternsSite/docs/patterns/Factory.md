@@ -72,7 +72,8 @@ class MyControllerFactory : System.Web.Mvc.DefaultControllerFactory
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Factory_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Factory_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

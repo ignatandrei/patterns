@@ -43,7 +43,8 @@ internal class DirectoryEnumerableDemo
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/iterator_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/iterator_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

@@ -29,7 +29,13 @@ Pattern:  @Model.Title
 
 <h2> Learn More</h2>
 
-<a href="@Model.LinkWikipedia" target="_blank">Wikipedia</a>
+@if (Model.Links?.Length> 0)
+{
+    foreach (var link in Model.Links)
+    {
+        <a href="@link.Link" target="_blank">@link.Name</a>
+    }
+}
 
 <h2> Homework </h2>
 

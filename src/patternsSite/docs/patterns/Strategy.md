@@ -74,7 +74,8 @@ internal class StrategyDemo
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

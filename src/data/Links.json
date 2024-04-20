@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "IDPatternData": 1,
+    "Link": "https://en.wikipedia.org/wiki/Builder_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 2,
+    "IDPatternData": 2,
+    "Link": "https://en.wikipedia.org/wiki/Null_object_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 3,
+    "IDPatternData": 3,
+    "Link": "https://en.wikipedia.org/wiki/iterator_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 4,
+    "IDPatternData": 4,
+    "Link": "https://en.wikipedia.org/wiki/Adapter_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 5,
+    "IDPatternData": 5,
+    "Link": "https://en.wikipedia.org/wiki/Prototype_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 6,
+    "IDPatternData": 6,
+    "Link": "https://en.wikipedia.org/wiki/Factory_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 7,
+    "IDPatternData": 7,
+    "Link": "https://en.wikipedia.org/wiki/Facade_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 8,
+    "IDPatternData": 8,
+    "Link": "https://en.wikipedia.org/wiki/Prototype_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 9,
+    "IDPatternData": 9,
+    "Link": "https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 10,
+    "IDPatternData": 10,
+    "Link": "https://en.wikipedia.org/wiki/Singleton_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 11,
+    "IDPatternData": 11,
+    "Link": "https://en.wikipedia.org/wiki/Strategy_pattern",
+    "Name": "Wikipedia"
+  },
+  {
+    "Id": 12,
+    "IDPatternData": 12,
+    "Link": "https://en.wikipedia.org/wiki/Visitor_pattern",
+    "Name": "Wikipedia"
+  }
+]

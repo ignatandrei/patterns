@@ -49,7 +49,8 @@ internal class SingletonDemo
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

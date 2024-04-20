@@ -47,7 +47,8 @@ public class MyDbContext:DbContext
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Facade_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

@@ -60,7 +60,8 @@ internal class DecoratorDemo
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Prototype_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

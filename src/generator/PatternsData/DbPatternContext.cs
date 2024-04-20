@@ -11,6 +11,8 @@ public class DbPatternContext : DbContext
 
     public DbSet<PatternData> PatternData { get; set; }
 
+    public DbSet<Links> Links { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseFileBaseContextDatabase(DatabaseName, folder);

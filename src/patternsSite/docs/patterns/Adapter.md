@@ -94,7 +94,8 @@ internal class EncodingAdapterDemo
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Adapter_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

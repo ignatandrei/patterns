@@ -48,7 +48,8 @@ public static class ChainDemo
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

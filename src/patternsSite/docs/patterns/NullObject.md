@@ -69,7 +69,8 @@ internal class LogWithData
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Null_object_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Null_object_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 

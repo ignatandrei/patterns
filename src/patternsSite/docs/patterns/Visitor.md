@@ -80,7 +80,8 @@ public class MethodVisiting : CSharpSyntaxRewriter
 
 ## Learn More
 
-[Wikipedia](https://en.wikipedia.org/wiki/Visitor_pattern)
+
+        <a href="https://en.wikipedia.org/wiki/Visitor_pattern" target="_blank">Wikipedia</a>
 
 ## Homework
 
