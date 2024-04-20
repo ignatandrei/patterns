@@ -60,8 +60,9 @@ internal class DecoratorDemo
 
 ## Learn More
 
-        <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a> <br />
         <a href="http://wiki.c2.com/?DecoratorPattern" target="_blank">C2Wiki</a> <br />
+        <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-decorator" target="_blank">DPH</a> <br />
+        <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a> <br />
 
 ## Homework
 

@@ -69,8 +69,9 @@ internal class ConnectionStringDemo
 
 ## Learn More
 
-        <a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank">Wikipedia</a> <br />
         <a href="http://wiki.c2.com/?BuilderPattern" target="_blank">C2Wiki</a> <br />
+        <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Builder" target="_blank">DPH</a> <br />
+        <a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank">Wikipedia</a> <br />
 
 ## Homework
 

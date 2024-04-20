@@ -49,8 +49,9 @@ internal class SingletonDemo
 
 ## Learn More
 
-        <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">Wikipedia</a> <br />
         <a href="https://wiki.c2.com/?SingletonPattern" target="_blank">C2Wiki</a> <br />
+        <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-singleton" target="_blank">DPH</a> <br />
+        <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">Wikipedia</a> <br />
 
 ## Homework
 

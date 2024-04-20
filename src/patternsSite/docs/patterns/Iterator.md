@@ -43,8 +43,9 @@ internal class DirectoryEnumerableDemo
 
 ## Learn More
 
-        <a href="https://en.wikipedia.org/wiki/iterator_pattern" target="_blank">Wikipedia</a> <br />
         <a href="https://wiki.c2.com/?IteratorPattern" target="_blank">C2Wiki</a> <br />
+        <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Iterator" target="_blank">DPH</a> <br />
+        <a href="https://en.wikipedia.org/wiki/iterator_pattern" target="_blank">Wikipedia</a> <br />
 
 ## Homework
 

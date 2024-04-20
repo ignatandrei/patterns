@@ -11,6 +11,7 @@ public partial class Mapper
         var dto = PatternData2PatternDataGenerator(obj);
         var title = dto.Title;
         dto.Title= $"{char.ToUpper(title[0])}{title[1..]}";
+        dto.Links=dto.Links.OrderBy(l=>l.Name).ToArray();
         return dto;
     }
 }

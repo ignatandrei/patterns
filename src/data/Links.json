@@ -3,167 +3,273 @@
     "Id": 1,
     "IDPatternData": 1,
     "Link": "https://en.wikipedia.org/wiki/Builder_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 2,
     "IDPatternData": 2,
     "Link": "https://en.wikipedia.org/wiki/Null_object_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 3,
     "IDPatternData": 3,
     "Link": "https://en.wikipedia.org/wiki/iterator_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 4,
     "IDPatternData": 4,
     "Link": "https://en.wikipedia.org/wiki/Adapter_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 5,
     "IDPatternData": 5,
     "Link": "https://en.wikipedia.org/wiki/Prototype_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 6,
     "IDPatternData": 6,
     "Link": "https://en.wikipedia.org/wiki/Factory_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 7,
     "IDPatternData": 7,
     "Link": "https://en.wikipedia.org/wiki/Facade_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 8,
     "IDPatternData": 8,
     "Link": "https://en.wikipedia.org/wiki/Prototype_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 9,
     "IDPatternData": 9,
     "Link": "https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 10,
     "IDPatternData": 10,
     "Link": "https://en.wikipedia.org/wiki/Singleton_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 11,
     "IDPatternData": 11,
     "Link": "https://en.wikipedia.org/wiki/Strategy_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 12,
     "IDPatternData": 12,
     "Link": "https://en.wikipedia.org/wiki/Visitor_pattern",
-    "Name": "Wikipedia"
+    "Name": "Wikipedia",
+    "PatternDataId": null
   },
   {
     "Id": 13,
     "IDPatternData": 12,
     "Link": "http://wiki.c2.com/?VisitorPattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 14,
     "IDPatternData": 4,
     "Link": "http://wiki.c2.com/?AdapterPattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 15,
     "IDPatternData": 1,
     "Link": "http://wiki.c2.com/?BuilderPattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 16,
     "IDPatternData": 8,
     "Link": "http://wiki.c2.com/?DecoratorPattern",
-    "Name": "C2Wiki"
+    "Name": "C2Wiki",
+    "PatternDataId": null
   },
   {
     "Id": 17,
     "IDPatternData": 7,
     "Link": "http://wiki.c2.com/?FacadePattern",
-    "Name": "C2Wiki"
+    "Name": "C2Wiki",
+    "PatternDataId": null
   },
   {
     "Id": 18,
     "IDPatternData": 6,
     "Link": "http://wiki.c2.com/?FactoryPattern",
-    "Name": "C2Wiki"
+    "Name": "C2Wiki",
+    "PatternDataId": null
   },
   {
     "Id": 19,
     "IDPatternData": 6,
     "Link": "https://www.danstroot.com/posts/2018-10-03-hammer-factories",
-    "Name": "Hammer Factories"
-  }
-  ,
+    "Name": "Hammer Factories",
+    "PatternDataId": null
+  },
   {
     "Id": 20,
     "IDPatternData": 3,
     "Link": "https://wiki.c2.com/?IteratorPattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 21,
     "IDPatternData": 5,
     "Link": "https://wiki.c2.com/?PrototypePattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 22,
     "IDPatternData": 10,
     "Link": "https://wiki.c2.com/?SingletonPattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 23,
     "IDPatternData": 11,
     "Link": "https://wiki.c2.com/?StrategyPattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 24,
     "IDPatternData": 12,
     "Link": "https://wiki.c2.com/?VisitorPattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 25,
     "IDPatternData": 9,
     "Link": "https://wiki.c2.com/?ChainOfResponsibilityPattern",
-    "Name": "C2Wiki"
-  }
-  ,
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
   {
     "Id": 26,
     "IDPatternData": 2,
     "Link": "https://wiki.c2.com/?NullObject",
-    "Name": "C2Wiki"
+    "Name": "C2Wiki",
+    "PatternDataId": null
+  },
+  {
+    "Id": 27,
+    "IDPatternData": 1,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Builder",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 28,
+    "IDPatternData": 2,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-NullObject",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 29,
+    "IDPatternData": 3,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Iterator",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 30,
+    "IDPatternData": 4,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Adapter",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 31,
+    "IDPatternData": 5,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Prototype",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 32,
+    "IDPatternData": 6,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-factory",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 33,
+    "IDPatternData": 7,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-facade",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 34,
+    "IDPatternData": 8,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-decorator",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 35,
+    "IDPatternData": 9,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-chain",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 36,
+    "IDPatternData": 10,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-singleton",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 37,
+    "IDPatternData": 11,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-strategy",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 38,
+    "IDPatternData": 12,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-visitor",
+    "Name": "DPH",
+    "PatternDataId": null
+  },
+  {
+    "Id": 39,
+    "IDPatternData": 13,
+    "Link": "https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-InversionOfControl",
+    "Name": "DPH",
+    "PatternDataId": null
   }
-  
 ]
