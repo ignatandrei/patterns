@@ -60,11 +60,10 @@ internal class DecoratorDemo
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="http://wiki.c2.com/?DecoratorPattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 1. Add a logging to DBConnection . 2. Use by decorating a coffee with milk, sugar, and chocolate (and maybe other condiments). The coffee should be able to display the condiments in a Display method and calculate the price of the coffee with milk, sugar, and chocolate.
-
 

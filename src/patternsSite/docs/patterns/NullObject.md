@@ -69,11 +69,10 @@ internal class LogWithData
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Null_object_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Null_object_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="https://wiki.c2.com/?NullObject" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 When retrieving data( e.g. a Person with ID =-1 ) from a database , return a NullObject instead of null. How you will verify that the object is a NullObject?
-
 

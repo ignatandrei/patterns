@@ -72,11 +72,11 @@ class MyControllerFactory : System.Web.Mvc.DefaultControllerFactory
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Factory_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Factory_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="http://wiki.c2.com/?FactoryPattern" target="_blank">C2Wiki</a> <br />
+        <a href="https://www.danstroot.com/posts/2018-10-03-hammer-factories" target="_blank">Hammer Factories</a> <br />
 
 ## Homework
 
 having multiple types of drinks( water, tea, coffee) with an IDrink interface  create a factory method ( with a parameter ) to create a drink  
-
 

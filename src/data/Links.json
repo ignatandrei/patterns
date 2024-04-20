@@ -70,5 +70,100 @@
     "IDPatternData": 12,
     "Link": "https://en.wikipedia.org/wiki/Visitor_pattern",
     "Name": "Wikipedia"
+  },
+  {
+    "Id": 13,
+    "IDPatternData": 12,
+    "Link": "http://wiki.c2.com/?VisitorPattern",
+    "Name": "C2Wiki"
   }
+  ,
+  {
+    "Id": 14,
+    "IDPatternData": 4,
+    "Link": "http://wiki.c2.com/?AdapterPattern",
+    "Name": "C2Wiki"
+  }
+  ,
+  {
+    "Id": 15,
+    "IDPatternData": 1,
+    "Link": "http://wiki.c2.com/?BuilderPattern",
+    "Name": "C2Wiki"
+  }
+  ,
+  {
+    "Id": 16,
+    "IDPatternData": 8,
+    "Link": "http://wiki.c2.com/?DecoratorPattern",
+    "Name": "C2Wiki"
+  },
+  {
+    "Id": 17,
+    "IDPatternData": 7,
+    "Link": "http://wiki.c2.com/?FacadePattern",
+    "Name": "C2Wiki"
+  },
+  {
+    "Id": 18,
+    "IDPatternData": 6,
+    "Link": "http://wiki.c2.com/?FactoryPattern",
+    "Name": "C2Wiki"
+  },
+  {
+    "Id": 19,
+    "IDPatternData": 6,
+    "Link": "https://www.danstroot.com/posts/2018-10-03-hammer-factories",
+    "Name": "Hammer Factories"
+  }
+  ,
+  {
+    "Id": 20,
+    "IDPatternData": 3,
+    "Link": "https://wiki.c2.com/?IteratorPattern",
+    "Name": "C2Wiki"
+  }
+  ,
+  {
+    "Id": 21,
+    "IDPatternData": 5,
+    "Link": "https://wiki.c2.com/?PrototypePattern",
+    "Name": "C2Wiki"
+  }
+  ,
+  {
+    "Id": 22,
+    "IDPatternData": 10,
+    "Link": "https://wiki.c2.com/?SingletonPattern",
+    "Name": "C2Wiki"
+  }
+  ,
+  {
+    "Id": 23,
+    "IDPatternData": 11,
+    "Link": "https://wiki.c2.com/?StrategyPattern",
+    "Name": "C2Wiki"
+  }
+  ,
+  {
+    "Id": 24,
+    "IDPatternData": 12,
+    "Link": "https://wiki.c2.com/?VisitorPattern",
+    "Name": "C2Wiki"
+  }
+  ,
+  {
+    "Id": 25,
+    "IDPatternData": 9,
+    "Link": "https://wiki.c2.com/?ChainOfResponsibilityPattern",
+    "Name": "C2Wiki"
+  }
+  ,
+  {
+    "Id": 26,
+    "IDPatternData": 2,
+    "Link": "https://wiki.c2.com/?NullObject",
+    "Name": "C2Wiki"
+  }
+  
 ]

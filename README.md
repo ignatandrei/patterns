@@ -67,7 +67,6 @@ TBD:
 https://github.com/kamranahmedse/design-patterns-for-humans
 
 
-http://wiki.c2.com/?VisitorPattern
 
 
 https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs

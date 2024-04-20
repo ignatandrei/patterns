@@ -69,11 +69,10 @@ internal class ConnectionStringDemo
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="http://wiki.c2.com/?BuilderPattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 Imagine that you have a logger that logs to a file and to a console. Implement a builder that will allow you to create a logger with different configurations. For example, you can set the log level, the log format, and the log destination.
-
 

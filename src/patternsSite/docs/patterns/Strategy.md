@@ -74,11 +74,10 @@ internal class StrategyDemo
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="https://wiki.c2.com/?StrategyPattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 Image you want to serialize classes to XML,JSON and CSV . Implement a strategy that will allow you to choose between XML , JSON and CSV serialization at runtime.
-
 

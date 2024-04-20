@@ -43,11 +43,10 @@ internal class DirectoryEnumerableDemo
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/iterator_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/iterator_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="https://wiki.c2.com/?IteratorPattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 With the Yield keyword implement a function that return an IEnumerable of generic int that will return the first 10 numbers of the Fibonacci sequence
-
 

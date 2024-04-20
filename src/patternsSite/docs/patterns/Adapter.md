@@ -94,11 +94,10 @@ internal class EncodingAdapterDemo
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Adapter_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Adapter_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="http://wiki.c2.com/?AdapterPattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 iPhone 7 does not have a headphone jack. Implement an adapter that will allow you to use your old headphones , that have jack, with the iPhone 7.
-
 

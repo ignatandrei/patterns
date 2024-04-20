@@ -48,11 +48,10 @@ public static class ChainDemo
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="https://wiki.c2.com/?ChainOfResponsibilityPattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 Implement a middleware in ASP.NET Core that intercepts the exception and logs it to the database. The middleware should be able to pass the exception to the next middleware in the chain.
-
 

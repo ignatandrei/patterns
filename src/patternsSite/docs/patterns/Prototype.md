@@ -55,11 +55,10 @@ class Parent : ICloneable
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="https://wiki.c2.com/?PrototypePattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 Imagine that you have a cow farm and you want to create a new cow. Implement a prototype that will allow you to clone a cow. The cow should have a name and a weight
-
 

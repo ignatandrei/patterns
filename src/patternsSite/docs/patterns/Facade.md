@@ -47,11 +47,10 @@ public class MyDbContext:DbContext
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Facade_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Facade_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="http://wiki.c2.com/?FacadePattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 Implement a Facade that will allow you to display a question in a MessageBox with a single method call in a console application and return yes/no as a result.
-
 

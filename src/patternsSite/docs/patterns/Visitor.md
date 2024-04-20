@@ -80,11 +80,11 @@ public class MethodVisiting : CSharpSyntaxRewriter
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Visitor_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Visitor_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="http://wiki.c2.com/?VisitorPattern" target="_blank">C2Wiki</a> <br />
+        <a href="https://wiki.c2.com/?VisitorPattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 Implement a visitor that will allow you to calculate the total price of a shopping cart. The shopping cart should contain items with a price and a quantity.Visit every item and make the sum
-
 

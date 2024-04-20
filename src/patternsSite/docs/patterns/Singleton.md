@@ -49,11 +49,10 @@ internal class SingletonDemo
 
 ## Learn More
 
-
-        <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">Wikipedia</a> <br />
+        <a href="https://wiki.c2.com/?SingletonPattern" target="_blank">C2Wiki</a> <br />
 
 ## Homework
 
 Implement a singleton that will allow you to create a single instance of a logger that logs to a file and to a console.
-
 

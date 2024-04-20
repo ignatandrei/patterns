@@ -46,17 +46,15 @@ tags:
 
 ## Learn More
 
-
 @if (Model.Links?.Length > 0)
 {
     foreach (var link in Model.Links)
     {
-        <a href="@link.Link" target="_blank">@link.Name</a>
+        <a href="@link.Link" target="_blank">@link.Name</a> <br />
     }
 }
 
 ## Homework
 
 @Model.Homework
-
 
