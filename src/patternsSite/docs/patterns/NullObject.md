@@ -67,12 +67,22 @@ internal class LogWithData
 ```
 
 
+
+
+
+## See Source Code
+
+    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs" target="_blank">SourceCode Directory.GetFiles</a>
+    <br />
+
+
 ## Learn More
 
-        <a href="https://wiki.c2.com/?NullObject" target="_blank">C2Wiki</a> <br />
-        <a href="http://www.dofactory.com/net/NullObject-design-pattern" target="_blank">dofactory</a> <br />
-        <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-NullObject" target="_blank">DPH</a> <br />
-        <a href="https://en.wikipedia.org/wiki/Null_object_pattern" target="_blank">Wikipedia</a> <br />
+    <a href="https://wiki.c2.com/?NullObject" target="_blank">C2Wiki</a> <br />
+    <a href="http://www.dofactory.com/net/NullObject-design-pattern" target="_blank">dofactory</a> <br />
+    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-NullObject" target="_blank">DPH</a> <br />
+    <a href="https://en.wikipedia.org/wiki/Null_object_pattern" target="_blank">Wikipedia</a> <br />
+
 
 ## Homework
 

@@ -72,12 +72,22 @@ internal class StrategyDemo
 ```
 
 
+
+
+
+## See Source Code
+
+    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Array.cs" target="_blank">SourceCode Array.Sort</a>
+    <br />
+
+
 ## Learn More
 
-        <a href="https://wiki.c2.com/?StrategyPattern" target="_blank">C2Wiki</a> <br />
-        <a href="http://www.dofactory.com/net/strategy-design-pattern" target="_blank">dofactory</a> <br />
-        <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-strategy" target="_blank">DPH</a> <br />
-        <a href="https://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">Wikipedia</a> <br />
+    <a href="https://wiki.c2.com/?StrategyPattern" target="_blank">C2Wiki</a> <br />
+    <a href="http://www.dofactory.com/net/strategy-design-pattern" target="_blank">dofactory</a> <br />
+    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-strategy" target="_blank">DPH</a> <br />
+    <a href="https://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">Wikipedia</a> <br />
+
 
 ## Homework
 

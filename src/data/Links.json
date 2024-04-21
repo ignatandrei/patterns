@@ -450,5 +450,26 @@
       "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Convert.cs",
       "Name": "SourceCode Convert.ToDouble"
     }
+    , 
+    {
+      "Id": 64,
+      "IDPatternData": 2,
+      "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs",
+      "Name": "SourceCode Directory.GetFiles"
+    }
+    , 
+    {
+      "Id": 65,
+      "IDPatternData": 10,
+      "Link": "https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/OleDb/OleDbFactory.cs",
+      "Name": "SourceCode OleDbFactory.Instance"
+    }
+    , 
+    {
+      "Id": 66,
+      "IDPatternData": 11,
+      "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Array.cs",
+      "Name": "SourceCode Array.Sort"
+    }
   
 ]

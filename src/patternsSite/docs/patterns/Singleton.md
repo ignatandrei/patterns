@@ -47,12 +47,22 @@ internal class SingletonDemo
 ```
 
 
+
+
+
+## See Source Code
+
+    <a href="https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/OleDb/OleDbFactory.cs" target="_blank">SourceCode OleDbFactory.Instance</a>
+    <br />
+
+
 ## Learn More
 
-        <a href="https://wiki.c2.com/?SingletonPattern" target="_blank">C2Wiki</a> <br />
-        <a href="http://www.dofactory.com/net/singleton-design-pattern" target="_blank">dofactory</a> <br />
-        <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-singleton" target="_blank">DPH</a> <br />
-        <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">Wikipedia</a> <br />
+    <a href="https://wiki.c2.com/?SingletonPattern" target="_blank">C2Wiki</a> <br />
+    <a href="http://www.dofactory.com/net/singleton-design-pattern" target="_blank">dofactory</a> <br />
+    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-singleton" target="_blank">DPH</a> <br />
+    <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">Wikipedia</a> <br />
+
 
 ## Homework
 
