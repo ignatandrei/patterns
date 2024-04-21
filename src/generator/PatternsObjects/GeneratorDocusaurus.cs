@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.IO.Compression;
 
 namespace PatternsObjects;
 
@@ -69,5 +70,20 @@ public class GeneratorFiles
 
         }
         return true;
+    }
+
+    public async Task CreateZip(string source, string destination)
+    {
+        var folder =Directory.GetDirectories(source);
+        foreach (var item in folder)
+        {
+            var zip = Path.Combine(destination, Path.GetFileName(item).ToLowerInvariant() + ".zip");
+            if (File.Exists(zip))
+            {
+                //File.Delete(zip);
+                continue;
+            }
+            ZipFile.CreateFromDirectory(item, zip);
+        }
     }
 }

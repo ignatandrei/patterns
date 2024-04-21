@@ -58,10 +58,11 @@ internal class DecoratorDemo
 ```
 
 
+[Download source](/zipSourceCodes/decorator.zip)
 
 
 
-## See Source Code
+## See Source Code for Microsoft implementation of Decorator
 
     <a href="https://source.dot.net/#System.Security.Cryptography/System/Security/Cryptography/CryptoStream.cs" target="_blank">SourceCode CryptoStream</a>
     <br />

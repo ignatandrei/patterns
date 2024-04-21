@@ -41,10 +41,11 @@ internal class DirectoryEnumerableDemo
 ```
 
 
+[Download source](/zipSourceCodes/iterator.zip)
 
 
 
-## See Source Code
+## See Source Code for Microsoft implementation of Iterator
 
 
 

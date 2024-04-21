@@ -92,10 +92,11 @@ internal class EncodingAdapterDemo
 ```
 
 
+[Download source](/zipSourceCodes/adapter.zip)
 
 
 
-## See Source Code
+## See Source Code for Microsoft implementation of Adapter
 
     <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/ASCIIEncoding.cs" target="_blank">SourceCode AsciiEncoding</a>
     <br />

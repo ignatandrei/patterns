@@ -67,10 +67,11 @@ internal class LogWithData
 ```
 
 
+[Download source](/zipSourceCodes/nullobject.zip)
 
 
 
-## See Source Code
+## See Source Code for Microsoft implementation of NullObject
 
     <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs" target="_blank">SourceCode Directory.GetFiles</a>
     <br />

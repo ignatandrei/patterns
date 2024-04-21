@@ -20,5 +20,9 @@ await generator.Initialize(Path.Combine(rootFolderFromGit,"src","examples"));
 await generator.WriteDocusaurus(Path.Combine(rootFolderFromGit, "src","patternsSite","docs"));
 await generator.WriteBlog(12);
 await generator.WriteReadme(Path.Combine(rootFolderFromGit,"README.md"));
+await generator.CreateZip(
+    Path.Combine(rootFolderFromGit, "src", "examples"),
+    Path.Combine(rootFolderFromGit, "src", "patternsSite","static","zipSourceCodes")
+);
 Console.WriteLine("done at " + DateTime.Now.ToString("HH:mm"));
 

@@ -67,10 +67,11 @@ internal class ConnectionStringDemo
 ```
 
 
+[Download source](/zipSourceCodes/builder.zip)
 
 
 
-## See Source Code
+## See Source Code for Microsoft implementation of Builder
 
     <a href="https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs" target="_blank">SourceCode SqlConnectionStringBuilder</a>
     <br />

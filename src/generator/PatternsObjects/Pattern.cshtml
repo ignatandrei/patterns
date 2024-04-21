@@ -6,6 +6,7 @@
     {
         example = "Example";
     }
+    var linkZip = $"/zipSourceCodes/{Model.Title.ToLowerInvariant()}.zip"; 
 }
 ---
 id: @Model.Title
@@ -44,11 +45,12 @@ tags:
 </text>
 }
 
+[Download source](@linkZip)
 
 @if (Model.Links?.Length > 0){
 <text>
 
-## See Source Code
+## See Source Code for Microsoft implementation of @Model.Title
 
 @foreach (var link in Model.SourceCodeLinks())
 {

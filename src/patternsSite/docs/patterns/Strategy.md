@@ -72,10 +72,11 @@ internal class StrategyDemo
 ```
 
 
+[Download source](/zipSourceCodes/strategy.zip)
 
 
 
-## See Source Code
+## See Source Code for Microsoft implementation of Strategy
 
     <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Array.cs" target="_blank">SourceCode Array.Sort</a>
     <br />
