@@ -363,4 +363,92 @@
     "Name": "dofactory",
     "PatternDataId": null
   }
+  ,
+  {
+    "Id": 53,
+    "IDPatternData": 1,
+    "Link": "https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs",
+    "Name": "SourceCode SqlConnectionStringBuilder",
+    "PatternDataId": null
+  }
+  ,
+  {
+    "Id": 54,
+    "IDPatternData": 1,
+    "Link": "https://source.dot.net/#System.Private.Uri/System/UriBuilder.cs",
+    "Name": "SourceCode UriBuilder",
+    "PatternDataId": null
+  },
+  
+  {
+    "Id": 55,
+    "IDPatternData": 4,
+    "Link": "https://github.com/mono/mono/blob/9bb01f57a126dab35f070ce238457931e9814c33/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLiteDataAdapter.cs#L20",
+    "Name": "SourceCode SqliteDataAdapter",
+    "PatternDataId": null
+  }
+  ,
+  
+  {
+    "Id": 56,
+    "IDPatternData": 4,
+    "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/ASCIIEncoding.cs",
+    "Name": "SourceCode AsciiEncoding",
+    "PatternDataId": null
+  }
+  ,
+  
+  {
+    "Id": 57,
+    "IDPatternData": 4,
+    "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/UTF32Encoding.cs",
+    "Name": "SourceCode UTF32Encoding",
+    "PatternDataId": null
+  }
+,
+{
+    "Id": 58,
+    "IDPatternData": 8,
+    "Link": "https://source.dot.net/#System.Security.Cryptography/System/Security/Cryptography/CryptoStream.cs",
+    "Name": "SourceCode CryptoStream",
+    "PatternDataId": null
+  }
+  ,
+  {
+      "Id": 59,
+      "IDPatternData": 8,
+      "Link": "https://source.dot.net/#System.IO.Compression/System/IO/Compression/GZipStream.cs",
+      "Name": "SourceCode GZipStream",
+      "PatternDataId": null
+    }
+    ,
+  {
+      "Id": 60,
+      "IDPatternData": 7,
+      "Link": "https://github.com/dotnet/efcore/blob/3163cb9a0677f94bd986dcdbe3d6026d4f743c73/src/EFCore/Infrastructure/DatabaseFacade.cs#L15",
+      "Name": "SourceCode DatabaseFacade",
+      "PatternDataId": null
+    }
+    , 
+    {
+      "Id": 61,
+      "IDPatternData": 6,
+      "Link": "https://referencesource.microsoft.com/#System/net/System/Net/WebRequest.cs",
+      "Name": "SourceCode WebRequest.Create"
+    }
+    , 
+    {
+      "Id": 62,
+      "IDPatternData": 6,
+      "Link": "https://source.dot.net/#Microsoft.AspNetCore.Mvc.Core/Controllers/DefaultControllerFactory.cs",
+      "Name": "SourceCode DefaultControllerFactory"
+    }
+    , 
+    {
+      "Id": 63,
+      "IDPatternData": 6,
+      "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Convert.cs",
+      "Name": "SourceCode Convert.ToDouble"
+    }
+  
 ]

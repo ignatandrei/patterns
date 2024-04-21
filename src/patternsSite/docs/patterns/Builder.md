@@ -67,12 +67,24 @@ internal class ConnectionStringDemo
 ```
 
 
+
+
+
+## See Source Code
+
+    <a href="https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs" target="_blank">SourceCode SqlConnectionStringBuilder</a>
+    <br />
+    <a href="https://source.dot.net/#System.Private.Uri/System/UriBuilder.cs" target="_blank">SourceCode UriBuilder</a>
+    <br />
+
+
 ## Learn More
 
-        <a href="http://wiki.c2.com/?BuilderPattern" target="_blank">C2Wiki</a> <br />
-        <a href="http://www.dofactory.com/net/Builder-design-pattern" target="_blank">dofactory</a> <br />
-        <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Builder" target="_blank">DPH</a> <br />
-        <a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank">Wikipedia</a> <br />
+    <a href="http://wiki.c2.com/?BuilderPattern" target="_blank">C2Wiki</a> <br />
+    <a href="http://www.dofactory.com/net/Builder-design-pattern" target="_blank">dofactory</a> <br />
+    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Builder" target="_blank">DPH</a> <br />
+    <a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank">Wikipedia</a> <br />
+
 
 ## Homework
 

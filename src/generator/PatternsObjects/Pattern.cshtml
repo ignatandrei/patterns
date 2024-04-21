@@ -44,14 +44,27 @@ tags:
 </text>
 }
 
+
+@if (Model.Links?.Length > 0){
+<text>
+
+## See Source Code
+
+@foreach (var link in Model.SourceCodeLinks())
+{
+    <a href="@link.Link" target="_blank">@link.Name</a>
+    <br />
+}
+
+
 ## Learn More
 
-@if (Model.Links?.Length > 0)
+@foreach (var link in Model.ExternalLinks())
 {
-    foreach (var link in Model.Links)
-    {
-        <a href="@link.Link" target="_blank">@link.Name</a> <br />
-    }
+    <a href="@link.Link" target="_blank">@link.Name</a> <br />
+}
+
+</text>
 }
 
 ## Homework
