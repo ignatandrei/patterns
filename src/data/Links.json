@@ -482,5 +482,17 @@
       "IDPatternData": 3,
       "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs",
       "Name":"SourceCode Directory.GetFiles"
-    }  
+    },
+     {
+      "Id": 69,
+      "IDPatternData": 3,
+      "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerator.cs",
+      "Name":"SourceCode IEnumerator"
+     },
+     {
+      "Id": 70,
+      "IDPatternData": 3,
+      "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs",
+      "Name":"SourceCode IEnumerable"
+     } 
 ]
