@@ -470,6 +470,17 @@
       "IDPatternData": 11,
       "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Array.cs",
       "Name": "SourceCode Array.Sort"
-    }
-  
+    },
+    {
+      "Id": 67,
+      "IDPatternData": 12,
+      "Link": "https://github.com/dotnet/roslyn/blob/cecdb802007a49e346215c0afdce354d6c111112/src/Compilers/CSharp/Portable/Syntax/CSharpSyntaxRewriter.cs#L17",
+      "Name": "SourceCode CSharpSyntaxRewriter"
+    },
+    {
+      "Id": 68,
+      "IDPatternData": 3,
+      "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs",
+      "Name":"SourceCode Directory.GetFiles"
+    }  
 ]

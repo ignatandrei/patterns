@@ -57,6 +57,10 @@ public class GeneratorFiles
         await File.WriteAllTextAsync(file, textIntro);
         return true;
     }
+    public PatternDataGenerator[] NoSourceCode()
+    {
+        return this.patterns.Where(it=>!it.SourceCodeLinks().Any()).ToArray();
+    }
     public async Task<bool> WriteBlog(int nr)
     {
         var d=Done();

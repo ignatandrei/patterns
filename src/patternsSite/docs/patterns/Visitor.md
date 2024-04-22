@@ -84,6 +84,8 @@ public class MethodVisiting : CSharpSyntaxRewriter
 
 ## See Source Code for Microsoft implementation of Visitor
 
+    <a href="https://github.com/dotnet/roslyn/blob/cecdb802007a49e346215c0afdce354d6c111112/src/Compilers/CSharp/Portable/Syntax/CSharpSyntaxRewriter.cs#L17" target="_blank">SourceCode CSharpSyntaxRewriter</a>
+    <br />
 
 
 ## Learn More

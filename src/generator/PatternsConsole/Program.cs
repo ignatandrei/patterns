@@ -24,5 +24,10 @@ await generator.CreateZip(
     Path.Combine(rootFolderFromGit, "src", "examples"),
     Path.Combine(rootFolderFromGit, "src", "patternsSite","static","zipSourceCodes")
 );
+foreach (var link in generator.NoSourceCode())
+{
+    Console.WriteLine($"{link.Id} {link.Title}");
+}
+
 Console.WriteLine("done at " + DateTime.Now.ToString("HH:mm"));
 

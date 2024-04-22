@@ -47,6 +47,8 @@ internal class DirectoryEnumerableDemo
 
 ## See Source Code for Microsoft implementation of Iterator
 
+    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs" target="_blank">SourceCode Directory.GetFiles</a>
+    <br />
 
 
 ## Learn More
