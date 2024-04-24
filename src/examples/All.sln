@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chain", "Chain\Chain.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{A39880BC-A889-4873-92E9-F10CBCE6E174}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{076FB7AF-0641-4CB8-B762-C9DBC269DD43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{076FB7AF-0641-4CB8-B762-C9DBC269DD43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazy", "Lazy\Lazy.csproj", "{542943CD-FBF0-4859-8A90-1B357714FAA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{076FB7AF-0641-4CB8-B762-C9DBC269DD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{076FB7AF-0641-4CB8-B762-C9DBC269DD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{076FB7AF-0641-4CB8-B762-C9DBC269DD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542943CD-FBF0-4859-8A90-1B357714FAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542943CD-FBF0-4859-8A90-1B357714FAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542943CD-FBF0-4859-8A90-1B357714FAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542943CD-FBF0-4859-8A90-1B357714FAA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

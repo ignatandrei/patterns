@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples from .NET  :  13
+# Patterns With Examples from .NET  :  14
 
 
         ## [Adapter](/docs/patterns/Adapter)
@@ -42,6 +42,11 @@ title: Patterns
 
     
         ## [Iterator](/docs/patterns/Iterator)
+
+
+
+    
+        ## [Lazy](/docs/patterns/Lazy)
 
 
 

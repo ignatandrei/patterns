@@ -147,6 +147,16 @@
     "Description":"Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework. It's a design principle in which custom-written portions of a computer program receive the flow of control from a generic framework.",
     "Tags":"behavioral,design pattern",
     "Homework":"Implement a simple IoC container that will allow you to register and resolve dependencies. The container should be able to resolve dependencies by type and by name."
+  },
+  {
+    "Id": 14,
+    "Stage":"done",
+    "Title": "Lazy",
+    "ClassNames":"Lazy",
+    "DemoFileCsproj":"Lazy.csproj",
+    "Description":"Lazy initialization is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.",
+    "Tags":"creational,design pattern",
+    "Homework":"Implement a lazy initialization of a logger that logs to a file and to a console. The logger should be created only when it is needed."
   }
 
 

@@ -26,7 +26,8 @@ await generator.CreateZip(
 );
 foreach (var link in generator.NoSourceCode())
 {
-    Console.WriteLine($"{link.Id} {link.Title}");
+    Console.WriteLine($"No source code for {link.Id} {link.Title}");
 }
+
 Console.WriteLine("done at " + DateTime.Now.ToString("HH:mm"));
 

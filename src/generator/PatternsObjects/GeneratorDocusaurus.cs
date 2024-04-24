@@ -82,6 +82,9 @@ public class GeneratorFiles
         foreach (var item in folder)
         {
             var zip = Path.Combine(destination, Path.GetFileName(item).ToLowerInvariant() + ".zip");
+            if (zip.EndsWith(".vs.zip"))//no need for this
+                continue;
+
             if (File.Exists(zip))
             {
                 //File.Delete(zip);

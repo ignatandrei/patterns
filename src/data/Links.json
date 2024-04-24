@@ -562,5 +562,24 @@
         "IDPatternData": 13,
         "Link": "https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollection.cs",
         "Name":"SourceCode ServiceCollection"
+      },
+      {
+        "Id": 83,
+        "IDPatternData": 14,
+        "Link":"https://en.wikipedia.org/wiki/Lazy_initialization",
+        "Name":"Wikipedia"
+      }
+      ,
+      {
+        "Id": 84,
+        "IDPatternData": 14,
+        "Link":"https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Lazy.cs",
+        "Name":"SourceCode Lazy"
+      }
+      ,{
+        "Id": 85,
+        "IDPatternData": 14,
+        "Link":"https://wiki.c2.com/?LazyInstantiationPattern",
+        "Name":"C2Wiki"
       }
 ]

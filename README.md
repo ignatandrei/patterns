@@ -1,5 +1,5 @@
 
-# Patterns With Examples from .NET  :  13
+# Patterns With Examples from .NET  :  14
 
 
 ## [Adapter](https://ignatandrei.github.io/patterns/docs/patterns/Adapter)
@@ -38,6 +38,11 @@
 
     
 ## [Iterator](https://ignatandrei.github.io/patterns/docs/patterns/Iterator)
+
+
+
+    
+## [Lazy](https://ignatandrei.github.io/patterns/docs/patterns/Lazy)
 
 
 
