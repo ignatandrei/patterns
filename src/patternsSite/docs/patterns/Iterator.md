@@ -49,6 +49,10 @@ internal class DirectoryEnumerableDemo
 
     <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs" target="_blank">SourceCode Directory.GetFiles</a>
     <br />
+    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs" target="_blank">SourceCode IEnumerable</a>
+    <br />
+    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerator.cs" target="_blank">SourceCode IEnumerator</a>
+    <br />
 
 
 ## Learn More

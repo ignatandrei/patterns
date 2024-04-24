@@ -140,8 +140,13 @@
   },
   {
     "Id": 13,
-    "Stage":"notdone",
-    "Title": "InversionOfControl"    
+    "Stage":"done",
+    "Title": "InversionOfControl",
+    "ClassNames":"IOC,DI", 
+    "DemoFileCsproj":"IOC.csproj",
+    "Description":"Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework. It's a design principle in which custom-written portions of a computer program receive the flow of control from a generic framework.",
+    "Tags":"behavioral,design pattern",
+    "Homework":"Implement a simple IoC container that will allow you to register and resolve dependencies. The container should be able to resolve dependencies by type and by name."
   }
 
 

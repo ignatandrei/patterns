@@ -495,4 +495,17 @@
       "Link": "https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs",
       "Name":"SourceCode IEnumerable"
      } 
+     ,
+      {
+        "Id": 71,
+        "IDPatternData": 5,
+        "Link": "https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs",
+        "Name":"SourceCode Object.MemberwiseClone"
+      },
+      {
+        "Id": 72,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs",
+        "Name":"SourceCode UseMiddlewareExtensions.UseMiddleware"
+      }
 ]

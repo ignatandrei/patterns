@@ -59,6 +59,8 @@ class Parent : ICloneable
 
 ## See Source Code for Microsoft implementation of Prototype
 
+    <a href="https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs" target="_blank">SourceCode Object.MemberwiseClone</a>
+    <br />
 
 
 ## Learn More
