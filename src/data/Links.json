@@ -507,5 +507,60 @@
         "IDPatternData": 9,
         "Link": "https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs",
         "Name":"SourceCode UseMiddlewareExtensions.UseMiddleware"
+      },
+      {
+        "Id": 74,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs",
+        "Name":"SourceCode ApplicationBuilderExtensions.UseMiddleware"
+      },
+      {
+        "Id": 75,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs",
+        "Name":"SourceCode ApplicationBuilderExtensions.UseMiddleware"
+      },
+      {
+        "Id": 76,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs",
+        "Name":"SourceCode ApplicationBuilderExtensions.UseMiddleware"
+      },
+      {
+        "Id": 77,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs",
+        "Name":"SourceCode ApplicationBuilderExtensions.UseMiddleware"
+      },
+      {
+        "Id": 78,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs",
+        "Name":"SourceCode ApplicationBuilderExtensions.UseMiddleware"
+      },
+      {
+        "Id": 79,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs",
+        "Name":"SourceCode ApplicationBuilderExtensions.UseMiddleware"
+      },
+      {
+        "Id": 80,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs",
+        "Name":"SourceCode ApplicationBuilderExtensions.UseMiddleware"
+      },
+      {
+        "Id": 81,
+        "IDPatternData": 9,
+        "Link": "https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs",
+        "Name":"SourceCode ApplicationBuilderExtensions.UseMiddleware"
+      },
+      
+      {
+        "Id": 82,
+        "IDPatternData": 13,
+        "Link": "https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollection.cs",
+        "Name":"SourceCode ServiceCollection"
       }
 ]

@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples from .NET  :  12
+# Patterns With Examples from .NET  :  13
 
 
         ## [Adapter](/docs/patterns/Adapter)
@@ -32,6 +32,11 @@ title: Patterns
 
     
         ## [Factory](/docs/patterns/Factory)
+
+
+
+    
+        ## [IOC](/docs/patterns/IOC)
 
 
 
@@ -66,9 +71,3 @@ title: Patterns
 
 
     
-
-        # Patterns to be added : 1
-
-
-                ## InversionOfControl
-                
