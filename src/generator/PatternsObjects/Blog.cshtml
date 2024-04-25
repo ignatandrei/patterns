@@ -31,10 +31,28 @@ Pattern:  @Model.Title
 
 @if (Model.Links?.Length> 0)
 {
-    foreach (var link in Model.Links)
-    {
-        <a href="@link.Link" target="_blank">@link.Name</a>
-    }
+<text>
+<b> Source Code for Microsoft implementation of @Model.Title</b>
+
+@foreach (var link in Model.SourceCodeLinks())
+{
+    <a href="@link.Link" target="_blank">@link.Name</a>
+    <br />
+}
+
+
+<b> Learn More</b>
+
+@foreach (var link in Model.ExternalLinks())
+{
+    <a href="@link.Link" target="_blank">@link.Name</a> <br />
+}
+
+</text>
+}
+
+
+    
 }
 
 <h2> Homework </h2>
