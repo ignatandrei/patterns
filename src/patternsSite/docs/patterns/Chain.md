@@ -54,20 +54,6 @@ public static class ChainDemo
 
     <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
     <br />
-    <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
-    <br />
-    <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
-    <br />
-    <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
-    <br />
-    <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
-    <br />
-    <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
-    <br />
-    <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
-    <br />
-    <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
-    <br />
     <a href="https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs" target="_blank">SourceCode UseMiddlewareExtensions.UseMiddleware</a>
     <br />
 
