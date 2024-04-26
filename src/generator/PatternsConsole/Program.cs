@@ -11,7 +11,6 @@ var all =await cnt.PatternData.ToArrayAsync();
 //    cnt.Links.Add(l);
 //}
 //await cnt.SaveChangesAsync();
-
 var links = await cnt.Links.ToArrayAsync();
 all.ToList().ForEach(a => a.Links = links.Where(l => l.IDPatternData == a.Id).ToArray());
 

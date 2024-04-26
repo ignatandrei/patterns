@@ -1,5 +1,5 @@
 
-# Patterns With Examples from .NET  :  14
+# Patterns With Examples from .NET  :  15
 
 
 ## [Adapter](https://ignatandrei.github.io/patterns/docs/patterns/Adapter)
@@ -28,6 +28,11 @@
 
     
 ## [Factory](https://ignatandrei.github.io/patterns/docs/patterns/Factory)
+
+
+
+    
+## [FluentInterface](https://ignatandrei.github.io/patterns/docs/patterns/FluentInterface)
 
 
 

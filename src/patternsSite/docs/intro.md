@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples from .NET  :  14
+# Patterns With Examples from .NET  :  15
 
 
         ## [Adapter](/docs/patterns/Adapter)
@@ -32,6 +32,11 @@ title: Patterns
 
     
         ## [Factory](/docs/patterns/Factory)
+
+
+
+    
+        ## [FluentInterface](/docs/patterns/FluentInterface)
 
 
 
