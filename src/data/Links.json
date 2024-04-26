@@ -539,4 +539,17 @@
         "Link":"https://wiki.c2.com/?LazyInstantiationPattern",
         "Name":"C2Wiki"
       }
+      ,
+      {
+        "Id":86,
+        "IDPatternData":15,
+        "Link":"https://en.wikipedia.org/wiki/Software_design_pattern",
+        "Name":"Wikipedia"
+      },
+    {
+      "Id":87,
+      "IDPatternData":15,
+      "Link":"https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollectionServiceExtensions.cs",
+      "Name":"SourceCode Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton"
+    }
 ]

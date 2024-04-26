@@ -157,6 +157,16 @@
     "Description":"Lazy initialization is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.",
     "Tags":"creational,design pattern",
     "Homework":"Implement a lazy initialization of a logger that logs to a file and to a console. The logger should be created only when it is needed."
+  },
+  {
+    "Id": 15,
+    "Stage":"done",
+    "Title": "FluentInterface",
+    "ClassNames":"FluentInterface",
+    "DemoFileCsproj":"FluentInterface.csproj",
+    "Description":"Fluent interface allows you do have method chaining",
+    "Tags":"behavioral, design pattern",
+    "Homework":"Implement a class person that you can see the first name and last name as fluent interface"
   }
 
 
