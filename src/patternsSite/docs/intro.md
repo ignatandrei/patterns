@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples from .NET  :  17
+# Patterns With Examples from .NET  :  18
 
 
         ## [AbstractFactory](/docs/patterns/AbstractFactory)
@@ -67,6 +67,11 @@ title: Patterns
 
     
         ## [NullObject](/docs/patterns/NullObject)
+
+
+
+    
+        ## [Observer](/docs/patterns/Observer)
 
 
 

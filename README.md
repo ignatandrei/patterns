@@ -1,5 +1,5 @@
 
-# Patterns With Examples from .NET  :  17
+# Patterns With Examples from .NET  :  18
 
 
 ## [AbstractFactory](https://ignatandrei.github.io/patterns/docs/patterns/AbstractFactory)
@@ -63,6 +63,11 @@
 
     
 ## [NullObject](https://ignatandrei.github.io/patterns/docs/patterns/NullObject)
+
+
+
+    
+## [Observer](https://ignatandrei.github.io/patterns/docs/patterns/Observer)
 
 
 

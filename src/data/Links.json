@@ -576,4 +576,17 @@
       "Link":"https://source.dot.net/#System.Data.Common/System/Data/Common/DbConnection.cs",
       "Name":"SourceCode DbConnection"
     }
+    ,
+    {
+      "Id":92,
+      "IDPatternData":18,
+      "Link":"https://en.wikipedia.org/wiki/Observer_pattern",
+      "Name":"Wikipedia"
+    },
+    {
+      "Id":93,
+      "IDPatternData":18,
+      "Link":"https://source.dot.net/#System.ObjectModel/System/ComponentModel/INotifyPropertyChanged.cs",
+      "Name":"SourceCode INotifyPropertyChanged"
+    }
 ]

@@ -1,0 +1,3 @@
+﻿using Observer;
+
+ObserverDemo.Demo();

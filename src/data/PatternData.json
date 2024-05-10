@@ -188,6 +188,16 @@
     "Description":"Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.",
     "Tags":"creational,design pattern",
     "Homework":"Imagine you want to produce loggers. You have a logger that logs to a file and a logger that logs to a console and a Nothing Logger - a logger that does nothing. Implement an abstract factory that will allow you to create a logger factory that will create a logger that logs to a file or to a console or nothing."
+  },
+  {
+    "Id":18,
+    "Stage":"done",
+    "Title":"Observer",
+    "ClassNames":"Observer",
+    "DemoFileCsproj":"Observer.csproj",
+    "Description":"Observer pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.",
+    "Tags":"behavioral,design pattern",
+    "Homework":"Imagine you have a logger that logs to a file and to a console. Implement an observable logger that will allow you to subscribe to the logger and to be notified when the logger logs a message."
   }
 
 
