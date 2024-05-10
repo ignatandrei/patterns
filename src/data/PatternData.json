@@ -167,6 +167,17 @@
     "Description":"Fluent interface allows you do have method chaining",
     "Tags":"behavioral, design pattern",
     "Homework":"Implement a class person that you can see the first name and last name as fluent interface"
+  },
+  {
+    "Id":16,
+    "Stage":"done",
+    "Title":"Flyweight",
+    "ClassNames":"Flyweight",
+    "DemoFileCsproj":"Flyweight.csproj",
+    "Description":"Flyweight pattern is used to reduce the memory and resource usage for complex models containing a large number of similar objects.",
+    "Tags":"structural,design pattern",
+    "Homework":"Make an exchange rate system. The symbol and names of the currency are the same for all the currencies. The exchange rate is different for each currency. Implement a flyweight that will allow you to create a currency with a symbol and a name and to get the exchange rate for the currency."
+
   }
 
 

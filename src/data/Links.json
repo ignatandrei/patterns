@@ -551,5 +551,17 @@
       "IDPatternData":15,
       "Link":"https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollectionServiceExtensions.cs",
       "Name":"SourceCode Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton"
+    },
+    {
+      "Id":88,
+      "IDPatternData":16,
+      "Link":"https://en.wikipedia.org/wiki/Flyweight_pattern",
+      "Name":"Wikipedia"
+    },
+    {
+      "Id":89,
+      "IDPatternData":16,
+      "Link":"https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs",
+      "Name":"SourceCode String.Intern"
     }
 ]

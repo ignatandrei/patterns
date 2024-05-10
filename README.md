@@ -1,5 +1,5 @@
 
-# Patterns With Examples from .NET  :  15
+# Patterns With Examples from .NET  :  16
 
 
 ## [Adapter](https://ignatandrei.github.io/patterns/docs/patterns/Adapter)
@@ -33,6 +33,11 @@
 
     
 ## [FluentInterface](https://ignatandrei.github.io/patterns/docs/patterns/FluentInterface)
+
+
+
+    
+## [Flyweight](https://ignatandrei.github.io/patterns/docs/patterns/Flyweight)
 
 
 

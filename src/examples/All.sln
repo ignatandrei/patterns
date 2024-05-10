@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazy", "Lazy\Lazy.csproj", "{542943CD-FBF0-4859-8A90-1B357714FAA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterface", "FluentInterface\FluentInterface.csproj", "{21F73F44-4693-47B4-BAEE-324CFE1854DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentInterface", "FluentInterface\FluentInterface.csproj", "{21F73F44-4693-47B4-BAEE-324CFE1854DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{21F73F44-4693-47B4-BAEE-324CFE1854DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21F73F44-4693-47B4-BAEE-324CFE1854DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21F73F44-4693-47B4-BAEE-324CFE1854DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
