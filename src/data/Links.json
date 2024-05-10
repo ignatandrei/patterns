@@ -563,5 +563,17 @@
       "IDPatternData":16,
       "Link":"https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs",
       "Name":"SourceCode String.Intern"
+    },
+    {
+      "Id":90,
+      "IDPatternData":17,
+      "Link":"https://en.wikipedia.org/wiki/Abstract_factory_pattern",
+      "Name":"Wikipedia"
+    },
+    {
+      "Id":91,
+      "IDPatternData":17,
+      "Link":"https://source.dot.net/#System.Data.Common/System/Data/Common/DbConnection.cs",
+      "Name":"SourceCode DbConnection"
     }
 ]

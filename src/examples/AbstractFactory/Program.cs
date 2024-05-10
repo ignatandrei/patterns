@@ -1,0 +1,3 @@
+﻿using AbstractFactory;
+
+AbstractFactoryDemo.Demo();

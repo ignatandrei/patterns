@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentInterface", "FluentIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{D2355BB4-ED2C-4F9D-ADB6-3DC64E1DB857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1DA217A-BF65-4EF5-B2E7-E1B5088327FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2355BB4-ED2C-4F9D-ADB6-3DC64E1DB857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2355BB4-ED2C-4F9D-ADB6-3DC64E1DB857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2355BB4-ED2C-4F9D-ADB6-3DC64E1DB857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2355BB4-ED2C-4F9D-ADB6-3DC64E1DB857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

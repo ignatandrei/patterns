@@ -1,7 +1,12 @@
 
-# Patterns With Examples from .NET  :  16
+# Patterns With Examples from .NET  :  17
 
 
+## [AbstractFactory](https://ignatandrei.github.io/patterns/docs/patterns/AbstractFactory)
+
+
+
+    
 ## [Adapter](https://ignatandrei.github.io/patterns/docs/patterns/Adapter)
 
 

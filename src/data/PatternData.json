@@ -178,6 +178,16 @@
     "Tags":"structural,design pattern",
     "Homework":"Make an exchange rate system. The symbol and names of the currency are the same for all the currencies. The exchange rate is different for each currency. Implement a flyweight that will allow you to create a currency with a symbol and a name and to get the exchange rate for the currency."
 
+  },
+  {
+    "Id":17,
+    "Stage":"done",
+    "Title":"AbstractFactory",
+    "ClassNames":"AbstractFactory",
+    "DemoFileCsproj":"AbstractFactory.csproj",
+    "Description":"Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.",
+    "Tags":"creational,design pattern",
+    "Homework":"Imagine you want to produce loggers. You have a logger that logs to a file and a logger that logs to a console and a Nothing Logger - a logger that does nothing. Implement an abstract factory that will allow you to create a logger factory that will create a logger that logs to a file or to a console or nothing."
   }
 
 

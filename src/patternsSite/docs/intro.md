@@ -3,9 +3,14 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples from .NET  :  16
+# Patterns With Examples from .NET  :  17
 
 
+        ## [AbstractFactory](/docs/patterns/AbstractFactory)
+
+
+
+    
         ## [Adapter](/docs/patterns/Adapter)
 
 
