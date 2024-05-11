@@ -1,10 +1,9 @@
 
-name: build and deploy 
+name: build and deploy on main branch
 
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ]
     tags:
       - 'v*'
 jobs:
@@ -19,6 +18,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    
+    - name: Exit if not on main branch
+      if: endsWith(github.ref, 'main') == false
+      run: exit -1
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
