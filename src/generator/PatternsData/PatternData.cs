@@ -16,6 +16,9 @@ public class PatternData
     [NotMapped]
     public string[] Homework { get; set; } = Array.Empty<string>();
 
+    [NotMapped]
+    public string[] Explanation { get; set; } = Array.Empty<string>();
+
     public Links[] Links { get; set; } = Array.Empty<Links>();
     
 }

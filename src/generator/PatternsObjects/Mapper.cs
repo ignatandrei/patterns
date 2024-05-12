@@ -22,6 +22,12 @@ public partial class Mapper
             .Where(d => !string.IsNullOrWhiteSpace(d))
             .Select(it => it + ".")
             .ToArray();
+        dto.Explanation = obj.Explanation
+            .Select(d => d.Trim())
+            .Where(d => !string.IsNullOrWhiteSpace(d))
+            .Select(it => it + ".")
+            .ToArray();
+
         return dto;
     }
 }

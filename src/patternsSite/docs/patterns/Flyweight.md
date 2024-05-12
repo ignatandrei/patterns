@@ -16,6 +16,9 @@ tags:
 
 Flyweight pattern is used to reduce the memory and resource usage for complex models containing a large number of similar objects.    <br />
 
+## Purpose of .NET implementation
+
+
 ## Example in .NET : 
 
 

@@ -20,6 +20,7 @@ public class PatternDataGenerator
     public string Tags { get; set; } = string.Empty;
     public string ClassNames { get; set; } = string.Empty;
     public string[] Homework { get; set; } = Array.Empty<string>();
+    public string[] Explanation { get; set; } = Array.Empty<string>();
 
     public string[] ClassNamesArray()
     {

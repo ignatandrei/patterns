@@ -1,0 +1,15 @@
+[
+  {
+    "Id": 17,
+    "Line1": "You need to create commands for any specific database type",
+    "Line10": "By using an Abstract Factory, your application can remain agnostic of the specific type of database it is interacting with",
+    "Line2": "This means you can switch between different databases (e.g., SQL Server, MySQL, PostgreSQL) without changing the core logic of your application",
+    "Line3": "The factory will provide the appropriate concrete implementation of the DBConnection for the database in use.",
+    "Line4": "",
+    "Line5": "",
+    "Line6": "",
+    "Line7": "",
+    "Line8": "",
+    "Line9": ""
+  }
+]

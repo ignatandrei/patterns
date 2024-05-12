@@ -16,6 +16,9 @@ tags:
 
 Fluent interface allows you do have method chaining.    <br />
 
+## Purpose of .NET implementation
+
+
 ## Example in .NET : 
 
 

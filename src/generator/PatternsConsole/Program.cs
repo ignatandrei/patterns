@@ -4,10 +4,15 @@ DbPatternContext cnt = new(Path.Combine(rootFolderFromGit,@"src","data"));
 var all =await cnt.PatternData.ToArrayAsync();
 var descAll = await cnt.Description.ToArrayAsync();
 var homeworkAll = await cnt.Homework.ToArrayAsync();
+var explanations = await cnt.Explanation.ToArrayAsync();
 foreach (var a in all)
 {
     a.Description = descAll.First(d => d.Id == a.Id).Lines();
     a.Homework = homeworkAll.First(d => d.Id == a.Id).Lines();
+    a.Explanation = explanations
+        .Where(e => e.Id == a.Id)
+        .SelectMany(e => e.Lines())
+        .ToArray();
 }
 //foreach (var a in all)
 //{
