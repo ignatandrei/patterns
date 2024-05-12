@@ -14,7 +14,7 @@ tags:
 
 # Pattern:  FluentInterface
 
-Fluent interface allows you do have method chaining
+Fluent interface allows you do have method chaining.    <br />
 
 ## Example in .NET : 
 

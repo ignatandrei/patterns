@@ -8,7 +8,7 @@ public class PatternDataGenerator
         return Stage?.ToLower() == "done";
     }
     public string Title { get; set; } = string.Empty;
-    public string Description { get; set; } = string.Empty;
+    public string[] Description { get; set; } = Array.Empty<string>()   ;
     public string Stage { get; set; } = string.Empty;
     public Links[] Links { get; set; } = Array.Empty<Links>();
 

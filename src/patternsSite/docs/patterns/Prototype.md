@@ -14,7 +14,7 @@ tags:
 
 # Pattern:  Prototype
 
-It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects
+It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.    <br />
 
 ## Example in .NET : 
 

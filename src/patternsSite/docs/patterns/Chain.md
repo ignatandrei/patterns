@@ -14,7 +14,8 @@ tags:
 
 # Pattern:  Chain
 
-Chain of responsibility pattern allows an object to send a command without knowing what object will receive and handle it. Chain the receiving objects and pass the request along the chain until an object handles it
+Chain of responsibility pattern allows an object to send a command without knowing what object will receive and handle it.    <br />
+Chain the receiving objects and pass the request along the chain until an object handles it.    <br />
 
 ## Example in .NET : 
 

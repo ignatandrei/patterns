@@ -16,7 +16,7 @@ tags:
 
 # Pattern:  NullObject
 
-Instead of returning null , use an object which implements the expected interface, but whose method body is empty.
+Instead of returning null , use an object which implements the expected interface, but whose method body is empty.    <br />
 
 ## Examples in .NET : 
 

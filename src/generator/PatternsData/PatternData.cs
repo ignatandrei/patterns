@@ -1,10 +1,13 @@
 ﻿
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace PatternsData;
 public class PatternData
 {
     public int Id { get; set; }
     public string Title { get; set; }=string.Empty;
-    public string Description { get; set; } = string.Empty;
+    [NotMapped]
+    public string[] Description { get; set; } = Array.Empty<string>();
 
     public string Stage { get; set; } = string.Empty;
     public string DemoFileCsproj { get; set; } = string.Empty;

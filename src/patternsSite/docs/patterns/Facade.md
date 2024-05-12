@@ -14,7 +14,7 @@ tags:
 
 # Pattern:  Facade
 
-Facade is is an object that provides a simplified interface to a larger body of code, such as a class library.
+Facade is is an object that provides a simplified interface to a larger body of code, such as a class library.    <br />
 
 ## Example in .NET : 
 

@@ -16,7 +16,8 @@ tags:
 
 # Pattern:  IOC
 
-Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework. It's a design principle in which custom-written portions of a computer program receive the flow of control from a generic framework.
+Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework.    <br />
+It's a design principle in which custom-written portions of a computer program receive the flow of control from a generic framework.    <br />
 
 ## Examples in .NET : 
 

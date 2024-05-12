@@ -14,7 +14,7 @@ tags:
 
 # Pattern:  Decorator
 
-Decorator allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.
+Decorator allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.    <br />
 
 ## Example in .NET : 
 

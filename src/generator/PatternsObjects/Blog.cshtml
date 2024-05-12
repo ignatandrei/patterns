@@ -11,8 +11,11 @@
 Pattern:  @Model.Title 
 
 <h2> Description</h2>
-
-@Model.Description
+@foreach (var item in @Model.Description)
+{
+    @item
+    <br/>
+}
 
 <h2> @example in .NET :</h2>
 

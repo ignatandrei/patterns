@@ -30,7 +30,11 @@ tags:
 
 # Pattern:  @Model.Title
 
-@Model.Description
+@foreach (var item in @Model.Description)
+{
+    @item
+    <br />
+}
 
 ## @example in .NET : 
 

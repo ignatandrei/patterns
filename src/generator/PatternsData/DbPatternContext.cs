@@ -8,6 +8,7 @@ public class DbPatternContext : DbContext
     }
     public const string DatabaseName = "patternsData";
     private readonly string folder;
+    public DbSet<DataLines> Description{ get; set; }
 
     public DbSet<PatternData> PatternData { get; set; }
 

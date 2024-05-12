@@ -12,6 +12,11 @@ public partial class Mapper
         var title = dto.Title;
         dto.Title= $"{char.ToUpper(title[0])}{title[1..]}";
         dto.Links=dto.Links.OrderBy(l=>l.Name).ToArray();
+        dto.Description = obj.Description
+            .Select(d => d.Trim())
+            .Where(d => !string.IsNullOrWhiteSpace(d))
+            .Select(it=>it+ ".")
+            .ToArray();
         return dto;
     }
 }

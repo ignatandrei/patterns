@@ -14,7 +14,7 @@ tags:
 
 # Pattern:  Lazy
 
-Lazy initialization is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.
+Lazy initialization is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.    <br />
 
 ## Example in .NET : 
 
