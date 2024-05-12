@@ -42,3 +42,12 @@ jobs:
       with:
         name: patternsSite-build
         path: src/patternsSite/build/
+
+    - name: upload documentation to github pages
+      run: |
+        cp -r v2/patternsSite/build/* docs/v2/
+        git config --global user.email "ignatandrei@yahoo.com"
+        git config --global user.name "Andrei Ignat Automation"
+        git add docs/v2
+        git commit -m "Deploy documentation"
+        git push origin HEAD:main  
