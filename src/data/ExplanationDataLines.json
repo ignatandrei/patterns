@@ -11,5 +11,10 @@
     "Line7": "",
     "Line8": "",
     "Line9": ""
+  },
+  {
+    "Id": 4,
+    "Line1": "You want to  transfer data from a database command to a DataTable",
+    "Line2":"The SQLiteDataAdapter serves as an adapter between the SQLiteCommand object (which represents a SQL command or stored procedure to execute against a SQLite database) and the DataTable object (which represents in-memory data in a tabular format)"
   }
 ]
