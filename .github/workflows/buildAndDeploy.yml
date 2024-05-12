@@ -19,9 +19,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Exit if not on main branch
-      if: github.ref != 'refs/heads/main'
-      run: exit -1
+    # - name: Exit if not on main branch
+    #   if: github.ref != 'refs/heads/main'
+    #   run: exit -1
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
