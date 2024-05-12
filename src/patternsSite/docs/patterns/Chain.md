@@ -19,6 +19,11 @@ Chain the receiving objects and pass the request along the chain until an object
 
 ## Purpose of .NET implementation
 
+You want to pass the exception to the possible handlers / catch blocks in the all functions in the call stack.    <br />
+Exception bubbling in .NET exemplifies the Chain of Responsibility pattern by allowing exceptions to be passed along a chain of potential handlers (catch blocks) until one is found that can handle the exception.    <br />
+This can be useful when you want to ensure that exceptions are handled at the appropriate level of abstraction, rather than being caught and handled at a lower level where they may not be fully understood or properly addressed.    <br />
+By allowing exceptions to bubble up the call stack, you can ensure that they are handled in a consistent and appropriate manner, regardless of where they occur in the code.    <br />
+This mechanism decouples the thrower of the exception from the handlers, providing a flexible and dynamic way of managing errors that occur during runtime.    <br />
 
 ## Example in .NET : 
 
@@ -33,16 +38,20 @@ public static class ChainDemo
     {
         try
         {
+            // Calls 'FirstException' method which is known to throw an exception.
             FirstException();
             return 5;
         }
         catch (Exception ex)
         {
+            // Throws a new exception, chaining the caught exception 'ex' as the inner exception.
+            // This adds context to the exception, indicating it originated from 'SecondException'.
             throw new Exception($"from {nameof(SecondException)}", ex);
         }
     }
     static int FirstException()
     {
+
         throw new ArgumentException("argument");
     }
 }

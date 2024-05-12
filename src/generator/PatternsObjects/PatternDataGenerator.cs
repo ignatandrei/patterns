@@ -2,7 +2,7 @@
 public class PatternDataGenerator
 {
 
-    public int Id { get; set; } 
+    public int Id { get; set; }
     public bool CanWrite()
     {
         return Stage?.ToLower() == "done";

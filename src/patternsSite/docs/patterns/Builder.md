@@ -9,9 +9,9 @@ tags:
 
   - design pattern
 
-  - UriBuilder
-
   - SqlConnectionStringBuilder
+
+  - UriBuilder
 ---
 
 # Pattern:  Builder
@@ -27,6 +27,27 @@ This can help to ensure that all necessary parameters are included and that the 
 Once all necessary parameters have been set, the ConnectionString property of the SqlConnectionStringBuilder object can be used to retrieve the constructed connection string.    <br />
 
 ## Examples in .NET : 
+
+
+###  SqlConnectionStringBuilder
+```csharp showLineNumbers title="SqlConnectionStringBuilder example for Pattern Builder"
+namespace Builder;
+internal class ConnectionStringDemo
+{
+    public static void ConnectionString()
+    {
+        //start example 2
+        SqlConnectionStringBuilder build = new ();
+        build.DataSource = ".";
+        build.InitialCatalog = "MyDatabase";
+        build.ConnectTimeout = 30;
+        // Outputs the constructed connection string to the console. This demonstrates the final product of the Builder pattern.
+        Console.WriteLine(build.ConnectionString);
+        //end example 2
+    }
+}
+
+```
 
 
 ###  UriBuilder
@@ -48,27 +69,6 @@ static class UriBuilderDemo
         //now we have http://msprogrammer.serviciipeweb.ro/2018/03/05/design-patterns-class/
         Console.WriteLine(b.Uri);
         //end example 1
-    }
-}
-
-```
-
-
-###  SqlConnectionStringBuilder
-```csharp showLineNumbers title="SqlConnectionStringBuilder example for Pattern Builder"
-namespace Builder;
-internal class ConnectionStringDemo
-{
-    public static void ConnectionString()
-    {
-        //start example 2
-        var build = new SqlConnectionStringBuilder();
-        build.DataSource = ".";
-        build.InitialCatalog = "MyDatabase";
-        build.ConnectTimeout = 30;
-        //here is the connection string built
-        Console.WriteLine(build.ConnectionString);
-        //end example 2
     }
 }
 

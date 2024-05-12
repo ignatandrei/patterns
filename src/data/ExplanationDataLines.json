@@ -24,6 +24,14 @@
     "Line3":"Instead of requiring the developer to construct a connection string in one go, potentially leading to mistakes or omissions, SqlConnectionStringBuilder allows for the step-by-step construction of a connection string",
     "Line4":"This can help to ensure that all necessary parameters are included and that the connection string is correctly formatted",
     "Line5":"Once all necessary parameters have been set, the ConnectionString property of the SqlConnectionStringBuilder object can be used to retrieve the constructed connection string"
+  },
+  {
+    "Id":9,
+    "Line1":"You want to pass the exception to the possible handlers / catch blocks in the all functions in the call stack",
+    "Line2":"Exception bubbling in .NET exemplifies the Chain of Responsibility pattern by allowing exceptions to be passed along a chain of potential handlers (catch blocks) until one is found that can handle the exception",
+    "Line3":"This can be useful when you want to ensure that exceptions are handled at the appropriate level of abstraction, rather than being caught and handled at a lower level where they may not be fully understood or properly addressed",
+    "Line4":"By allowing exceptions to bubble up the call stack, you can ensure that they are handled in a consistent and appropriate manner, regardless of where they occur in the code",
+    "Line5":"This mechanism decouples the thrower of the exception from the handlers, providing a flexible and dynamic way of managing errors that occur during runtime"
   }
 
 ]

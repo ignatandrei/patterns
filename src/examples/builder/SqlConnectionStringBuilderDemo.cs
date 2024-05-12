@@ -4,11 +4,11 @@ internal class ConnectionStringDemo
     public static void ConnectionString()
     {
         //start example 2
-        var build = new SqlConnectionStringBuilder();
+        SqlConnectionStringBuilder build = new ();
         build.DataSource = ".";
         build.InitialCatalog = "MyDatabase";
         build.ConnectTimeout = 30;
-        //here is the connection string built
+        // Outputs the constructed connection string to the console. This demonstrates the final product of the Builder pattern.
         Console.WriteLine(build.ConnectionString);
         //end example 2
     }
