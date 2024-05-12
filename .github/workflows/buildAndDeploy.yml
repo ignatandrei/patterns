@@ -45,7 +45,7 @@ jobs:
 
     - name: upload documentation to github pages
       run: |
-        cp -r v2/patternsSite/build/* docs/v2/
+        cp -r src/patternsSite/build/* docs/
         git config --global user.email "ignatandrei@yahoo.com"
         git config --global user.name "Andrei Ignat Automation"
         git add docs/v2
