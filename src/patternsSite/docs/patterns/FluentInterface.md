@@ -70,5 +70,7 @@ internal static class FluentInterfaceDemo
 
 ## Homework
 
-Implement a class person that you can see the first name and last name as fluent interface
+
+Implement a class person that you can see the first name and last name as fluent interface.    <br />
+
 

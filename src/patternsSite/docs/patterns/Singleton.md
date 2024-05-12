@@ -68,5 +68,7 @@ internal class SingletonDemo
 
 ## Homework
 
-Implement a singleton that will allow you to create a single instance of a logger that logs to a file and to a console.
+
+Implement a singleton that will allow you to create a single instance of a logger that logs to a file and to a console.    <br />
+
 

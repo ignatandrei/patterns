@@ -61,5 +61,9 @@ internal class AbstractFactoryDemo
 
 ## Homework
 
-Imagine you want to produce loggers. You have a logger that logs to a file and a logger that logs to a console and a Nothing Logger - a logger that does nothing. Implement an abstract factory that will allow you to create a logger factory that will create a logger that logs to a file or to a console or nothing.
+
+Imagine you want to produce loggers.    <br />
+You have a logger that logs to a file and a logger that logs to a console and a Nothing Logger - a logger that does nothing.    <br />
+Implement an abstract factory that will allow you to create a logger factory that will create a logger that logs to a file or to a console or nothing.    <br />
+
 

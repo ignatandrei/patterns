@@ -65,5 +65,7 @@ internal class DirectoryEnumerableDemo
 
 ## Homework
 
-With the Yield keyword implement a function that return an IEnumerable of generic int that will return the first 10 numbers of the Fibonacci sequence
+
+With the Yield keyword implement a function that return an IEnumerable of generic int that will return the first 10 numbers of the Fibonacci sequence.    <br />
+
 

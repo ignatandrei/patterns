@@ -87,5 +87,10 @@ internal class LogWithData
 
 ## Homework
 
-When retrieving data( e.g. a Person with ID =-1 ) from a database , return a NullObject instead of null. How you will verify that the object is a NullObject?
+
+When retrieving data( e.    <br />
+g.    <br />
+a Person with ID =-1 ) from a database , return a NullObject instead of null.    <br />
+How you will verify that the object is a NullObject?.    <br />
+
 

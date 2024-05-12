@@ -117,5 +117,8 @@ internal class EncodingAdapterDemo
 
 ## Homework
 
-iPhone 7 does not have a headphone jack. Implement an adapter that will allow you to use your old headphones , that have jack, with the iPhone 7.
+
+iPhone 7 does not have a headphone jack.    <br />
+Implement an adapter that will allow you to use your old headphones , that have jack, with the iPhone 7.    <br />
+
 

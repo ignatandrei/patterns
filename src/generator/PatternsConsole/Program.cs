@@ -2,27 +2,44 @@
 var rootFolderFromGit = @"D:\gth\patterns";
 DbPatternContext cnt = new(Path.Combine(rootFolderFromGit,@"src","data"));
 var all =await cnt.PatternData.ToArrayAsync();
-var desc = await cnt.Description.ToArrayAsync();
+var descAll = await cnt.Description.ToArrayAsync();
+var homeworkAll = await cnt.Homework.ToArrayAsync();
 foreach (var a in all)
 {
-    a.Description = desc.First(d => d.Id == a.Id).Lines();
+    a.Description = descAll.First(d => d.Id == a.Id).Lines();
+    a.Homework = homeworkAll.First(d => d.Id == a.Id).Lines();
 }
-    //foreach (var a in all)
-    //{
-    //    DataLines dl = new();
-    //    var desc=a.Description.Split(".").ToArray();
-    //    for (int i = 0; i < desc.Length; i++)
-    //    {
-    //        if (desc[i] == null) continue;
-    //        var prop = typeof(DataLines).GetProperty("Line" + (i + 1));
-    //        ArgumentNullException.ThrowIfNull(prop, "Property not found for "+i);
-    //        prop.SetValue(dl, desc[i]);
-    //    }
-    //    cnt.Description.Add(dl);
-    //}
-    //await cnt.SaveChangesAsync();
-    //return;
-    var links = await cnt.Links.ToArrayAsync();
+//foreach (var a in all)
+//{
+//    HomeworkDataLines dl = new();
+//    var desc = a.Homework.Split(".").ToArray();
+//    for (int i = 0; i < desc.Length; i++)
+//    {
+//        if (desc[i] == null) continue;
+//        var prop = typeof(DataLines).GetProperty("Line" + (i + 1));
+//        ArgumentNullException.ThrowIfNull(prop, "Property not found for " + i);
+//        prop.SetValue(dl, desc[i]);
+//    }
+//    cnt.Homework.Add(dl);
+//}
+//await cnt.SaveChangesAsync();
+//return;
+//foreach (var a in all)
+//{
+//    DataLines dl = new();
+//    var desc=a.Description.Split(".").ToArray();
+//    for (int i = 0; i < desc.Length; i++)
+//    {
+//        if (desc[i] == null) continue;
+//        var prop = typeof(DataLines).GetProperty("Line" + (i + 1));
+//        ArgumentNullException.ThrowIfNull(prop, "Property not found for "+i);
+//        prop.SetValue(dl, desc[i]);
+//    }
+//    cnt.Description.Add(dl);
+//}
+//await cnt.SaveChangesAsync();
+//return;
+var links = await cnt.Links.ToArrayAsync();
 all.ToList().ForEach(a => a.Links = links.Where(l => l.IDPatternData == a.Id).ToArray());
 
 GeneratorFiles generator=new(all);

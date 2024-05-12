@@ -57,5 +57,10 @@ internal class FlyweightDemo
 
 ## Homework
 
-Make an exchange rate system. The symbol and names of the currency are the same for all the currencies. The exchange rate is different for each currency. Implement a flyweight that will allow you to create a currency with a symbol and a name and to get the exchange rate for the currency.
+
+Make an exchange rate system.    <br />
+The symbol and names of the currency are the same for all the currencies.    <br />
+The exchange rate is different for each currency.    <br />
+Implement a flyweight that will allow you to create a currency with a symbol and a name and to get the exchange rate for the currency.    <br />
+
 

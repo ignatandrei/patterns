@@ -88,5 +88,8 @@ public class EmailService : IMessageService
 
 ## Homework
 
-Implement a simple IoC container that will allow you to register and resolve dependencies. The container should be able to resolve dependencies by type and by name.
+
+Implement a simple IoC container that will allow you to register and resolve dependencies.    <br />
+The container should be able to resolve dependencies by type and by name.    <br />
+
 

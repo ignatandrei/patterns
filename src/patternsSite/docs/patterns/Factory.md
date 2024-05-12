@@ -95,5 +95,7 @@ class MyControllerFactory : System.Web.Mvc.DefaultControllerFactory
 
 ## Homework
 
-having multiple types of drinks( water, tea, coffee) with an IDrink interface  create a factory method ( with a parameter ) to create a drink  
+
+having multiple types of drinks( water, tea, coffee) with an IDrink interface  create a factory method ( with a parameter ) to create a drink.    <br />
+
 

@@ -69,5 +69,9 @@ public static class ChainDemo
 
 ## Homework
 
-Implement a middleware in ASP.NET Core that intercepts the exception and logs it to the database. The middleware should be able to pass the exception to the next middleware in the chain.
+
+Implement a middleware in ASP.    <br />
+NET Core that intercepts the exception and logs it to the database.    <br />
+The middleware should be able to pass the exception to the next middleware in the chain.    <br />
+
 

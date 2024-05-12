@@ -54,5 +54,8 @@ internal class LazyDemo
 
 ## Homework
 
-Implement a lazy initialization of a logger that logs to a file and to a console. The logger should be created only when it is needed.
+
+Implement a lazy initialization of a logger that logs to a file and to a console.    <br />
+The logger should be created only when it is needed.    <br />
+
 

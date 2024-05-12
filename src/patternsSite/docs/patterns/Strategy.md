@@ -93,5 +93,8 @@ internal class StrategyDemo
 
 ## Homework
 
-Image you want to serialize classes to XML,JSON and CSV . Implement a strategy that will allow you to choose between XML , JSON and CSV serialization at runtime.
+
+Image you want to serialize classes to XML,JSON and CSV.    <br />
+Implement a strategy that will allow you to choose between XML , JSON and CSV serialization at runtime.    <br />
+
 

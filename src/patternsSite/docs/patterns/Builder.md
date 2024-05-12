@@ -89,5 +89,9 @@ internal class ConnectionStringDemo
 
 ## Homework
 
-Imagine that you have a logger that logs to a file and to a console. Implement a builder that will allow you to create a logger with different configurations. For example, you can set the log level, the log format, and the log destination.
+
+Imagine that you have a logger that logs to a file and to a console.    <br />
+Implement a builder that will allow you to create a logger with different configurations.    <br />
+For example, you can set the log level, the log format, and the log destination.    <br />
+
 

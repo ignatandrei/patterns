@@ -4,6 +4,10 @@ public class DescriptionDataLines : DataLines
 {
 
 }
+public class HomeworkDataLines : DataLines
+{
+
+}
 public class DataLines
 {
     public int Id { get; set; }

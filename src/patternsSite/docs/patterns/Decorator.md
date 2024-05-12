@@ -80,5 +80,11 @@ internal class DecoratorDemo
 
 ## Homework
 
-1. Add a logging to DBConnection . 2. Use by decorating a coffee with milk, sugar, and chocolate (and maybe other condiments). The coffee should be able to display the condiments in a Display method and calculate the price of the coffee with milk, sugar, and chocolate.
+
+1.    <br />
+Add a logging to DBConnection.    <br />
+2.    <br />
+Use by decorating a coffee with milk, sugar, and chocolate (and maybe other condiments).    <br />
+The coffee should be able to display the condiments in a Display method and calculate the price of the coffee with milk, sugar, and chocolate.    <br />
+
 

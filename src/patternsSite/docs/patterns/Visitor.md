@@ -100,5 +100,9 @@ public class MethodVisiting : CSharpSyntaxRewriter
 
 ## Homework
 
-Implement a visitor that will allow you to calculate the total price of a shopping cart. The shopping cart should contain items with a price and a quantity.Visit every item and make the sum
+
+Implement a visitor that will allow you to calculate the total price of a shopping cart.    <br />
+The shopping cart should contain items with a price and a quantity.    <br />
+Visit every item and make the sum.    <br />
+
 

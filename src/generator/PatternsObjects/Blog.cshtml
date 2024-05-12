@@ -60,6 +60,9 @@ Pattern:  @Model.Title
 
 <h2> Homework </h2>
 
-@Model.Homework
-
+@foreach (var item in @Model.Homework)
+{
+    @item
+    <br />
+}
 

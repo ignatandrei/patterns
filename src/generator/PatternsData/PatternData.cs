@@ -13,7 +13,8 @@ public class PatternData
     public string DemoFileCsproj { get; set; } = string.Empty;
     public string Tags { get; set; } = string.Empty;
     public string ClassNames { get; set; } = string.Empty;
-    public string Homework { get; set; } = string.Empty;
+    [NotMapped]
+    public string[] Homework { get; set; } = Array.Empty<string>();
 
     public Links[] Links { get; set; } = Array.Empty<Links>();
     

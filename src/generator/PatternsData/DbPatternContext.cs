@@ -10,6 +10,7 @@ public class DbPatternContext : DbContext
     private readonly string folder;
     public DbSet<DescriptionDataLines> Description{ get; set; }
 
+    public DbSet<HomeworkDataLines> Homework { get; set; }
     public DbSet<PatternData> PatternData { get; set; }
 
     public DbSet<Links> Links { get; set; }

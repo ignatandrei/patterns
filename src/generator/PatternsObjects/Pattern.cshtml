@@ -75,5 +75,11 @@ tags:
 
 ## Homework
 
-@Model.Homework
+
+@foreach (var item in @Model.Homework)
+{
+    @item
+    <br />
+}
+
 

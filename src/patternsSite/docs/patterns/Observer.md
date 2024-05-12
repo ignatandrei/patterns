@@ -86,5 +86,8 @@ internal class ObserverDemo
 
 ## Homework
 
-Imagine you have a logger that logs to a file and to a console. Implement an observable logger that will allow you to subscribe to the logger and to be notified when the logger logs a message.
+
+Imagine you have a logger that logs to a file and to a console.    <br />
+Implement an observable logger that will allow you to subscribe to the logger and to be notified when the logger logs a message.    <br />
+
 
