@@ -13,7 +13,7 @@ tags:
 ---
 
 # Pattern:  FluentInterface
-
+<!-- id : 15 -->
 Fluent interface allows you do have method chaining.    <br />
 
 ## Purpose of .NET implementation

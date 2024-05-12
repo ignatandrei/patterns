@@ -13,7 +13,7 @@ tags:
 ---
 
 # Pattern:  Iterator
-
+<!-- id : 3 -->
 Iterator design pattern allows to traverse a container and access the container's elements.    <br />
 
 ## Purpose of .NET implementation

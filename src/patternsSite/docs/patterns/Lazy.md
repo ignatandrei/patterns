@@ -13,7 +13,7 @@ tags:
 ---
 
 # Pattern:  Lazy
-
+<!-- id : 14 -->
 Lazy initialization is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.    <br />
 
 ## Purpose of .NET implementation

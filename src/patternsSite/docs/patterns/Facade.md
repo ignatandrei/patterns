@@ -13,7 +13,7 @@ tags:
 ---
 
 # Pattern:  Facade
-
+<!-- id : 7 -->
 Facade is is an object that provides a simplified interface to a larger body of code, such as a class library.    <br />
 
 ## Purpose of .NET implementation

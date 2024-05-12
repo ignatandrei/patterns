@@ -13,7 +13,7 @@ tags:
 ---
 
 # Pattern:  Singleton
-
+<!-- id : 10 -->
 Singleton pattern restricts the instantiation of a class to one object.    <br />
 It is used when you want to have one instance of a class that is shared across the application.    <br />
 

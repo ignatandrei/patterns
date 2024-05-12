@@ -15,11 +15,16 @@ tags:
 ---
 
 # Pattern:  Builder
-
+<!-- id : 1 -->
 The intent of the Builder design pattern is to separate the construction of a complex object from its representation.    <br />
 
 ## Purpose of .NET implementation
 
+You want to let the developer construct a SqlConnectionString.    <br />
+The SqlConnectionStringBuilder class provides a way to construct connection strings for SQL Server databases.    <br />
+Instead of requiring the developer to construct a connection string in one go, potentially leading to mistakes or omissions, SqlConnectionStringBuilder allows for the step-by-step construction of a connection string.    <br />
+This can help to ensure that all necessary parameters are included and that the connection string is correctly formatted.    <br />
+Once all necessary parameters have been set, the ConnectionString property of the SqlConnectionStringBuilder object can be used to retrieve the constructed connection string.    <br />
 
 ## Examples in .NET : 
 

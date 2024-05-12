@@ -13,12 +13,12 @@ tags:
 ---
 
 # Pattern:  AbstractFactory
-
+<!-- id : 17 -->
 Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.    <br />
 
 ## Purpose of .NET implementation
 
-You need to create commands for any specific database type.    <br />
+You want to create commands for any specific database type in order to obtain data from a database.    <br />
 This means you can switch between different databases (e.g., SQL Server, MySQL, PostgreSQL) without changing the core logic of your application.    <br />
 The factory will provide the appropriate concrete implementation of the DBConnection for the database in use..    <br />
 By using an Abstract Factory, your application can remain agnostic of the specific type of database it is interacting with.    <br />

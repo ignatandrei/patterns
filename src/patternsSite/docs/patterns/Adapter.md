@@ -15,13 +15,13 @@ tags:
 ---
 
 # Pattern:  Adapter
-
+<!-- id : 4 -->
 Adapter design pattern allows the interface of an existing class to be used as another interface.    <br />
 It is often used to make existing classes work with others without modifying their source code.    <br />
 
 ## Purpose of .NET implementation
 
-You want to  transfer data from a database command to a DataTable.    <br />
+You want to  transfer data from a database Command to a DataTable.    <br />
 The SQLiteDataAdapter serves as an adapter between the SQLiteCommand object (which represents a SQL command or stored procedure to execute against a SQLite database) and the DataTable object (which represents in-memory data in a tabular format).    <br />
 
 ## Examples in .NET : 

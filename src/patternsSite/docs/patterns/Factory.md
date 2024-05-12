@@ -13,7 +13,7 @@ tags:
 ---
 
 # Pattern:  Factory
-
+<!-- id : 6 -->
 A factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be new.    <br />
 
 ## Purpose of .NET implementation

@@ -1,7 +1,7 @@
 [
   {
     "Id": 17,
-    "Line1": "You need to create commands for any specific database type",
+    "Line1": "You want to create commands for any specific database type in order to obtain data from a database",
     "Line10": "By using an Abstract Factory, your application can remain agnostic of the specific type of database it is interacting with",
     "Line2": "This means you can switch between different databases (e.g., SQL Server, MySQL, PostgreSQL) without changing the core logic of your application",
     "Line3": "The factory will provide the appropriate concrete implementation of the DBConnection for the database in use.",
@@ -14,7 +14,16 @@
   },
   {
     "Id": 4,
-    "Line1": "You want to  transfer data from a database command to a DataTable",
+    "Line1": "You want to  transfer data from a database Command to a DataTable",
     "Line2":"The SQLiteDataAdapter serves as an adapter between the SQLiteCommand object (which represents a SQL command or stored procedure to execute against a SQLite database) and the DataTable object (which represents in-memory data in a tabular format)"
+  },
+  {
+    "Id":1,
+    "Line1":"You want to let the developer construct a SqlConnectionString",
+    "Line2":"The SqlConnectionStringBuilder class provides a way to construct connection strings for SQL Server databases",
+    "Line3":"Instead of requiring the developer to construct a connection string in one go, potentially leading to mistakes or omissions, SqlConnectionStringBuilder allows for the step-by-step construction of a connection string",
+    "Line4":"This can help to ensure that all necessary parameters are included and that the connection string is correctly formatted",
+    "Line5":"Once all necessary parameters have been set, the ConnectionString property of the SqlConnectionStringBuilder object can be used to retrieve the constructed connection string"
   }
+
 ]
