@@ -1,5 +1,9 @@
 ﻿
 namespace PatternsData;
+public class DescriptionDataLines : DataLines
+{
+
+}
 public class DataLines
 {
     public int Id { get; set; }
