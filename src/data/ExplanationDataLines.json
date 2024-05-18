@@ -32,6 +32,13 @@
     "Line3":"This can be useful when you want to ensure that exceptions are handled at the appropriate level of abstraction, rather than being caught and handled at a lower level where they may not be fully understood or properly addressed",
     "Line4":"By allowing exceptions to bubble up the call stack, you can ensure that they are handled in a consistent and appropriate manner, regardless of where they occur in the code",
     "Line5":"This mechanism decouples the thrower of the exception from the handlers, providing a flexible and dynamic way of managing errors that occur during runtime"
+  },
+  {
+    "Id":8,
+    "Line1":"Stream is a perfect example of the Decorator pattern",
+    "Line2":"Imagine you want to write a text to a file, but you want to add some additional functionality(or not, at will) to the stream, such as  compression or encryption.",
+    "Line3":"By using the Decorator pattern, you can easily compose streams with different behaviors to create custom stream objects that meet specific requirements", 
+    "Line4":"Each stream class focuses on a single responsibility. FileStream handles file I/O, CryptoStream handles encryption and decryption, and GZipStream handles compression and decompression. This makes the classes easier to understand, test, and maintain."
   }
 
 ]

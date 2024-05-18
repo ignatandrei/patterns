@@ -92,16 +92,10 @@
   },
   {
     "Id": 8,
-    "Line1": "1",
-    "Line10": "",
-    "Line2": " Add a logging to DBConnection ",
-    "Line3": " 2",
-    "Line4": " Use by decorating a coffee with milk, sugar, and chocolate (and maybe other condiments)",
-    "Line5": " The coffee should be able to display the condiments in a Display method and calculate the price of the coffee with milk, sugar, and chocolate",
-    "Line6": "",
-    "Line7": "",
-    "Line8": "",
-    "Line9": ""
+    "Line1": "1.Create a LoggingDbConnectionDecorator class that adds logging functionality to a DbConnection object.  ",
+    "Line2": "This class should log the details of the operations performed on the DbConnection (like opening a connection, closing a connection, executing a command, etc.) to a log file or console.",
+    "Line3": "2.Your task is to model a coffee shop ordering system using the Decorator design pattern. The base component will be a coffee, and you will create decorators for adding milk, sugar, and chocolate.",
+    "Line4": " The coffee should be able to display the condiments in a Display method and calculate the price of the coffee with milk, sugar, and chocolate",
   },
   {
     "Id": 9,

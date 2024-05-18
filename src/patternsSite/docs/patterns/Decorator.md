@@ -18,6 +18,10 @@ Decorator allows behavior to be added to an individual object, either statically
 
 ## Purpose of .NET implementation
 
+Stream is a perfect example of the Decorator pattern.    <br />
+Imagine you want to write a text to a file, but you want to add some additional functionality(or not, at will) to the stream, such as  compression or encryption..    <br />
+By using the Decorator pattern, you can easily compose streams with different behaviors to create custom stream objects that meet specific requirements.    <br />
+Each stream class focuses on a single responsibility. FileStream handles file I/O, CryptoStream handles encryption and decryption, and GZipStream handles compression and decompression. This makes the classes easier to understand, test, and maintain..    <br />
 
 ## Example in .NET : 
 
@@ -34,7 +38,7 @@ internal class DecoratorDemo
         if (File.Exists(nameFile))
             File.Delete(nameFile);
         byte[] data = ASCIIEncoding.ASCII.GetBytes("Hello World!");
-        //first time we have a stream
+        // Creates a FileStream (the ConcreteComponent in the Decorator pattern context).
         using (var stream = new FileStream(nameFile, FileMode.OpenOrCreate, FileAccess.Write))
         {
             //stream.Write(data, 0, data.Length);
@@ -44,10 +48,10 @@ internal class DecoratorDemo
 
             cryptic.Key = ASCIIEncoding.ASCII.GetBytes("ABCDEFGH");
             cryptic.IV = ASCIIEncoding.ASCII.GetBytes("ABCDEFGH");
-            //we decorate the initial stream with a crypto stream
+            // Decorates the FileStream with a CryptoStream (the first Decorator).
             using (var crStream = new CryptoStream(stream, cryptic.CreateEncryptor(), CryptoStreamMode.Write))
             {
-                //and we decorate further by encoding
+                // Further decorates the CryptoStream with a GZipStream (the second Decorator).
                 using (var gz = new GZipStream(crStream, CompressionLevel.Optimal))
                 {
                     gz.Write(data, 0, data.Length);
@@ -84,10 +88,9 @@ internal class DecoratorDemo
 ## Homework
 
 
-1.    <br />
-Add a logging to DBConnection.    <br />
-2.    <br />
-Use by decorating a coffee with milk, sugar, and chocolate (and maybe other condiments).    <br />
+1.Create a LoggingDbConnectionDecorator class that adds logging functionality to a DbConnection object..    <br />
+This class should log the details of the operations performed on the DbConnection (like opening a connection, closing a connection, executing a command, etc.) to a log file or console..    <br />
+2.Your task is to model a coffee shop ordering system using the Decorator design pattern. The base component will be a coffee, and you will create decorators for adding milk, sugar, and chocolate..    <br />
 The coffee should be able to display the condiments in a Display method and calculate the price of the coffee with milk, sugar, and chocolate.    <br />
 
 

@@ -8,7 +8,7 @@ internal class DecoratorDemo
         if (File.Exists(nameFile))
             File.Delete(nameFile);
         byte[] data = ASCIIEncoding.ASCII.GetBytes("Hello World!");
-        //first time we have a stream
+        // Creates a FileStream (the ConcreteComponent in the Decorator pattern context).
         using (var stream = new FileStream(nameFile, FileMode.OpenOrCreate, FileAccess.Write))
         {
             //stream.Write(data, 0, data.Length);
@@ -18,10 +18,10 @@ internal class DecoratorDemo
 
             cryptic.Key = ASCIIEncoding.ASCII.GetBytes("ABCDEFGH");
             cryptic.IV = ASCIIEncoding.ASCII.GetBytes("ABCDEFGH");
-            //we decorate the initial stream with a crypto stream
+            // Decorates the FileStream with a CryptoStream (the first Decorator).
             using (var crStream = new CryptoStream(stream, cryptic.CreateEncryptor(), CryptoStreamMode.Write))
             {
-                //and we decorate further by encoding
+                // Further decorates the CryptoStream with a GZipStream (the second Decorator).
                 using (var gz = new GZipStream(crStream, CompressionLevel.Optimal))
                 {
                     gz.Write(data, 0, data.Length);
