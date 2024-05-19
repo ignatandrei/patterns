@@ -11,8 +11,10 @@ internal class FactoryDemo
 {
     public static void DemoWebRequest()
     {
-        HttpWebRequest hwr = (HttpWebRequest)WebRequest.Create("http://www.yahoo.com");
 
+        //WebRequest.Create is a factory - can create HttpWebRequest or FtpWebRequest
+        HttpWebRequest hwr = (HttpWebRequest)WebRequest.Create("http://www.yahoo.com");
+        
     }
     public static void DemoConvert()
     {

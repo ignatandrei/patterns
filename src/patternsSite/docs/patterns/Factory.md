@@ -18,6 +18,10 @@ A factory is a function or method that returns objects of a varying prototype or
 
 ## Purpose of .NET implementation
 
+For getting data from Web, you can have a HttpWebRequest or FtpWebRequest.    <br />
+The type of the request depends on the protocol you want to use :  HTTP or FTP.    <br />
+You want to make easier for the developer to create the appropriate request object based on the string that starts with the protocol.    <br />
+So you can have the Factory pattern method : WebRequest.Create.    <br />
 
 ## Example in .NET : 
 
@@ -37,8 +41,10 @@ internal class FactoryDemo
 {
     public static void DemoWebRequest()
     {
-        HttpWebRequest hwr = (HttpWebRequest)WebRequest.Create("http://www.yahoo.com");
 
+        //WebRequest.Create is a factory - can create HttpWebRequest or FtpWebRequest
+        HttpWebRequest hwr = (HttpWebRequest)WebRequest.Create("http://www.yahoo.com");
+        
     }
     public static void DemoConvert()
     {
@@ -99,6 +105,7 @@ class MyControllerFactory : System.Web.Mvc.DefaultControllerFactory
 ## Homework
 
 
-having multiple types of drinks( water, tea, coffee) with an IDrink interface  create a factory method ( with a parameter ) to create a drink.    <br />
+You want to create multiple types of drinks( water, tea, coffee).    <br />
+With an IDrink interface  create a factory method ( with a parameter ) to create a drink.    <br />
 
 

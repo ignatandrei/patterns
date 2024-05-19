@@ -66,8 +66,8 @@
   },
   {
     "Id": 6,
-    "Line1": "having multiple types of drinks( water, tea, coffee) with an IDrink interface  create a factory method ( with a parameter ) to create a drink  ",
-    "Line10": "",
+    "Line1": "You want to create multiple types of drinks( water, tea, coffee) ",
+    "Line10": "With an IDrink interface  create a factory method ( with a parameter ) to create a drink",
     "Line2": "",
     "Line3": "",
     "Line4": "",

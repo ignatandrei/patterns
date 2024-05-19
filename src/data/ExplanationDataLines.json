@@ -45,6 +45,13 @@
     "Line1":"You are the creator of EFCore that provides ORM capabilities to the developers",
     "Line2":"You want also to have a simplified interface to interact with the underlying database and provide simple methods like EnsureCreated(), BeginTransaction(), etc",
     "Line3":"The Facade pattern provides a unified interface to a set of interfaces in a subsystem. It defines a higher-level interface that makes the subsystem easier to use by providing a single entry point for common operations"
+  },
+  {
+    "Id":6,
+    "Line1":"For getting data from Web, you can have a HttpWebRequest or FtpWebRequest",
+    "Line2":"The type of the request depends on the protocol you want to use :  HTTP or FTP",
+    "Line3":"You want to make easier for the developer to create the appropriate request object based on the string that starts with the protocol",
+    "Line4":"So you can have the Factory pattern method : WebRequest.Create"
   }
 
 ]
