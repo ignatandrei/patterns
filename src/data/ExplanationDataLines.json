@@ -39,6 +39,12 @@
     "Line2":"Imagine you want to write a text to a file, but you want to add some additional functionality(or not, at will) to the stream, such as  compression or encryption.",
     "Line3":"By using the Decorator pattern, you can easily compose streams with different behaviors to create custom stream objects that meet specific requirements", 
     "Line4":"Each stream class focuses on a single responsibility. FileStream handles file I/O, CryptoStream handles encryption and decryption, and GZipStream handles compression and decompression. This makes the classes easier to understand, test, and maintain."
+  },
+  {
+    "Id":7,
+    "Line1":"You are the creator of EFCore that provides ORM capabilities to the developers",
+    "Line2":"You want also to have a simplified interface to interact with the underlying database and provide simple methods like EnsureCreated(), BeginTransaction(), etc",
+    "Line3":"The Facade pattern provides a unified interface to a set of interfaces in a subsystem. It defines a higher-level interface that makes the subsystem easier to use by providing a single entry point for common operations"
   }
 
 ]

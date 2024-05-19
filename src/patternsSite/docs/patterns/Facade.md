@@ -18,6 +18,9 @@ Facade is is an object that provides a simplified interface to a larger body of 
 
 ## Purpose of .NET implementation
 
+You are the creator of EFCore that provides ORM capabilities to the developers.    <br />
+You want also to have a simplified interface to interact with the underlying database and provide simple methods like EnsureCreated(), BeginTransaction(), etc.    <br />
+The Facade pattern provides a unified interface to a set of interfaces in a subsystem. It defines a higher-level interface that makes the subsystem easier to use by providing a single entry point for common operations.    <br />
 
 ## Example in .NET : 
 
@@ -33,9 +36,12 @@ internal class FacadeDemo
     public static void ExecuteSql()
     {
         MyDbContext cnt = new();
-        //calling the facade
+
         DatabaseFacade dbFacade = cnt.Database;
+        //calling the facade for create the database
         dbFacade.EnsureCreated(); 
+        //calling the facade for begin a transaction
+        dbFacade.BeginTransaction();
     }
 }
 
