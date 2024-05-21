@@ -18,6 +18,9 @@ Fluent interface allows you do have method chaining.    <br />
 
 ## Purpose of .NET implementation
 
+The methods of a service collection instance is called multiple times( e.g. for .AddSingleton).    <br />
+You want to ensure that the programmer can write code that is easy to write, easy to read, and easy to maintain.    <br />
+So from each method you return the instance of the service collection, so you can chain the methods.    <br />
 
 ## Example in .NET : 
 
