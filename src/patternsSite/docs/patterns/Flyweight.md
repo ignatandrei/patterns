@@ -18,6 +18,9 @@ Flyweight pattern is used to reduce the memory and resource usage for complex mo
 
 ## Purpose of .NET implementation
 
+String is costly as allocation in .NET, so you want to reuse the same string in the memory.    <br />
+The string.Intern method is used to retrieve a reference to a string from the intern pool, which is a table of unique strings maintained by .NET.    <br />
+If the string you are trying to intern is already in the intern pool, the method returns a reference to the string in the intern pool instead of creating a new string object.    <br />
 
 ## Example in .NET : 
 

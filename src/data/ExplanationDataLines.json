@@ -59,6 +59,12 @@
     "Line2":"You want to ensure that the programmer can write code that is easy to write, easy to read, and easy to maintain", 
     "Line3":"So from each method you return the instance of the service collection, so you can chain the methods", 
 
+  },
+  {
+    "Id":16,
+    "Line1":"String is costly as allocation in .NET, so you want to reuse the same string in the memory",
+    "Line2":"The string.Intern method is used to retrieve a reference to a string from the intern pool, which is a table of unique strings maintained by .NET",
+    "Line3": "If the string you are trying to intern is already in the intern pool, the method returns a reference to the string in the intern pool instead of creating a new string object"
   }
 
 ]
