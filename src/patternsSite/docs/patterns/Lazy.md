@@ -51,7 +51,9 @@ internal class LazyDemo
 
 ## Learn More
 
+    <a href="https://github.com/dotnet/project-system/blob/ebc15f3e0fa644bc96b3a7d19b0595bab9d0ab7d/src/Microsoft.VisualStudio.ProjectSystem.Managed/ProjectSystem/Debug/LaunchSettingsProvider.cs#L39" target="_blank">_defaultLaunchProfile = new Lazy of LaunchProfile </a> <br />
     <a href="https://wiki.c2.com/?LazyInstantiationPattern" target="_blank">C2Wiki</a> <br />
+    <a href="https://github.com/dotnet/roslyn/blob/d89c824648207390f5be355a782048812ba5f91e/src/VisualStudio/Core/Def/Progression/GraphNavigatorExtension.cs#L27" target="_blank">Lazy of IStreamingFindUsagesPresenter</a> <br />
     <a href="https://en.wikipedia.org/wiki/Lazy_initialization" target="_blank">Wikipedia</a> <br />
 
 
