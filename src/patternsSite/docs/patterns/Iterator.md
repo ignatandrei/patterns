@@ -18,6 +18,8 @@ Iterator design pattern allows to traverse a container and access the container'
 
 ## Purpose of .NET implementation
 
+Any collection should be able to loop through its elements.    <br />
+So the iterator pattern could be retrieved almost anywhere in Array, IEnumerable , Hashset, List, and more.    <br />
 
 ## Example in .NET : 
 
