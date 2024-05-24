@@ -17,7 +17,7 @@
     "Description":"Instead of returning null , use an object which implements the expected interface, but whose method body is empty.",
     "LinkWikipedia":"https://en.wikipedia.org/wiki/Null_object_pattern",
     "DemoFileCsproj":"NullObject.csproj",
-    "ClassNames":"EmptyFolder,NullLogger",
+    "ClassNames":"NullLogger,EmptyFolder",
     "Homework":"When retrieving data( e.g. a Person with ID =-1 ) from a database , return a NullObject instead of null. How you will verify that the object is a NullObject?",
     "Tags":"behavioral,design pattern"    
 

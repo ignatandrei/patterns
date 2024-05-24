@@ -70,6 +70,13 @@
     "Id":3,
     "Line1":"Any collection should be able to loop through its elements",
     "Line2":"So the iterator pattern could be retrieved almost anywhere in Array, IEnumerable , Hashset, List, and more"
+  },
+  {
+    "Id":2,
+    "Line1": "You want to log data into the application ( with an ILogger interface ) ",
+    "Line2": "You do not want to verify if the logger is null or not before logging",
+    "Line3": "You can use the Null Object pattern to provide a default implementation of the ILogger interface that does nothing when its methods are called",
   }
+
 
 ]

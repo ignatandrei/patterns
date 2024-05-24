@@ -9,9 +9,9 @@ tags:
 
   - design pattern
 
-  - EmptyFolder
-
   - NullLogger
+
+  - EmptyFolder
 ---
 
 # Pattern:  NullObject
@@ -20,8 +20,35 @@ Instead of returning null , use an object which implements the expected interfac
 
 ## Purpose of .NET implementation
 
+You want to log data into the application ( with an ILogger interface ).    <br />
+You do not want to verify if the logger is null or not before logging.    <br />
+You can use the Null Object pattern to provide a default implementation of the ILogger interface that does nothing when its methods are called.    <br />
 
 ## Examples in .NET : 
+
+
+###  NullLogger
+```csharp showLineNumbers title="NullLogger example for Pattern NullObject"
+
+namespace NullObject;
+internal class LogWithData
+{
+    ILogger _logger;
+    public LogWithData(ILogger? logger=null)
+    {
+        // If logger is null, use NullLogger.Instance
+        // This is the Null Object pattern in action
+        _logger = logger ?? NullLogger.Instance;   
+    }
+    public void DoWork(string message)
+    {
+        // Even if _logger is NullLogger.Instance, this line won't throw a null reference exception
+        // because NullLogger.Instance is a non-functional implementation of ILogger
+        _logger.LogInformation($"start work with {message}");
+    }
+}
+
+```
 
 
 ###  EmptyFolder
@@ -44,26 +71,6 @@ internal class EmptyFolderDemo
         Console.WriteLine($"files.Length:{files.Length}");
         //end example 1
         
-    }
-}
-
-```
-
-
-###  NullLogger
-```csharp showLineNumbers title="NullLogger example for Pattern NullObject"
-
-namespace NullObject;
-internal class LogWithData
-{
-    ILogger _logger;
-    public LogWithData(ILogger? logger=null)
-    {
-        _logger = logger ?? NullLogger.Instance;   
-    }
-    public void DoWork(string message)
-    {
-        _logger.LogInformation($"start work with {message}");
     }
 }
 
