@@ -82,6 +82,13 @@
     "Line1":"You have a factory to create objects",
     "Line2":"You want to have a single point of creation for all the objects",
     "Line3":"You can use the Singleton pattern to ensure that only one instance of the factory is created and that all requests for object creation are handled by that single instance"
+  },
+  {
+    "Id":11,
+    "Line1":"You want to have a function that sort objects based on a specific criteria",
+    "Line2":"You want to let the developer to provide the sort criteria ",
+    "Line3":"You want also  allow the sorting behavior (the strategy) to be selected at runtime",
+    "Line4":"You can use the Strategy pattern to let developer define the sorting criteria and the strategy to be used at runtime"
   }
 
 

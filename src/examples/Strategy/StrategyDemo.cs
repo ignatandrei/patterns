@@ -9,7 +9,7 @@ internal class StrategyDemo
         List<int> al = new ();
         al.Add(102);
         al.Add(201);
-        //sort ascending
+        // Strategy 1: Sorts the list in ascending order.
         al.Sort((x, y) => x.CompareTo(y));
 
         for (int i = 0; i < al.Count; i++)
@@ -19,14 +19,14 @@ internal class StrategyDemo
 
         Console.WriteLine("---------------");
 
-        //sort descending
+        // Strategy 2: Sorts the list in descending order.
         al.Sort((y, x) => x.CompareTo(y));
         for (int i = 0; i < al.Count; i++)
         {
             Console.WriteLine(al[i]);
         }
         Console.WriteLine("---------------");
-        //sort custom
+        // Strategy 3: Sorts the list based on the last digit of each number.
         al.Sort((x, y) => LastDigit(x).CompareTo(LastDigit(y)));
         for (int i = 0; i < al.Count; i++)
         {

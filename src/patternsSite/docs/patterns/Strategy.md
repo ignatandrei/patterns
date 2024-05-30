@@ -19,6 +19,10 @@ It is used when the client expects to have multiple algorithms and wants to choo
 
 ## Purpose of .NET implementation
 
+You want to have a function that sort objects based on a specific criteria.    <br />
+You want to let the developer to provide the sort criteria.    <br />
+You want also  allow the sorting behavior (the strategy) to be selected at runtime.    <br />
+You can use the Strategy pattern to let developer define the sorting criteria and the strategy to be used at runtime.    <br />
 
 ## Example in .NET : 
 
@@ -36,7 +40,7 @@ internal class StrategyDemo
         List<int> al = new ();
         al.Add(102);
         al.Add(201);
-        //sort ascending
+        // Strategy 1: Sorts the list in ascending order.
         al.Sort((x, y) => x.CompareTo(y));
 
         for (int i = 0; i < al.Count; i++)
@@ -46,14 +50,14 @@ internal class StrategyDemo
 
         Console.WriteLine("---------------");
 
-        //sort descending
+        // Strategy 2: Sorts the list in descending order.
         al.Sort((y, x) => x.CompareTo(y));
         for (int i = 0; i < al.Count; i++)
         {
             Console.WriteLine(al[i]);
         }
         Console.WriteLine("---------------");
-        //sort custom
+        // Strategy 3: Sorts the list based on the last digit of each number.
         al.Sort((x, y) => LastDigit(x).CompareTo(LastDigit(y)));
         for (int i = 0; i < al.Count; i++)
         {
