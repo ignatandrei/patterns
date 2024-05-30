@@ -19,6 +19,9 @@ It is used when you want to have one instance of a class that is shared across t
 
 ## Purpose of .NET implementation
 
+You have a factory to create objects.    <br />
+You want to have a single point of creation for all the objects.    <br />
+You can use the Singleton pattern to ensure that only one instance of the factory is created and that all requests for object creation are handled by that single instance.    <br />
 
 ## Example in .NET : 
 

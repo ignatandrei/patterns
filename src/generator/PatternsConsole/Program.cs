@@ -14,6 +14,15 @@ foreach (var a in all)
         .SelectMany(e => e.Lines())
         .ToArray();
 }
+var noEx= all.Where(a => a.Explanation.Length == 0).ToArray();
+if (noEx.Length > 0)
+{
+    Console.WriteLine("No explanation for patterns :");
+    foreach (var a in noEx)
+    {
+        Console.WriteLine(a.Id + " " + a.Title);
+    }
+}
 //foreach (var a in all)
 //{
 //    HomeworkDataLines dl = new();
