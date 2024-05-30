@@ -18,6 +18,10 @@ Lazy initialization is the tactic of delaying the creation of an object, the cal
 
 ## Purpose of .NET implementation
 
+You want to access one object that is difficult to create.    <br />
+But you do not know when will be created.    <br />
+You can use the Lazy pattern to create the object only when it is needed.    <br />
+The Lazy of generic T class provides a way to defer the creation of an object until it is actually needed, allowing you to avoid the cost of creating the object until it is actually required.    <br />
 
 ## Example in .NET : 
 

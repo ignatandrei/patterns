@@ -97,6 +97,13 @@
     "Line2": "You want to be able to test the code without the file system",
     "Line3":"So you want to abstract the file system",
     "Line4":"See file system abstraction in the links below"
+  },
+  {
+    "Id":14,
+    "Line1":"You want to access one object that is difficult to create",
+    "Line2":"But you do not know when will be created",
+    "Line3":"You can use the Lazy pattern to create the object only when it is needed",
+    "Line4":"The Lazy of generic T class provides a way to defer the creation of an object until it is actually needed, allowing you to avoid the cost of creating the object until it is actually required"
   }
 
 ]
