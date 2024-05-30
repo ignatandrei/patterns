@@ -601,5 +601,13 @@
       "IDPatternData":14,
       "Link":"https://github.com/dotnet/project-system/blob/ebc15f3e0fa644bc96b3a7d19b0595bab9d0ab7d/src/Microsoft.VisualStudio.ProjectSystem.Managed/ProjectSystem/Debug/LaunchSettingsProvider.cs#L39",
       "Name":"SourceCode _defaultLaunchProfile = new Lazy of LaunchProfile "
+    },
+    {
+      "Id":96,
+      "IDPatternData":13,
+      "Link":"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0",
+      "Name":"File Providers in ASP.NET Core"
+
     }
+
 ]

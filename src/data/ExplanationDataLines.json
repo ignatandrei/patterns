@@ -90,6 +90,13 @@
     "Line3":"You want also  allow the sorting behavior (the strategy) to be selected at runtime",
     "Line4":"You can use the Strategy pattern to let developer define the sorting criteria and the strategy to be used at runtime"
   }
-
+  ,
+  {
+    "Id": 13,
+    "Line1": "You want people to work with the file system . Possibly without a file or a directory that exists, but just with implementation",
+    "Line2": "You want to be able to test the code without the file system",
+    "Line3":"So you want to abstract the file system",
+    "Line4":"See file system abstraction in the links below"
+  }
 
 ]

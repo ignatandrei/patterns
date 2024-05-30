@@ -1,5 +1,5 @@
 
-# Patterns With Examples from .NET  :  17
+# Patterns With Examples from .NET  :  18
 
 
 ## [AbstractFactory](https://ignatandrei.github.io/patterns/docs/patterns/AbstractFactory)
@@ -43,6 +43,11 @@
 
     
 ## [Flyweight](https://ignatandrei.github.io/patterns/docs/patterns/Flyweight)
+
+
+
+    
+## [IOC](https://ignatandrei.github.io/patterns/docs/patterns/IOC)
 
 
 

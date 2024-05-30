@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples from .NET  :  17
+# Patterns With Examples from .NET  :  18
 
 
         ## [AbstractFactory](/docs/patterns/AbstractFactory)
@@ -51,6 +51,11 @@ title: Patterns
 
 
     
+        ## [IOC](/docs/patterns/IOC)
+
+
+
+    
         ## [Iterator](/docs/patterns/Iterator)
 
 
@@ -91,9 +96,3 @@ title: Patterns
 
 
     
-
-        # Patterns to be added : 1
-
-
-                ## IOC
-                

@@ -140,7 +140,7 @@
   },
   {
     "Id": 13,
-    "Stage":"notdone",
+    "Stage":"done",
     "Title": "IOC",
     "ClassNames":"IOC,DI", 
     "DemoFileCsproj":"IOC.csproj",
