@@ -19,6 +19,10 @@ A practical result of this separation is the ability to add new operations to ex
 
 ## Purpose of .NET implementation
 
+Roslyn is a syntax analyzer for C#.    <br />
+You want to provide a way for other  to analyze/modify the syntax of a C# code.    <br />
+You can use the Visitor pattern to traverse the syntax tree and perform operations on the nodes of the tree.    <br />
+The Visitor pattern allows you to separate the algorithm from the data structure, making it easier to add new operations to the syntax tree without modifying the existing classes.    <br />
 
 ## Example in .NET : 
 

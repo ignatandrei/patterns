@@ -111,6 +111,13 @@
     "Line2":"But if you have a complex object, you may want to use the Prototype pattern",
     "Line3":"You then provide MemberwiseClone is a shallow copy for the members of an object",
     "Line4":"However, the Prototype pattern is not used very often in .NET, because the ICloneable interface is not very useful",
+  },
+  {
+    "Id":12,
+    "Line1":"Roslyn is a syntax analyzer for C#",
+    "Line2":"You want to provide a way for other  to analyze/modify the syntax of a C# code",
+    "Line3":"You can use the Visitor pattern to traverse the syntax tree and perform operations on the nodes of the tree",
+    "Line4":"The Visitor pattern allows you to separate the algorithm from the data structure, making it easier to add new operations to the syntax tree without modifying the existing classes"
   }
 
 ]
