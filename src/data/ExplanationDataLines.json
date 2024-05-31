@@ -104,6 +104,13 @@
     "Line2":"But you do not know when will be created",
     "Line3":"You can use the Lazy pattern to create the object only when it is needed",
     "Line4":"The Lazy of generic T class provides a way to defer the creation of an object until it is actually needed, allowing you to avoid the cost of creating the object until it is actually required"
+  },
+  {
+    "Id":5,
+    "Line1":"If you want to clone an object ( that has members and methods ), the easy way is to copy the members into a new instance",
+    "Line2":"But if you have a complex object, you may want to use the Prototype pattern",
+    "Line3":"You then provide MemberwiseClone is a shallow copy for the members of an object",
+    "Line4":"However, the Prototype pattern is not used very often in .NET, because the ICloneable interface is not very useful",
   }
 
 ]

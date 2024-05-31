@@ -18,6 +18,10 @@ It is used when the type of objects to create is determined by a prototypical in
 
 ## Purpose of .NET implementation
 
+If you want to clone an object ( that has members and methods ), the easy way is to copy the members into a new instance.    <br />
+But if you have a complex object, you may want to use the Prototype pattern.    <br />
+You then provide MemberwiseClone is a shallow copy for the members of an object.    <br />
+However, the Prototype pattern is not used very often in .NET, because the ICloneable interface is not very useful.    <br />
 
 ## Example in .NET : 
 
