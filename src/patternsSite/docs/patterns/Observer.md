@@ -18,6 +18,8 @@ Observer pattern is a behavioral design pattern that defines a one-to-many depen
 
 ## Purpose of .NET implementation
 
+You want to see when properties of an object are modified, to know how to react in the GUI.    <br />
+You can use the Observer pattern to notify the GUI when the properties of the object are modified.    <br />
 
 ## Example in .NET : 
 

@@ -118,6 +118,11 @@
     "Line2":"You want to provide a way for other  to analyze/modify the syntax of a C# code",
     "Line3":"You can use the Visitor pattern to traverse the syntax tree and perform operations on the nodes of the tree",
     "Line4":"The Visitor pattern allows you to separate the algorithm from the data structure, making it easier to add new operations to the syntax tree without modifying the existing classes"
+  },
+  {
+    "Id":18,
+    "Line1":"You want to see when properties of an object are modified, to know how to react in the GUI",
+    "Line2":"You can use the Observer pattern to notify the GUI when the properties of the object are modified"
   }
 
 ]
