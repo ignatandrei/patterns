@@ -69,17 +69,21 @@ Read online at https://ignatandrei.github.io/patterns/docs/patterns/@Model.Title
 
 @foreach (var link in Model.SourceCodeLinks())
 {
-    <a href="@link.Link" target="_blank">@link.Name</a>
-    <br />
+<text>
+[@link.Name](@link.Link) : @link.Link
+</text>
 }
 
 
 ## Learn More
 
 @foreach (var link in Model.ExternalLinks())
-{
-    <a href="@link.Link" target="_blank">@link.Name</a> <br />
-}
+        {
+<text>
+[@link.Name](@link.Link) : @link.Link   
+</text>
+
+        }
 
 </text>
 }

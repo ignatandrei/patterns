@@ -63,16 +63,20 @@ internal class SingletonDemo
 
 ## See Source Code for Microsoft implementation of Singleton
 
-    <a href="https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/OleDb/OleDbFactory.cs" target="_blank">SourceCode OleDbFactory.Instance</a>
-    <br />
+
+[SourceCode OleDbFactory.Instance](https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/OleDb/OleDbFactory.cs) : https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/OleDb/OleDbFactory.cs
 
 
 ## Learn More
 
-    <a href="https://wiki.c2.com/?SingletonPattern" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/singleton-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-singleton" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](https://wiki.c2.com/?SingletonPattern) : https://wiki.c2.com/?SingletonPattern   
+
+[dofactory](http://www.dofactory.com/net/singleton-design-pattern) : http://www.dofactory.com/net/singleton-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-singleton) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-singleton   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern) : https://en.wikipedia.org/wiki/Singleton_pattern   
 
 
 ## Homework

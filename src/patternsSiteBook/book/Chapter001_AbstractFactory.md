@@ -47,13 +47,14 @@ internal class AbstractFactoryDemo
 
 ## See Source Code for Microsoft implementation of AbstractFactory
 
-    <a href="https://source.dot.net/#System.Data.Common/System/Data/Common/DbConnection.cs" target="_blank">SourceCode DbConnection</a>
-    <br />
+
+[SourceCode DbConnection](https://source.dot.net/#System.Data.Common/System/Data/Common/DbConnection.cs) : https://source.dot.net/#System.Data.Common/System/Data/Common/DbConnection.cs
 
 
 ## Learn More
 
-    <a href="https://en.wikipedia.org/wiki/Abstract_factory_pattern" target="_blank">Wikipedia</a> <br />
+
+[Wikipedia](https://en.wikipedia.org/wiki/Abstract_factory_pattern) : https://en.wikipedia.org/wiki/Abstract_factory_pattern   
 
 
 ## Homework

@@ -74,18 +74,22 @@ internal class DecoratorDemo
 
 ## See Source Code for Microsoft implementation of Decorator
 
-    <a href="https://source.dot.net/#System.Security.Cryptography/System/Security/Cryptography/CryptoStream.cs" target="_blank">SourceCode CryptoStream</a>
-    <br />
-    <a href="https://source.dot.net/#System.IO.Compression/System/IO/Compression/GZipStream.cs" target="_blank">SourceCode GZipStream</a>
-    <br />
+
+[SourceCode CryptoStream](https://source.dot.net/#System.Security.Cryptography/System/Security/Cryptography/CryptoStream.cs) : https://source.dot.net/#System.Security.Cryptography/System/Security/Cryptography/CryptoStream.cs
+
+[SourceCode GZipStream](https://source.dot.net/#System.IO.Compression/System/IO/Compression/GZipStream.cs) : https://source.dot.net/#System.IO.Compression/System/IO/Compression/GZipStream.cs
 
 
 ## Learn More
 
-    <a href="http://wiki.c2.com/?DecoratorPattern" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/decorator-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-decorator" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](http://wiki.c2.com/?DecoratorPattern) : http://wiki.c2.com/?DecoratorPattern   
+
+[dofactory](http://www.dofactory.com/net/decorator-design-pattern) : http://www.dofactory.com/net/decorator-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-decorator) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-decorator   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Prototype_pattern) : https://en.wikipedia.org/wiki/Prototype_pattern   
 
 
 ## Homework

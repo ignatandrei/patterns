@@ -66,6 +66,7 @@ await generator.CreateZip(
     Path.Combine(rootFolderFromGit, "src", "examples"),
     Path.Combine(rootFolderFromGit, "src", "patternsSite","static","zipSourceCodes")
 );
+
 foreach (var link in generator.NoSourceCode())
 {
     Console.WriteLine($"No source code for {link.Id} {link.Title}");

@@ -69,18 +69,22 @@ static class UriBuilderDemo
 
 ## See Source Code for Microsoft implementation of Builder
 
-    <a href="https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs" target="_blank">SourceCode SqlConnectionStringBuilder</a>
-    <br />
-    <a href="https://source.dot.net/#System.Private.Uri/System/UriBuilder.cs" target="_blank">SourceCode UriBuilder</a>
-    <br />
+
+[SourceCode SqlConnectionStringBuilder](https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs) : https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs
+
+[SourceCode UriBuilder](https://source.dot.net/#System.Private.Uri/System/UriBuilder.cs) : https://source.dot.net/#System.Private.Uri/System/UriBuilder.cs
 
 
 ## Learn More
 
-    <a href="http://wiki.c2.com/?BuilderPattern" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/Builder-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Builder" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](http://wiki.c2.com/?BuilderPattern) : http://wiki.c2.com/?BuilderPattern   
+
+[dofactory](http://www.dofactory.com/net/Builder-design-pattern) : http://www.dofactory.com/net/Builder-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Builder) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Builder   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern) : https://en.wikipedia.org/wiki/Builder_pattern   
 
 
 ## Homework

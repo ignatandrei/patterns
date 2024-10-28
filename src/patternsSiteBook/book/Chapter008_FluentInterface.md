@@ -55,13 +55,14 @@ internal static class FluentInterfaceDemo
 
 ## See Source Code for Microsoft implementation of FluentInterface
 
-    <a href="https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollectionServiceExtensions.cs" target="_blank">SourceCode Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton</a>
-    <br />
+
+[SourceCode Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton](https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollectionServiceExtensions.cs) : https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollectionServiceExtensions.cs
 
 
 ## Learn More
 
-    <a href="https://en.wikipedia.org/wiki/Software_design_pattern" target="_blank">Wikipedia</a> <br />
+
+[Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern) : https://en.wikipedia.org/wiki/Software_design_pattern   
 
 
 ## Homework

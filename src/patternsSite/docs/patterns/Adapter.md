@@ -111,20 +111,24 @@ internal class EncodingAdapterDemo
 
 ## See Source Code for Microsoft implementation of Adapter
 
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/ASCIIEncoding.cs" target="_blank">SourceCode AsciiEncoding</a>
-    <br />
-    <a href="https://github.com/mono/mono/blob/9bb01f57a126dab35f070ce238457931e9814c33/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLiteDataAdapter.cs#L20" target="_blank">SourceCode SqliteDataAdapter</a>
-    <br />
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/UTF32Encoding.cs" target="_blank">SourceCode UTF32Encoding</a>
-    <br />
+
+[SourceCode AsciiEncoding](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/ASCIIEncoding.cs) : https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/ASCIIEncoding.cs
+
+[SourceCode SqliteDataAdapter](https://github.com/mono/mono/blob/9bb01f57a126dab35f070ce238457931e9814c33/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLiteDataAdapter.cs#L20) : https://github.com/mono/mono/blob/9bb01f57a126dab35f070ce238457931e9814c33/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLiteDataAdapter.cs#L20
+
+[SourceCode UTF32Encoding](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/UTF32Encoding.cs) : https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/UTF32Encoding.cs
 
 
 ## Learn More
 
-    <a href="http://wiki.c2.com/?AdapterPattern" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/Adapter-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Adapter" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Adapter_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](http://wiki.c2.com/?AdapterPattern) : http://wiki.c2.com/?AdapterPattern   
+
+[dofactory](http://www.dofactory.com/net/Adapter-design-pattern) : http://www.dofactory.com/net/Adapter-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Adapter) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Adapter   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern) : https://en.wikipedia.org/wiki/Adapter_pattern   
 
 
 ## Homework

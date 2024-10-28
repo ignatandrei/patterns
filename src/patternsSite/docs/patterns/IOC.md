@@ -86,15 +86,18 @@ public class EmailService : IMessageService
 
 ## See Source Code for Microsoft implementation of IOC
 
-    <a href="https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollection.cs" target="_blank">SourceCode ServiceCollection</a>
-    <br />
+
+[SourceCode ServiceCollection](https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollection.cs) : https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollection.cs
 
 
 ## Learn More
 
-    <a href="http://www.dofactory.com/net/InversionOfControl-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-InversionOfControl" target="_blank">DPH</a> <br />
-    <a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0" target="_blank">File Providers in ASP.NET Core</a> <br />
+
+[dofactory](http://www.dofactory.com/net/InversionOfControl-design-pattern) : http://www.dofactory.com/net/InversionOfControl-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-InversionOfControl) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-InversionOfControl   
+
+[File Providers in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0) : https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0   
 
 
 ## Homework

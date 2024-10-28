@@ -1,7 +1,7 @@
 {
     "book":{
-        "title":"Please edit title in bookData.json from .bookSettings",
-        "author":"Please edit author in bookData.json from .bookSettings"
+        "title":"Pattern in .NET Core",
+        "author":"Andrei Ignat"
     },
     "locations": [
     {

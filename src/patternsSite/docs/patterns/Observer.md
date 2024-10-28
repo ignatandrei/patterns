@@ -83,13 +83,14 @@ internal class ObserverDemo
 
 ## See Source Code for Microsoft implementation of Observer
 
-    <a href="https://source.dot.net/#System.ObjectModel/System/ComponentModel/INotifyPropertyChanged.cs" target="_blank">SourceCode INotifyPropertyChanged</a>
-    <br />
+
+[SourceCode INotifyPropertyChanged](https://source.dot.net/#System.ObjectModel/System/ComponentModel/INotifyPropertyChanged.cs) : https://source.dot.net/#System.ObjectModel/System/ComponentModel/INotifyPropertyChanged.cs
 
 
 ## Learn More
 
-    <a href="https://en.wikipedia.org/wiki/Observer_pattern" target="_blank">Wikipedia</a> <br />
+
+[Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern) : https://en.wikipedia.org/wiki/Observer_pattern   
 
 
 ## Homework

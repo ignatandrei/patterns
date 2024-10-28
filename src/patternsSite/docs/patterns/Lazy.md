@@ -52,18 +52,20 @@ internal class LazyDemo
 
 ## See Source Code for Microsoft implementation of Lazy
 
-    <a href="https://github.com/dotnet/project-system/blob/ebc15f3e0fa644bc96b3a7d19b0595bab9d0ab7d/src/Microsoft.VisualStudio.ProjectSystem.Managed/ProjectSystem/Debug/LaunchSettingsProvider.cs#L39" target="_blank">SourceCode _defaultLaunchProfile = new Lazy of LaunchProfile </a>
-    <br />
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Lazy.cs" target="_blank">SourceCode Lazy</a>
-    <br />
-    <a href="https://github.com/dotnet/roslyn/blob/d89c824648207390f5be355a782048812ba5f91e/src/VisualStudio/Core/Def/Progression/GraphNavigatorExtension.cs#L27" target="_blank">SourceCode Lazy of IStreamingFindUsagesPresenter</a>
-    <br />
+
+[SourceCode _defaultLaunchProfile = new Lazy of LaunchProfile ](https://github.com/dotnet/project-system/blob/ebc15f3e0fa644bc96b3a7d19b0595bab9d0ab7d/src/Microsoft.VisualStudio.ProjectSystem.Managed/ProjectSystem/Debug/LaunchSettingsProvider.cs#L39) : https://github.com/dotnet/project-system/blob/ebc15f3e0fa644bc96b3a7d19b0595bab9d0ab7d/src/Microsoft.VisualStudio.ProjectSystem.Managed/ProjectSystem/Debug/LaunchSettingsProvider.cs#L39
+
+[SourceCode Lazy](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Lazy.cs) : https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Lazy.cs
+
+[SourceCode Lazy of IStreamingFindUsagesPresenter](https://github.com/dotnet/roslyn/blob/d89c824648207390f5be355a782048812ba5f91e/src/VisualStudio/Core/Def/Progression/GraphNavigatorExtension.cs#L27) : https://github.com/dotnet/roslyn/blob/d89c824648207390f5be355a782048812ba5f91e/src/VisualStudio/Core/Def/Progression/GraphNavigatorExtension.cs#L27
 
 
 ## Learn More
 
-    <a href="https://wiki.c2.com/?LazyInstantiationPattern" target="_blank">C2Wiki</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Lazy_initialization" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](https://wiki.c2.com/?LazyInstantiationPattern) : https://wiki.c2.com/?LazyInstantiationPattern   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Lazy_initialization) : https://en.wikipedia.org/wiki/Lazy_initialization   
 
 
 ## Homework

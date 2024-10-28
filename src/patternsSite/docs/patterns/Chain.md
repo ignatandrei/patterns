@@ -68,18 +68,22 @@ public static class ChainDemo
 
 ## See Source Code for Microsoft implementation of Chain
 
-    <a href="https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs" target="_blank">SourceCode ApplicationBuilderExtensions.UseMiddleware</a>
-    <br />
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs" target="_blank">SourceCode UseMiddlewareExtensions.UseMiddleware</a>
-    <br />
+
+[SourceCode ApplicationBuilderExtensions.UseMiddleware](https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs) : https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs
+
+[SourceCode UseMiddlewareExtensions.UseMiddleware](https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs) : https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs
 
 
 ## Learn More
 
-    <a href="https://wiki.c2.com/?ChainOfResponsibilityPattern" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/chain-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-chain" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](https://wiki.c2.com/?ChainOfResponsibilityPattern) : https://wiki.c2.com/?ChainOfResponsibilityPattern   
+
+[dofactory](http://www.dofactory.com/net/chain-design-pattern) : http://www.dofactory.com/net/chain-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-chain) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-chain   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern) : https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern   
 
 
 ## Homework

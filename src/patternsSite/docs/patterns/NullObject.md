@@ -86,16 +86,20 @@ internal class EmptyFolderDemo
 
 ## See Source Code for Microsoft implementation of NullObject
 
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs" target="_blank">SourceCode Directory.GetFiles</a>
-    <br />
+
+[SourceCode Directory.GetFiles](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs) : https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs
 
 
 ## Learn More
 
-    <a href="https://wiki.c2.com/?NullObject" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/NullObject-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-NullObject" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Null_object_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](https://wiki.c2.com/?NullObject) : https://wiki.c2.com/?NullObject   
+
+[dofactory](http://www.dofactory.com/net/NullObject-design-pattern) : http://www.dofactory.com/net/NullObject-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-NullObject) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-NullObject   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Null_object_pattern) : https://en.wikipedia.org/wiki/Null_object_pattern   
 
 
 ## Homework

@@ -42,20 +42,24 @@ internal class DirectoryEnumerableDemo
 
 ## See Source Code for Microsoft implementation of Iterator
 
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs" target="_blank">SourceCode Directory.GetFiles</a>
-    <br />
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs" target="_blank">SourceCode IEnumerable</a>
-    <br />
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerator.cs" target="_blank">SourceCode IEnumerator</a>
-    <br />
+
+[SourceCode Directory.GetFiles](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs) : https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs
+
+[SourceCode IEnumerable](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs) : https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs
+
+[SourceCode IEnumerator](https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerator.cs) : https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerator.cs
 
 
 ## Learn More
 
-    <a href="https://wiki.c2.com/?IteratorPattern" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/Iterator-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Iterator" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/iterator_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](https://wiki.c2.com/?IteratorPattern) : https://wiki.c2.com/?IteratorPattern   
+
+[dofactory](http://www.dofactory.com/net/Iterator-design-pattern) : http://www.dofactory.com/net/Iterator-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Iterator) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Iterator   
+
+[Wikipedia](https://en.wikipedia.org/wiki/iterator_pattern) : https://en.wikipedia.org/wiki/iterator_pattern   
 
 
 ## Homework

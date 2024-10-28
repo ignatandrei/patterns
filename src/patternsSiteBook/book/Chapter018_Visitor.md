@@ -82,17 +82,22 @@ public class MethodVisiting : CSharpSyntaxRewriter
 
 ## See Source Code for Microsoft implementation of Visitor
 
-    <a href="https://github.com/dotnet/roslyn/blob/cecdb802007a49e346215c0afdce354d6c111112/src/Compilers/CSharp/Portable/Syntax/CSharpSyntaxRewriter.cs#L17" target="_blank">SourceCode CSharpSyntaxRewriter</a>
-    <br />
+
+[SourceCode CSharpSyntaxRewriter](https://github.com/dotnet/roslyn/blob/cecdb802007a49e346215c0afdce354d6c111112/src/Compilers/CSharp/Portable/Syntax/CSharpSyntaxRewriter.cs#L17) : https://github.com/dotnet/roslyn/blob/cecdb802007a49e346215c0afdce354d6c111112/src/Compilers/CSharp/Portable/Syntax/CSharpSyntaxRewriter.cs#L17
 
 
 ## Learn More
 
-    <a href="http://wiki.c2.com/?VisitorPattern" target="_blank">C2Wiki</a> <br />
-    <a href="https://wiki.c2.com/?VisitorPattern" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/visitor-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-visitor" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Visitor_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](http://wiki.c2.com/?VisitorPattern) : http://wiki.c2.com/?VisitorPattern   
+
+[C2Wiki](https://wiki.c2.com/?VisitorPattern) : https://wiki.c2.com/?VisitorPattern   
+
+[dofactory](http://www.dofactory.com/net/visitor-design-pattern) : http://www.dofactory.com/net/visitor-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-visitor) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-visitor   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Visitor_pattern) : https://en.wikipedia.org/wiki/Visitor_pattern   
 
 
 ## Homework

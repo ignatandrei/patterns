@@ -42,13 +42,14 @@ internal class FlyweightDemo
 
 ## See Source Code for Microsoft implementation of Flyweight
 
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs" target="_blank">SourceCode String.Intern</a>
-    <br />
+
+[SourceCode String.Intern](https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs) : https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs
 
 
 ## Learn More
 
-    <a href="https://en.wikipedia.org/wiki/Flyweight_pattern" target="_blank">Wikipedia</a> <br />
+
+[Wikipedia](https://en.wikipedia.org/wiki/Flyweight_pattern) : https://en.wikipedia.org/wiki/Flyweight_pattern   
 
 
 ## Homework

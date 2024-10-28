@@ -69,16 +69,20 @@ class Parent : ICloneable
 
 ## See Source Code for Microsoft implementation of Prototype
 
-    <a href="https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs" target="_blank">SourceCode Object.MemberwiseClone</a>
-    <br />
+
+[SourceCode Object.MemberwiseClone](https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs) : https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs
 
 
 ## Learn More
 
-    <a href="https://wiki.c2.com/?PrototypePattern" target="_blank">C2Wiki</a> <br />
-    <a href="http://www.dofactory.com/net/Prototype-design-pattern" target="_blank">dofactory</a> <br />
-    <a href="https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Prototype" target="_blank">DPH</a> <br />
-    <a href="https://en.wikipedia.org/wiki/Prototype_pattern" target="_blank">Wikipedia</a> <br />
+
+[C2Wiki](https://wiki.c2.com/?PrototypePattern) : https://wiki.c2.com/?PrototypePattern   
+
+[dofactory](http://www.dofactory.com/net/Prototype-design-pattern) : http://www.dofactory.com/net/Prototype-design-pattern   
+
+[DPH](https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Prototype) : https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Prototype   
+
+[Wikipedia](https://en.wikipedia.org/wiki/Prototype_pattern) : https://en.wikipedia.org/wiki/Prototype_pattern   
 
 
 ## Homework
