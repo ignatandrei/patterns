@@ -1,0 +1,8 @@
+[
+    {
+        "type": "LoadedResource",
+        "verbosity": "INFO",
+        "for": "./Introduction_Assets/author.png",
+        "from": "book\\./Introduction_Assets/author.png"
+    }
+]

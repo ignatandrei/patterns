@@ -29,24 +29,52 @@ public class GeneratorFiles
         }
         return true;
     }
-    public async Task<bool> WriteDocusaurus(string folder)
+    private async Task<bool> WriteIntro(string folder)
     {
         var intro = new Intro(this);
         var textIntro = await intro.RenderAsync();
         await File.WriteAllTextAsync(Path.Combine(folder, "intro.md"), textIntro);
+        return true;
+    }
+    private async Task<bool> WritePatterns(string folder, bool AsChapter)
+    {
         var data = this.patterns.Select(it => it
-        .DataDocusaurus()
-        .AddData(it))
-            .ToArray();
+.DataDocusaurus()
+.AddData(it))
+    .ToArray();
         var str = await Task.WhenAll(data);
-        var fldPatterns = Path.Combine(folder, "patterns");
+        int nr = 0;
         foreach (var it in str)
         {
             if (string.IsNullOrWhiteSpace(it.res))
                 continue;
-            var file = Path.Combine(fldPatterns, it.data.Title + ".md");
+            string chapter = AsChapter ? "Chapter"+(++nr).ToString("00#")+"_":"";
+            var file = Path.Combine(folder, chapter+ it.data.Title + ".md");
             await File.WriteAllTextAsync(file, it.res);
         }
+        return true;
+    }
+    public async Task<bool> WriteDocusaurus(string folder)
+    {
+        await WriteIntro(folder);
+        //var intro = new Intro(this);
+        //var textIntro = await intro.RenderAsync();
+        //await File.WriteAllTextAsync(Path.Combine(folder, "intro.md"), textIntro);
+
+        var fldPatterns = Path.Combine(folder, "patterns");
+        //var data = this.patterns.Select(it => it
+        //.DataDocusaurus()
+        //.AddData(it))
+        //    .ToArray();
+        //var str = await Task.WhenAll(data);
+        //foreach (var it in str)
+        //{
+        //    if (string.IsNullOrWhiteSpace(it.res))
+        //        continue;
+        //    var file = Path.Combine(fldPatterns, it.data.Title + ".md");
+        //    await File.WriteAllTextAsync(file, it.res);
+        //}
+        await WritePatterns(fldPatterns,false);
         return true;
     }
     public async Task<bool> WriteReadme(string file)
@@ -92,5 +120,12 @@ public class GeneratorFiles
             }
             ZipFile.CreateFromDirectory(item, zip);
         }
+    }
+
+    public async Task<bool> WriteBook(string folder)
+    {
+        string fld=  Path.Combine(folder, "book");
+        await WritePatterns(fld,true);
+        return true;
     }
 }

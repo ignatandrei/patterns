@@ -1,0 +1,2033 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Please edit author in bookData.json from .bookSettings" />
+  <title>Please edit title in bookData.json from .bookSettings – Please edit title in bookData.json from .bookSettings</title>
+  <style>
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Please edit title in bookData.json from
+.bookSettings</h1>
+<p class="author">Please edit author in bookData.json from
+.bookSettings</p>
+</header>
+<nav id="fooTOC" role="doc-toc">
+<ul>
+<li><a href="#foothis-is-the-introduction-for-book" id="footoc-this-is-the-introduction-for-book">This is the introduction
+for book</a></li>
+<li><a href="#foopattern-builder" id="footoc-pattern-builder">Pattern:
+Builder</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation" id="footoc-purpose-of-net-implementation">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexamples-in-net-" id="footoc-examples-in-net-">Examples
+in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-builder" id="footoc-see-source-code-for-microsoft-implementation-of-builder">See
+Source Code for Microsoft implementation of Builder</a></li>
+<li><a href="#foolearn-more" id="footoc-learn-more">Learn More</a></li>
+<li><a href="#foohomework" id="footoc-homework">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-nullobject" id="footoc-pattern-nullobject">Pattern: NullObject</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-1" id="footoc-purpose-of-net-implementation-1">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexamples-in-net--1" id="footoc-examples-in-net--1">Examples in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-nullobject" id="footoc-see-source-code-for-microsoft-implementation-of-nullobject">See
+Source Code for Microsoft implementation of NullObject</a></li>
+<li><a href="#foolearn-more-1" id="footoc-learn-more-1">Learn
+More</a></li>
+<li><a href="#foohomework-1" id="footoc-homework-1">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-iterator" id="footoc-pattern-iterator">Pattern:
+Iterator</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-2" id="footoc-purpose-of-net-implementation-2">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net-" id="footoc-example-in-net-">Example in
+.NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-iterator" id="footoc-see-source-code-for-microsoft-implementation-of-iterator">See
+Source Code for Microsoft implementation of Iterator</a></li>
+<li><a href="#foolearn-more-2" id="footoc-learn-more-2">Learn
+More</a></li>
+<li><a href="#foohomework-2" id="footoc-homework-2">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-adapter" id="footoc-pattern-adapter">Pattern:
+Adapter</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-3" id="footoc-purpose-of-net-implementation-3">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexamples-in-net--2" id="footoc-examples-in-net--2">Examples in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-adapter" id="footoc-see-source-code-for-microsoft-implementation-of-adapter">See
+Source Code for Microsoft implementation of Adapter</a></li>
+<li><a href="#foolearn-more-3" id="footoc-learn-more-3">Learn
+More</a></li>
+<li><a href="#foohomework-3" id="footoc-homework-3">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-prototype" id="footoc-pattern-prototype">Pattern: Prototype</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-4" id="footoc-purpose-of-net-implementation-4">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--1" id="footoc-example-in-net--1">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-prototype" id="footoc-see-source-code-for-microsoft-implementation-of-prototype">See
+Source Code for Microsoft implementation of Prototype</a></li>
+<li><a href="#foolearn-more-4" id="footoc-learn-more-4">Learn
+More</a></li>
+<li><a href="#foohomework-4" id="footoc-homework-4">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-factory" id="footoc-pattern-factory">Pattern:
+Factory</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-5" id="footoc-purpose-of-net-implementation-5">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--2" id="footoc-example-in-net--2">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-factory" id="footoc-see-source-code-for-microsoft-implementation-of-factory">See
+Source Code for Microsoft implementation of Factory</a></li>
+<li><a href="#foolearn-more-5" id="footoc-learn-more-5">Learn
+More</a></li>
+<li><a href="#foohomework-5" id="footoc-homework-5">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-facade" id="footoc-pattern-facade">Pattern:
+Facade</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-6" id="footoc-purpose-of-net-implementation-6">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--3" id="footoc-example-in-net--3">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-facade" id="footoc-see-source-code-for-microsoft-implementation-of-facade">See
+Source Code for Microsoft implementation of Facade</a></li>
+<li><a href="#foolearn-more-6" id="footoc-learn-more-6">Learn
+More</a></li>
+<li><a href="#foohomework-6" id="footoc-homework-6">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-decorator" id="footoc-pattern-decorator">Pattern: Decorator</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-7" id="footoc-purpose-of-net-implementation-7">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--4" id="footoc-example-in-net--4">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-decorator" id="footoc-see-source-code-for-microsoft-implementation-of-decorator">See
+Source Code for Microsoft implementation of Decorator</a></li>
+<li><a href="#foolearn-more-7" id="footoc-learn-more-7">Learn
+More</a></li>
+<li><a href="#foohomework-7" id="footoc-homework-7">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-chain" id="footoc-pattern-chain">Pattern:
+Chain</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-8" id="footoc-purpose-of-net-implementation-8">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--5" id="footoc-example-in-net--5">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-chain" id="footoc-see-source-code-for-microsoft-implementation-of-chain">See
+Source Code for Microsoft implementation of Chain</a></li>
+<li><a href="#foolearn-more-8" id="footoc-learn-more-8">Learn
+More</a></li>
+<li><a href="#foohomework-8" id="footoc-homework-8">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-singleton" id="footoc-pattern-singleton">Pattern: Singleton</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-9" id="footoc-purpose-of-net-implementation-9">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--6" id="footoc-example-in-net--6">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-singleton" id="footoc-see-source-code-for-microsoft-implementation-of-singleton">See
+Source Code for Microsoft implementation of Singleton</a></li>
+<li><a href="#foolearn-more-9" id="footoc-learn-more-9">Learn
+More</a></li>
+<li><a href="#foohomework-9" id="footoc-homework-9">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-strategy" id="footoc-pattern-strategy">Pattern:
+Strategy</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-10" id="footoc-purpose-of-net-implementation-10">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--7" id="footoc-example-in-net--7">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-strategy" id="footoc-see-source-code-for-microsoft-implementation-of-strategy">See
+Source Code for Microsoft implementation of Strategy</a></li>
+<li><a href="#foolearn-more-10" id="footoc-learn-more-10">Learn
+More</a></li>
+<li><a href="#foohomework-10" id="footoc-homework-10">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-visitor" id="footoc-pattern-visitor">Pattern:
+Visitor</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-11" id="footoc-purpose-of-net-implementation-11">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--8" id="footoc-example-in-net--8">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-visitor" id="footoc-see-source-code-for-microsoft-implementation-of-visitor">See
+Source Code for Microsoft implementation of Visitor</a></li>
+<li><a href="#foolearn-more-11" id="footoc-learn-more-11">Learn
+More</a></li>
+<li><a href="#foohomework-11" id="footoc-homework-11">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-ioc" id="footoc-pattern-ioc">Pattern: IOC</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-12" id="footoc-purpose-of-net-implementation-12">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexamples-in-net--3" id="footoc-examples-in-net--3">Examples in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-ioc" id="footoc-see-source-code-for-microsoft-implementation-of-ioc">See
+Source Code for Microsoft implementation of IOC</a></li>
+<li><a href="#foolearn-more-12" id="footoc-learn-more-12">Learn
+More</a></li>
+<li><a href="#foohomework-12" id="footoc-homework-12">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-lazy" id="footoc-pattern-lazy">Pattern:
+Lazy</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-13" id="footoc-purpose-of-net-implementation-13">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--9" id="footoc-example-in-net--9">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-lazy" id="footoc-see-source-code-for-microsoft-implementation-of-lazy">See
+Source Code for Microsoft implementation of Lazy</a></li>
+<li><a href="#foolearn-more-13" id="footoc-learn-more-13">Learn
+More</a></li>
+<li><a href="#foohomework-13" id="footoc-homework-13">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-fluentinterface" id="footoc-pattern-fluentinterface">Pattern: FluentInterface</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-14" id="footoc-purpose-of-net-implementation-14">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--10" id="footoc-example-in-net--10">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-fluentinterface" id="footoc-see-source-code-for-microsoft-implementation-of-fluentinterface">See
+Source Code for Microsoft implementation of FluentInterface</a></li>
+<li><a href="#foolearn-more-14" id="footoc-learn-more-14">Learn
+More</a></li>
+<li><a href="#foohomework-14" id="footoc-homework-14">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-flyweight" id="footoc-pattern-flyweight">Pattern: Flyweight</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-15" id="footoc-purpose-of-net-implementation-15">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--11" id="footoc-example-in-net--11">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-flyweight" id="footoc-see-source-code-for-microsoft-implementation-of-flyweight">See
+Source Code for Microsoft implementation of Flyweight</a></li>
+<li><a href="#foolearn-more-15" id="footoc-learn-more-15">Learn
+More</a></li>
+<li><a href="#foohomework-15" id="footoc-homework-15">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-abstractfactory" id="footoc-pattern-abstractfactory">Pattern: AbstractFactory</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-16" id="footoc-purpose-of-net-implementation-16">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--12" id="footoc-example-in-net--12">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-abstractfactory" id="footoc-see-source-code-for-microsoft-implementation-of-abstractfactory">See
+Source Code for Microsoft implementation of AbstractFactory</a></li>
+<li><a href="#foolearn-more-16" id="footoc-learn-more-16">Learn
+More</a></li>
+<li><a href="#foohomework-16" id="footoc-homework-16">Homework</a></li>
+</ul></li>
+<li><a href="#foopattern-observer" id="footoc-pattern-observer">Pattern:
+Observer</a>
+<ul>
+<li><a href="#foopurpose-of-net-implementation-17" id="footoc-purpose-of-net-implementation-17">Purpose of .NET
+implementation</a></li>
+<li><a href="#fooexample-in-net--13" id="footoc-example-in-net--13">Example in .NET :</a></li>
+<li><a href="#foosee-source-code-for-microsoft-implementation-of-observer" id="footoc-see-source-code-for-microsoft-implementation-of-observer">See
+Source Code for Microsoft implementation of Observer</a></li>
+<li><a href="#foolearn-more-17" id="footoc-learn-more-17">Learn
+More</a></li>
+<li><a href="#foohomework-17" id="footoc-homework-17">Homework</a></li>
+</ul></li>
+</ul>
+</nav>
+<section id="foothis-is-the-introduction-for-book" class="level2">
+<h2>This is the introduction for book</h2>
+<p>I was starting to write this book, book, because ...</p>
+<p>I am happy that you buy it - see you next time!</p>
+<p><img role="img" aria-label="Author" src="data:image/png;base64,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" title="Author" alt="Author" /></p>
+<hr />
+<p>id: Builder title: Builder tags:</p>
+<ul>
+<li><p>Builder</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>creational</p></li>
+<li><p>design pattern</p></li>
+<li><p>SqlConnectionStringBuilder</p></li>
+<li><p>UriBuilder</p></li>
+</ul>
+<hr />
+</section>
+<section id="foopattern-builder" class="level2">
+<h2>Pattern: Builder</h2>
+<!-- id : 1 -->
+
+<p>The intent of the Builder design pattern is to separate the
+construction of a complex object from its representation. <br /></p>
+<section id="foopurpose-of-net-implementation" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want to let the developer construct a SqlConnectionString. <br />
+The SqlConnectionStringBuilder class provides a way to construct
+connection strings for SQL Server databases. <br /> Instead of requiring
+the developer to construct a connection string in one go, potentially
+leading to mistakes or omissions, SqlConnectionStringBuilder allows for
+the step-by-step construction of a connection string. <br /> This can
+help to ensure that all necessary parameters are included and that the
+connection string is correctly formatted. <br /> Once all necessary
+parameters have been set, the ConnectionString property of the
+SqlConnectionStringBuilder object can be used to retrieve the
+constructed connection string. <br /></p>
+</section>
+<section id="fooexamples-in-net-" class="level3">
+<h3>Examples in .NET :</h3>
+<section id="foosqlconnectionstringbuilder" class="level4">
+<h4>SqlConnectionStringBuilder</h4>
+<div class="sourceCode" id="foocb1"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb1-1"><a href="#foocb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Builder<span class="op">;</span></span>
+<span id="foocb1-2"><a href="#foocb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> ConnectionStringDemo</span>
+<span id="foocb1-3"><a href="#foocb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb1-4"><a href="#foocb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">ConnectionString</span><span class="op">()</span></span>
+<span id="foocb1-5"><a href="#foocb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb1-6"><a href="#foocb1-6" aria-hidden="true" tabindex="-1"></a>        <span class="co">//start example 2</span></span>
+<span id="foocb1-7"><a href="#foocb1-7" aria-hidden="true" tabindex="-1"></a>        SqlConnectionStringBuilder build <span class="op">=</span> <span class="kw">new</span> <span class="op">();</span></span>
+<span id="foocb1-8"><a href="#foocb1-8" aria-hidden="true" tabindex="-1"></a>        build<span class="op">.</span><span class="fu">DataSource</span> <span class="op">=</span> <span class="st">&quot;.&quot;</span><span class="op">;</span></span>
+<span id="foocb1-9"><a href="#foocb1-9" aria-hidden="true" tabindex="-1"></a>        build<span class="op">.</span><span class="fu">InitialCatalog</span> <span class="op">=</span> <span class="st">&quot;MyDatabase&quot;</span><span class="op">;</span></span>
+<span id="foocb1-10"><a href="#foocb1-10" aria-hidden="true" tabindex="-1"></a>        build<span class="op">.</span><span class="fu">ConnectTimeout</span> <span class="op">=</span> <span class="dv">30</span><span class="op">;</span></span>
+<span id="foocb1-11"><a href="#foocb1-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Outputs the constructed connection string to the console. This demonstrates the final product of the Builder pattern.</span></span>
+<span id="foocb1-12"><a href="#foocb1-12" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>build<span class="op">.</span><span class="fu">ConnectionString</span><span class="op">);</span></span>
+<span id="foocb1-13"><a href="#foocb1-13" aria-hidden="true" tabindex="-1"></a>        <span class="co">//end example 2</span></span>
+<span id="foocb1-14"><a href="#foocb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb1-15"><a href="#foocb1-15" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
+<section id="foouribuilder" class="level4">
+<h4>UriBuilder</h4>
+<div class="sourceCode" id="foocb2"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb2-1"><a href="#foocb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Builder<span class="op">;</span></span>
+<span id="foocb2-2"><a href="#foocb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">static</span> <span class="kw">class</span> UriBuilderDemo</span>
+<span id="foocb2-3"><a href="#foocb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb2-4"><a href="#foocb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">UriMod</span><span class="op">()</span></span>
+<span id="foocb2-5"><a href="#foocb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb2-6"><a href="#foocb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="co">//start example 1</span></span>
+<span id="foocb2-7"><a href="#foocb2-7" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> uri <span class="op">=</span> <span class="kw">new</span> <span class="fu">Uri</span><span class="op">(</span><span class="st">&quot;https://msprogrammer.serviciipeweb.ro/category/friday-links/&quot;</span><span class="op">);</span></span>
+<span id="foocb2-8"><a href="#foocb2-8" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> b <span class="op">=</span> <span class="kw">new</span> <span class="fu">UriBuilder</span><span class="op">(</span>uri<span class="op">);</span></span>
+<span id="foocb2-9"><a href="#foocb2-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">//changing part</span></span>
+<span id="foocb2-10"><a href="#foocb2-10" aria-hidden="true" tabindex="-1"></a>        b<span class="op">.</span><span class="fu">Scheme</span> <span class="op">=</span> <span class="st">&quot;http&quot;</span><span class="op">;</span></span>
+<span id="foocb2-11"><a href="#foocb2-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">//now we have http://msprogrammer.serviciipeweb.ro/category/friday-links/</span></span>
+<span id="foocb2-12"><a href="#foocb2-12" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>b<span class="op">.</span><span class="fu">Uri</span><span class="op">);</span></span>
+<span id="foocb2-13"><a href="#foocb2-13" aria-hidden="true" tabindex="-1"></a>        <span class="co">//changing part</span></span>
+<span id="foocb2-14"><a href="#foocb2-14" aria-hidden="true" tabindex="-1"></a>        b<span class="op">.</span><span class="fu">Path</span> <span class="op">=</span> <span class="st">&quot;2018/03/05/design-patterns-class/&quot;</span><span class="op">;</span></span>
+<span id="foocb2-15"><a href="#foocb2-15" aria-hidden="true" tabindex="-1"></a>        <span class="co">//now we have http://msprogrammer.serviciipeweb.ro/2018/03/05/design-patterns-class/</span></span>
+<span id="foocb2-16"><a href="#foocb2-16" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>b<span class="op">.</span><span class="fu">Uri</span><span class="op">);</span></span>
+<span id="foocb2-17"><a href="#foocb2-17" aria-hidden="true" tabindex="-1"></a>        <span class="co">//end example 1</span></span>
+<span id="foocb2-18"><a href="#foocb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb2-19"><a href="#foocb2-19" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/builder.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-builder" class="level3">
+<h3>See Source Code for Microsoft implementation of Builder</h3>
+<pre><code>&lt;a href=&quot;https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs&quot; target=&quot;_blank&quot;&gt;SourceCode SqlConnectionStringBuilder&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://source.dot.net/#System.Private.Uri/System/UriBuilder.cs&quot; target=&quot;_blank&quot;&gt;SourceCode UriBuilder&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;http://wiki.c2.com/?BuilderPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/Builder-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Builder&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Builder_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework" class="level3">
+<h3>Homework</h3>
+<p>Imagine that you have a logger that logs to a file and to a console.
+<br /> Implement a builder that will allow you to create a logger with
+different configurations. <br /> For example, you can set the log level,
+the log format, and the log destination. <br /></p>
+<hr />
+<p>id: NullObject title: NullObject tags:</p>
+<ul>
+<li><p>NullObject</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>NullLogger</p></li>
+<li><p>EmptyFolder</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-nullobject" class="level2">
+<h2>Pattern: NullObject</h2>
+<!-- id : 2 -->
+
+<p>Instead of returning null , use an object which implements the
+expected interface, but whose method body is empty. <br /></p>
+<section id="foopurpose-of-net-implementation-1" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want to log data into the application ( with an ILogger interface
+). <br /> You do not want to verify if the logger is null or not before
+logging. <br /> You can use the Null Object pattern to provide a default
+implementation of the ILogger interface that does nothing when its
+methods are called. <br /></p>
+</section>
+<section id="fooexamples-in-net--1" class="level3">
+<h3>Examples in .NET :</h3>
+<section id="foonulllogger" class="level4">
+<h4>NullLogger</h4>
+<div class="sourceCode" id="foocb5"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb5-1"><a href="#foocb5-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb5-2"><a href="#foocb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> NullObject<span class="op">;</span></span>
+<span id="foocb5-3"><a href="#foocb5-3" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> LogWithData</span>
+<span id="foocb5-4"><a href="#foocb5-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb5-5"><a href="#foocb5-5" aria-hidden="true" tabindex="-1"></a>    ILogger _logger<span class="op">;</span></span>
+<span id="foocb5-6"><a href="#foocb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="fu">LogWithData</span><span class="op">(</span>ILogger<span class="op">?</span> logger<span class="op">=</span><span class="kw">null</span><span class="op">)</span></span>
+<span id="foocb5-7"><a href="#foocb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb5-8"><a href="#foocb5-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">// If logger is null, use NullLogger.Instance</span></span>
+<span id="foocb5-9"><a href="#foocb5-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">// This is the Null Object pattern in action</span></span>
+<span id="foocb5-10"><a href="#foocb5-10" aria-hidden="true" tabindex="-1"></a>        _logger <span class="op">=</span> logger <span class="op">??</span> NullLogger<span class="op">.</span><span class="fu">Instance</span><span class="op">;</span>   </span>
+<span id="foocb5-11"><a href="#foocb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb5-12"><a href="#foocb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">DoWork</span><span class="op">(</span><span class="dt">string</span> message<span class="op">)</span></span>
+<span id="foocb5-13"><a href="#foocb5-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb5-14"><a href="#foocb5-14" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Even if _logger is NullLogger.Instance, this line won&#39;t throw a null reference exception</span></span>
+<span id="foocb5-15"><a href="#foocb5-15" aria-hidden="true" tabindex="-1"></a>        <span class="co">// because NullLogger.Instance is a non-functional implementation of ILogger</span></span>
+<span id="foocb5-16"><a href="#foocb5-16" aria-hidden="true" tabindex="-1"></a>        _logger<span class="op">.</span><span class="fu">LogInformation</span><span class="op">(</span>$<span class="st">&quot;start work with {message}&quot;</span><span class="op">);</span></span>
+<span id="foocb5-17"><a href="#foocb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb5-18"><a href="#foocb5-18" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
+<section id="fooemptyfolder" class="level4">
+<h4>EmptyFolder</h4>
+<div class="sourceCode" id="foocb6"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb6-1"><a href="#foocb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">;</span></span>
+<span id="foocb6-2"><a href="#foocb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">IO</span><span class="op">;</span></span>
+<span id="foocb6-3"><a href="#foocb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb6-4"><a href="#foocb6-4" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> NullObject<span class="op">;</span></span>
+<span id="foocb6-5"><a href="#foocb6-5" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> EmptyFolderDemo</span>
+<span id="foocb6-6"><a href="#foocb6-6" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb6-7"><a href="#foocb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">DemoWithCreateNewFolder</span><span class="op">()</span></span>
+<span id="foocb6-8"><a href="#foocb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb6-9"><a href="#foocb6-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">//start example 1</span></span>
+<span id="foocb6-10"><a href="#foocb6-10" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> env <span class="op">=</span> Environment<span class="op">.</span><span class="fu">CurrentDirectory</span><span class="op">;</span></span>
+<span id="foocb6-11"><a href="#foocb6-11" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> guid <span class="op">=</span> Guid<span class="op">.</span><span class="fu">NewGuid</span><span class="op">().</span><span class="fu">ToString</span><span class="op">(</span><span class="st">&quot;X&quot;</span><span class="op">);</span></span>
+<span id="foocb6-12"><a href="#foocb6-12" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> fldEmpty <span class="op">=</span> Path<span class="op">.</span><span class="fu">Combine</span><span class="op">(</span>env<span class="op">,</span> guid<span class="op">);</span></span>
+<span id="foocb6-13"><a href="#foocb6-13" aria-hidden="true" tabindex="-1"></a>        <span class="co">//create empty folder</span></span>
+<span id="foocb6-14"><a href="#foocb6-14" aria-hidden="true" tabindex="-1"></a>        Directory<span class="op">.</span><span class="fu">CreateDirectory</span><span class="op">(</span>fldEmpty<span class="op">);</span></span>
+<span id="foocb6-15"><a href="#foocb6-15" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> files<span class="op">=</span> Directory<span class="op">.</span><span class="fu">GetFiles</span><span class="op">(</span>fldEmpty<span class="op">);</span></span>
+<span id="foocb6-16"><a href="#foocb6-16" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>$<span class="st">&quot;files.Length:{files.Length}&quot;</span><span class="op">);</span></span>
+<span id="foocb6-17"><a href="#foocb6-17" aria-hidden="true" tabindex="-1"></a>        <span class="co">//end example 1</span></span>
+<span id="foocb6-18"><a href="#foocb6-18" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="foocb6-19"><a href="#foocb6-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb6-20"><a href="#foocb6-20" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/nullobject.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-nullobject" class="level3">
+<h3>See Source Code for Microsoft implementation of NullObject</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs&quot; target=&quot;_blank&quot;&gt;SourceCode Directory.GetFiles&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-1" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://wiki.c2.com/?NullObject&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/NullObject-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-NullObject&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Null_object_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-1" class="level3">
+<h3>Homework</h3>
+<p>When retrieving data( e. <br /> g. <br /> a Person with ID =-1 ) from
+a database , return a NullObject instead of null. <br /> How you will
+verify that the object is a NullObject?. <br /></p>
+<hr />
+<p>id: Iterator title: Iterator tags:</p>
+<ul>
+<li><p>Iterator</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>DirectoryEnumerable</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-iterator" class="level2">
+<h2>Pattern: Iterator</h2>
+<!-- id : 3 -->
+
+<p>Iterator design pattern allows to traverse a container and access the
+container&#39;s elements. <br /></p>
+<section id="foopurpose-of-net-implementation-2" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>Any collection should be able to loop through its elements. <br /> So
+the iterator pattern could be retrieved almost anywhere in Array,
+IEnumerable , Hashset, List, and more. <br /></p>
+</section>
+<section id="fooexample-in-net-" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foodirectoryenumerable" class="level4">
+<h4>DirectoryEnumerable</h4>
+<div class="sourceCode" id="foocb9"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb9-1"><a href="#foocb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Iterator<span class="op">;</span></span>
+<span id="foocb9-2"><a href="#foocb9-2" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> DirectoryEnumerableDemo</span>
+<span id="foocb9-3"><a href="#foocb9-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb9-4"><a href="#foocb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">DirectoryEnumerableFiles</span><span class="op">(</span><span class="dt">int</span> nrMaxFiles<span class="op">)</span></span>
+<span id="foocb9-5"><a href="#foocb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb9-6"><a href="#foocb9-6" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> count <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="foocb9-7"><a href="#foocb9-7" aria-hidden="true" tabindex="-1"></a>        <span class="co">//what if we called Directory.GetFiles        </span></span>
+<span id="foocb9-8"><a href="#foocb9-8" aria-hidden="true" tabindex="-1"></a>        <span class="kw">foreach</span> <span class="op">(</span><span class="dt">var</span> file <span class="kw">in</span> Directory<span class="op">.</span><span class="fu">EnumerateFiles</span><span class="op">(</span>@<span class="st">&quot;c:</span><span class="sc">\&quot;</span><span class="st">,&quot;</span><span class="op">*.*</span><span class="st">&quot;,SearchOption.AllDirectories))</span></span>
+<span id="foocb9-9"><a href="#foocb9-9" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb9-10"><a href="#foocb9-10" aria-hidden="true" tabindex="-1"></a>            count<span class="op">++;</span></span>
+<span id="foocb9-11"><a href="#foocb9-11" aria-hidden="true" tabindex="-1"></a>            <span class="kw">if</span> <span class="op">(</span>count <span class="op">&gt;</span> nrMaxFiles<span class="op">)</span></span>
+<span id="foocb9-12"><a href="#foocb9-12" aria-hidden="true" tabindex="-1"></a>                <span class="kw">break</span><span class="op">;</span></span>
+<span id="foocb9-13"><a href="#foocb9-13" aria-hidden="true" tabindex="-1"></a>            Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>file<span class="op">);</span></span>
+<span id="foocb9-14"><a href="#foocb9-14" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb9-15"><a href="#foocb9-15" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb9-16"><a href="#foocb9-16" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/iterator.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-iterator" class="level3">
+<h3>See Source Code for Microsoft implementation of Iterator</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs&quot; target=&quot;_blank&quot;&gt;SourceCode Directory.GetFiles&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs&quot; target=&quot;_blank&quot;&gt;SourceCode IEnumerable&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerator.cs&quot; target=&quot;_blank&quot;&gt;SourceCode IEnumerator&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-2" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://wiki.c2.com/?IteratorPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/Iterator-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Iterator&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/iterator_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-2" class="level3">
+<h3>Homework</h3>
+<p>With the Yield keyword implement a function that return an
+IEnumerable of generic int that will return the first 10 numbers of the
+Fibonacci sequence. <br /></p>
+<hr />
+<p>id: Adapter title: Adapter tags:</p>
+<ul>
+<li><p>Adapter</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>structural</p></li>
+<li><p>design pattern</p></li>
+<li><p>SQLiteDataAdapter</p></li>
+<li><p>EncodingAdapter</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-adapter" class="level2">
+<h2>Pattern: Adapter</h2>
+<!-- id : 4 -->
+
+<p>Adapter design pattern allows the interface of an existing class to
+be used as another interface. <br /> It is often used to make existing
+classes work with others without modifying their source code. <br /></p>
+<section id="foopurpose-of-net-implementation-3" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want to transfer data from a database Command to a DataTable.
+<br /> The SQLiteDataAdapter serves as an adapter between the
+SQLiteCommand object (which represents a SQL command or stored procedure
+to execute against a SQLite database) and the DataTable object (which
+represents in-memory data in a tabular format). <br /></p>
+</section>
+<section id="fooexamples-in-net--2" class="level3">
+<h3>Examples in .NET :</h3>
+<section id="foosqlitedataadapter" class="level4">
+<h4>SQLiteDataAdapter</h4>
+<div class="sourceCode" id="foocb12"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb12-1"><a href="#foocb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Adaptor<span class="op">;</span></span>
+<span id="foocb12-2"><a href="#foocb12-2" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> SQLiteDataAdapterDemo</span>
+<span id="foocb12-3"><a href="#foocb12-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb12-4"><a href="#foocb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">/// </span><span class="kw">&lt;summary&gt;</span></span>
+<span id="foocb12-5"><a href="#foocb12-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">///Adaptee  - Command </span></span>
+<span id="foocb12-6"><a href="#foocb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">///Target  - DataTable</span></span>
+<span id="foocb12-7"><a href="#foocb12-7" aria-hidden="true" tabindex="-1"></a>    <span class="co">///Adapter  - SqlDataAdapter</span></span>
+<span id="foocb12-8"><a href="#foocb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">///Target Method - Fill(Dataset instance)</span></span>
+<span id="foocb12-9"><a href="#foocb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">/// </span><span class="kw">&lt;/summary&gt;</span></span>
+<span id="foocb12-10"><a href="#foocb12-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">/// </span><span class="kw">&lt;returns&gt;&lt;/returns&gt;</span></span>
+<span id="foocb12-11"><a href="#foocb12-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> async Task <span class="fu">MainSqliteAdapterAsync</span><span class="op">()</span></span>
+<span id="foocb12-12"><a href="#foocb12-12" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb12-13"><a href="#foocb12-13" aria-hidden="true" tabindex="-1"></a>        <span class="co">//Target: Creates a DataTable instance to hold the data fetched from the database.</span></span>
+<span id="foocb12-14"><a href="#foocb12-14" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> dataFormats <span class="op">=</span> <span class="kw">new</span> <span class="fu">DataTable</span><span class="op">();</span></span>
+<span id="foocb12-15"><a href="#foocb12-15" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>dataFormats<span class="op">.</span><span class="fu">Rows</span><span class="op">.</span><span class="fu">Count</span><span class="op">);</span></span>
+<span id="foocb12-16"><a href="#foocb12-16" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>dataFormats<span class="op">.</span><span class="fu">Columns</span><span class="op">.</span><span class="fu">Count</span><span class="op">);</span></span>
+<span id="foocb12-17"><a href="#foocb12-17" aria-hidden="true" tabindex="-1"></a>        <span class="kw">using</span> <span class="op">(</span><span class="dt">var</span> con <span class="op">=</span> <span class="kw">new</span> <span class="fu">SQLiteConnection</span><span class="op">())</span></span>
+<span id="foocb12-18"><a href="#foocb12-18" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb12-19"><a href="#foocb12-19" aria-hidden="true" tabindex="-1"></a>            con<span class="op">.</span><span class="fu">ConnectionString</span> <span class="op">=</span> <span class="st">&quot;Data Source=CatalogRo.sqlite3&quot;</span><span class="op">;</span></span>
+<span id="foocb12-20"><a href="#foocb12-20" aria-hidden="true" tabindex="-1"></a>            await con<span class="op">.</span><span class="fu">OpenAsync</span><span class="op">();</span></span>
+<span id="foocb12-21"><a href="#foocb12-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb12-22"><a href="#foocb12-22" aria-hidden="true" tabindex="-1"></a>            <span class="kw">using</span> <span class="op">(</span><span class="dt">var</span> cmd <span class="op">=</span> <span class="kw">new</span> <span class="fu">SQLiteCommand</span><span class="op">())</span></span>
+<span id="foocb12-23"><a href="#foocb12-23" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
+<span id="foocb12-24"><a href="#foocb12-24" aria-hidden="true" tabindex="-1"></a>                <span class="co">// Adaptee: Sets the SQL command text to fetch all records from the &#39;Format&#39; table.</span></span>
+<span id="foocb12-25"><a href="#foocb12-25" aria-hidden="true" tabindex="-1"></a>                cmd<span class="op">.</span><span class="fu">CommandText</span> <span class="op">=</span> <span class="st">&quot;select * from Format&quot;</span><span class="op">;</span></span>
+<span id="foocb12-26"><a href="#foocb12-26" aria-hidden="true" tabindex="-1"></a>                cmd<span class="op">.</span><span class="fu">Connection</span> <span class="op">=</span> con<span class="op">;</span></span>
+<span id="foocb12-27"><a href="#foocb12-27" aria-hidden="true" tabindex="-1"></a>                <span class="kw">using</span> <span class="op">(</span><span class="dt">var</span> adapt <span class="op">=</span> <span class="kw">new</span> <span class="fu">SQLiteDataAdapter</span><span class="op">(</span>cmd<span class="op">))</span></span>
+<span id="foocb12-28"><a href="#foocb12-28" aria-hidden="true" tabindex="-1"></a>                <span class="op">{</span></span>
+<span id="foocb12-29"><a href="#foocb12-29" aria-hidden="true" tabindex="-1"></a>                    <span class="co">// Adapter: Fills the DataTable (Target) with data fetched using the SQLiteCommand (Adaptee).</span></span>
+<span id="foocb12-30"><a href="#foocb12-30" aria-hidden="true" tabindex="-1"></a>                    adapt<span class="op">.</span><span class="fu">Fill</span><span class="op">(</span>dataFormats<span class="op">);</span></span>
+<span id="foocb12-31"><a href="#foocb12-31" aria-hidden="true" tabindex="-1"></a>                <span class="op">}</span></span>
+<span id="foocb12-32"><a href="#foocb12-32" aria-hidden="true" tabindex="-1"></a>            <span class="op">}</span></span>
+<span id="foocb12-33"><a href="#foocb12-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb12-34"><a href="#foocb12-34" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb12-35"><a href="#foocb12-35" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>dataFormats<span class="op">.</span><span class="fu">Rows</span><span class="op">.</span><span class="fu">Count</span><span class="op">);</span></span>
+<span id="foocb12-36"><a href="#foocb12-36" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>dataFormats<span class="op">.</span><span class="fu">Columns</span><span class="op">.</span><span class="fu">Count</span><span class="op">);</span></span>
+<span id="foocb12-37"><a href="#foocb12-37" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb12-38"><a href="#foocb12-38" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
+<section id="fooencodingadapter" class="level4">
+<h4>EncodingAdapter</h4>
+<div class="sourceCode" id="foocb13"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb13-1"><a href="#foocb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Adaptor<span class="op">;</span></span>
+<span id="foocb13-2"><a href="#foocb13-2" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> EncodingAdapterDemo</span>
+<span id="foocb13-3"><a href="#foocb13-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb13-4"><a href="#foocb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">/// </span><span class="kw">&lt;summary&gt;</span></span>
+<span id="foocb13-5"><a href="#foocb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">///Adaptee  - string </span></span>
+<span id="foocb13-6"><a href="#foocb13-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">///Target  - bytes</span></span>
+<span id="foocb13-7"><a href="#foocb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="co">///Adapter  - encoding</span></span>
+<span id="foocb13-8"><a href="#foocb13-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">///Target Method - GetBytes</span></span>
+<span id="foocb13-9"><a href="#foocb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">/// </span><span class="kw">&lt;/summary&gt;</span></span>
+<span id="foocb13-10"><a href="#foocb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">AdapterStringByte</span><span class="op">()</span></span>
+<span id="foocb13-11"><a href="#foocb13-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb13-12"><a href="#foocb13-12" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> url <span class="op">=</span> <span class="st">&quot;http://msprogrammer.serviciipeweb.ro&quot;</span><span class="op">;</span></span>
+<span id="foocb13-13"><a href="#foocb13-13" aria-hidden="true" tabindex="-1"></a>        Encoding e <span class="op">=</span> <span class="kw">new</span> <span class="fu">ASCIIEncoding</span><span class="op">();</span></span>
+<span id="foocb13-14"><a href="#foocb13-14" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> b <span class="op">=</span> e<span class="op">.</span><span class="fu">GetBytes</span><span class="op">(</span>url<span class="op">);</span></span>
+<span id="foocb13-15"><a href="#foocb13-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb13-16"><a href="#foocb13-16" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>$<span class="st">&quot;from {e.EncodingName} number bytes {b.Length}&quot;</span><span class="op">);</span></span>
+<span id="foocb13-17"><a href="#foocb13-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb13-18"><a href="#foocb13-18" aria-hidden="true" tabindex="-1"></a>        e <span class="op">=</span> <span class="kw">new</span> <span class="fu">UTF32Encoding</span><span class="op">();</span></span>
+<span id="foocb13-19"><a href="#foocb13-19" aria-hidden="true" tabindex="-1"></a>        b <span class="op">=</span> e<span class="op">.</span><span class="fu">GetBytes</span><span class="op">(</span>url<span class="op">);</span></span>
+<span id="foocb13-20"><a href="#foocb13-20" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>$<span class="st">&quot;from {e.EncodingName} number bytes {b.Length}&quot;</span><span class="op">);</span></span>
+<span id="foocb13-21"><a href="#foocb13-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb13-22"><a href="#foocb13-22" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb13-23"><a href="#foocb13-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb13-24"><a href="#foocb13-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb13-25"><a href="#foocb13-25" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/adapter.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-adapter" class="level3">
+<h3>See Source Code for Microsoft implementation of Adapter</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/ASCIIEncoding.cs&quot; target=&quot;_blank&quot;&gt;SourceCode AsciiEncoding&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://github.com/mono/mono/blob/9bb01f57a126dab35f070ce238457931e9814c33/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLiteDataAdapter.cs#L20&quot; target=&quot;_blank&quot;&gt;SourceCode SqliteDataAdapter&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/UTF32Encoding.cs&quot; target=&quot;_blank&quot;&gt;SourceCode UTF32Encoding&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-3" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;http://wiki.c2.com/?AdapterPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/Adapter-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Adapter&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Adapter_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-3" class="level3">
+<h3>Homework</h3>
+<p>iPhone 7 does not have a headphone jack. <br /> Implement an adapter
+that will allow you to use your old headphones , that have jack, with
+the iPhone 7. <br /></p>
+<hr />
+<p>id: Prototype title: Prototype tags:</p>
+<ul>
+<li><p>Prototype</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>creational</p></li>
+<li><p>design pattern</p></li>
+<li><p>ICloneable</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-prototype" class="level2">
+<h2>Pattern: Prototype</h2>
+<!-- id : 5 -->
+
+<p>It is used when the type of objects to create is determined by a
+prototypical instance, which is cloned to produce new objects.
+<br /></p>
+<section id="foopurpose-of-net-implementation-4" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>If you want to clone an object ( that has members and methods ), the
+easy way is to copy the members into a new instance. <br /> But if you
+have a complex object, you may want to use the Prototype pattern. <br />
+You then provide MemberwiseClone is a shallow copy for the members of an
+object. <br /> However, the Prototype pattern is not used very often in
+.NET, because the ICloneable interface is not very useful. <br /></p>
+</section>
+<section id="fooexample-in-net--1" class="level3">
+<h3>Example in .NET :</h3>
+<section id="fooicloneable" class="level4">
+<h4>ICloneable</h4>
+<div class="sourceCode" id="foocb16"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb16-1"><a href="#foocb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">;</span></span>
+<span id="foocb16-2"><a href="#foocb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb16-3"><a href="#foocb16-3" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Prototype<span class="op">;</span></span>
+<span id="foocb16-4"><a href="#foocb16-4" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Parent <span class="op">:</span> ICloneable</span>
+<span id="foocb16-5"><a href="#foocb16-5" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb16-6"><a href="#foocb16-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">int</span> Age <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="foocb16-7"><a href="#foocb16-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> Child MyChild <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="foocb16-8"><a href="#foocb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb16-9"><a href="#foocb16-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">object</span> <span class="fu">Clone</span><span class="op">()</span></span>
+<span id="foocb16-10"><a href="#foocb16-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb16-11"><a href="#foocb16-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">//</span><span class="al">TODO</span><span class="co">: serialize + unserialize </span></span>
+<span id="foocb16-12"><a href="#foocb16-12" aria-hidden="true" tabindex="-1"></a>        <span class="co">//with System.Text.Json.JsonSerializer</span></span>
+<span id="foocb16-13"><a href="#foocb16-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb16-14"><a href="#foocb16-14" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> p <span class="op">=</span> <span class="fu">ShallowClone</span><span class="op">();</span></span>
+<span id="foocb16-15"><a href="#foocb16-15" aria-hidden="true" tabindex="-1"></a>        <span class="co">//</span><span class="al">TODO</span><span class="co">: clone the child </span></span>
+<span id="foocb16-16"><a href="#foocb16-16" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> c <span class="op">=</span> <span class="kw">new</span> <span class="fu">Child</span><span class="op">();</span></span>
+<span id="foocb16-17"><a href="#foocb16-17" aria-hidden="true" tabindex="-1"></a>        c<span class="op">.</span><span class="fu">Age</span> <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="fu">MyChild</span><span class="op">.</span><span class="fu">Age</span><span class="op">;</span></span>
+<span id="foocb16-18"><a href="#foocb16-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb16-19"><a href="#foocb16-19" aria-hidden="true" tabindex="-1"></a>        p<span class="op">.</span><span class="fu">MyChild</span> <span class="op">=</span> c<span class="op">;</span></span>
+<span id="foocb16-20"><a href="#foocb16-20" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> p<span class="op">;</span></span>
+<span id="foocb16-21"><a href="#foocb16-21" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb16-22"><a href="#foocb16-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb16-23"><a href="#foocb16-23" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> Parent <span class="fu">ShallowClone</span><span class="op">()</span></span>
+<span id="foocb16-24"><a href="#foocb16-24" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb16-25"><a href="#foocb16-25" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> <span class="kw">this</span><span class="op">.</span><span class="fu">MemberwiseClone</span><span class="op">()</span> <span class="kw">as</span> Parent<span class="op">;</span></span>
+<span id="foocb16-26"><a href="#foocb16-26" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb16-27"><a href="#foocb16-27" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb16-28"><a href="#foocb16-28" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<p><a href="/zipSourceCodes/prototype.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-prototype" class="level3">
+<h3>See Source Code for Microsoft implementation of Prototype</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs&quot; target=&quot;_blank&quot;&gt;SourceCode Object.MemberwiseClone&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-4" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://wiki.c2.com/?PrototypePattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/Prototype-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-Prototype&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Prototype_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-4" class="level3">
+<h3>Homework</h3>
+<p>Imagine that you have a cow farm and you want to create a new cow.
+<br /> Implement a prototype that will allow you to clone a cow. <br />
+The cow should have a name and a weight. <br /></p>
+<hr />
+<p>id: Factory title: Factory tags:</p>
+<ul>
+<li><p>Factory</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>creational</p></li>
+<li><p>design pattern</p></li>
+<li><p>Factory</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-factory" class="level2">
+<h2>Pattern: Factory</h2>
+<!-- id : 6 -->
+
+<p>A factory is a function or method that returns objects of a varying
+prototype or class from some method call, which is assumed to be new.
+<br /></p>
+<section id="foopurpose-of-net-implementation-5" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>For getting data from Web, you can have a HttpWebRequest or
+FtpWebRequest. <br /> The type of the request depends on the protocol
+you want to use : HTTP or FTP. <br /> You want to make easier for the
+developer to create the appropriate request object based on the string
+that starts with the protocol. <br /> So you can have the Factory
+pattern method : WebRequest.Create. <br /></p>
+</section>
+<section id="fooexample-in-net--2" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foofactory" class="level4">
+<h4>Factory</h4>
+<div class="sourceCode" id="foocb19"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb19-1"><a href="#foocb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">AspNetCore</span><span class="op">.</span><span class="fu">Mvc</span><span class="op">;</span></span>
+<span id="foocb19-2"><a href="#foocb19-2" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">AspNetCore</span><span class="op">.</span><span class="fu">Mvc</span><span class="op">.</span><span class="fu">Controllers</span><span class="op">;</span></span>
+<span id="foocb19-3"><a href="#foocb19-3" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">AspNetCore</span><span class="op">.</span><span class="fu">Mvc</span><span class="op">.</span><span class="fu">Internal</span><span class="op">;</span></span>
+<span id="foocb19-4"><a href="#foocb19-4" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Data</span><span class="op">.</span><span class="fu">Common</span><span class="op">;</span></span>
+<span id="foocb19-5"><a href="#foocb19-5" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Globalization</span><span class="op">;</span></span>
+<span id="foocb19-6"><a href="#foocb19-6" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Net</span><span class="op">;</span></span>
+<span id="foocb19-7"><a href="#foocb19-7" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Web</span><span class="op">.</span><span class="fu">Mvc</span><span class="op">;</span></span>
+<span id="foocb19-8"><a href="#foocb19-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb19-9"><a href="#foocb19-9" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Factory<span class="op">;</span></span>
+<span id="foocb19-10"><a href="#foocb19-10" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> FactoryDemo</span>
+<span id="foocb19-11"><a href="#foocb19-11" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb19-12"><a href="#foocb19-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">DemoWebRequest</span><span class="op">()</span></span>
+<span id="foocb19-13"><a href="#foocb19-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb19-14"><a href="#foocb19-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb19-15"><a href="#foocb19-15" aria-hidden="true" tabindex="-1"></a>        <span class="co">//WebRequest.Create is a factory - can create HttpWebRequest or FtpWebRequest</span></span>
+<span id="foocb19-16"><a href="#foocb19-16" aria-hidden="true" tabindex="-1"></a>        HttpWebRequest hwr <span class="op">=</span> <span class="op">(</span>HttpWebRequest<span class="op">)</span>WebRequest<span class="op">.</span><span class="fu">Create</span><span class="op">(</span><span class="st">&quot;http://www.yahoo.com&quot;</span><span class="op">);</span></span>
+<span id="foocb19-17"><a href="#foocb19-17" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="foocb19-18"><a href="#foocb19-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb19-19"><a href="#foocb19-19" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">DemoConvert</span><span class="op">()</span></span>
+<span id="foocb19-20"><a href="#foocb19-20" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb19-21"><a href="#foocb19-21" aria-hidden="true" tabindex="-1"></a>        <span class="dt">string</span> value <span class="op">=</span> <span class="st">&quot;1,500&quot;</span><span class="op">;</span></span>
+<span id="foocb19-22"><a href="#foocb19-22" aria-hidden="true" tabindex="-1"></a>        Thread<span class="op">.</span><span class="fu">CurrentThread</span><span class="op">.</span><span class="fu">CurrentCulture</span> <span class="op">=</span> CultureInfo<span class="op">.</span><span class="fu">CreateSpecificCulture</span><span class="op">(</span><span class="st">&quot;en-US&quot;</span><span class="op">);</span></span>
+<span id="foocb19-23"><a href="#foocb19-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb19-24"><a href="#foocb19-24" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>Convert<span class="op">.</span><span class="fu">ToDouble</span><span class="op">(</span>value<span class="op">));</span></span>
+<span id="foocb19-25"><a href="#foocb19-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb19-26"><a href="#foocb19-26" aria-hidden="true" tabindex="-1"></a>        Thread<span class="op">.</span><span class="fu">CurrentThread</span><span class="op">.</span><span class="fu">CurrentCulture</span> <span class="op">=</span> CultureInfo<span class="op">.</span><span class="fu">CreateSpecificCulture</span><span class="op">(</span><span class="st">&quot;fr-FR&quot;</span><span class="op">);</span></span>
+<span id="foocb19-27"><a href="#foocb19-27" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>Convert<span class="op">.</span><span class="fu">ToDouble</span><span class="op">(</span>value<span class="op">));</span></span>
+<span id="foocb19-28"><a href="#foocb19-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb19-29"><a href="#foocb19-29" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb19-30"><a href="#foocb19-30" aria-hidden="true" tabindex="-1"></a>    <span class="kw">static</span> <span class="dt">void</span> <span class="fu">RegisterControllerFactory</span><span class="op">()</span></span>
+<span id="foocb19-31"><a href="#foocb19-31" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb19-32"><a href="#foocb19-32" aria-hidden="true" tabindex="-1"></a>        ControllerBuilder<span class="op">.</span><span class="fu">Current</span><span class="op">.</span><span class="fu">SetControllerFactory</span><span class="op">(</span><span class="kw">new</span> <span class="fu">MyControllerFactory</span><span class="op">());</span></span>
+<span id="foocb19-33"><a href="#foocb19-33" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb19-34"><a href="#foocb19-34" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb19-35"><a href="#foocb19-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb19-36"><a href="#foocb19-36" aria-hidden="true" tabindex="-1"></a><span class="co">//default controller factory is a factory of controllers</span></span>
+<span id="foocb19-37"><a href="#foocb19-37" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MyControllerFactory <span class="op">:</span> System<span class="op">.</span><span class="fu">Web</span><span class="op">.</span><span class="fu">Mvc</span><span class="op">.</span><span class="fu">DefaultControllerFactory</span></span>
+<span id="foocb19-38"><a href="#foocb19-38" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb19-39"><a href="#foocb19-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb19-40"><a href="#foocb19-40" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">override</span> IController <span class="fu">CreateController</span><span class="op">(</span>System<span class="op">.</span><span class="fu">Web</span><span class="op">.</span><span class="fu">Routing</span><span class="op">.</span><span class="fu">RequestContext</span> requestContext<span class="op">,</span> <span class="dt">string</span> controllerName<span class="op">)</span></span>
+<span id="foocb19-41"><a href="#foocb19-41" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb19-42"><a href="#foocb19-42" aria-hidden="true" tabindex="-1"></a>        <span class="kw">if</span> <span class="op">(</span>controllerName <span class="op">==</span> <span class="st">&quot;andrei&quot;</span><span class="op">)</span></span>
+<span id="foocb19-43"><a href="#foocb19-43" aria-hidden="true" tabindex="-1"></a>            <span class="kw">return</span> <span class="kw">null</span><span class="op">;</span><span class="co">//maybe controller not found</span></span>
+<span id="foocb19-44"><a href="#foocb19-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb19-45"><a href="#foocb19-45" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> <span class="kw">base</span><span class="op">.</span><span class="fu">CreateController</span><span class="op">(</span>requestContext<span class="op">,</span> controllerName<span class="op">);</span></span>
+<span id="foocb19-46"><a href="#foocb19-46" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb19-47"><a href="#foocb19-47" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb19-48"><a href="#foocb19-48" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
+<p><a href="/zipSourceCodes/factory.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-factory" class="level3">
+<h3>See Source Code for Microsoft implementation of Factory</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Convert.cs&quot; target=&quot;_blank&quot;&gt;SourceCode Convert.ToDouble&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://source.dot.net/#Microsoft.AspNetCore.Mvc.Core/Controllers/DefaultControllerFactory.cs&quot; target=&quot;_blank&quot;&gt;SourceCode DefaultControllerFactory&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://referencesource.microsoft.com/#System/net/System/Net/WebRequest.cs&quot; target=&quot;_blank&quot;&gt;SourceCode WebRequest.Create&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-5" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;http://wiki.c2.com/?FactoryPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/factory-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-factory&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://www.danstroot.com/posts/2018-10-03-hammer-factories&quot; target=&quot;_blank&quot;&gt;Hammer Factories&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Factory_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-5" class="level3">
+<h3>Homework</h3>
+<p>You want to create multiple types of drinks( water, tea, coffee).
+<br /> With an IDrink interface create a factory method ( with a
+parameter ) to create a drink. <br /></p>
+<hr />
+<p>id: Facade title: Facade tags:</p>
+<ul>
+<li><p>Facade</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>structural</p></li>
+<li><p>design pattern</p></li>
+<li><p>Facade</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-facade" class="level2">
+<h2>Pattern: Facade</h2>
+<!-- id : 7 -->
+
+<p>Facade is is an object that provides a simplified interface to a
+larger body of code, such as a class library. <br /></p>
+<section id="foopurpose-of-net-implementation-6" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You are the creator of EFCore that provides ORM capabilities to the
+developers. <br /> You want also to have a simplified interface to
+interact with the underlying database and provide simple methods like
+EnsureCreated(), BeginTransaction(), etc. <br /> The Facade pattern
+provides a unified interface to a set of interfaces in a subsystem. It
+defines a higher-level interface that makes the subsystem easier to use
+by providing a single entry point for common operations. <br /></p>
+</section>
+<section id="fooexample-in-net--3" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foofacade" class="level4">
+<h4>Facade</h4>
+<div class="sourceCode" id="foocb22"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb22-1"><a href="#foocb22-1" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">EntityFrameworkCore</span><span class="op">;</span></span>
+<span id="foocb22-2"><a href="#foocb22-2" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">EntityFrameworkCore</span><span class="op">.</span><span class="fu">Infrastructure</span><span class="op">;</span></span>
+<span id="foocb22-3"><a href="#foocb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb22-4"><a href="#foocb22-4" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Facade<span class="op">;</span></span>
+<span id="foocb22-5"><a href="#foocb22-5" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> FacadeDemo</span>
+<span id="foocb22-6"><a href="#foocb22-6" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb22-7"><a href="#foocb22-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">ExecuteSql</span><span class="op">()</span></span>
+<span id="foocb22-8"><a href="#foocb22-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb22-9"><a href="#foocb22-9" aria-hidden="true" tabindex="-1"></a>        MyDbContext cnt <span class="op">=</span> <span class="kw">new</span><span class="op">();</span></span>
+<span id="foocb22-10"><a href="#foocb22-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb22-11"><a href="#foocb22-11" aria-hidden="true" tabindex="-1"></a>        DatabaseFacade dbFacade <span class="op">=</span> cnt<span class="op">.</span><span class="fu">Database</span><span class="op">;</span></span>
+<span id="foocb22-12"><a href="#foocb22-12" aria-hidden="true" tabindex="-1"></a>        <span class="co">//calling the facade for create the database</span></span>
+<span id="foocb22-13"><a href="#foocb22-13" aria-hidden="true" tabindex="-1"></a>        dbFacade<span class="op">.</span><span class="fu">EnsureCreated</span><span class="op">();</span> </span>
+<span id="foocb22-14"><a href="#foocb22-14" aria-hidden="true" tabindex="-1"></a>        <span class="co">//calling the facade for begin a transaction</span></span>
+<span id="foocb22-15"><a href="#foocb22-15" aria-hidden="true" tabindex="-1"></a>        dbFacade<span class="op">.</span><span class="fu">BeginTransaction</span><span class="op">();</span></span>
+<span id="foocb22-16"><a href="#foocb22-16" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb22-17"><a href="#foocb22-17" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb22-18"><a href="#foocb22-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb22-19"><a href="#foocb22-19" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> MyDbContext<span class="op">:</span>DbContext</span>
+<span id="foocb22-20"><a href="#foocb22-20" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb22-21"><a href="#foocb22-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="foocb22-22"><a href="#foocb22-22" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb22-23"><a href="#foocb22-23" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<p><a href="/zipSourceCodes/facade.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-facade" class="level3">
+<h3>See Source Code for Microsoft implementation of Facade</h3>
+<pre><code>&lt;a href=&quot;https://github.com/dotnet/efcore/blob/3163cb9a0677f94bd986dcdbe3d6026d4f743c73/src/EFCore/Infrastructure/DatabaseFacade.cs#L15&quot; target=&quot;_blank&quot;&gt;SourceCode DatabaseFacade&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-6" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;http://wiki.c2.com/?FacadePattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/facade-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-facade&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Facade_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-6" class="level3">
+<h3>Homework</h3>
+<p>Implement a Facade that will allow you to display a question in a
+MessageBox with a single method call in a console application and return
+yes/no as a result. <br /></p>
+<hr />
+<p>id: Decorator title: Decorator tags:</p>
+<ul>
+<li><p>Decorator</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>Decorator</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-decorator" class="level2">
+<h2>Pattern: Decorator</h2>
+<!-- id : 8 -->
+
+<p>Decorator allows behavior to be added to an individual object, either
+statically or dynamically, without affecting the behavior of other
+objects from the same class. <br /></p>
+<section id="foopurpose-of-net-implementation-7" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>Stream is a perfect example of the Decorator pattern. <br /> Imagine
+you want to write a text to a file, but you want to add some additional
+functionality(or not, at will) to the stream, such as compression or
+encryption.. <br /> By using the Decorator pattern, you can easily
+compose streams with different behaviors to create custom stream objects
+that meet specific requirements. <br /> Each stream class focuses on a
+single responsibility. FileStream handles file I/O, CryptoStream handles
+encryption and decryption, and GZipStream handles compression and
+decompression. This makes the classes easier to understand, test, and
+maintain.. <br /></p>
+</section>
+<section id="fooexample-in-net--4" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foodecorator" class="level4">
+<h4>Decorator</h4>
+<div class="sourceCode" id="foocb25"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb25-1"><a href="#foocb25-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb25-2"><a href="#foocb25-2" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Decorator<span class="op">;</span></span>
+<span id="foocb25-3"><a href="#foocb25-3" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> DecoratorDemo</span>
+<span id="foocb25-4"><a href="#foocb25-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb25-5"><a href="#foocb25-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">Stream_Crypto_Gzip</span><span class="op">()</span></span>
+<span id="foocb25-6"><a href="#foocb25-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb25-7"><a href="#foocb25-7" aria-hidden="true" tabindex="-1"></a>        <span class="dt">string</span> nameFile <span class="op">=</span> <span class="st">&quot;test.txt&quot;</span><span class="op">;</span></span>
+<span id="foocb25-8"><a href="#foocb25-8" aria-hidden="true" tabindex="-1"></a>        <span class="kw">if</span> <span class="op">(</span>File<span class="op">.</span><span class="fu">Exists</span><span class="op">(</span>nameFile<span class="op">))</span></span>
+<span id="foocb25-9"><a href="#foocb25-9" aria-hidden="true" tabindex="-1"></a>            File<span class="op">.</span><span class="fu">Delete</span><span class="op">(</span>nameFile<span class="op">);</span></span>
+<span id="foocb25-10"><a href="#foocb25-10" aria-hidden="true" tabindex="-1"></a>        <span class="dt">byte</span><span class="op">[]</span> data <span class="op">=</span> ASCIIEncoding<span class="op">.</span><span class="fu">ASCII</span><span class="op">.</span><span class="fu">GetBytes</span><span class="op">(</span><span class="st">&quot;Hello World!&quot;</span><span class="op">);</span></span>
+<span id="foocb25-11"><a href="#foocb25-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Creates a FileStream (the ConcreteComponent in the Decorator pattern context).</span></span>
+<span id="foocb25-12"><a href="#foocb25-12" aria-hidden="true" tabindex="-1"></a>        <span class="kw">using</span> <span class="op">(</span><span class="dt">var</span> stream <span class="op">=</span> <span class="kw">new</span> <span class="fu">FileStream</span><span class="op">(</span>nameFile<span class="op">,</span> FileMode<span class="op">.</span><span class="fu">OpenOrCreate</span><span class="op">,</span> FileAccess<span class="op">.</span><span class="fu">Write</span><span class="op">))</span></span>
+<span id="foocb25-13"><a href="#foocb25-13" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb25-14"><a href="#foocb25-14" aria-hidden="true" tabindex="-1"></a>            <span class="co">//stream.Write(data, 0, data.Length);</span></span>
+<span id="foocb25-15"><a href="#foocb25-15" aria-hidden="true" tabindex="-1"></a>            <span class="co">//return;</span></span>
+<span id="foocb25-16"><a href="#foocb25-16" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="foocb25-17"><a href="#foocb25-17" aria-hidden="true" tabindex="-1"></a>            <span class="dt">var</span> cryptic <span class="op">=</span> <span class="kw">new</span> <span class="fu">DESCryptoServiceProvider</span><span class="op">();</span></span>
+<span id="foocb25-18"><a href="#foocb25-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb25-19"><a href="#foocb25-19" aria-hidden="true" tabindex="-1"></a>            cryptic<span class="op">.</span><span class="fu">Key</span> <span class="op">=</span> ASCIIEncoding<span class="op">.</span><span class="fu">ASCII</span><span class="op">.</span><span class="fu">GetBytes</span><span class="op">(</span><span class="st">&quot;ABCDEFGH&quot;</span><span class="op">);</span></span>
+<span id="foocb25-20"><a href="#foocb25-20" aria-hidden="true" tabindex="-1"></a>            cryptic<span class="op">.</span><span class="fu">IV</span> <span class="op">=</span> ASCIIEncoding<span class="op">.</span><span class="fu">ASCII</span><span class="op">.</span><span class="fu">GetBytes</span><span class="op">(</span><span class="st">&quot;ABCDEFGH&quot;</span><span class="op">);</span></span>
+<span id="foocb25-21"><a href="#foocb25-21" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Decorates the FileStream with a CryptoStream (the first Decorator).</span></span>
+<span id="foocb25-22"><a href="#foocb25-22" aria-hidden="true" tabindex="-1"></a>            <span class="kw">using</span> <span class="op">(</span><span class="dt">var</span> crStream <span class="op">=</span> <span class="kw">new</span> <span class="fu">CryptoStream</span><span class="op">(</span>stream<span class="op">,</span> cryptic<span class="op">.</span><span class="fu">CreateEncryptor</span><span class="op">(),</span> CryptoStreamMode<span class="op">.</span><span class="fu">Write</span><span class="op">))</span></span>
+<span id="foocb25-23"><a href="#foocb25-23" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
+<span id="foocb25-24"><a href="#foocb25-24" aria-hidden="true" tabindex="-1"></a>                <span class="co">// Further decorates the CryptoStream with a GZipStream (the second Decorator).</span></span>
+<span id="foocb25-25"><a href="#foocb25-25" aria-hidden="true" tabindex="-1"></a>                <span class="kw">using</span> <span class="op">(</span><span class="dt">var</span> gz <span class="op">=</span> <span class="kw">new</span> <span class="fu">GZipStream</span><span class="op">(</span>crStream<span class="op">,</span> CompressionLevel<span class="op">.</span><span class="fu">Optimal</span><span class="op">))</span></span>
+<span id="foocb25-26"><a href="#foocb25-26" aria-hidden="true" tabindex="-1"></a>                <span class="op">{</span></span>
+<span id="foocb25-27"><a href="#foocb25-27" aria-hidden="true" tabindex="-1"></a>                    gz<span class="op">.</span><span class="fu">Write</span><span class="op">(</span>data<span class="op">,</span> <span class="dv">0</span><span class="op">,</span> data<span class="op">.</span><span class="fu">Length</span><span class="op">);</span></span>
+<span id="foocb25-28"><a href="#foocb25-28" aria-hidden="true" tabindex="-1"></a>                <span class="op">}</span></span>
+<span id="foocb25-29"><a href="#foocb25-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb25-30"><a href="#foocb25-30" aria-hidden="true" tabindex="-1"></a>            <span class="op">}</span></span>
+<span id="foocb25-31"><a href="#foocb25-31" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb25-32"><a href="#foocb25-32" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb25-33"><a href="#foocb25-33" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/decorator.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-decorator" class="level3">
+<h3>See Source Code for Microsoft implementation of Decorator</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Security.Cryptography/System/Security/Cryptography/CryptoStream.cs&quot; target=&quot;_blank&quot;&gt;SourceCode CryptoStream&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://source.dot.net/#System.IO.Compression/System/IO/Compression/GZipStream.cs&quot; target=&quot;_blank&quot;&gt;SourceCode GZipStream&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-7" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;http://wiki.c2.com/?DecoratorPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/decorator-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-decorator&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Prototype_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-7" class="level3">
+<h3>Homework</h3>
+<p>1.Create a LoggingDbConnectionDecorator class that adds logging
+functionality to a DbConnection object.. <br /> This class should log
+the details of the operations performed on the DbConnection (like
+opening a connection, closing a connection, executing a command, etc.)
+to a log file or console.. <br /> 2.Your task is to model a coffee shop
+ordering system using the Decorator design pattern. The base component
+will be a coffee, and you will create decorators for adding milk, sugar,
+and chocolate.. <br /> The coffee should be able to display the
+condiments in a Display method and calculate the price of the coffee
+with milk, sugar, and chocolate. <br /></p>
+<hr />
+<p>id: Chain title: Chain tags:</p>
+<ul>
+<li><p>Chain</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>Chain</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-chain" class="level2">
+<h2>Pattern: Chain</h2>
+<!-- id : 9 -->
+
+<p>Chain of responsibility pattern allows an object to send a command
+without knowing what object will receive and handle it. <br /> Chain the
+receiving objects and pass the request along the chain until an object
+handles it. <br /></p>
+<section id="foopurpose-of-net-implementation-8" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want to pass the exception to the possible handlers / catch
+blocks in the all functions in the call stack. <br /> Exception bubbling
+in .NET exemplifies the Chain of Responsibility pattern by allowing
+exceptions to be passed along a chain of potential handlers (catch
+blocks) until one is found that can handle the exception. <br /> This
+can be useful when you want to ensure that exceptions are handled at the
+appropriate level of abstraction, rather than being caught and handled
+at a lower level where they may not be fully understood or properly
+addressed. <br /> By allowing exceptions to bubble up the call stack,
+you can ensure that they are handled in a consistent and appropriate
+manner, regardless of where they occur in the code. <br /> This
+mechanism decouples the thrower of the exception from the handlers,
+providing a flexible and dynamic way of managing errors that occur
+during runtime. <br /></p>
+</section>
+<section id="fooexample-in-net--5" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foochain" class="level4">
+<h4>Chain</h4>
+<div class="sourceCode" id="foocb28"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb28-1"><a href="#foocb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Chain<span class="op">;</span></span>
+<span id="foocb28-2"><a href="#foocb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb28-3"><a href="#foocb28-3" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">static</span> <span class="kw">class</span> ChainDemo</span>
+<span id="foocb28-4"><a href="#foocb28-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb28-5"><a href="#foocb28-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">int</span> <span class="fu">SecondException</span><span class="op">()</span></span>
+<span id="foocb28-6"><a href="#foocb28-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb28-7"><a href="#foocb28-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">try</span></span>
+<span id="foocb28-8"><a href="#foocb28-8" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb28-9"><a href="#foocb28-9" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Calls &#39;FirstException&#39; method which is known to throw an exception.</span></span>
+<span id="foocb28-10"><a href="#foocb28-10" aria-hidden="true" tabindex="-1"></a>            <span class="fu">FirstException</span><span class="op">();</span></span>
+<span id="foocb28-11"><a href="#foocb28-11" aria-hidden="true" tabindex="-1"></a>            <span class="kw">return</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="foocb28-12"><a href="#foocb28-12" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb28-13"><a href="#foocb28-13" aria-hidden="true" tabindex="-1"></a>        <span class="kw">catch</span> <span class="op">(</span>Exception ex<span class="op">)</span></span>
+<span id="foocb28-14"><a href="#foocb28-14" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb28-15"><a href="#foocb28-15" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Throws a new exception, chaining the caught exception &#39;ex&#39; as the inner exception.</span></span>
+<span id="foocb28-16"><a href="#foocb28-16" aria-hidden="true" tabindex="-1"></a>            <span class="co">// This adds context to the exception, indicating it originated from &#39;SecondException&#39;.</span></span>
+<span id="foocb28-17"><a href="#foocb28-17" aria-hidden="true" tabindex="-1"></a>            <span class="kw">throw</span> <span class="kw">new</span> <span class="fu">Exception</span><span class="op">(</span>$<span class="st">&quot;from {nameof(SecondException)}&quot;</span><span class="op">,</span> ex<span class="op">);</span></span>
+<span id="foocb28-18"><a href="#foocb28-18" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb28-19"><a href="#foocb28-19" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb28-20"><a href="#foocb28-20" aria-hidden="true" tabindex="-1"></a>    <span class="kw">static</span> <span class="dt">int</span> <span class="fu">FirstException</span><span class="op">()</span></span>
+<span id="foocb28-21"><a href="#foocb28-21" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb28-22"><a href="#foocb28-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb28-23"><a href="#foocb28-23" aria-hidden="true" tabindex="-1"></a>        <span class="kw">throw</span> <span class="kw">new</span> <span class="fu">ArgumentException</span><span class="op">(</span><span class="st">&quot;argument&quot;</span><span class="op">);</span></span>
+<span id="foocb28-24"><a href="#foocb28-24" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb28-25"><a href="#foocb28-25" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/chain.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-chain" class="level3">
+<h3>See Source Code for Microsoft implementation of Chain</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs&quot; target=&quot;_blank&quot;&gt;SourceCode ApplicationBuilderExtensions.UseMiddleware&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs&quot; target=&quot;_blank&quot;&gt;SourceCode UseMiddlewareExtensions.UseMiddleware&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-8" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://wiki.c2.com/?ChainOfResponsibilityPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/chain-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-chain&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-8" class="level3">
+<h3>Homework</h3>
+<p>Implement a middleware in ASP. <br /> NET Core that intercepts the
+exception and logs it to the database. <br /> The middleware should be
+able to pass the exception to the next middleware in the chain.
+<br /></p>
+<hr />
+<p>id: Singleton title: Singleton tags:</p>
+<ul>
+<li><p>Singleton</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>creational</p></li>
+<li><p>design pattern</p></li>
+<li><p>Singleton</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-singleton" class="level2">
+<h2>Pattern: Singleton</h2>
+<!-- id : 10 -->
+
+<p>Singleton pattern restricts the instantiation of a class to one
+object. <br /> It is used when you want to have one instance of a class
+that is shared across the application. <br /></p>
+<section id="foopurpose-of-net-implementation-9" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You have a factory to create objects. <br /> You want to have a
+single point of creation for all the objects. <br /> You can use the
+Singleton pattern to ensure that only one instance of the factory is
+created and that all requests for object creation are handled by that
+single instance. <br /></p>
+</section>
+<section id="fooexample-in-net--6" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foosingleton" class="level4">
+<h4>Singleton</h4>
+<div class="sourceCode" id="foocb31"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb31-1"><a href="#foocb31-1" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Data</span><span class="op">.</span><span class="fu">OleDb</span><span class="op">;</span></span>
+<span id="foocb31-2"><a href="#foocb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb31-3"><a href="#foocb31-3" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Singleton<span class="op">;</span></span>
+<span id="foocb31-4"><a href="#foocb31-4" aria-hidden="true" tabindex="-1"></a><span class="co">/// </span><span class="kw">&lt;summary&gt;</span></span>
+<span id="foocb31-5"><a href="#foocb31-5" aria-hidden="true" tabindex="-1"></a><span class="co">/// </span></span>
+<span id="foocb31-6"><a href="#foocb31-6" aria-hidden="true" tabindex="-1"></a><span class="co">///sealed class Singleton</span></span>
+<span id="foocb31-7"><a href="#foocb31-7" aria-hidden="true" tabindex="-1"></a><span class="co">///{</span></span>
+<span id="foocb31-8"><a href="#foocb31-8" aria-hidden="true" tabindex="-1"></a><span class="co">///    private Singleton() { }</span></span>
+<span id="foocb31-9"><a href="#foocb31-9" aria-hidden="true" tabindex="-1"></a><span class="co">///    public static readonly Singleton Instance = new Singleton();</span></span>
+<span id="foocb31-10"><a href="#foocb31-10" aria-hidden="true" tabindex="-1"></a><span class="co">///}</span></span>
+<span id="foocb31-11"><a href="#foocb31-11" aria-hidden="true" tabindex="-1"></a><span class="co">///</span></span>
+<span id="foocb31-12"><a href="#foocb31-12" aria-hidden="true" tabindex="-1"></a><span class="co">/// </span><span class="kw">&lt;/summary&gt;</span></span>
+<span id="foocb31-13"><a href="#foocb31-13" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> SingletonDemo</span>
+<span id="foocb31-14"><a href="#foocb31-14" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb31-15"><a href="#foocb31-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">GetFactory</span><span class="op">()</span></span>
+<span id="foocb31-16"><a href="#foocb31-16" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb31-17"><a href="#foocb31-17" aria-hidden="true" tabindex="-1"></a>        <span class="co">//cannot do new</span></span>
+<span id="foocb31-18"><a href="#foocb31-18" aria-hidden="true" tabindex="-1"></a>        <span class="co">//OleDbFactory factory=new OleDbFactory();</span></span>
+<span id="foocb31-19"><a href="#foocb31-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">//get singleton instance</span></span>
+<span id="foocb31-20"><a href="#foocb31-20" aria-hidden="true" tabindex="-1"></a>        OleDbFactory factory <span class="op">=</span> OleDbFactory<span class="op">.</span><span class="fu">Instance</span><span class="op">;</span></span>
+<span id="foocb31-21"><a href="#foocb31-21" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb31-22"><a href="#foocb31-22" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/singleton.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-singleton" class="level3">
+<h3>See Source Code for Microsoft implementation of Singleton</h3>
+<pre><code>&lt;a href=&quot;https://referencesource.microsoft.com/#System.Data/fx/src/data/System/Data/OleDb/OleDbFactory.cs&quot; target=&quot;_blank&quot;&gt;SourceCode OleDbFactory.Instance&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-9" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://wiki.c2.com/?SingletonPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/singleton-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-singleton&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Singleton_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-9" class="level3">
+<h3>Homework</h3>
+<p>Implement a singleton that will allow you to create a single instance
+of a logger that logs to a file and to a console. <br /></p>
+<hr />
+<p>id: Strategy title: Strategy tags:</p>
+<ul>
+<li><p>Strategy</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>Strategy</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-strategy" class="level2">
+<h2>Pattern: Strategy</h2>
+<!-- id : 11 -->
+
+<p>Strategy pattern allows a client to choose from a family of
+algorithms at runtime. <br /> It is used when the client expects to have
+multiple algorithms and wants to choose one of them at runtime.
+<br /></p>
+<section id="foopurpose-of-net-implementation-10" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want to have a function that sort objects based on a specific
+criteria. <br /> You want to let the developer to provide the sort
+criteria. <br /> You want also allow the sorting behavior (the strategy)
+to be selected at runtime. <br /> You can use the Strategy pattern to
+let developer define the sorting criteria and the strategy to be used at
+runtime. <br /></p>
+</section>
+<section id="fooexample-in-net--7" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foostrategy" class="level4">
+<h4>Strategy</h4>
+<div class="sourceCode" id="foocb34"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb34-1"><a href="#foocb34-1" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">;</span></span>
+<span id="foocb34-2"><a href="#foocb34-2" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Collections</span><span class="op">.</span><span class="fu">Generic</span><span class="op">;</span></span>
+<span id="foocb34-3"><a href="#foocb34-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-4"><a href="#foocb34-4" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Strategy<span class="op">;</span></span>
+<span id="foocb34-5"><a href="#foocb34-5" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> StrategyDemo</span>
+<span id="foocb34-6"><a href="#foocb34-6" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb34-7"><a href="#foocb34-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">SortWithDifferentStrategies</span><span class="op">()</span></span>
+<span id="foocb34-8"><a href="#foocb34-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb34-9"><a href="#foocb34-9" aria-hidden="true" tabindex="-1"></a>        List<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> al <span class="op">=</span> <span class="kw">new</span> <span class="op">();</span></span>
+<span id="foocb34-10"><a href="#foocb34-10" aria-hidden="true" tabindex="-1"></a>        al<span class="op">.</span><span class="fu">Add</span><span class="op">(</span><span class="dv">102</span><span class="op">);</span></span>
+<span id="foocb34-11"><a href="#foocb34-11" aria-hidden="true" tabindex="-1"></a>        al<span class="op">.</span><span class="fu">Add</span><span class="op">(</span><span class="dv">201</span><span class="op">);</span></span>
+<span id="foocb34-12"><a href="#foocb34-12" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Strategy 1: Sorts the list in ascending order.</span></span>
+<span id="foocb34-13"><a href="#foocb34-13" aria-hidden="true" tabindex="-1"></a>        al<span class="op">.</span><span class="fu">Sort</span><span class="op">((</span>x<span class="op">,</span> y<span class="op">)</span> <span class="op">=&gt;</span> x<span class="op">.</span><span class="fu">CompareTo</span><span class="op">(</span>y<span class="op">));</span></span>
+<span id="foocb34-14"><a href="#foocb34-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-15"><a href="#foocb34-15" aria-hidden="true" tabindex="-1"></a>        <span class="kw">for</span> <span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> al<span class="op">.</span><span class="fu">Count</span><span class="op">;</span> i<span class="op">++)</span></span>
+<span id="foocb34-16"><a href="#foocb34-16" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb34-17"><a href="#foocb34-17" aria-hidden="true" tabindex="-1"></a>            Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>al<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="foocb34-18"><a href="#foocb34-18" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb34-19"><a href="#foocb34-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-20"><a href="#foocb34-20" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span><span class="st">&quot;---------------&quot;</span><span class="op">);</span></span>
+<span id="foocb34-21"><a href="#foocb34-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-22"><a href="#foocb34-22" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Strategy 2: Sorts the list in descending order.</span></span>
+<span id="foocb34-23"><a href="#foocb34-23" aria-hidden="true" tabindex="-1"></a>        al<span class="op">.</span><span class="fu">Sort</span><span class="op">((</span>y<span class="op">,</span> x<span class="op">)</span> <span class="op">=&gt;</span> x<span class="op">.</span><span class="fu">CompareTo</span><span class="op">(</span>y<span class="op">));</span></span>
+<span id="foocb34-24"><a href="#foocb34-24" aria-hidden="true" tabindex="-1"></a>        <span class="kw">for</span> <span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> al<span class="op">.</span><span class="fu">Count</span><span class="op">;</span> i<span class="op">++)</span></span>
+<span id="foocb34-25"><a href="#foocb34-25" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb34-26"><a href="#foocb34-26" aria-hidden="true" tabindex="-1"></a>            Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>al<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="foocb34-27"><a href="#foocb34-27" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb34-28"><a href="#foocb34-28" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span><span class="st">&quot;---------------&quot;</span><span class="op">);</span></span>
+<span id="foocb34-29"><a href="#foocb34-29" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Strategy 3: Sorts the list based on the last digit of each number.</span></span>
+<span id="foocb34-30"><a href="#foocb34-30" aria-hidden="true" tabindex="-1"></a>        al<span class="op">.</span><span class="fu">Sort</span><span class="op">((</span>x<span class="op">,</span> y<span class="op">)</span> <span class="op">=&gt;</span> <span class="fu">LastDigit</span><span class="op">(</span>x<span class="op">).</span><span class="fu">CompareTo</span><span class="op">(</span><span class="fu">LastDigit</span><span class="op">(</span>y<span class="op">)));</span></span>
+<span id="foocb34-31"><a href="#foocb34-31" aria-hidden="true" tabindex="-1"></a>        <span class="kw">for</span> <span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> al<span class="op">.</span><span class="fu">Count</span><span class="op">;</span> i<span class="op">++)</span></span>
+<span id="foocb34-32"><a href="#foocb34-32" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb34-33"><a href="#foocb34-33" aria-hidden="true" tabindex="-1"></a>            Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>al<span class="op">[</span>i<span class="op">]);</span></span>
+<span id="foocb34-34"><a href="#foocb34-34" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb34-35"><a href="#foocb34-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-36"><a href="#foocb34-36" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> array <span class="op">=</span> al<span class="op">.</span><span class="fu">FindAll</span><span class="op">(</span>it <span class="op">=&gt;</span> it <span class="op">&gt;</span> <span class="dv">10</span><span class="op">);</span></span>
+<span id="foocb34-37"><a href="#foocb34-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-38"><a href="#foocb34-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-39"><a href="#foocb34-39" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb34-40"><a href="#foocb34-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-41"><a href="#foocb34-41" aria-hidden="true" tabindex="-1"></a>    <span class="kw">static</span> <span class="dt">int</span> <span class="fu">LastDigit</span><span class="op">(</span><span class="dt">int</span> x<span class="op">)</span></span>
+<span id="foocb34-42"><a href="#foocb34-42" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb34-43"><a href="#foocb34-43" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> x <span class="op">%</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="foocb34-44"><a href="#foocb34-44" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb34-45"><a href="#foocb34-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb34-46"><a href="#foocb34-46" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb34-47"><a href="#foocb34-47" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<p><a href="/zipSourceCodes/strategy.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-strategy" class="level3">
+<h3>See Source Code for Microsoft implementation of Strategy</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Array.cs&quot; target=&quot;_blank&quot;&gt;SourceCode Array.Sort&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-10" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://wiki.c2.com/?StrategyPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/strategy-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-strategy&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Strategy_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-10" class="level3">
+<h3>Homework</h3>
+<p>Image you want to serialize classes to XML,JSON and CSV. <br />
+Implement a strategy that will allow you to choose between XML , JSON
+and CSV serialization at runtime. <br /></p>
+<hr />
+<p>id: Visitor title: Visitor tags:</p>
+<ul>
+<li><p>Visitor</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>Visitor</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-visitor" class="level2">
+<h2>Pattern: Visitor</h2>
+<!-- id : 12 -->
+
+<p>Visitor pattern is a way of separating an algorithm from an object
+structure on which it operates. <br /> A practical result of this
+separation is the ability to add new operations to existing object
+structures without modifying the structures. <br /></p>
+<section id="foopurpose-of-net-implementation-11" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>Roslyn is a syntax analyzer for C#. <br /> You want to provide a way
+for other to analyze/modify the syntax of a C# code. <br /> You can use
+the Visitor pattern to traverse the syntax tree and perform operations
+on the nodes of the tree. <br /> The Visitor pattern allows you to
+separate the algorithm from the data structure, making it easier to add
+new operations to the syntax tree without modifying the existing
+classes. <br /></p>
+</section>
+<section id="fooexample-in-net--8" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foovisitor" class="level4">
+<h4>Visitor</h4>
+<div class="sourceCode" id="foocb37"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb37-1"><a href="#foocb37-1" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">CodeAnalysis</span><span class="op">;</span></span>
+<span id="foocb37-2"><a href="#foocb37-2" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">CodeAnalysis</span><span class="op">.</span><span class="fu">CSharp</span><span class="op">;</span></span>
+<span id="foocb37-3"><a href="#foocb37-3" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">CodeAnalysis</span><span class="op">.</span><span class="fu">CSharp</span><span class="op">.</span><span class="fu">Syntax</span><span class="op">;</span></span>
+<span id="foocb37-4"><a href="#foocb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-5"><a href="#foocb37-5" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Visitor<span class="op">;</span></span>
+<span id="foocb37-6"><a href="#foocb37-6" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> VisitorDemo</span>
+<span id="foocb37-7"><a href="#foocb37-7" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb37-8"><a href="#foocb37-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">VisitMethods</span><span class="op">()</span></span>
+<span id="foocb37-9"><a href="#foocb37-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb37-10"><a href="#foocb37-10" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> Code <span class="op">=</span> @<span class="st">&quot;&quot;&quot;</span></span>
+<span id="foocb37-11"><a href="#foocb37-11" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">;</span></span>
+<span id="foocb37-12"><a href="#foocb37-12" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Test1</span>
+<span id="foocb37-13"><a href="#foocb37-13" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb37-14"><a href="#foocb37-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">class</span> Program</span>
+<span id="foocb37-15"><a href="#foocb37-15" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb37-16"><a href="#foocb37-16" aria-hidden="true" tabindex="-1"></a>        <span class="kw">static</span> <span class="dt">void</span> <span class="fu">Main</span><span class="op">(</span><span class="dt">string</span><span class="op">[]</span> args<span class="op">)</span></span>
+<span id="foocb37-17"><a href="#foocb37-17" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb37-18"><a href="#foocb37-18" aria-hidden="true" tabindex="-1"></a>              <span class="dt">var</span> dt<span class="op">=</span>DateTime<span class="op">.</span><span class="fu">Now</span><span class="op">;</span></span>
+<span id="foocb37-19"><a href="#foocb37-19" aria-hidden="true" tabindex="-1"></a>              Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>dt<span class="op">);</span></span>
+<span id="foocb37-20"><a href="#foocb37-20" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb37-21"><a href="#foocb37-21" aria-hidden="true" tabindex="-1"></a>     <span class="op">}</span></span>
+<span id="foocb37-22"><a href="#foocb37-22" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb37-23"><a href="#foocb37-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-24"><a href="#foocb37-24" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;;</span></span>
+<span id="foocb37-25"><a href="#foocb37-25" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> tree <span class="op">=</span> CSharpSyntaxTree<span class="op">.</span><span class="fu">ParseText</span><span class="op">(</span>Code<span class="op">);</span></span>
+<span id="foocb37-26"><a href="#foocb37-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-27"><a href="#foocb37-27" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> node <span class="op">=</span> tree<span class="op">.</span><span class="fu">GetRoot</span><span class="op">();</span></span>
+<span id="foocb37-28"><a href="#foocb37-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-29"><a href="#foocb37-29" aria-hidden="true" tabindex="-1"></a>        MethodVisiting LG <span class="op">=</span> <span class="kw">new</span> <span class="fu">MethodVisiting</span><span class="op">();</span></span>
+<span id="foocb37-30"><a href="#foocb37-30" aria-hidden="true" tabindex="-1"></a>        <span class="co">//start visiting</span></span>
+<span id="foocb37-31"><a href="#foocb37-31" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> sn <span class="op">=</span> LG<span class="op">.</span><span class="fu">Visit</span><span class="op">(</span>node<span class="op">);</span></span>
+<span id="foocb37-32"><a href="#foocb37-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-33"><a href="#foocb37-33" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb37-34"><a href="#foocb37-34" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb37-35"><a href="#foocb37-35" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> MethodVisiting <span class="op">:</span> CSharpSyntaxRewriter</span>
+<span id="foocb37-36"><a href="#foocb37-36" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb37-37"><a href="#foocb37-37" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">override</span> SyntaxNode<span class="op">?</span> <span class="fu">VisitMethodDeclaration</span><span class="op">(</span>MethodDeclarationSyntax node<span class="op">)</span></span>
+<span id="foocb37-38"><a href="#foocb37-38" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb37-39"><a href="#foocb37-39" aria-hidden="true" tabindex="-1"></a>        <span class="kw">if</span> <span class="op">(</span>node<span class="op">.</span><span class="fu">Body</span> <span class="op">==</span> <span class="kw">null</span> <span class="op">||</span> node<span class="op">.</span><span class="fu">Body</span><span class="op">.</span><span class="fu">Statements</span><span class="op">.</span><span class="fu">Count</span> <span class="op">==</span> <span class="dv">0</span><span class="op">)</span></span>
+<span id="foocb37-40"><a href="#foocb37-40" aria-hidden="true" tabindex="-1"></a>            <span class="kw">return</span> <span class="kw">base</span><span class="op">.</span><span class="fu">VisitMethodDeclaration</span><span class="op">(</span>node<span class="op">);</span></span>
+<span id="foocb37-41"><a href="#foocb37-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-42"><a href="#foocb37-42" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> parent <span class="op">=</span> node<span class="op">.</span><span class="fu">Parent</span> <span class="kw">as</span> ClassDeclarationSyntax<span class="op">;</span></span>
+<span id="foocb37-43"><a href="#foocb37-43" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="foocb37-44"><a href="#foocb37-44" aria-hidden="true" tabindex="-1"></a>        <span class="kw">if</span> <span class="op">(</span>parent <span class="op">==</span> <span class="kw">null</span><span class="op">)</span></span>
+<span id="foocb37-45"><a href="#foocb37-45" aria-hidden="true" tabindex="-1"></a>            <span class="kw">return</span> <span class="kw">base</span><span class="op">.</span><span class="fu">VisitMethodDeclaration</span><span class="op">(</span>node<span class="op">);</span></span>
+<span id="foocb37-46"><a href="#foocb37-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-47"><a href="#foocb37-47" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> nameMethod <span class="op">=</span> node<span class="op">.</span><span class="fu">Identifier</span><span class="op">.</span><span class="fu">Text</span><span class="op">;</span></span>
+<span id="foocb37-48"><a href="#foocb37-48" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> nameClass <span class="op">=</span> parent<span class="op">.</span><span class="fu">Identifier</span><span class="op">.</span><span class="fu">Text</span><span class="op">;</span></span>
+<span id="foocb37-49"><a href="#foocb37-49" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>$<span class="st">&quot;visiting {nameMethod} from {nameClass}&quot;</span><span class="op">);</span></span>
+<span id="foocb37-50"><a href="#foocb37-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-51"><a href="#foocb37-51" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> <span class="kw">base</span><span class="op">.</span><span class="fu">VisitMethodDeclaration</span><span class="op">(</span>node<span class="op">);</span></span>
+<span id="foocb37-52"><a href="#foocb37-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb37-53"><a href="#foocb37-53" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb37-54"><a href="#foocb37-54" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/visitor.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-visitor" class="level3">
+<h3>See Source Code for Microsoft implementation of Visitor</h3>
+<pre><code>&lt;a href=&quot;https://github.com/dotnet/roslyn/blob/cecdb802007a49e346215c0afdce354d6c111112/src/Compilers/CSharp/Portable/Syntax/CSharpSyntaxRewriter.cs#L17&quot; target=&quot;_blank&quot;&gt;SourceCode CSharpSyntaxRewriter&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-11" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;http://wiki.c2.com/?VisitorPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://wiki.c2.com/?VisitorPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.dofactory.com/net/visitor-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-visitor&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Visitor_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-11" class="level3">
+<h3>Homework</h3>
+<p>Implement a visitor that will allow you to calculate the total price
+of a shopping cart. <br /> The shopping cart should contain items with a
+price and a quantity. <br /> Visit every item and make the sum.
+<br /></p>
+<hr />
+<p>id: IOC title: IOC tags:</p>
+<ul>
+<li><p>IOC</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>IOC</p></li>
+<li><p>DI</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-ioc" class="level2">
+<h2>Pattern: IOC</h2>
+<!-- id : 13 -->
+
+<p>Inversion of Control is a principle in software engineering by which
+the control of objects or portions of a program is transferred to a
+container or framework. <br /> It&#39;s a design principle in which
+custom-written portions of a computer program receive the flow of
+control from a generic framework. <br /></p>
+<section id="foopurpose-of-net-implementation-12" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want people to work with the file system . Possibly without a
+file or a directory that exists, but just with implementation. <br />
+You want to be able to test the code without the file system. <br /> So
+you want to abstract the file system. <br /> See file system abstraction
+in the links below. <br /></p>
+</section>
+<section id="fooexamples-in-net--3" class="level3">
+<h3>Examples in .NET :</h3>
+<section id="fooioc" class="level4">
+<h4>IOC</h4>
+<div class="sourceCode" id="foocb40"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb40-1"><a href="#foocb40-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> IOC<span class="op">;</span></span>
+<span id="foocb40-2"><a href="#foocb40-2" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> NotificationService</span>
+<span id="foocb40-3"><a href="#foocb40-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb40-4"><a href="#foocb40-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">private</span> <span class="kw">readonly</span> IMessageService _messageService<span class="op">;</span></span>
+<span id="foocb40-5"><a href="#foocb40-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb40-6"><a href="#foocb40-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="fu">NotificationService</span><span class="op">(</span>IMessageService messageService<span class="op">)</span></span>
+<span id="foocb40-7"><a href="#foocb40-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb40-8"><a href="#foocb40-8" aria-hidden="true" tabindex="-1"></a>        _messageService <span class="op">=</span> messageService<span class="op">;</span></span>
+<span id="foocb40-9"><a href="#foocb40-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb40-10"><a href="#foocb40-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb40-11"><a href="#foocb40-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">SendNotification</span><span class="op">(</span><span class="dt">string</span> message<span class="op">)</span></span>
+<span id="foocb40-12"><a href="#foocb40-12" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb40-13"><a href="#foocb40-13" aria-hidden="true" tabindex="-1"></a>        _messageService<span class="op">.</span><span class="fu">SendMessage</span><span class="op">(</span>message<span class="op">);</span></span>
+<span id="foocb40-14"><a href="#foocb40-14" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb40-15"><a href="#foocb40-15" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb40-16"><a href="#foocb40-16" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">interface</span> IMessageService</span>
+<span id="foocb40-17"><a href="#foocb40-17" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb40-18"><a href="#foocb40-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">void</span> <span class="fu">SendMessage</span><span class="op">(</span><span class="dt">string</span> message<span class="op">);</span></span>
+<span id="foocb40-19"><a href="#foocb40-19" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</section>
+<section id="foodi" class="level4">
+<h4>DI</h4>
+<div class="sourceCode" id="foocb41"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb41-1"><a href="#foocb41-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb41-2"><a href="#foocb41-2" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> IOC<span class="op">;</span></span>
+<span id="foocb41-3"><a href="#foocb41-3" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> SMSService <span class="op">:</span> IMessageService</span>
+<span id="foocb41-4"><a href="#foocb41-4" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb41-5"><a href="#foocb41-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">SendMessage</span><span class="op">(</span><span class="dt">string</span> message<span class="op">)</span></span>
+<span id="foocb41-6"><a href="#foocb41-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb41-7"><a href="#foocb41-7" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span><span class="st">&quot;Sending SMS: &quot;</span> <span class="op">+</span> message<span class="op">);</span></span>
+<span id="foocb41-8"><a href="#foocb41-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb41-9"><a href="#foocb41-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb41-10"><a href="#foocb41-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb41-11"><a href="#foocb41-11" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> EmailService <span class="op">:</span> IMessageService</span>
+<span id="foocb41-12"><a href="#foocb41-12" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb41-13"><a href="#foocb41-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">SendMessage</span><span class="op">(</span><span class="dt">string</span> message<span class="op">)</span></span>
+<span id="foocb41-14"><a href="#foocb41-14" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb41-15"><a href="#foocb41-15" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span><span class="st">&quot;Sending email: &quot;</span> <span class="op">+</span> message<span class="op">);</span></span>
+<span id="foocb41-16"><a href="#foocb41-16" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb41-17"><a href="#foocb41-17" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/ioc.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-ioc" class="level3">
+<h3>See Source Code for Microsoft implementation of IOC</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollection.cs&quot; target=&quot;_blank&quot;&gt;SourceCode ServiceCollection&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-12" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;http://www.dofactory.com/net/InversionOfControl-design-pattern&quot; target=&quot;_blank&quot;&gt;dofactory&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file#-InversionOfControl&quot; target=&quot;_blank&quot;&gt;DPH&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0&quot; target=&quot;_blank&quot;&gt;File Providers in ASP.NET Core&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-12" class="level3">
+<h3>Homework</h3>
+<p>Implement a simple IoC container that will allow you to register and
+resolve dependencies. <br /> The container should be able to resolve
+dependencies by type and by name. <br /></p>
+<hr />
+<p>id: Lazy title: Lazy tags:</p>
+<ul>
+<li><p>Lazy</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>creational</p></li>
+<li><p>design pattern</p></li>
+<li><p>Lazy</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-lazy" class="level2">
+<h2>Pattern: Lazy</h2>
+<!-- id : 14 -->
+
+<p>Lazy initialization is the tactic of delaying the creation of an
+object, the calculation of a value, or some other expensive process
+until the first time it is needed. <br /></p>
+<section id="foopurpose-of-net-implementation-13" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want to access one object that is difficult to create. <br /> But
+you do not know when will be created. <br /> You can use the Lazy
+pattern to create the object only when it is needed. <br /> The Lazy of
+generic T class provides a way to defer the creation of an object until
+it is actually needed, allowing you to avoid the cost of creating the
+object until it is actually required. <br /></p>
+</section>
+<section id="fooexample-in-net--9" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foolazy" class="level4">
+<h4>Lazy</h4>
+<div class="sourceCode" id="foocb44"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb44-1"><a href="#foocb44-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Lazy<span class="op">;</span></span>
+<span id="foocb44-2"><a href="#foocb44-2" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> LazyDemo</span>
+<span id="foocb44-3"><a href="#foocb44-3" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb44-4"><a href="#foocb44-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> DateTime dateTimeConstructClass <span class="op">=</span>DateTime<span class="op">.</span><span class="fu">Now</span><span class="op">;</span></span>
+<span id="foocb44-5"><a href="#foocb44-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="foocb44-6"><a href="#foocb44-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> Lazy<span class="op">&lt;</span>DateTime<span class="op">&gt;</span> DateTimeLazy <span class="op">=</span> <span class="kw">new</span><span class="op">(()</span> <span class="op">=&gt;</span></span>
+<span id="foocb44-7"><a href="#foocb44-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb44-8"><a href="#foocb44-8" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span><span class="st">&quot;Lazy&lt;DateTime&gt; is being initialized ONCE!&quot;</span><span class="op">);</span></span>
+<span id="foocb44-9"><a href="#foocb44-9" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> DateTime<span class="op">.</span><span class="fu">Now</span><span class="op">;</span></span>
+<span id="foocb44-10"><a href="#foocb44-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">});</span></span>
+<span id="foocb44-11"><a href="#foocb44-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/lazy.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-lazy" class="level3">
+<h3>See Source Code for Microsoft implementation of Lazy</h3>
+<pre><code>&lt;a href=&quot;https://github.com/dotnet/project-system/blob/ebc15f3e0fa644bc96b3a7d19b0595bab9d0ab7d/src/Microsoft.VisualStudio.ProjectSystem.Managed/ProjectSystem/Debug/LaunchSettingsProvider.cs#L39&quot; target=&quot;_blank&quot;&gt;SourceCode _defaultLaunchProfile = new Lazy of LaunchProfile &lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Lazy.cs&quot; target=&quot;_blank&quot;&gt;SourceCode Lazy&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://github.com/dotnet/roslyn/blob/d89c824648207390f5be355a782048812ba5f91e/src/VisualStudio/Core/Def/Progression/GraphNavigatorExtension.cs#L27&quot; target=&quot;_blank&quot;&gt;SourceCode Lazy of IStreamingFindUsagesPresenter&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-13" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://wiki.c2.com/?LazyInstantiationPattern&quot; target=&quot;_blank&quot;&gt;C2Wiki&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Lazy_initialization&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-13" class="level3">
+<h3>Homework</h3>
+<p>Implement a lazy initialization of a logger that logs to a file and
+to a console. <br /> The logger should be created only when it is
+needed. <br /></p>
+<hr />
+<p>id: FluentInterface title: FluentInterface tags:</p>
+<ul>
+<li><p>FluentInterface</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>FluentInterface</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-fluentinterface" class="level2">
+<h2>Pattern: FluentInterface</h2>
+<!-- id : 15 -->
+
+<p>Fluent interface allows you do have method chaining. <br /></p>
+<section id="foopurpose-of-net-implementation-14" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>The methods of a service collection instance is called multiple
+times( e.g. for .AddSingleton). <br /> You want to ensure that the
+programmer can write code that is easy to write, easy to read, and easy
+to maintain. <br /> So from each method you return the instance of the
+service collection, so you can chain the methods. <br /></p>
+</section>
+<section id="fooexample-in-net--10" class="level3">
+<h3>Example in .NET :</h3>
+<section id="foofluentinterface" class="level4">
+<h4>FluentInterface</h4>
+<div class="sourceCode" id="foocb47"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb47-1"><a href="#foocb47-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb47-2"><a href="#foocb47-2" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">Extensions</span><span class="op">.</span><span class="fu">DependencyInjection</span><span class="op">;</span></span>
+<span id="foocb47-3"><a href="#foocb47-3" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Data</span><span class="op">;</span></span>
+<span id="foocb47-4"><a href="#foocb47-4" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Data</span><span class="op">.</span><span class="fu">Common</span><span class="op">;</span></span>
+<span id="foocb47-5"><a href="#foocb47-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb47-6"><a href="#foocb47-6" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> FluentInterface<span class="op">;</span></span>
+<span id="foocb47-7"><a href="#foocb47-7" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">static</span> <span class="kw">class</span> FluentInterfaceDemo</span>
+<span id="foocb47-8"><a href="#foocb47-8" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb47-9"><a href="#foocb47-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> ServiceCollection <span class="fu">AddServices</span><span class="op">(</span><span class="kw">this</span> ServiceCollection sc<span class="op">)</span></span>
+<span id="foocb47-10"><a href="#foocb47-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb47-11"><a href="#foocb47-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">//just for demo, does not make sense</span></span>
+<span id="foocb47-12"><a href="#foocb47-12" aria-hidden="true" tabindex="-1"></a>        sc</span>
+<span id="foocb47-13"><a href="#foocb47-13" aria-hidden="true" tabindex="-1"></a>            <span class="op">.</span><span class="fu">AddSingleton</span><span class="op">&lt;</span>IComparable<span class="op">&gt;((</span>sp<span class="op">)</span> <span class="op">=&gt;</span></span>
+<span id="foocb47-14"><a href="#foocb47-14" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
+<span id="foocb47-15"><a href="#foocb47-15" aria-hidden="true" tabindex="-1"></a>                <span class="co">//does not matter</span></span>
+<span id="foocb47-16"><a href="#foocb47-16" aria-hidden="true" tabindex="-1"></a>                <span class="kw">return</span> <span class="dv">1970</span><span class="op">;</span></span>
+<span id="foocb47-17"><a href="#foocb47-17" aria-hidden="true" tabindex="-1"></a>            <span class="op">})</span></span>
+<span id="foocb47-18"><a href="#foocb47-18" aria-hidden="true" tabindex="-1"></a>            <span class="op">.</span><span class="fu">AddSingleton</span><span class="op">&lt;</span>IComparable<span class="op">&lt;</span>Int32<span class="op">&gt;&gt;((</span>sp<span class="op">)</span> <span class="op">=&gt;</span></span>
+<span id="foocb47-19"><a href="#foocb47-19" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
+<span id="foocb47-20"><a href="#foocb47-20" aria-hidden="true" tabindex="-1"></a>                <span class="co">//does not matter</span></span>
+<span id="foocb47-21"><a href="#foocb47-21" aria-hidden="true" tabindex="-1"></a>                <span class="kw">return</span> <span class="dv">16</span><span class="op">;</span></span>
+<span id="foocb47-22"><a href="#foocb47-22" aria-hidden="true" tabindex="-1"></a>            <span class="op">});</span></span>
+<span id="foocb47-23"><a href="#foocb47-23" aria-hidden="true" tabindex="-1"></a>        <span class="co">//this way you can chain the calls , making a fluent interface </span></span>
+<span id="foocb47-24"><a href="#foocb47-24" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> sc<span class="op">;</span></span>
+<span id="foocb47-25"><a href="#foocb47-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb47-26"><a href="#foocb47-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb47-27"><a href="#foocb47-27" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb47-28"><a href="#foocb47-28" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/fluentinterface.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-fluentinterface" class="level3">
+<h3>See Source Code for Microsoft implementation of FluentInterface</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollectionServiceExtensions.cs&quot; target=&quot;_blank&quot;&gt;SourceCode Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-14" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://en.wikipedia.org/wiki/Software_design_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-14" class="level3">
+<h3>Homework</h3>
+<p>Implement a class person that you can see the first name and last
+name as fluent interface. <br /></p>
+<hr />
+<p>id: Flyweight title: Flyweight tags:</p>
+<ul>
+<li><p>Flyweight</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>structural</p></li>
+<li><p>design pattern</p></li>
+<li><p>Flyweight</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-flyweight" class="level2">
+<h2>Pattern: Flyweight</h2>
+<!-- id : 16 -->
+
+<p>Flyweight pattern is used to reduce the memory and resource usage for
+complex models containing a large number of similar objects. <br /></p>
+<section id="foopurpose-of-net-implementation-15" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>String is costly as allocation in .NET, so you want to reuse the same
+string in the memory. <br /> The string.Intern method is used to
+retrieve a reference to a string from the intern pool, which is a table
+of unique strings maintained by .NET. <br /> If the string you are
+trying to intern is already in the intern pool, the method returns a
+reference to the string in the intern pool instead of creating a new
+string object. <br /></p>
+</section>
+<section id="fooexample-in-net--11" class="level3">
+<h3>Example in .NET :</h3>
+<section id="fooflyweight" class="level4">
+<h4>Flyweight</h4>
+<div class="sourceCode" id="foocb50"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb50-1"><a href="#foocb50-1" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Text</span><span class="op">;</span></span>
+<span id="foocb50-2"><a href="#foocb50-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb50-3"><a href="#foocb50-3" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Flyweight<span class="op">;</span></span>
+<span id="foocb50-4"><a href="#foocb50-4" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> FlyweightDemo</span>
+<span id="foocb50-5"><a href="#foocb50-5" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb50-6"><a href="#foocb50-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">Demo</span><span class="op">()</span></span>
+<span id="foocb50-7"><a href="#foocb50-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb50-8"><a href="#foocb50-8" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> str <span class="op">=</span> <span class="st">&quot;Andrei Ignat&quot;</span><span class="op">;</span></span>
+<span id="foocb50-9"><a href="#foocb50-9" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> str2 <span class="op">=</span> <span class="dt">string</span><span class="op">.</span><span class="fu">Intern</span><span class="op">(</span>str<span class="op">);</span></span>
+<span id="foocb50-10"><a href="#foocb50-10" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> str3 <span class="op">=</span> <span class="kw">new</span> <span class="fu">StringBuilder</span><span class="op">(</span><span class="st">&quot;Andrei&quot;</span><span class="op">).</span><span class="fu">Append</span><span class="op">(</span><span class="st">&quot; Ignat&quot;</span><span class="op">).</span><span class="fu">ToString</span><span class="op">();</span></span>
+<span id="foocb50-11"><a href="#foocb50-11" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>$<span class="st">&quot;str == str2: Value {str==str2} Reference {Object.ReferenceEquals(str,str2)}&quot;</span><span class="op">);</span></span>
+<span id="foocb50-12"><a href="#foocb50-12" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>$<span class="st">&quot;str == str3: Value {str==str3} Reference {Object.ReferenceEquals(str,str3)}&quot;</span><span class="op">);</span></span>
+<span id="foocb50-13"><a href="#foocb50-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb50-14"><a href="#foocb50-14" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb50-15"><a href="#foocb50-15" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/flyweight.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-flyweight" class="level3">
+<h3>See Source Code for Microsoft implementation of Flyweight</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Private.CoreLib/src/System/Object.CoreCLR.cs&quot; target=&quot;_blank&quot;&gt;SourceCode String.Intern&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-15" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://en.wikipedia.org/wiki/Flyweight_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-15" class="level3">
+<h3>Homework</h3>
+<p>Make an exchange rate system. <br /> The symbol and names of the
+currency are the same for all the currencies. <br /> The exchange rate
+is different for each currency. <br /> Implement a flyweight that will
+allow you to create a currency with a symbol and a name and to get the
+exchange rate for the currency. <br /></p>
+<hr />
+<p>id: AbstractFactory title: AbstractFactory tags:</p>
+<ul>
+<li><p>AbstractFactory</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>creational</p></li>
+<li><p>design pattern</p></li>
+<li><p>AbstractFactory</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-abstractfactory" class="level2">
+<h2>Pattern: AbstractFactory</h2>
+<!-- id : 17 -->
+
+<p>Abstract Factory is a creational design pattern that lets you produce
+families of related objects without specifying their concrete classes.
+<br /></p>
+<section id="foopurpose-of-net-implementation-16" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want to create commands for any specific database type in order
+to obtain data from a database. <br /> This means you can switch between
+different databases (e.g., SQL Server, MySQL, PostgreSQL) without
+changing the core logic of your application. <br /> The factory will
+provide the appropriate concrete implementation of the DBConnection for
+the database in use.. <br /> By using an Abstract Factory, your
+application can remain agnostic of the specific type of database it is
+interacting with. <br /></p>
+</section>
+<section id="fooexample-in-net--12" class="level3">
+<h3>Example in .NET :</h3>
+<section id="fooabstractfactory" class="level4">
+<h4>AbstractFactory</h4>
+<div class="sourceCode" id="foocb53"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb53-1"><a href="#foocb53-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb53-2"><a href="#foocb53-2" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">Data</span><span class="op">.</span><span class="fu">SqlClient</span><span class="op">;</span></span>
+<span id="foocb53-3"><a href="#foocb53-3" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Data</span><span class="op">.</span><span class="fu">Common</span><span class="op">;</span></span>
+<span id="foocb53-4"><a href="#foocb53-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb53-5"><a href="#foocb53-5" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> AbstractFactory<span class="op">;</span></span>
+<span id="foocb53-6"><a href="#foocb53-6" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> AbstractFactoryDemo</span>
+<span id="foocb53-7"><a href="#foocb53-7" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb53-8"><a href="#foocb53-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">Demo</span><span class="op">()</span></span>
+<span id="foocb53-9"><a href="#foocb53-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb53-10"><a href="#foocb53-10" aria-hidden="true" tabindex="-1"></a>        <span class="co">//create DbConnection factory by using the instance of SqlConnection</span></span>
+<span id="foocb53-11"><a href="#foocb53-11" aria-hidden="true" tabindex="-1"></a>        DbConnection connection <span class="op">=</span> <span class="kw">new</span> <span class="fu">SqlConnection</span><span class="op">();</span></span>
+<span id="foocb53-12"><a href="#foocb53-12" aria-hidden="true" tabindex="-1"></a>        <span class="co">//create DbCommand instance by using the instance of SqlConnection</span></span>
+<span id="foocb53-13"><a href="#foocb53-13" aria-hidden="true" tabindex="-1"></a>        DbCommand command <span class="op">=</span> connection<span class="op">.</span><span class="fu">CreateCommand</span><span class="op">();</span></span>
+<span id="foocb53-14"><a href="#foocb53-14" aria-hidden="true" tabindex="-1"></a>        <span class="co">//really, the DBCommand is a SqlCommand</span></span>
+<span id="foocb53-15"><a href="#foocb53-15" aria-hidden="true" tabindex="-1"></a>        SqlCommand<span class="op">?</span> sqlCommand <span class="op">=</span> command <span class="kw">as</span> SqlCommand<span class="op">;</span></span>
+<span id="foocb53-16"><a href="#foocb53-16" aria-hidden="true" tabindex="-1"></a>        <span class="co">//check if the DbCommand is a SqlCommand</span></span>
+<span id="foocb53-17"><a href="#foocb53-17" aria-hidden="true" tabindex="-1"></a>        Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>$<span class="st">&quot;DbCommand is SqlCommand: {sqlCommand != null}&quot;</span><span class="op">);</span></span>
+<span id="foocb53-18"><a href="#foocb53-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb53-19"><a href="#foocb53-19" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/abstractfactory.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-abstractfactory" class="level3">
+<h3>See Source Code for Microsoft implementation of AbstractFactory</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.Data.Common/System/Data/Common/DbConnection.cs&quot; target=&quot;_blank&quot;&gt;SourceCode DbConnection&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-16" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://en.wikipedia.org/wiki/Abstract_factory_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-16" class="level3">
+<h3>Homework</h3>
+<p>Imagine you want to produce loggers. <br /> You have a logger that
+logs to a file and a logger that logs to a console and a Nothing Logger
+- a logger that does nothing. <br /> Implement an abstract factory that
+will allow you to create a logger factory that will create a logger that
+logs to a file or to a console or nothing. <br /></p>
+<hr />
+<p>id: Observer title: Observer tags:</p>
+<ul>
+<li><p>Observer</p></li>
+<li><p><a href="https://github.com/ignatandrei/patterns">https://github.com/ignatandrei/patterns</a></p></li>
+<li><p>behavioral</p></li>
+<li><p>design pattern</p></li>
+<li><p>Observer</p></li>
+</ul>
+<hr />
+</section>
+</section>
+<section id="foopattern-observer" class="level2">
+<h2>Pattern: Observer</h2>
+<!-- id : 18 -->
+
+<p>Observer pattern is a behavioral design pattern that defines a
+one-to-many dependency between objects so that when one object changes
+state, all its dependents are notified and updated automatically.
+<br /></p>
+<section id="foopurpose-of-net-implementation-17" class="level3">
+<h3>Purpose of .NET implementation</h3>
+<p>You want to see when properties of an object are modified, to know
+how to react in the GUI. <br /> You can use the Observer pattern to
+notify the GUI when the properties of the object are modified.
+<br /></p>
+</section>
+<section id="fooexample-in-net--13" class="level3">
+<h3>Example in .NET :</h3>
+<section id="fooobserver" class="level4">
+<h4>Observer</h4>
+<div class="sourceCode" id="foocb56"><pre class="sourceCode csharp"><code class="sourceCode cs"><span id="foocb56-1"><a href="#foocb56-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb56-2"><a href="#foocb56-2" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">ComponentModel</span><span class="op">;</span></span>
+<span id="foocb56-3"><a href="#foocb56-3" aria-hidden="true" tabindex="-1"></a><span class="kw">using</span> System<span class="op">.</span><span class="fu">Runtime</span><span class="op">.</span><span class="fu">CompilerServices</span><span class="op">;</span></span>
+<span id="foocb56-4"><a href="#foocb56-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb56-5"><a href="#foocb56-5" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Observer<span class="op">;</span></span>
+<span id="foocb56-6"><a href="#foocb56-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb56-7"><a href="#foocb56-7" aria-hidden="true" tabindex="-1"></a><span class="co">/// </span><span class="kw">&lt;summary&gt;</span></span>
+<span id="foocb56-8"><a href="#foocb56-8" aria-hidden="true" tabindex="-1"></a><span class="co">/// INotifyPropertyChanged is an interface that provides a mechanism for the object to notify clients that a property value has changed.</span></span>
+<span id="foocb56-9"><a href="#foocb56-9" aria-hidden="true" tabindex="-1"></a><span class="co">/// </span><span class="kw">&lt;/summary&gt;</span></span>
+<span id="foocb56-10"><a href="#foocb56-10" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> Person<span class="op">:</span> INotifyPropertyChanged</span>
+<span id="foocb56-11"><a href="#foocb56-11" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb56-12"><a href="#foocb56-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">private</span> <span class="dt">string</span> name<span class="op">=</span><span class="dt">string</span><span class="op">.</span><span class="fu">Empty</span><span class="op">;</span></span>
+<span id="foocb56-13"><a href="#foocb56-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">string</span> Name</span>
+<span id="foocb56-14"><a href="#foocb56-14" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb56-15"><a href="#foocb56-15" aria-hidden="true" tabindex="-1"></a>        get <span class="op">=&gt;</span> name<span class="op">;</span></span>
+<span id="foocb56-16"><a href="#foocb56-16" aria-hidden="true" tabindex="-1"></a>        set</span>
+<span id="foocb56-17"><a href="#foocb56-17" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb56-18"><a href="#foocb56-18" aria-hidden="true" tabindex="-1"></a>            <span class="kw">if</span> <span class="op">(</span>name <span class="op">==</span> value<span class="op">)</span> <span class="kw">return</span><span class="op">;</span></span>
+<span id="foocb56-19"><a href="#foocb56-19" aria-hidden="true" tabindex="-1"></a>            name <span class="op">=</span> value<span class="op">;</span></span>
+<span id="foocb56-20"><a href="#foocb56-20" aria-hidden="true" tabindex="-1"></a>            <span class="fu">OnPropertyChanged</span><span class="op">();</span></span>
+<span id="foocb56-21"><a href="#foocb56-21" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="foocb56-22"><a href="#foocb56-22" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb56-23"><a href="#foocb56-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb56-24"><a href="#foocb56-24" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">event</span> PropertyChangedEventHandler<span class="op">?</span> PropertyChanged<span class="op">;</span></span>
+<span id="foocb56-25"><a href="#foocb56-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="foocb56-26"><a href="#foocb56-26" aria-hidden="true" tabindex="-1"></a>    <span class="kw">protected</span> <span class="kw">virtual</span> <span class="dt">void</span> <span class="fu">OnPropertyChanged</span><span class="op">([</span>CallerMemberName<span class="op">]</span> <span class="dt">string</span> propertyName <span class="op">=</span> <span class="st">&quot;&quot;</span><span class="op">)</span></span>
+<span id="foocb56-27"><a href="#foocb56-27" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb56-28"><a href="#foocb56-28" aria-hidden="true" tabindex="-1"></a>        PropertyChanged<span class="op">?.</span><span class="fu">Invoke</span><span class="op">(</span><span class="kw">this</span><span class="op">,</span> <span class="kw">new</span> <span class="fu">PropertyChangedEventArgs</span><span class="op">(</span>propertyName<span class="op">));</span></span>
+<span id="foocb56-29"><a href="#foocb56-29" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb56-30"><a href="#foocb56-30" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="foocb56-31"><a href="#foocb56-31" aria-hidden="true" tabindex="-1"></a><span class="kw">internal</span> <span class="kw">class</span> ObserverDemo</span>
+<span id="foocb56-32"><a href="#foocb56-32" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="foocb56-33"><a href="#foocb56-33" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">static</span> <span class="dt">void</span> <span class="fu">Demo</span><span class="op">()</span></span>
+<span id="foocb56-34"><a href="#foocb56-34" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="foocb56-35"><a href="#foocb56-35" aria-hidden="true" tabindex="-1"></a>        Person person <span class="op">=</span> <span class="kw">new</span> <span class="op">();</span></span>
+<span id="foocb56-36"><a href="#foocb56-36" aria-hidden="true" tabindex="-1"></a>        <span class="co">//subscribe to the event to observe the changes</span></span>
+<span id="foocb56-37"><a href="#foocb56-37" aria-hidden="true" tabindex="-1"></a>        person<span class="op">.</span><span class="fu">PropertyChanged</span> <span class="op">+=</span> <span class="op">(</span>sender<span class="op">,</span> args<span class="op">)</span> <span class="op">=&gt;</span></span>
+<span id="foocb56-38"><a href="#foocb56-38" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="foocb56-39"><a href="#foocb56-39" aria-hidden="true" tabindex="-1"></a>            <span class="dt">var</span> p <span class="op">=</span> sender <span class="kw">as</span> Person<span class="op">;</span></span>
+<span id="foocb56-40"><a href="#foocb56-40" aria-hidden="true" tabindex="-1"></a>            Console<span class="op">.</span><span class="fu">WriteLine</span><span class="op">(</span>$<span class="st">&quot;Property {args.PropertyName} changed to {p?.Name}&quot;</span><span class="op">);</span></span>
+<span id="foocb56-41"><a href="#foocb56-41" aria-hidden="true" tabindex="-1"></a>        <span class="op">};</span></span>
+<span id="foocb56-42"><a href="#foocb56-42" aria-hidden="true" tabindex="-1"></a>        person<span class="op">.</span><span class="fu">Name</span> <span class="op">=</span> <span class="st">&quot;Andrei Ignat&quot;</span> <span class="op">;</span></span>
+<span id="foocb56-43"><a href="#foocb56-43" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="foocb56-44"><a href="#foocb56-44" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><a href="/zipSourceCodes/observer.zip">Download source</a></p>
+</section>
+</section>
+<section id="foosee-source-code-for-microsoft-implementation-of-observer" class="level3">
+<h3>See Source Code for Microsoft implementation of Observer</h3>
+<pre><code>&lt;a href=&quot;https://source.dot.net/#System.ObjectModel/System/ComponentModel/INotifyPropertyChanged.cs&quot; target=&quot;_blank&quot;&gt;SourceCode INotifyPropertyChanged&lt;/a&gt;
+&lt;br /&gt;</code></pre>
+</section>
+<section id="foolearn-more-17" class="level3">
+<h3>Learn More</h3>
+<pre><code>&lt;a href=&quot;https://en.wikipedia.org/wiki/Observer_pattern&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt; &lt;br /&gt;</code></pre>
+</section>
+<section id="foohomework-17" class="level3">
+<h3>Homework</h3>
+<p>Imagine you have a logger that logs to a file and to a console.
+<br /> Implement an observable logger that will allow you to subscribe
+to the logger and to be notified when the logger logs a message.
+<br /></p>
+</section>
+</section>
+</body>
+</html>
