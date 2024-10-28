@@ -13,6 +13,9 @@ tags:
 ---
 
 # Pattern:  Strategy
+
+Read online at https://ignatandrei.github.io/patterns/docs/patterns/Strategy
+
 <!-- id : 11 -->
 Strategy pattern allows a client to choose from a family of algorithms at runtime.    <br />
 It is used when the client expects to have multiple algorithms and wants to choose one of them at runtime.    <br />

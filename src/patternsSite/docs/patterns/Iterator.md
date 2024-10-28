@@ -13,6 +13,9 @@ tags:
 ---
 
 # Pattern:  Iterator
+
+Read online at https://ignatandrei.github.io/patterns/docs/patterns/Iterator
+
 <!-- id : 3 -->
 Iterator design pattern allows to traverse a container and access the container's elements.    <br />
 

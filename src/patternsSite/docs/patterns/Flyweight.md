@@ -13,6 +13,9 @@ tags:
 ---
 
 # Pattern:  Flyweight
+
+Read online at https://ignatandrei.github.io/patterns/docs/patterns/Flyweight
+
 <!-- id : 16 -->
 Flyweight pattern is used to reduce the memory and resource usage for complex models containing a large number of similar objects.    <br />
 

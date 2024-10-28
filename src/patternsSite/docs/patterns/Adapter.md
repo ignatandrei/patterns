@@ -15,6 +15,9 @@ tags:
 ---
 
 # Pattern:  Adapter
+
+Read online at https://ignatandrei.github.io/patterns/docs/patterns/Adapter
+
 <!-- id : 4 -->
 Adapter design pattern allows the interface of an existing class to be used as another interface.    <br />
 It is often used to make existing classes work with others without modifying their source code.    <br />

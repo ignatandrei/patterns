@@ -15,6 +15,9 @@ tags:
 ---
 
 # Pattern:  NullObject
+
+Read online at https://ignatandrei.github.io/patterns/docs/patterns/NullObject
+
 <!-- id : 2 -->
 Instead of returning null , use an object which implements the expected interface, but whose method body is empty.    <br />
 

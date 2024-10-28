@@ -13,6 +13,9 @@ tags:
 ---
 
 # Pattern:  Factory
+
+Read online at https://ignatandrei.github.io/patterns/docs/patterns/Factory
+
 <!-- id : 6 -->
 A factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be new.    <br />
 

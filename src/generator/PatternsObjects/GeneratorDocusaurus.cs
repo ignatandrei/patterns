@@ -43,6 +43,7 @@ public class GeneratorFiles
 .AddData(it))
     .ToArray();
         var str = await Task.WhenAll(data);
+        str = str.OrderBy(it => it.data.Title).ToArray();
         int nr = 0;
         foreach (var it in str)
         {

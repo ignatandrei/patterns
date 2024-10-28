@@ -13,6 +13,9 @@ tags:
 ---
 
 # Pattern:  FluentInterface
+
+Read online at https://ignatandrei.github.io/patterns/docs/patterns/FluentInterface
+
 <!-- id : 15 -->
 Fluent interface allows you do have method chaining.    <br />
 

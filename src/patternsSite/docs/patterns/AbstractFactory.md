@@ -13,6 +13,9 @@ tags:
 ---
 
 # Pattern:  AbstractFactory
+
+Read online at https://ignatandrei.github.io/patterns/docs/patterns/AbstractFactory
+
 <!-- id : 17 -->
 Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.    <br />
 
