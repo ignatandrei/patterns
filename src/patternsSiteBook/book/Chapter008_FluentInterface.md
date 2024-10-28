@@ -49,9 +49,6 @@ internal static class FluentInterfaceDemo
 ```
 
 
-[Download source](/zipSourceCodes/fluentinterface.zip)
-
-
 
 ## See Source Code for Microsoft implementation of FluentInterface
 
@@ -69,5 +66,6 @@ internal static class FluentInterfaceDemo
 
 
 Implement a class person that you can see the first name and last name as fluent interface.    <br />
+
 
 

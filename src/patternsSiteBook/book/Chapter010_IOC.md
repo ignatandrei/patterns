@@ -65,9 +65,6 @@ public class EmailService : IMessageService
 ```
 
 
-[Download source](/zipSourceCodes/ioc.zip)
-
-
 
 ## See Source Code for Microsoft implementation of IOC
 
@@ -90,5 +87,6 @@ public class EmailService : IMessageService
 
 Implement a simple IoC container that will allow you to register and resolve dependencies.    <br />
 The container should be able to resolve dependencies by type and by name.    <br />
+
 
 

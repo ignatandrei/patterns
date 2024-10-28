@@ -63,9 +63,6 @@ static class UriBuilderDemo
 ```
 
 
-[Download source](/zipSourceCodes/builder.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Builder
 
@@ -93,5 +90,6 @@ static class UriBuilderDemo
 Imagine that you have a logger that logs to a file and to a console.    <br />
 Implement a builder that will allow you to create a logger with different configurations.    <br />
 For example, you can set the log level, the log format, and the log destination.    <br />
+
 
 

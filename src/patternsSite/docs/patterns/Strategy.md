@@ -82,9 +82,9 @@ internal class StrategyDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/strategy.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Strategy

@@ -65,9 +65,6 @@ internal class EmptyFolderDemo
 ```
 
 
-[Download source](/zipSourceCodes/nullobject.zip)
-
-
 
 ## See Source Code for Microsoft implementation of NullObject
 
@@ -94,5 +91,6 @@ When retrieving data( e.    <br />
 g.    <br />
 a Person with ID =-1 ) from a database , return a NullObject instead of null.    <br />
 How you will verify that the object is a NullObject?.    <br />
+
 
 

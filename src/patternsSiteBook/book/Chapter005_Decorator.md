@@ -55,9 +55,6 @@ internal class DecoratorDemo
 ```
 
 
-[Download source](/zipSourceCodes/decorator.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Decorator
 
@@ -86,5 +83,6 @@ internal class DecoratorDemo
 This class should log the details of the operations performed on the DbConnection (like opening a connection, closing a connection, executing a command, etc.) to a log file or console..    <br />
 2.Your task is to model a coffee shop ordering system using the Decorator design pattern. The base component will be a coffee, and you will create decorators for adding milk, sugar, and chocolate..    <br />
 The coffee should be able to display the condiments in a Display method and calculate the price of the coffee with milk, sugar, and chocolate.    <br />
+
 
 

@@ -70,9 +70,6 @@ internal class StrategyDemo
 ```
 
 
-[Download source](/zipSourceCodes/strategy.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Strategy
 
@@ -97,5 +94,6 @@ internal class StrategyDemo
 
 Image you want to serialize classes to XML,JSON and CSV.    <br />
 Implement a strategy that will allow you to choose between XML , JSON and CSV serialization at runtime.    <br />
+
 
 

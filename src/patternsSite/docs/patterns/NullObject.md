@@ -79,9 +79,9 @@ internal class EmptyFolderDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/nullobject.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of NullObject

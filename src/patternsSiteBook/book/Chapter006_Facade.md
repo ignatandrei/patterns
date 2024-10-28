@@ -44,9 +44,6 @@ public class MyDbContext:DbContext
 ```
 
 
-[Download source](/zipSourceCodes/facade.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Facade
 
@@ -70,5 +67,6 @@ public class MyDbContext:DbContext
 
 
 Implement a Facade that will allow you to display a question in a MessageBox with a single method call in a console application and return yes/no as a result.    <br />
+
 
 

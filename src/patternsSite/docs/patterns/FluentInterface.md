@@ -61,9 +61,9 @@ internal static class FluentInterfaceDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/fluentinterface.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of FluentInterface

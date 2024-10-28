@@ -44,9 +44,6 @@ internal class SingletonDemo
 ```
 
 
-[Download source](/zipSourceCodes/singleton.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Singleton
 
@@ -70,5 +67,6 @@ internal class SingletonDemo
 
 
 Implement a singleton that will allow you to create a single instance of a logger that logs to a file and to a console.    <br />
+
 
 

@@ -48,9 +48,9 @@ internal class DirectoryEnumerableDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/iterator.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Iterator

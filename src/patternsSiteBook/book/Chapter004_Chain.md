@@ -49,9 +49,6 @@ public static class ChainDemo
 ```
 
 
-[Download source](/zipSourceCodes/chain.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Chain
 
@@ -79,5 +76,6 @@ public static class ChainDemo
 Implement a middleware in ASP.    <br />
 NET Core that intercepts the exception and logs it to the database.    <br />
 The middleware should be able to pass the exception to the next middleware in the chain.    <br />
+
 
 

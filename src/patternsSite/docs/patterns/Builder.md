@@ -77,9 +77,9 @@ static class UriBuilderDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/builder.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Builder

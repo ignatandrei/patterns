@@ -36,9 +36,6 @@ internal class DirectoryEnumerableDemo
 ```
 
 
-[Download source](/zipSourceCodes/iterator.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Iterator
 
@@ -66,5 +63,6 @@ internal class DirectoryEnumerableDemo
 
 
 With the Yield keyword implement a function that return an IEnumerable of generic int that will return the first 10 numbers of the Fibonacci sequence.    <br />
+
 
 

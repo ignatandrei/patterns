@@ -48,9 +48,9 @@ internal class FlyweightDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/flyweight.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Flyweight

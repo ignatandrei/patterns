@@ -62,9 +62,9 @@ class Parent : ICloneable
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/prototype.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Prototype

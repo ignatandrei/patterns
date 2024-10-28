@@ -56,9 +56,9 @@ internal class SingletonDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/singleton.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Singleton

@@ -76,9 +76,9 @@ internal class ObserverDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/observer.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Observer

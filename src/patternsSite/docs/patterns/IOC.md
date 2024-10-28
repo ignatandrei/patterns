@@ -79,9 +79,9 @@ public class EmailService : IMessageService
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/ioc.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of IOC

@@ -53,9 +53,9 @@ internal class AbstractFactoryDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/abstractfactory.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of AbstractFactory

@@ -45,9 +45,9 @@ internal class LazyDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/lazy.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Lazy

@@ -56,9 +56,9 @@ public class MyDbContext:DbContext
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/facade.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Facade

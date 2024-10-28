@@ -50,9 +50,6 @@ class Parent : ICloneable
 ```
 
 
-[Download source](/zipSourceCodes/prototype.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Prototype
 
@@ -78,5 +75,6 @@ class Parent : ICloneable
 Imagine that you have a cow farm and you want to create a new cow.    <br />
 Implement a prototype that will allow you to clone a cow.    <br />
 The cow should have a name and a weight.    <br />
+
 
 

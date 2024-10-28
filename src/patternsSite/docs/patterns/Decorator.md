@@ -67,9 +67,9 @@ internal class DecoratorDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/decorator.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Decorator

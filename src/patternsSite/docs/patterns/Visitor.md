@@ -88,9 +88,9 @@ public class MethodVisiting : CSharpSyntaxRewriter
 }
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/visitor.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Visitor

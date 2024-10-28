@@ -1,5 +1,7 @@
-﻿using System.Diagnostics;
+﻿using PatternsData;
+using System.Diagnostics;
 using System.IO.Compression;
+using System.Text;
 
 namespace PatternsObjects;
 
@@ -56,6 +58,27 @@ public class GeneratorFiles
             {
                 var first = content.IndexOf("#");
                 content = content.Substring(first-1);
+                StringBuilder result = new StringBuilder();
+                bool deleteMode = false;
+                var lines = content.Split(Environment.NewLine);
+                foreach (var line in lines)
+                {
+                    if (line.Contains("<!-- delete start -->"))
+                    {
+                        deleteMode = true;
+                        continue;
+                    }
+                    if (line.Contains("<!-- delete end -->"))
+                    {
+                        deleteMode = false;
+                        continue;
+                    }
+                    if (!deleteMode)
+                    {
+                        result.AppendLine(line);
+                    }
+                }
+                content = result.ToString();
             }
             await File.WriteAllTextAsync(file, content);
         }

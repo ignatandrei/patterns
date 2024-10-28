@@ -76,9 +76,6 @@ public class MethodVisiting : CSharpSyntaxRewriter
 ```
 
 
-[Download source](/zipSourceCodes/visitor.zip)
-
-
 
 ## See Source Code for Microsoft implementation of Visitor
 
@@ -106,5 +103,6 @@ public class MethodVisiting : CSharpSyntaxRewriter
 Implement a visitor that will allow you to calculate the total price of a shopping cart.    <br />
 The shopping cart should contain items with a price and a quantity.    <br />
 Visit every item and make the sum.    <br />
+
 
 

@@ -104,9 +104,9 @@ internal class EncodingAdapterDemo
 
 ```
 
-
+<!-- delete start -->
 [Download source](/zipSourceCodes/adapter.zip)
-
+<!-- delete end -->
 
 
 ## See Source Code for Microsoft implementation of Adapter
