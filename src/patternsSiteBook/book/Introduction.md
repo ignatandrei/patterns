@@ -1,9 +1,6 @@
-# This is the introduction for book
+# Patterns Book - examples from .NET Core source code
 
-I was starting to write this book, book, because ...
-
-
-I am happy that you buy it - see you next time!
+This book is a collection of patterns from the .NET Core source code. The patterns are presented in a way that makes them easy to understand and use in your own projects. Each pattern is accompanied by a detailed explanation and example code that demonstrates how it can be implemented in practice.
 
 
 ![Author](./Introduction_Assets/author.png "Author")
