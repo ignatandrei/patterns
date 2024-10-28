@@ -1,16 +1,3 @@
----
-id: FluentInterface
-title: FluentInterface
-tags:
-  - FluentInterface
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  -  design pattern
-
-  - FluentInterface
----
 
 # Pattern:  FluentInterface
 <!-- id : 15 -->

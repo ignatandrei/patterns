@@ -1,16 +1,3 @@
----
-id: Chain
-title: Chain
-tags:
-  - Chain
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  - design pattern
-
-  - Chain
----
 
 # Pattern:  Chain
 <!-- id : 9 -->

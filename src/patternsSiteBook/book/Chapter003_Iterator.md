@@ -1,16 +1,3 @@
----
-id: Iterator
-title: Iterator
-tags:
-  - Iterator
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  - design pattern
-
-  - DirectoryEnumerable
----
 
 # Pattern:  Iterator
 <!-- id : 3 -->

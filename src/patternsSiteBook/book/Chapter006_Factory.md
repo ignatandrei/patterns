@@ -1,16 +1,3 @@
----
-id: Factory
-title: Factory
-tags:
-  - Factory
-  - https://github.com/ignatandrei/patterns
-
-  - creational
-
-  - design pattern
-
-  - Factory
----
 
 # Pattern:  Factory
 <!-- id : 6 -->

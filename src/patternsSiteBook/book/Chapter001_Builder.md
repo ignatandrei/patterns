@@ -1,18 +1,3 @@
----
-id: Builder
-title: Builder
-tags:
-  - Builder
-  - https://github.com/ignatandrei/patterns
-
-  - creational
-
-  - design pattern
-
-  - SqlConnectionStringBuilder
-
-  - UriBuilder
----
 
 # Pattern:  Builder
 <!-- id : 1 -->

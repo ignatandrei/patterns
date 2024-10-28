@@ -1,16 +1,3 @@
----
-id: Strategy
-title: Strategy
-tags:
-  - Strategy
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  -  design pattern
-
-  - Strategy
----
 
 # Pattern:  Strategy
 <!-- id : 11 -->

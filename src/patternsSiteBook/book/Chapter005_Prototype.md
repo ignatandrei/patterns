@@ -1,16 +1,3 @@
----
-id: Prototype
-title: Prototype
-tags:
-  - Prototype
-  - https://github.com/ignatandrei/patterns
-
-  - creational
-
-  - design pattern
-
-  - ICloneable
----
 
 # Pattern:  Prototype
 <!-- id : 5 -->

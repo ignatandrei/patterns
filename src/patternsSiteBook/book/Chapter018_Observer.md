@@ -1,16 +1,3 @@
----
-id: Observer
-title: Observer
-tags:
-  - Observer
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  - design pattern
-
-  - Observer
----
 
 # Pattern:  Observer
 <!-- id : 18 -->

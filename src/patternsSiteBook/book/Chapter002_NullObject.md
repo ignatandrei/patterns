@@ -1,18 +1,3 @@
----
-id: NullObject
-title: NullObject
-tags:
-  - NullObject
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  - design pattern
-
-  - NullLogger
-
-  - EmptyFolder
----
 
 # Pattern:  NullObject
 <!-- id : 2 -->

@@ -1,18 +1,3 @@
----
-id: IOC
-title: IOC
-tags:
-  - IOC
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  - design pattern
-
-  - IOC
-
-  - DI
----
 
 # Pattern:  IOC
 <!-- id : 13 -->

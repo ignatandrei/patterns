@@ -1,16 +1,3 @@
----
-id: Decorator
-title: Decorator
-tags:
-  - Decorator
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  - design pattern
-
-  - Decorator
----
 
 # Pattern:  Decorator
 <!-- id : 8 -->

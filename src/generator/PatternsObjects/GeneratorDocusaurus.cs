@@ -50,7 +50,13 @@ public class GeneratorFiles
                 continue;
             string chapter = AsChapter ? "Chapter"+(++nr).ToString("00#")+"_":"";
             var file = Path.Combine(folder, chapter+ it.data.Title + ".md");
-            await File.WriteAllTextAsync(file, it.res);
+            var content = it.res;
+            if(AsChapter)
+            {
+                var first = content.IndexOf("#");
+                content = content.Substring(first-1);
+            }
+            await File.WriteAllTextAsync(file, content);
         }
         return true;
     }

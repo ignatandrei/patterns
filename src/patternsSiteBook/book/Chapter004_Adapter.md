@@ -1,18 +1,3 @@
----
-id: Adapter
-title: Adapter
-tags:
-  - Adapter
-  - https://github.com/ignatandrei/patterns
-
-  - structural
-
-  - design pattern
-
-  - SQLiteDataAdapter
-
-  - EncodingAdapter
----
 
 # Pattern:  Adapter
 <!-- id : 4 -->

@@ -1,16 +1,3 @@
----
-id: Lazy
-title: Lazy
-tags:
-  - Lazy
-  - https://github.com/ignatandrei/patterns
-
-  - creational
-
-  - design pattern
-
-  - Lazy
----
 
 # Pattern:  Lazy
 <!-- id : 14 -->

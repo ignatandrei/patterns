@@ -1,16 +1,3 @@
----
-id: Flyweight
-title: Flyweight
-tags:
-  - Flyweight
-  - https://github.com/ignatandrei/patterns
-
-  - structural
-
-  - design pattern
-
-  - Flyweight
----
 
 # Pattern:  Flyweight
 <!-- id : 16 -->

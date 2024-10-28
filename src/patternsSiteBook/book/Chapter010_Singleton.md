@@ -1,16 +1,3 @@
----
-id: Singleton
-title: Singleton
-tags:
-  - Singleton
-  - https://github.com/ignatandrei/patterns
-
-  - creational
-
-  - design pattern
-
-  - Singleton
----
 
 # Pattern:  Singleton
 <!-- id : 10 -->

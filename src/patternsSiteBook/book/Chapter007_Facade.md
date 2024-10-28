@@ -1,16 +1,3 @@
----
-id: Facade
-title: Facade
-tags:
-  - Facade
-  - https://github.com/ignatandrei/patterns
-
-  - structural
-
-  - design pattern
-
-  - Facade
----
 
 # Pattern:  Facade
 <!-- id : 7 -->

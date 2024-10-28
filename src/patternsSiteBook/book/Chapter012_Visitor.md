@@ -1,16 +1,3 @@
----
-id: Visitor
-title: Visitor
-tags:
-  - Visitor
-  - https://github.com/ignatandrei/patterns
-
-  - behavioral
-
-  - design pattern
-
-  - Visitor
----
 
 # Pattern:  Visitor
 <!-- id : 12 -->

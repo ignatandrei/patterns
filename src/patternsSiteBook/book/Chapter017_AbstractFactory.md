@@ -1,16 +1,3 @@
----
-id: AbstractFactory
-title: AbstractFactory
-tags:
-  - AbstractFactory
-  - https://github.com/ignatandrei/patterns
-
-  - creational
-
-  - design pattern
-
-  - AbstractFactory
----
 
 # Pattern:  AbstractFactory
 <!-- id : 17 -->
