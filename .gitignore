@@ -398,3 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 src/patternsSiteBook/.pandoc/pandoc.exe
 src/patternsSiteBook/log.json
+src/patternsSiteBook/log.json
