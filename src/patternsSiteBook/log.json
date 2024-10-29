@@ -4,5 +4,1446 @@
         "verbosity": "INFO",
         "for": "./Introduction_Assets/author.png",
         "from": "book\\./Introduction_Assets/author.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:\\Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\Introduction_Assets\\author.png"
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 17 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 4 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 1 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 9 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 8 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 7 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 6 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 15 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 16 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 13 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 3 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 14 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 2 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 18 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 5 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 10 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 11 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "BlockNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- id : 12 -->\n"
+            ],
+            "t": "RawBlock"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<br />"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7",
+        "description": "Temp dir:"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "xelatex \"-halt-on-error\" \"-interaction\" \"nonstopmode\" \"-output-directory\" \"C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7\" \"C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7/input.tex\"",
+        "description": "Command line:"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "(\"TEXINPUTS\",\"C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7;\")\n(\"TEXMFOUTPUT\",\"C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7\")\n(\"USERPROFILE\",\"C:\\\\Users\\\\ignat\")",
+        "description": "Relevant environment variables:"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "% Options for packages loaded elsewhere\n\\PassOptionsToPackage{unicode}{hyperref}\n\\PassOptionsToPackage{hyphens}{url}\n%\n\\documentclass[\n]{article}\n\\usepackage{amsmath,amssymb}\n\\usepackage{iftex}\n\\ifPDFTeX\n  \\usepackage[T1]{fontenc}\n  \\usepackage[utf8]{inputenc}\n  \\usepackage{textcomp} % provide euro and other symbols\n\\else % if luatex or xetex\n  \\usepackage{unicode-math} % this also loads fontspec\n  \\defaultfontfeatures{Scale=MatchLowercase}\n  \\defaultfontfeatures[\\rmfamily]{Ligatures=TeX,Scale=1}\n\\fi\n\\usepackage{lmodern}\n\\ifPDFTeX\\else\n  % xetex/luatex font selection\n\\fi\n% Use upquote if available, for straight quotes in verbatim environments\n\\IfFileExists{upquote.sty}{\\usepackage{upquote}}{}\n\\IfFileExists{microtype.sty}{% use microtype if available\n  \\usepackage[]{microtype}\n  \\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts\n}{}\n\\makeatletter\n\\@ifundefined{KOMAClassName}{% if non-KOMA class\n  \\IfFileExists{parskip.sty}{%\n    \\usepackage{parskip}\n  }{% else\n    \\setlength{\\parindent}{0pt}\n    \\setlength{\\parskip}{6pt plus 2pt minus 1pt}}\n}{% if KOMA class\n  \\KOMAoptions{parskip=half}}\n\\makeatother\n\\usepackage{xcolor}\n\\usepackage{color}\n\\usepackage{fancyvrb}\n\\newcommand{\\VerbBar}{|}\n\\newcommand{\\VERB}{\\Verb[commandchars=\\\\\\{\\}]}\n\\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\\\\{\\}}\n% Add ',fontsize=\\small' for more characters per line\n\\newenvironment{Shaded}{}{}\n\\newcommand{\\AlertTok}[1]{\\textcolor[rgb]{1.00,0.00,0.00}{\\textbf{#1}}}\n\\newcommand{\\AnnotationTok}[1]{\\textcolor[rgb]{0.38,0.63,0.69}{\\textbf{\\textit{#1}}}}\n\\newcommand{\\AttributeTok}[1]{\\textcolor[rgb]{0.49,0.56,0.16}{#1}}\n\\newcommand{\\BaseNTok}[1]{\\textcolor[rgb]{0.25,0.63,0.44}{#1}}\n\\newcommand{\\BuiltInTok}[1]{\\textcolor[rgb]{0.00,0.50,0.00}{#1}}\n\\newcommand{\\CharTok}[1]{\\textcolor[rgb]{0.25,0.44,0.63}{#1}}\n\\newcommand{\\CommentTok}[1]{\\textcolor[rgb]{0.38,0.63,0.69}{\\textit{#1}}}\n\\newcommand{\\CommentVarTok}[1]{\\textcolor[rgb]{0.38,0.63,0.69}{\\textbf{\\textit{#1}}}}\n\\newcommand{\\ConstantTok}[1]{\\textcolor[rgb]{0.53,0.00,0.00}{#1}}\n\\newcommand{\\ControlFlowTok}[1]{\\textcolor[rgb]{0.00,0.44,0.13}{\\textbf{#1}}}\n\\newcommand{\\DataTypeTok}[1]{\\textcolor[rgb]{0.56,0.13,0.00}{#1}}\n\\newcommand{\\DecValTok}[1]{\\textcolor[rgb]{0.25,0.63,0.44}{#1}}\n\\newcommand{\\DocumentationTok}[1]{\\textcolor[rgb]{0.73,0.13,0.13}{\\textit{#1}}}\n\\newcommand{\\ErrorTok}[1]{\\textcolor[rgb]{1.00,0.00,0.00}{\\textbf{#1}}}\n\\newcommand{\\ExtensionTok}[1]{#1}\n\\newcommand{\\FloatTok}[1]{\\textcolor[rgb]{0.25,0.63,0.44}{#1}}\n\\newcommand{\\FunctionTok}[1]{\\textcolor[rgb]{0.02,0.16,0.49}{#1}}\n\\newcommand{\\ImportTok}[1]{\\textcolor[rgb]{0.00,0.50,0.00}{\\textbf{#1}}}\n\\newcommand{\\InformationTok}[1]{\\textcolor[rgb]{0.38,0.63,0.69}{\\textbf{\\textit{#1}}}}\n\\newcommand{\\KeywordTok}[1]{\\textcolor[rgb]{0.00,0.44,0.13}{\\textbf{#1}}}\n\\newcommand{\\NormalTok}[1]{#1}\n\\newcommand{\\OperatorTok}[1]{\\textcolor[rgb]{0.40,0.40,0.40}{#1}}\n\\newcommand{\\OtherTok}[1]{\\textcolor[rgb]{0.00,0.44,0.13}{#1}}\n\\newcommand{\\PreprocessorTok}[1]{\\textcolor[rgb]{0.74,0.48,0.00}{#1}}\n\\newcommand{\\RegionMarkerTok}[1]{#1}\n\\newcommand{\\SpecialCharTok}[1]{\\textcolor[rgb]{0.25,0.44,0.63}{#1}}\n\\newcommand{\\SpecialStringTok}[1]{\\textcolor[rgb]{0.73,0.40,0.53}{#1}}\n\\newcommand{\\StringTok}[1]{\\textcolor[rgb]{0.25,0.44,0.63}{#1}}\n\\newcommand{\\VariableTok}[1]{\\textcolor[rgb]{0.10,0.09,0.49}{#1}}\n\\newcommand{\\VerbatimStringTok}[1]{\\textcolor[rgb]{0.25,0.44,0.63}{#1}}\n\\newcommand{\\WarningTok}[1]{\\textcolor[rgb]{0.38,0.63,0.69}{\\textbf{\\textit{#1}}}}\n\\usepackage{graphicx}\n\\makeatletter\n\\newsavebox\\pandoc@box\n\\newcommand*\\pandocbounded[1]{% scales image to fit in text height/width\n  \\sbox\\pandoc@box{#1}%\n  \\Gscale@div\\@tempa{\\textheight}{\\dimexpr\\ht\\pandoc@box+\\dp\\pandoc@box\\relax}%\n  \\Gscale@div\\@tempb{\\linewidth}{\\wd\\pandoc@box}%\n  \\ifdim\\@tempb\\p@<\\@tempa\\p@\\let\\@tempa\\@tempb\\fi% select the smaller of both\n  \\ifdim\\@tempa\\p@<\\p@\\scalebox{\\@tempa}{\\usebox\\pandoc@box}%\n  \\else\\usebox{\\pandoc@box}%\n  \\fi%\n}\n% Set default figure placement to htbp\n\\def\\fps@figure{htbp}\n\\makeatother\n\\setlength{\\emergencystretch}{3em} % prevent overfull lines\n\\providecommand{\\tightlist}{%\n  \\setlength{\\itemsep}{0pt}\\setlength{\\parskip}{0pt}}\n\\setcounter{secnumdepth}{-\\maxdimen} % remove section numbering\n\\usepackage{bookmark}\n\\IfFileExists{xurl.sty}{\\usepackage{xurl}}{} % add URL line breaks if available\n\\urlstyle{same}\n\\hypersetup{\n  pdftitle={Pattern in .NET Core},\n  pdfauthor={Andrei Ignat},\n  hidelinks,\n  pdfcreator={LaTeX via pandoc}}\n\n\\title{Pattern in .NET Core}\n\\author{Andrei Ignat}\n\\date{}\n\n\\begin{document}\n\\maketitle\n\n{\n\\setcounter{tocdepth}{3}\n\\tableofcontents\n}\n\\subsection{Patterns Book - examples from .NET Core source\ncode}\\label{patterns-book---examples-from-net-core-source-code}\n\nThis book is a collection of patterns from the .NET Core source code.\nThe patterns are presented in a way that makes them easy to understand\nand use in your own projects. Each pattern is accompanied by a detailed\nexplanation and example code that demonstrates how it can be implemented\nin practice.\n\n\\pandocbounded{\\includegraphics[keepaspectratio]{C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7/Introduction_Assets/author.png}}\n\n\\subsection{Pattern: AbstractFactory}\\label{pattern-abstractfactory}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/AbstractFactory}\n\nAbstract Factory is a creational design pattern that lets you produce\nfamilies of related objects without specifying their concrete classes.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation}\n\nYou want to create commands for any specific database type in order to\nobtain data from a database. This means you can switch between different\ndatabases (e.g., SQL Server, MySQL, PostgreSQL) without changing the\ncore logic of your application. The factory will provide the appropriate\nconcrete implementation of the DBConnection for the database in use.. By\nusing an Abstract Factory, your application can remain agnostic of the\nspecific type of database it is interacting with.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net-}\n\n\\paragraph{AbstractFactory}\\label{abstractfactory}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{Data}\\OperatorTok{.}\\FunctionTok{SqlClient}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Data}\\OperatorTok{.}\\FunctionTok{Common}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ AbstractFactory}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ AbstractFactoryDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{Demo}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\CommentTok{//create DbConnection factory by using the instance of SqlConnection}\n\\NormalTok{        DbConnection connection }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{SqlConnection}\\OperatorTok{();}\n        \\CommentTok{//create DbCommand instance by using the instance of SqlConnection}\n\\NormalTok{        DbCommand command }\\OperatorTok{=}\\NormalTok{ connection}\\OperatorTok{.}\\FunctionTok{CreateCommand}\\OperatorTok{();}\n        \\CommentTok{//really, the DBCommand is a SqlCommand}\n\\NormalTok{        SqlCommand}\\OperatorTok{?}\\NormalTok{ sqlCommand }\\OperatorTok{=}\\NormalTok{ command }\\KeywordTok{as}\\NormalTok{ SqlCommand}\\OperatorTok{;}\n        \\CommentTok{//check if the DbCommand is a SqlCommand}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"DbCommand is SqlCommand: \\{sqlCommand != null\\}\"}\\OperatorTok{);}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nAbstractFactory}\\label{see-source-code-for-microsoft-implementation-of-abstractfactory}\n\n\\href{https://source.dot.net/\\#System.Data.Common/System/Data/Common/DbConnection.cs}{SourceCode\nDbConnection} :\n\\url{https://source.dot.net/\\#System.Data.Common/System/Data/Common/DbConnection.cs}\n\n\\subsubsection{Learn More}\\label{learn-more}\n\n\\href{https://en.wikipedia.org/wiki/Abstract_factory_pattern}{Wikipedia}\n: \\url{https://en.wikipedia.org/wiki/Abstract_factory_pattern}\n\n\\subsubsection{Homework}\\label{homework}\n\nImagine you want to produce loggers. You have a logger that logs to a\nfile and a logger that logs to a console and a Nothing Logger - a logger\nthat does nothing. Implement an abstract factory that will allow you to\ncreate a logger factory that will create a logger that logs to a file or\nto a console or nothing.\n\n\\subsection{Pattern: Adapter}\\label{pattern-adapter}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Adapter}\n\nAdapter design pattern allows the interface of an existing class to be\nused as another interface.It is often used to make existing classes work\nwith others without modifying their source code.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-1}\n\nYou want to transfer data from a database Command to a DataTable. The\nSQLiteDataAdapter serves as an adapter between the SQLiteCommand object\n(which represents a SQL command or stored procedure to execute against a\nSQLite database) and the DataTable object (which represents in-memory\ndata in a tabular format).\n\n\\subsubsection{Examples in .NET :}\\label{examples-in-net-}\n\n\\paragraph{SQLiteDataAdapter}\\label{sqlitedataadapter}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{namespace}\\NormalTok{ Adaptor}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ SQLiteDataAdapterDemo}\n\\OperatorTok{\\{}\n    \\CommentTok{/// }\\KeywordTok{\\textless{}summary\\textgreater{}}\n    \\CommentTok{///Adaptee  {-} Command }\n    \\CommentTok{///Target  {-} DataTable}\n    \\CommentTok{///Adapter  {-} SqlDataAdapter}\n    \\CommentTok{///Target Method {-} Fill(Dataset instance)}\n    \\CommentTok{/// }\\KeywordTok{\\textless{}/summary\\textgreater{}}\n    \\CommentTok{/// }\\KeywordTok{\\textless{}returns\\textgreater{}\\textless{}/returns\\textgreater{}}\n    \\KeywordTok{public} \\KeywordTok{static}\\NormalTok{ async Task }\\FunctionTok{MainSqliteAdapterAsync}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\CommentTok{//Target: Creates a DataTable instance to hold the data fetched from the database.}\n        \\DataTypeTok{var}\\NormalTok{ dataFormats }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{DataTable}\\OperatorTok{();}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{dataFormats}\\OperatorTok{.}\\FunctionTok{Rows}\\OperatorTok{.}\\FunctionTok{Count}\\OperatorTok{);}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{dataFormats}\\OperatorTok{.}\\FunctionTok{Columns}\\OperatorTok{.}\\FunctionTok{Count}\\OperatorTok{);}\n        \\KeywordTok{using} \\OperatorTok{(}\\DataTypeTok{var}\\NormalTok{ con }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{SQLiteConnection}\\OperatorTok{())}\n        \\OperatorTok{\\{}\n\\NormalTok{            con}\\OperatorTok{.}\\FunctionTok{ConnectionString} \\OperatorTok{=} \\StringTok{\"Data Source=CatalogRo.sqlite3\"}\\OperatorTok{;}\n\\NormalTok{            await con}\\OperatorTok{.}\\FunctionTok{OpenAsync}\\OperatorTok{();}\n\n            \\KeywordTok{using} \\OperatorTok{(}\\DataTypeTok{var}\\NormalTok{ cmd }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{SQLiteCommand}\\OperatorTok{())}\n            \\OperatorTok{\\{}\n                \\CommentTok{// Adaptee: Sets the SQL command text to fetch all records from the \\textquotesingle{}Format\\textquotesingle{} table.}\n\\NormalTok{                cmd}\\OperatorTok{.}\\FunctionTok{CommandText} \\OperatorTok{=} \\StringTok{\"select * from Format\"}\\OperatorTok{;}\n\\NormalTok{                cmd}\\OperatorTok{.}\\FunctionTok{Connection} \\OperatorTok{=}\\NormalTok{ con}\\OperatorTok{;}\n                \\KeywordTok{using} \\OperatorTok{(}\\DataTypeTok{var}\\NormalTok{ adapt }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{SQLiteDataAdapter}\\OperatorTok{(}\\NormalTok{cmd}\\OperatorTok{))}\n                \\OperatorTok{\\{}\n                    \\CommentTok{// Adapter: Fills the DataTable (Target) with data fetched using the SQLiteCommand (Adaptee).}\n\\NormalTok{                    adapt}\\OperatorTok{.}\\FunctionTok{Fill}\\OperatorTok{(}\\NormalTok{dataFormats}\\OperatorTok{);}\n                \\OperatorTok{\\}}\n            \\OperatorTok{\\}}\n\n        \\OperatorTok{\\}}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{dataFormats}\\OperatorTok{.}\\FunctionTok{Rows}\\OperatorTok{.}\\FunctionTok{Count}\\OperatorTok{);}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{dataFormats}\\OperatorTok{.}\\FunctionTok{Columns}\\OperatorTok{.}\\FunctionTok{Count}\\OperatorTok{);}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\paragraph{EncodingAdapter}\\label{encodingadapter}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{namespace}\\NormalTok{ Adaptor}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ EncodingAdapterDemo}\n\\OperatorTok{\\{}\n    \\CommentTok{/// }\\KeywordTok{\\textless{}summary\\textgreater{}}\n    \\CommentTok{///Adaptee  {-} string }\n    \\CommentTok{///Target  {-} bytes}\n    \\CommentTok{///Adapter  {-} encoding}\n    \\CommentTok{///Target Method {-} GetBytes}\n    \\CommentTok{/// }\\KeywordTok{\\textless{}/summary\\textgreater{}}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{AdapterStringByte}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\DataTypeTok{var}\\NormalTok{ url }\\OperatorTok{=} \\StringTok{\"http://msprogrammer.serviciipeweb.ro\"}\\OperatorTok{;}\n\\NormalTok{        Encoding e }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{ASCIIEncoding}\\OperatorTok{();}\n        \\DataTypeTok{var}\\NormalTok{ b }\\OperatorTok{=}\\NormalTok{ e}\\OperatorTok{.}\\FunctionTok{GetBytes}\\OperatorTok{(}\\NormalTok{url}\\OperatorTok{);}\n\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"from \\{e.EncodingName\\} number bytes \\{b.Length\\}\"}\\OperatorTok{);}\n\n\\NormalTok{        e }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{UTF32Encoding}\\OperatorTok{();}\n\\NormalTok{        b }\\OperatorTok{=}\\NormalTok{ e}\\OperatorTok{.}\\FunctionTok{GetBytes}\\OperatorTok{(}\\NormalTok{url}\\OperatorTok{);}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"from \\{e.EncodingName\\} number bytes \\{b.Length\\}\"}\\OperatorTok{);}\n\n    \\OperatorTok{\\}}\n\n\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nAdapter}\\label{see-source-code-for-microsoft-implementation-of-adapter}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/ASCIIEncoding.cs}{SourceCode\nAsciiEncoding} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/ASCIIEncoding.cs}\n\n\\href{https://github.com/mono/mono/blob/9bb01f57a126dab35f070ce238457931e9814c33/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLiteDataAdapter.cs\\#L20}{SourceCode\nSqliteDataAdapter} :\n\\url{https://github.com/mono/mono/blob/9bb01f57a126dab35f070ce238457931e9814c33/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLiteDataAdapter.cs\\#L20}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/UTF32Encoding.cs}{SourceCode\nUTF32Encoding} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Text/UTF32Encoding.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-1}\n\n\\href{http://wiki.c2.com/?AdapterPattern}{C2Wiki} :\n\\url{http://wiki.c2.com/?AdapterPattern}\n\n\\href{http://www.dofactory.com/net/Adapter-design-pattern}{dofactory} :\n\\url{http://www.dofactory.com/net/Adapter-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-Adapter}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-Adapter}\n\n\\href{https://en.wikipedia.org/wiki/Adapter_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Adapter_pattern}\n\n\\subsubsection{Homework}\\label{homework-1}\n\niPhone 7 does not have a headphone jack. Implement an adapter that will\nallow you to use your old headphones , that have jack, with the iPhone\n7.\n\n\\subsection{Pattern: Builder}\\label{pattern-builder}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Builder}\n\nThe intent of the Builder design pattern is to separate the construction\nof a complex object from its representation.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-2}\n\nYou want to let the developer construct a SqlConnectionString. The\nSqlConnectionStringBuilder class provides a way to construct connection\nstrings for SQL Server databases. Instead of requiring the developer to\nconstruct a connection string in one go, potentially leading to mistakes\nor omissions, SqlConnectionStringBuilder allows for the step-by-step\nconstruction of a connection string. This can help to ensure that all\nnecessary parameters are included and that the connection string is\ncorrectly formatted. Once all necessary parameters have been set, the\nConnectionString property of the SqlConnectionStringBuilder object can\nbe used to retrieve the constructed connection string.\n\n\\subsubsection{Examples in .NET :}\\label{examples-in-net--1}\n\n\\paragraph{SqlConnectionStringBuilder}\\label{sqlconnectionstringbuilder}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{namespace}\\NormalTok{ Builder}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ ConnectionStringDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{ConnectionString}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\CommentTok{//start example 2}\n\\NormalTok{        SqlConnectionStringBuilder build }\\OperatorTok{=} \\KeywordTok{new} \\OperatorTok{();}\n\\NormalTok{        build}\\OperatorTok{.}\\FunctionTok{DataSource} \\OperatorTok{=} \\StringTok{\".\"}\\OperatorTok{;}\n\\NormalTok{        build}\\OperatorTok{.}\\FunctionTok{InitialCatalog} \\OperatorTok{=} \\StringTok{\"MyDatabase\"}\\OperatorTok{;}\n\\NormalTok{        build}\\OperatorTok{.}\\FunctionTok{ConnectTimeout} \\OperatorTok{=} \\DecValTok{30}\\OperatorTok{;}\n        \\CommentTok{// Outputs the constructed connection string to the console. This demonstrates the final product of the Builder pattern.}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{build}\\OperatorTok{.}\\FunctionTok{ConnectionString}\\OperatorTok{);}\n        \\CommentTok{//end example 2}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\paragraph{UriBuilder}\\label{uribuilder}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{namespace}\\NormalTok{ Builder}\\OperatorTok{;}\n\\KeywordTok{static} \\KeywordTok{class}\\NormalTok{ UriBuilderDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{UriMod}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\CommentTok{//start example 1}\n        \\DataTypeTok{var}\\NormalTok{ uri }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{Uri}\\OperatorTok{(}\\StringTok{\"https://msprogrammer.serviciipeweb.ro/category/friday{-}links/\"}\\OperatorTok{);}\n        \\DataTypeTok{var}\\NormalTok{ b }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{UriBuilder}\\OperatorTok{(}\\NormalTok{uri}\\OperatorTok{);}\n        \\CommentTok{//changing part}\n\\NormalTok{        b}\\OperatorTok{.}\\FunctionTok{Scheme} \\OperatorTok{=} \\StringTok{\"http\"}\\OperatorTok{;}\n        \\CommentTok{//now we have http://msprogrammer.serviciipeweb.ro/category/friday{-}links/}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{b}\\OperatorTok{.}\\FunctionTok{Uri}\\OperatorTok{);}\n        \\CommentTok{//changing part}\n\\NormalTok{        b}\\OperatorTok{.}\\FunctionTok{Path} \\OperatorTok{=} \\StringTok{\"2018/03/05/design{-}patterns{-}class/\"}\\OperatorTok{;}\n        \\CommentTok{//now we have http://msprogrammer.serviciipeweb.ro/2018/03/05/design{-}patterns{-}class/}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{b}\\OperatorTok{.}\\FunctionTok{Uri}\\OperatorTok{);}\n        \\CommentTok{//end example 1}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nBuilder}\\label{see-source-code-for-microsoft-implementation-of-builder}\n\n\\href{https://referencesource.microsoft.com/\\#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs}{SourceCode\nSqlConnectionStringBuilder} :\n\\url{https://referencesource.microsoft.com/\\#System.Data/fx/src/data/System/Data/SqlClient/SqlConnectionStringBuilder.cs}\n\n\\href{https://source.dot.net/\\#System.Private.Uri/System/UriBuilder.cs}{SourceCode\nUriBuilder} :\n\\url{https://source.dot.net/\\#System.Private.Uri/System/UriBuilder.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-2}\n\n\\href{http://wiki.c2.com/?BuilderPattern}{C2Wiki} :\n\\url{http://wiki.c2.com/?BuilderPattern}\n\n\\href{http://www.dofactory.com/net/Builder-design-pattern}{dofactory} :\n\\url{http://www.dofactory.com/net/Builder-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-Builder}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-Builder}\n\n\\href{https://en.wikipedia.org/wiki/Builder_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Builder_pattern}\n\n\\subsubsection{Homework}\\label{homework-2}\n\nImagine that you have a logger that logs to a file and to a console.\nImplement a builder that will allow you to create a logger with\ndifferent configurations. For example, you can set the log level, the\nlog format, and the log destination.\n\n\\subsection{Pattern: Chain}\\label{pattern-chain}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Chain}\n\nChain of responsibility pattern allows an object to send a command\nwithout knowing what object will receive and handle it.Chain the\nreceiving objects and pass the request along the chain until an object\nhandles it.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-3}\n\nYou want to pass the exception to the possible handlers / catch blocks\nin the all functions in the call stack. Exception bubbling in .NET\nexemplifies the Chain of Responsibility pattern by allowing exceptions\nto be passed along a chain of potential handlers (catch blocks) until\none is found that can handle the exception. This can be useful when you\nwant to ensure that exceptions are handled at the appropriate level of\nabstraction, rather than being caught and handled at a lower level where\nthey may not be fully understood or properly addressed. By allowing\nexceptions to bubble up the call stack, you can ensure that they are\nhandled in a consistent and appropriate manner, regardless of where they\noccur in the code. This mechanism decouples the thrower of the exception\nfrom the handlers, providing a flexible and dynamic way of managing\nerrors that occur during runtime.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--1}\n\n\\paragraph{Chain}\\label{chain}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{namespace}\\NormalTok{ Chain}\\OperatorTok{;}\n\n\\KeywordTok{public} \\KeywordTok{static} \\KeywordTok{class}\\NormalTok{ ChainDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{int} \\FunctionTok{SecondException}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\KeywordTok{try}\n        \\OperatorTok{\\{}\n            \\CommentTok{// Calls \\textquotesingle{}FirstException\\textquotesingle{} method which is known to throw an exception.}\n            \\FunctionTok{FirstException}\\OperatorTok{();}\n            \\KeywordTok{return} \\DecValTok{5}\\OperatorTok{;}\n        \\OperatorTok{\\}}\n        \\KeywordTok{catch} \\OperatorTok{(}\\NormalTok{Exception ex}\\OperatorTok{)}\n        \\OperatorTok{\\{}\n            \\CommentTok{// Throws a new exception, chaining the caught exception \\textquotesingle{}ex\\textquotesingle{} as the inner exception.}\n            \\CommentTok{// This adds context to the exception, indicating it originated from \\textquotesingle{}SecondException\\textquotesingle{}.}\n            \\KeywordTok{throw} \\KeywordTok{new} \\FunctionTok{Exception}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"from \\{nameof(SecondException)\\}\"}\\OperatorTok{,}\\NormalTok{ ex}\\OperatorTok{);}\n        \\OperatorTok{\\}}\n    \\OperatorTok{\\}}\n    \\KeywordTok{static} \\DataTypeTok{int} \\FunctionTok{FirstException}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n\n        \\KeywordTok{throw} \\KeywordTok{new} \\FunctionTok{ArgumentException}\\OperatorTok{(}\\StringTok{\"argument\"}\\OperatorTok{);}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nChain}\\label{see-source-code-for-microsoft-implementation-of-chain}\n\n\\href{https://source.dot.net/\\#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs}{SourceCode\nApplicationBuilderExtensions.UseMiddleware} :\n\\url{https://source.dot.net/\\#Microsoft.AspNetCore.Builder/ApplicationBuilderExtensions.cs}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/System/Object.CoreCLR.cs}{SourceCode\nUseMiddlewareExtensions.UseMiddleware} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/System/Object.CoreCLR.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-3}\n\n\\href{https://wiki.c2.com/?ChainOfResponsibilityPattern}{C2Wiki} :\n\\url{https://wiki.c2.com/?ChainOfResponsibilityPattern}\n\n\\href{http://www.dofactory.com/net/chain-design-pattern}{dofactory} :\n\\url{http://www.dofactory.com/net/chain-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-chain}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-chain}\n\n\\href{https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern}{Wikipedia}\n: \\url{https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern}\n\n\\subsubsection{Homework}\\label{homework-3}\n\nImplement a middleware in ASP. NET Core that intercepts the exception\nand logs it to the database. The middleware should be able to pass the\nexception to the next middleware in the chain.\n\n\\subsection{Pattern: Decorator}\\label{pattern-decorator}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Decorator}\n\nDecorator allows behavior to be added to an individual object, either\nstatically or dynamically, without affecting the behavior of other\nobjects from the same class.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-4}\n\nStream is a perfect example of the Decorator pattern. Imagine you want\nto write a text to a file, but you want to add some additional\nfunctionality(or not, at will) to the stream, such as compression or\nencryption.. By using the Decorator pattern, you can easily compose\nstreams with different behaviors to create custom stream objects that\nmeet specific requirements. Each stream class focuses on a single\nresponsibility. FileStream handles file I/O, CryptoStream handles\nencryption and decryption, and GZipStream handles compression and\ndecompression. This makes the classes easier to understand, test, and\nmaintain..\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--2}\n\n\\paragraph{Decorator}\\label{decorator}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\n\\KeywordTok{namespace}\\NormalTok{ Decorator}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ DecoratorDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{Stream\\_Crypto\\_Gzip}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\DataTypeTok{string}\\NormalTok{ nameFile }\\OperatorTok{=} \\StringTok{\"test.txt\"}\\OperatorTok{;}\n        \\KeywordTok{if} \\OperatorTok{(}\\NormalTok{File}\\OperatorTok{.}\\FunctionTok{Exists}\\OperatorTok{(}\\NormalTok{nameFile}\\OperatorTok{))}\n\\NormalTok{            File}\\OperatorTok{.}\\FunctionTok{Delete}\\OperatorTok{(}\\NormalTok{nameFile}\\OperatorTok{);}\n        \\DataTypeTok{byte}\\OperatorTok{[]}\\NormalTok{ data }\\OperatorTok{=}\\NormalTok{ ASCIIEncoding}\\OperatorTok{.}\\FunctionTok{ASCII}\\OperatorTok{.}\\FunctionTok{GetBytes}\\OperatorTok{(}\\StringTok{\"Hello World!\"}\\OperatorTok{);}\n        \\CommentTok{// Creates a FileStream (the ConcreteComponent in the Decorator pattern context).}\n        \\KeywordTok{using} \\OperatorTok{(}\\DataTypeTok{var}\\NormalTok{ stream }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{FileStream}\\OperatorTok{(}\\NormalTok{nameFile}\\OperatorTok{,}\\NormalTok{ FileMode}\\OperatorTok{.}\\FunctionTok{OpenOrCreate}\\OperatorTok{,}\\NormalTok{ FileAccess}\\OperatorTok{.}\\FunctionTok{Write}\\OperatorTok{))}\n        \\OperatorTok{\\{}\n            \\CommentTok{//stream.Write(data, 0, data.Length);}\n            \\CommentTok{//return;}\n            \n            \\DataTypeTok{var}\\NormalTok{ cryptic }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{DESCryptoServiceProvider}\\OperatorTok{();}\n\n\\NormalTok{            cryptic}\\OperatorTok{.}\\FunctionTok{Key} \\OperatorTok{=}\\NormalTok{ ASCIIEncoding}\\OperatorTok{.}\\FunctionTok{ASCII}\\OperatorTok{.}\\FunctionTok{GetBytes}\\OperatorTok{(}\\StringTok{\"ABCDEFGH\"}\\OperatorTok{);}\n\\NormalTok{            cryptic}\\OperatorTok{.}\\FunctionTok{IV} \\OperatorTok{=}\\NormalTok{ ASCIIEncoding}\\OperatorTok{.}\\FunctionTok{ASCII}\\OperatorTok{.}\\FunctionTok{GetBytes}\\OperatorTok{(}\\StringTok{\"ABCDEFGH\"}\\OperatorTok{);}\n            \\CommentTok{// Decorates the FileStream with a CryptoStream (the first Decorator).}\n            \\KeywordTok{using} \\OperatorTok{(}\\DataTypeTok{var}\\NormalTok{ crStream }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{CryptoStream}\\OperatorTok{(}\\NormalTok{stream}\\OperatorTok{,}\\NormalTok{ cryptic}\\OperatorTok{.}\\FunctionTok{CreateEncryptor}\\OperatorTok{(),}\\NormalTok{ CryptoStreamMode}\\OperatorTok{.}\\FunctionTok{Write}\\OperatorTok{))}\n            \\OperatorTok{\\{}\n                \\CommentTok{// Further decorates the CryptoStream with a GZipStream (the second Decorator).}\n                \\KeywordTok{using} \\OperatorTok{(}\\DataTypeTok{var}\\NormalTok{ gz }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{GZipStream}\\OperatorTok{(}\\NormalTok{crStream}\\OperatorTok{,}\\NormalTok{ CompressionLevel}\\OperatorTok{.}\\FunctionTok{Optimal}\\OperatorTok{))}\n                \\OperatorTok{\\{}\n\\NormalTok{                    gz}\\OperatorTok{.}\\FunctionTok{Write}\\OperatorTok{(}\\NormalTok{data}\\OperatorTok{,} \\DecValTok{0}\\OperatorTok{,}\\NormalTok{ data}\\OperatorTok{.}\\FunctionTok{Length}\\OperatorTok{);}\n                \\OperatorTok{\\}}\n\n            \\OperatorTok{\\}}\n        \\OperatorTok{\\}}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nDecorator}\\label{see-source-code-for-microsoft-implementation-of-decorator}\n\n\\href{https://source.dot.net/\\#System.Security.Cryptography/System/Security/Cryptography/CryptoStream.cs}{SourceCode\nCryptoStream} :\n\\url{https://source.dot.net/\\#System.Security.Cryptography/System/Security/Cryptography/CryptoStream.cs}\n\n\\href{https://source.dot.net/\\#System.IO.Compression/System/IO/Compression/GZipStream.cs}{SourceCode\nGZipStream} :\n\\url{https://source.dot.net/\\#System.IO.Compression/System/IO/Compression/GZipStream.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-4}\n\n\\href{http://wiki.c2.com/?DecoratorPattern}{C2Wiki} :\n\\url{http://wiki.c2.com/?DecoratorPattern}\n\n\\href{http://www.dofactory.com/net/decorator-design-pattern}{dofactory}\n: \\url{http://www.dofactory.com/net/decorator-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-decorator}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-decorator}\n\n\\href{https://en.wikipedia.org/wiki/Prototype_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Prototype_pattern}\n\n\\subsubsection{Homework}\\label{homework-4}\n\n1.Create a LoggingDbConnectionDecorator class that adds logging\nfunctionality to a DbConnection object.. This class should log the\ndetails of the operations performed on the DbConnection (like opening a\nconnection, closing a connection, executing a command, etc.) to a log\nfile or console.. 2.Your task is to model a coffee shop ordering system\nusing the Decorator design pattern. The base component will be a coffee,\nand you will create decorators for adding milk, sugar, and chocolate..\nThe coffee should be able to display the condiments in a Display method\nand calculate the price of the coffee with milk, sugar, and chocolate.\n\n\\subsection{Pattern: Facade}\\label{pattern-facade}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Facade}\n\nFacade is is an object that provides a simplified interface to a larger\nbody of code, such as a class library.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-5}\n\nYou are the creator of EFCore that provides ORM capabilities to the\ndevelopers. You want also to have a simplified interface to interact\nwith the underlying database and provide simple methods like\nEnsureCreated(), BeginTransaction(), etc. The Facade pattern provides a\nunified interface to a set of interfaces in a subsystem. It defines a\nhigher-level interface that makes the subsystem easier to use by\nproviding a single entry point for common operations.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--3}\n\n\\paragraph{Facade}\\label{facade}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{EntityFrameworkCore}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{EntityFrameworkCore}\\OperatorTok{.}\\FunctionTok{Infrastructure}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ Facade}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ FacadeDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{ExecuteSql}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n\\NormalTok{        MyDbContext cnt }\\OperatorTok{=} \\KeywordTok{new}\\OperatorTok{();}\n\n\\NormalTok{        DatabaseFacade dbFacade }\\OperatorTok{=}\\NormalTok{ cnt}\\OperatorTok{.}\\FunctionTok{Database}\\OperatorTok{;}\n        \\CommentTok{//calling the facade for create the database}\n\\NormalTok{        dbFacade}\\OperatorTok{.}\\FunctionTok{EnsureCreated}\\OperatorTok{();} \n        \\CommentTok{//calling the facade for begin a transaction}\n\\NormalTok{        dbFacade}\\OperatorTok{.}\\FunctionTok{BeginTransaction}\\OperatorTok{();}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\n\\KeywordTok{public} \\KeywordTok{class}\\NormalTok{ MyDbContext}\\OperatorTok{:}\\NormalTok{DbContext}\n\\OperatorTok{\\{}\n    \n\\OperatorTok{\\}}\n\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nFacade}\\label{see-source-code-for-microsoft-implementation-of-facade}\n\n\\href{https://github.com/dotnet/efcore/blob/3163cb9a0677f94bd986dcdbe3d6026d4f743c73/src/EFCore/Infrastructure/DatabaseFacade.cs\\#L15}{SourceCode\nDatabaseFacade} :\n\\url{https://github.com/dotnet/efcore/blob/3163cb9a0677f94bd986dcdbe3d6026d4f743c73/src/EFCore/Infrastructure/DatabaseFacade.cs\\#L15}\n\n\\subsubsection{Learn More}\\label{learn-more-5}\n\n\\href{http://wiki.c2.com/?FacadePattern}{C2Wiki} :\n\\url{http://wiki.c2.com/?FacadePattern}\n\n\\href{http://www.dofactory.com/net/facade-design-pattern}{dofactory} :\n\\url{http://www.dofactory.com/net/facade-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-facade}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-facade}\n\n\\href{https://en.wikipedia.org/wiki/Facade_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Facade_pattern}\n\n\\subsubsection{Homework}\\label{homework-5}\n\nImplement a Facade that will allow you to display a question in a\nMessageBox with a single method call in a console application and return\nyes/no as a result.\n\n\\subsection{Pattern: Factory}\\label{pattern-factory}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Factory}\n\nA factory is a function or method that returns objects of a varying\nprototype or class from some method call, which is assumed to be new.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-6}\n\nFor getting data from Web, you can have a HttpWebRequest or\nFtpWebRequest. The type of the request depends on the protocol you want\nto use : HTTP or FTP. You want to make easier for the developer to\ncreate the appropriate request object based on the string that starts\nwith the protocol. So you can have the Factory pattern method :\nWebRequest.Create.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--4}\n\n\\paragraph{Factory}\\label{factory}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{AspNetCore}\\OperatorTok{.}\\FunctionTok{Mvc}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{AspNetCore}\\OperatorTok{.}\\FunctionTok{Mvc}\\OperatorTok{.}\\FunctionTok{Controllers}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{AspNetCore}\\OperatorTok{.}\\FunctionTok{Mvc}\\OperatorTok{.}\\FunctionTok{Internal}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Data}\\OperatorTok{.}\\FunctionTok{Common}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Globalization}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Net}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Web}\\OperatorTok{.}\\FunctionTok{Mvc}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ Factory}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ FactoryDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{DemoWebRequest}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n\n        \\CommentTok{//WebRequest.Create is a factory {-} can create HttpWebRequest or FtpWebRequest}\n\\NormalTok{        HttpWebRequest hwr }\\OperatorTok{=} \\OperatorTok{(}\\NormalTok{HttpWebRequest}\\OperatorTok{)}\\NormalTok{WebRequest}\\OperatorTok{.}\\FunctionTok{Create}\\OperatorTok{(}\\StringTok{\"http://www.yahoo.com\"}\\OperatorTok{);}\n        \n    \\OperatorTok{\\}}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{DemoConvert}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\DataTypeTok{string}\\NormalTok{ value }\\OperatorTok{=} \\StringTok{\"1,500\"}\\OperatorTok{;}\n\\NormalTok{        Thread}\\OperatorTok{.}\\FunctionTok{CurrentThread}\\OperatorTok{.}\\FunctionTok{CurrentCulture} \\OperatorTok{=}\\NormalTok{ CultureInfo}\\OperatorTok{.}\\FunctionTok{CreateSpecificCulture}\\OperatorTok{(}\\StringTok{\"en{-}US\"}\\OperatorTok{);}\n\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{Convert}\\OperatorTok{.}\\FunctionTok{ToDouble}\\OperatorTok{(}\\NormalTok{value}\\OperatorTok{));}\n\n\\NormalTok{        Thread}\\OperatorTok{.}\\FunctionTok{CurrentThread}\\OperatorTok{.}\\FunctionTok{CurrentCulture} \\OperatorTok{=}\\NormalTok{ CultureInfo}\\OperatorTok{.}\\FunctionTok{CreateSpecificCulture}\\OperatorTok{(}\\StringTok{\"fr{-}FR\"}\\OperatorTok{);}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{Convert}\\OperatorTok{.}\\FunctionTok{ToDouble}\\OperatorTok{(}\\NormalTok{value}\\OperatorTok{));}\n\n    \\OperatorTok{\\}}\n    \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{RegisterControllerFactory}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n\\NormalTok{        ControllerBuilder}\\OperatorTok{.}\\FunctionTok{Current}\\OperatorTok{.}\\FunctionTok{SetControllerFactory}\\OperatorTok{(}\\KeywordTok{new} \\FunctionTok{MyControllerFactory}\\OperatorTok{());}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\n\\CommentTok{//default controller factory is a factory of controllers}\n\\KeywordTok{class}\\NormalTok{ MyControllerFactory }\\OperatorTok{:}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Web}\\OperatorTok{.}\\FunctionTok{Mvc}\\OperatorTok{.}\\FunctionTok{DefaultControllerFactory}\n\\OperatorTok{\\{}\n\n    \\KeywordTok{public} \\KeywordTok{override}\\NormalTok{ IController }\\FunctionTok{CreateController}\\OperatorTok{(}\\NormalTok{System}\\OperatorTok{.}\\FunctionTok{Web}\\OperatorTok{.}\\FunctionTok{Routing}\\OperatorTok{.}\\FunctionTok{RequestContext}\\NormalTok{ requestContext}\\OperatorTok{,} \\DataTypeTok{string}\\NormalTok{ controllerName}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n        \\KeywordTok{if} \\OperatorTok{(}\\NormalTok{controllerName }\\OperatorTok{==} \\StringTok{\"andrei\"}\\OperatorTok{)}\n            \\KeywordTok{return} \\KeywordTok{null}\\OperatorTok{;}\\CommentTok{//maybe controller not found}\n\n        \\KeywordTok{return} \\KeywordTok{base}\\OperatorTok{.}\\FunctionTok{CreateController}\\OperatorTok{(}\\NormalTok{requestContext}\\OperatorTok{,}\\NormalTok{ controllerName}\\OperatorTok{);}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n    \n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nFactory}\\label{see-source-code-for-microsoft-implementation-of-factory}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Convert.cs}{SourceCode\nConvert.ToDouble} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Convert.cs}\n\n\\href{https://source.dot.net/\\#Microsoft.AspNetCore.Mvc.Core/Controllers/DefaultControllerFactory.cs}{SourceCode\nDefaultControllerFactory} :\n\\url{https://source.dot.net/\\#Microsoft.AspNetCore.Mvc.Core/Controllers/DefaultControllerFactory.cs}\n\n\\href{https://referencesource.microsoft.com/\\#System/net/System/Net/WebRequest.cs}{SourceCode\nWebRequest.Create} :\n\\url{https://referencesource.microsoft.com/\\#System/net/System/Net/WebRequest.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-6}\n\n\\href{http://wiki.c2.com/?FactoryPattern}{C2Wiki} :\n\\url{http://wiki.c2.com/?FactoryPattern}\n\n\\href{http://www.dofactory.com/net/factory-design-pattern}{dofactory} :\n\\url{http://www.dofactory.com/net/factory-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-factory}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-factory}\n\n\\href{https://www.danstroot.com/posts/2018-10-03-hammer-factories}{Hammer\nFactories} :\n\\url{https://www.danstroot.com/posts/2018-10-03-hammer-factories}\n\n\\href{https://en.wikipedia.org/wiki/Factory_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Factory_pattern}\n\n\\subsubsection{Homework}\\label{homework-6}\n\nYou want to create multiple types of drinks( water, tea, coffee). With\nan IDrink interface create a factory method ( with a parameter ) to\ncreate a drink.\n\n\\subsection{Pattern: FluentInterface}\\label{pattern-fluentinterface}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/FluentInterface}\n\nFluent interface allows you do have method chaining.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-7}\n\nThe methods of a service collection instance is called multiple times(\ne.g. for .AddSingleton). You want to ensure that the programmer can\nwrite code that is easy to write, easy to read, and easy to maintain. So\nfrom each method you return the instance of the service collection, so\nyou can chain the methods.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--5}\n\n\\paragraph{FluentInterface}\\label{fluentinterface}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{Extensions}\\OperatorTok{.}\\FunctionTok{DependencyInjection}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Data}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Data}\\OperatorTok{.}\\FunctionTok{Common}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ FluentInterface}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{static} \\KeywordTok{class}\\NormalTok{ FluentInterfaceDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static}\\NormalTok{ ServiceCollection }\\FunctionTok{AddServices}\\OperatorTok{(}\\KeywordTok{this}\\NormalTok{ ServiceCollection sc}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n        \\CommentTok{//just for demo, does not make sense}\n\\NormalTok{        sc}\n            \\OperatorTok{.}\\FunctionTok{AddSingleton}\\OperatorTok{\\textless{}}\\NormalTok{IComparable}\\OperatorTok{\\textgreater{}((}\\NormalTok{sp}\\OperatorTok{)} \\OperatorTok{=\\textgreater{}}\n            \\OperatorTok{\\{}\n                \\CommentTok{//does not matter}\n                \\KeywordTok{return} \\DecValTok{1970}\\OperatorTok{;}\n            \\OperatorTok{\\})}\n            \\OperatorTok{.}\\FunctionTok{AddSingleton}\\OperatorTok{\\textless{}}\\NormalTok{IComparable}\\OperatorTok{\\textless{}}\\NormalTok{Int32}\\OperatorTok{\\textgreater{}\\textgreater{}((}\\NormalTok{sp}\\OperatorTok{)} \\OperatorTok{=\\textgreater{}}\n            \\OperatorTok{\\{}\n                \\CommentTok{//does not matter}\n                \\KeywordTok{return} \\DecValTok{16}\\OperatorTok{;}\n            \\OperatorTok{\\});}\n        \\CommentTok{//this way you can chain the calls , making a fluent interface }\n        \\KeywordTok{return}\\NormalTok{ sc}\\OperatorTok{;}\n\n\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nFluentInterface}\\label{see-source-code-for-microsoft-implementation-of-fluentinterface}\n\n\\href{https://source.dot.net/\\#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollectionServiceExtensions.cs}{SourceCode\nMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton}\n:\n\\url{https://source.dot.net/\\#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollectionServiceExtensions.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-7}\n\n\\href{https://en.wikipedia.org/wiki/Software_design_pattern}{Wikipedia}\n: \\url{https://en.wikipedia.org/wiki/Software_design_pattern}\n\n\\subsubsection{Homework}\\label{homework-7}\n\nImplement a class person that you can see the first name and last name\nas fluent interface.\n\n\\subsection{Pattern: Flyweight}\\label{pattern-flyweight}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Flyweight}\n\nFlyweight pattern is used to reduce the memory and resource usage for\ncomplex models containing a large number of similar objects.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-8}\n\nString is costly as allocation in .NET, so you want to reuse the same\nstring in the memory. The string.Intern method is used to retrieve a\nreference to a string from the intern pool, which is a table of unique\nstrings maintained by .NET. If the string you are trying to intern is\nalready in the intern pool, the method returns a reference to the string\nin the intern pool instead of creating a new string object.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--6}\n\n\\paragraph{Flyweight}\\label{flyweight}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Text}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ Flyweight}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ FlyweightDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{Demo}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\DataTypeTok{var}\\NormalTok{ str }\\OperatorTok{=} \\StringTok{\"Andrei Ignat\"}\\OperatorTok{;}\n        \\DataTypeTok{var}\\NormalTok{ str2 }\\OperatorTok{=} \\DataTypeTok{string}\\OperatorTok{.}\\FunctionTok{Intern}\\OperatorTok{(}\\NormalTok{str}\\OperatorTok{);}\n        \\DataTypeTok{var}\\NormalTok{ str3 }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{StringBuilder}\\OperatorTok{(}\\StringTok{\"Andrei\"}\\OperatorTok{).}\\FunctionTok{Append}\\OperatorTok{(}\\StringTok{\" Ignat\"}\\OperatorTok{).}\\FunctionTok{ToString}\\OperatorTok{();}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"str == str2: Value \\{str==str2\\} Reference \\{Object.ReferenceEquals(str,str2)\\}\"}\\OperatorTok{);}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"str == str3: Value \\{str==str3\\} Reference \\{Object.ReferenceEquals(str,str3)\\}\"}\\OperatorTok{);}\n\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nFlyweight}\\label{see-source-code-for-microsoft-implementation-of-flyweight}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/System/Object.CoreCLR.cs}{SourceCode\nString.Intern} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/System/Object.CoreCLR.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-8}\n\n\\href{https://en.wikipedia.org/wiki/Flyweight_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Flyweight_pattern}\n\n\\subsubsection{Homework}\\label{homework-8}\n\nMake an exchange rate system. The symbol and names of the currency are\nthe same for all the currencies. The exchange rate is different for each\ncurrency. Implement a flyweight that will allow you to create a currency\nwith a symbol and a name and to get the exchange rate for the currency.\n\n\\subsection{Pattern: IOC}\\label{pattern-ioc}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/IOC}\n\nInversion of Control is a principle in software engineering by which the\ncontrol of objects or portions of a program is transferred to a\ncontainer or framework.It\\textquotesingle s a design principle in which\ncustom-written portions of a computer program receive the flow of\ncontrol from a generic framework.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-9}\n\nYou want people to work with the file system . Possibly without a file\nor a directory that exists, but just with implementation. You want to be\nable to test the code without the file system. So you want to abstract\nthe file system. See file system abstraction in the links below.\n\n\\subsubsection{Examples in .NET :}\\label{examples-in-net--2}\n\n\\paragraph{IOC}\\label{ioc}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{namespace}\\NormalTok{ IOC}\\OperatorTok{;}\n\\KeywordTok{public} \\KeywordTok{class}\\NormalTok{ NotificationService}\n\\OperatorTok{\\{}\n    \\KeywordTok{private} \\KeywordTok{readonly}\\NormalTok{ IMessageService \\_messageService}\\OperatorTok{;}\n\n    \\KeywordTok{public} \\FunctionTok{NotificationService}\\OperatorTok{(}\\NormalTok{IMessageService messageService}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n\\NormalTok{        \\_messageService }\\OperatorTok{=}\\NormalTok{ messageService}\\OperatorTok{;}\n    \\OperatorTok{\\}}\n\n    \\KeywordTok{public} \\DataTypeTok{void} \\FunctionTok{SendNotification}\\OperatorTok{(}\\DataTypeTok{string}\\NormalTok{ message}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n\\NormalTok{        \\_messageService}\\OperatorTok{.}\\FunctionTok{SendMessage}\\OperatorTok{(}\\NormalTok{message}\\OperatorTok{);}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\KeywordTok{public} \\KeywordTok{interface}\\NormalTok{ IMessageService}\n\\OperatorTok{\\{}\n    \\DataTypeTok{void} \\FunctionTok{SendMessage}\\OperatorTok{(}\\DataTypeTok{string}\\NormalTok{ message}\\OperatorTok{);}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\paragraph{DI}\\label{di}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\n\\KeywordTok{namespace}\\NormalTok{ IOC}\\OperatorTok{;}\n\\KeywordTok{public} \\KeywordTok{class}\\NormalTok{ SMSService }\\OperatorTok{:}\\NormalTok{ IMessageService}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\DataTypeTok{void} \\FunctionTok{SendMessage}\\OperatorTok{(}\\DataTypeTok{string}\\NormalTok{ message}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\StringTok{\"Sending SMS: \"} \\OperatorTok{+}\\NormalTok{ message}\\OperatorTok{);}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\n\\KeywordTok{public} \\KeywordTok{class}\\NormalTok{ EmailService }\\OperatorTok{:}\\NormalTok{ IMessageService}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\DataTypeTok{void} \\FunctionTok{SendMessage}\\OperatorTok{(}\\DataTypeTok{string}\\NormalTok{ message}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\StringTok{\"Sending email: \"} \\OperatorTok{+}\\NormalTok{ message}\\OperatorTok{);}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nIOC}\\label{see-source-code-for-microsoft-implementation-of-ioc}\n\n\\href{https://source.dot.net/\\#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollection.cs}{SourceCode\nServiceCollection} :\n\\url{https://source.dot.net/\\#Microsoft.Extensions.DependencyInjection.Abstractions/ServiceCollection.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-9}\n\n\\href{http://www.dofactory.com/net/InversionOfControl-design-pattern}{dofactory}\n: \\url{http://www.dofactory.com/net/InversionOfControl-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-InversionOfControl}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-InversionOfControl}\n\n\\href{https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0}{File\nProviders in ASP.NET Core} :\n\\url{https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0}\n\n\\subsubsection{Homework}\\label{homework-9}\n\nImplement a simple IoC container that will allow you to register and\nresolve dependencies. The container should be able to resolve\ndependencies by type and by name.\n\n\\subsection{Pattern: Iterator}\\label{pattern-iterator}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Iterator}\n\nIterator design pattern allows to traverse a container and access the\ncontainer\\textquotesingle s elements.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-10}\n\nAny collection should be able to loop through its elements. So the\niterator pattern could be retrieved almost anywhere in Array,\nIEnumerable , Hashset, List, and more.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--7}\n\n\\paragraph{DirectoryEnumerable}\\label{directoryenumerable}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{namespace}\\NormalTok{ Iterator}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ DirectoryEnumerableDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{DirectoryEnumerableFiles}\\OperatorTok{(}\\DataTypeTok{int}\\NormalTok{ nrMaxFiles}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n        \\DataTypeTok{var}\\NormalTok{ count }\\OperatorTok{=} \\DecValTok{0}\\OperatorTok{;}\n        \\CommentTok{//what if we called Directory.GetFiles        }\n        \\KeywordTok{foreach} \\OperatorTok{(}\\DataTypeTok{var}\\NormalTok{ file }\\KeywordTok{in}\\NormalTok{ Directory}\\OperatorTok{.}\\FunctionTok{EnumerateFiles}\\OperatorTok{(}\\NormalTok{@}\\StringTok{\"c:}\\SpecialCharTok{\\textbackslash{}\"}\\StringTok{,\"}\\OperatorTok{*.*}\\StringTok{\",SearchOption.AllDirectories))}\n        \\OperatorTok{\\{}\n\\NormalTok{            count}\\OperatorTok{++;}\n            \\KeywordTok{if} \\OperatorTok{(}\\NormalTok{count }\\OperatorTok{\\textgreater{}}\\NormalTok{ nrMaxFiles}\\OperatorTok{)}\n                \\KeywordTok{break}\\OperatorTok{;}\n\\NormalTok{            Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{file}\\OperatorTok{);}\n        \\OperatorTok{\\}}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nIterator}\\label{see-source-code-for-microsoft-implementation-of-iterator}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs}{SourceCode\nDirectory.GetFiles} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs}{SourceCode\nIEnumerable} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerable.cs}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerator.cs}{SourceCode\nIEnumerator} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Collections/IEnumerator.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-10}\n\n\\href{https://wiki.c2.com/?IteratorPattern}{C2Wiki} :\n\\url{https://wiki.c2.com/?IteratorPattern}\n\n\\href{http://www.dofactory.com/net/Iterator-design-pattern}{dofactory} :\n\\url{http://www.dofactory.com/net/Iterator-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-Iterator}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-Iterator}\n\n\\href{https://en.wikipedia.org/wiki/iterator_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/iterator_pattern}\n\n\\subsubsection{Homework}\\label{homework-10}\n\nWith the Yield keyword implement a function that return an IEnumerable\nof generic int that will return the first 10 numbers of the Fibonacci\nsequence.\n\n\\subsection{Pattern: Lazy}\\label{pattern-lazy}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Lazy}\n\nLazy initialization is the tactic of delaying the creation of an object,\nthe calculation of a value, or some other expensive process until the\nfirst time it is needed.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-11}\n\nYou want to access one object that is difficult to create. But you do\nnot know when will be created. You can use the Lazy pattern to create\nthe object only when it is needed. The Lazy of generic T class provides\na way to defer the creation of an object until it is actually needed,\nallowing you to avoid the cost of creating the object until it is\nactually required.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--8}\n\n\\paragraph{Lazy}\\label{lazy}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{namespace}\\NormalTok{ Lazy}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ LazyDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public}\\NormalTok{ DateTime dateTimeConstructClass }\\OperatorTok{=}\\NormalTok{DateTime}\\OperatorTok{.}\\FunctionTok{Now}\\OperatorTok{;}\n    \n    \\KeywordTok{public}\\NormalTok{ Lazy}\\OperatorTok{\\textless{}}\\NormalTok{DateTime}\\OperatorTok{\\textgreater{}}\\NormalTok{ DateTimeLazy }\\OperatorTok{=} \\KeywordTok{new}\\OperatorTok{(()} \\OperatorTok{=\\textgreater{}}\n    \\OperatorTok{\\{}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\StringTok{\"Lazy\\textless{}DateTime\\textgreater{} is being initialized ONCE!\"}\\OperatorTok{);}\n        \\KeywordTok{return}\\NormalTok{ DateTime}\\OperatorTok{.}\\FunctionTok{Now}\\OperatorTok{;}\n    \\OperatorTok{\\});}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nLazy}\\label{see-source-code-for-microsoft-implementation-of-lazy}\n\n\\href{https://github.com/dotnet/project-system/blob/ebc15f3e0fa644bc96b3a7d19b0595bab9d0ab7d/src/Microsoft.VisualStudio.ProjectSystem.Managed/ProjectSystem/Debug/LaunchSettingsProvider.cs\\#L39}{SourceCode\n\\_defaultLaunchProfile = new Lazy of LaunchProfile } :\n\\url{https://github.com/dotnet/project-system/blob/ebc15f3e0fa644bc96b3a7d19b0595bab9d0ab7d/src/Microsoft.VisualStudio.ProjectSystem.Managed/ProjectSystem/Debug/LaunchSettingsProvider.cs\\#L39}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Lazy.cs}{SourceCode\nLazy} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Lazy.cs}\n\n\\href{https://github.com/dotnet/roslyn/blob/d89c824648207390f5be355a782048812ba5f91e/src/VisualStudio/Core/Def/Progression/GraphNavigatorExtension.cs\\#L27}{SourceCode\nLazy of IStreamingFindUsagesPresenter} :\n\\url{https://github.com/dotnet/roslyn/blob/d89c824648207390f5be355a782048812ba5f91e/src/VisualStudio/Core/Def/Progression/GraphNavigatorExtension.cs\\#L27}\n\n\\subsubsection{Learn More}\\label{learn-more-11}\n\n\\href{https://wiki.c2.com/?LazyInstantiationPattern}{C2Wiki} :\n\\url{https://wiki.c2.com/?LazyInstantiationPattern}\n\n\\href{https://en.wikipedia.org/wiki/Lazy_initialization}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Lazy_initialization}\n\n\\subsubsection{Homework}\\label{homework-11}\n\nImplement a lazy initialization of a logger that logs to a file and to a\nconsole. The logger should be created only when it is needed.\n\n\\subsection{Pattern: NullObject}\\label{pattern-nullobject}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/NullObject}\n\nInstead of returning null , use an object which implements the expected\ninterface, but whose method body is empty.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-12}\n\nYou want to log data into the application ( with an ILogger interface ).\nYou do not want to verify if the logger is null or not before logging.\nYou can use the Null Object pattern to provide a default implementation\nof the ILogger interface that does nothing when its methods are called.\n\n\\subsubsection{Examples in .NET :}\\label{examples-in-net--3}\n\n\\paragraph{NullLogger}\\label{nulllogger}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\n\\KeywordTok{namespace}\\NormalTok{ NullObject}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ LogWithData}\n\\OperatorTok{\\{}\n\\NormalTok{    ILogger \\_logger}\\OperatorTok{;}\n    \\KeywordTok{public} \\FunctionTok{LogWithData}\\OperatorTok{(}\\NormalTok{ILogger}\\OperatorTok{?}\\NormalTok{ logger}\\OperatorTok{=}\\KeywordTok{null}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n        \\CommentTok{// If logger is null, use NullLogger.Instance}\n        \\CommentTok{// This is the Null Object pattern in action}\n\\NormalTok{        \\_logger }\\OperatorTok{=}\\NormalTok{ logger }\\OperatorTok{??}\\NormalTok{ NullLogger}\\OperatorTok{.}\\FunctionTok{Instance}\\OperatorTok{;}   \n    \\OperatorTok{\\}}\n    \\KeywordTok{public} \\DataTypeTok{void} \\FunctionTok{DoWork}\\OperatorTok{(}\\DataTypeTok{string}\\NormalTok{ message}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n        \\CommentTok{// Even if \\_logger is NullLogger.Instance, this line won\\textquotesingle{}t throw a null reference exception}\n        \\CommentTok{// because NullLogger.Instance is a non{-}functional implementation of ILogger}\n\\NormalTok{        \\_logger}\\OperatorTok{.}\\FunctionTok{LogInformation}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"start work with \\{message\\}\"}\\OperatorTok{);}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\paragraph{EmptyFolder}\\label{emptyfolder}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{IO}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ NullObject}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ EmptyFolderDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{DemoWithCreateNewFolder}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\CommentTok{//start example 1}\n        \\DataTypeTok{var}\\NormalTok{ env }\\OperatorTok{=}\\NormalTok{ Environment}\\OperatorTok{.}\\FunctionTok{CurrentDirectory}\\OperatorTok{;}\n        \\DataTypeTok{var}\\NormalTok{ guid }\\OperatorTok{=}\\NormalTok{ Guid}\\OperatorTok{.}\\FunctionTok{NewGuid}\\OperatorTok{().}\\FunctionTok{ToString}\\OperatorTok{(}\\StringTok{\"X\"}\\OperatorTok{);}\n        \\DataTypeTok{var}\\NormalTok{ fldEmpty }\\OperatorTok{=}\\NormalTok{ Path}\\OperatorTok{.}\\FunctionTok{Combine}\\OperatorTok{(}\\NormalTok{env}\\OperatorTok{,}\\NormalTok{ guid}\\OperatorTok{);}\n        \\CommentTok{//create empty folder}\n\\NormalTok{        Directory}\\OperatorTok{.}\\FunctionTok{CreateDirectory}\\OperatorTok{(}\\NormalTok{fldEmpty}\\OperatorTok{);}\n        \\DataTypeTok{var}\\NormalTok{ files}\\OperatorTok{=}\\NormalTok{ Directory}\\OperatorTok{.}\\FunctionTok{GetFiles}\\OperatorTok{(}\\NormalTok{fldEmpty}\\OperatorTok{);}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"files.Length:\\{files.Length\\}\"}\\OperatorTok{);}\n        \\CommentTok{//end example 1}\n        \n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nNullObject}\\label{see-source-code-for-microsoft-implementation-of-nullobject}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs}{SourceCode\nDirectory.GetFiles} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-12}\n\n\\href{https://wiki.c2.com/?NullObject}{C2Wiki} :\n\\url{https://wiki.c2.com/?NullObject}\n\n\\href{http://www.dofactory.com/net/NullObject-design-pattern}{dofactory}\n: \\url{http://www.dofactory.com/net/NullObject-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-NullObject}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-NullObject}\n\n\\href{https://en.wikipedia.org/wiki/Null_object_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Null_object_pattern}\n\n\\subsubsection{Homework}\\label{homework-12}\n\nWhen retrieving data( e. g. a Person with ID =-1 ) from a database ,\nreturn a NullObject instead of null. How you will verify that the object\nis a NullObject?.\n\n\\subsection{Pattern: Observer}\\label{pattern-observer}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Observer}\n\nObserver pattern is a behavioral design pattern that defines a\none-to-many dependency between objects so that when one object changes\nstate, all its dependents are notified and updated automatically.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-13}\n\nYou want to see when properties of an object are modified, to know how\nto react in the GUI. You can use the Observer pattern to notify the GUI\nwhen the properties of the object are modified.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--9}\n\n\\paragraph{Observer}\\label{observer}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{ComponentModel}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Runtime}\\OperatorTok{.}\\FunctionTok{CompilerServices}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ Observer}\\OperatorTok{;}\n\n\\CommentTok{/// }\\KeywordTok{\\textless{}summary\\textgreater{}}\n\\CommentTok{/// INotifyPropertyChanged is an interface that provides a mechanism for the object to notify clients that a property value has changed.}\n\\CommentTok{/// }\\KeywordTok{\\textless{}/summary\\textgreater{}}\n\\KeywordTok{public} \\KeywordTok{class}\\NormalTok{ Person}\\OperatorTok{:}\\NormalTok{ INotifyPropertyChanged}\n\\OperatorTok{\\{}\n    \\KeywordTok{private} \\DataTypeTok{string}\\NormalTok{ name}\\OperatorTok{=}\\DataTypeTok{string}\\OperatorTok{.}\\FunctionTok{Empty}\\OperatorTok{;}\n    \\KeywordTok{public} \\DataTypeTok{string}\\NormalTok{ Name}\n    \\OperatorTok{\\{}\n\\NormalTok{        get }\\OperatorTok{=\\textgreater{}}\\NormalTok{ name}\\OperatorTok{;}\n\\NormalTok{        set}\n        \\OperatorTok{\\{}\n            \\KeywordTok{if} \\OperatorTok{(}\\NormalTok{name }\\OperatorTok{==}\\NormalTok{ value}\\OperatorTok{)} \\KeywordTok{return}\\OperatorTok{;}\n\\NormalTok{            name }\\OperatorTok{=}\\NormalTok{ value}\\OperatorTok{;}\n            \\FunctionTok{OnPropertyChanged}\\OperatorTok{();}\n        \\OperatorTok{\\}}\n    \\OperatorTok{\\}}\n\n    \\KeywordTok{public} \\KeywordTok{event}\\NormalTok{ PropertyChangedEventHandler}\\OperatorTok{?}\\NormalTok{ PropertyChanged}\\OperatorTok{;}\n\n    \\KeywordTok{protected} \\KeywordTok{virtual} \\DataTypeTok{void} \\FunctionTok{OnPropertyChanged}\\OperatorTok{([}\\NormalTok{CallerMemberName}\\OperatorTok{]} \\DataTypeTok{string}\\NormalTok{ propertyName }\\OperatorTok{=} \\StringTok{\"\"}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n\\NormalTok{        PropertyChanged}\\OperatorTok{?.}\\FunctionTok{Invoke}\\OperatorTok{(}\\KeywordTok{this}\\OperatorTok{,} \\KeywordTok{new} \\FunctionTok{PropertyChangedEventArgs}\\OperatorTok{(}\\NormalTok{propertyName}\\OperatorTok{));}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ ObserverDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{Demo}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n\\NormalTok{        Person person }\\OperatorTok{=} \\KeywordTok{new} \\OperatorTok{();}\n        \\CommentTok{//subscribe to the event to observe the changes}\n\\NormalTok{        person}\\OperatorTok{.}\\FunctionTok{PropertyChanged} \\OperatorTok{+=} \\OperatorTok{(}\\NormalTok{sender}\\OperatorTok{,}\\NormalTok{ args}\\OperatorTok{)} \\OperatorTok{=\\textgreater{}}\n        \\OperatorTok{\\{}\n            \\DataTypeTok{var}\\NormalTok{ p }\\OperatorTok{=}\\NormalTok{ sender }\\KeywordTok{as}\\NormalTok{ Person}\\OperatorTok{;}\n\\NormalTok{            Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"Property \\{args.PropertyName\\} changed to \\{p?.Name\\}\"}\\OperatorTok{);}\n        \\OperatorTok{\\};}\n\\NormalTok{        person}\\OperatorTok{.}\\FunctionTok{Name} \\OperatorTok{=} \\StringTok{\"Andrei Ignat\"} \\OperatorTok{;}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nObserver}\\label{see-source-code-for-microsoft-implementation-of-observer}\n\n\\href{https://source.dot.net/\\#System.ObjectModel/System/ComponentModel/INotifyPropertyChanged.cs}{SourceCode\nINotifyPropertyChanged} :\n\\url{https://source.dot.net/\\#System.ObjectModel/System/ComponentModel/INotifyPropertyChanged.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-13}\n\n\\href{https://en.wikipedia.org/wiki/Observer_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Observer_pattern}\n\n\\subsubsection{Homework}\\label{homework-13}\n\nImagine you have a logger that logs to a file and to a console.\nImplement an observable logger that will allow you to subscribe to the\nlogger and to be notified when the logger logs a message.\n\n\\subsection{Pattern: Prototype}\\label{pattern-prototype}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Prototype}\n\nIt is used when the type of objects to create is determined by a\nprototypical instance, which is cloned to produce new objects.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-14}\n\nIf you want to clone an object ( that has members and methods ), the\neasy way is to copy the members into a new instance. But if you have a\ncomplex object, you may want to use the Prototype pattern. You then\nprovide MemberwiseClone is a shallow copy for the members of an object.\nHowever, the Prototype pattern is not used very often in .NET, because\nthe ICloneable interface is not very useful.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--10}\n\n\\paragraph{ICloneable}\\label{icloneable}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ Prototype}\\OperatorTok{;}\n\\KeywordTok{class}\\NormalTok{ Parent }\\OperatorTok{:}\\NormalTok{ ICloneable}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\DataTypeTok{int}\\NormalTok{ Age }\\OperatorTok{\\{} \\KeywordTok{get}\\OperatorTok{;} \\KeywordTok{set}\\OperatorTok{;} \\OperatorTok{\\}}\n    \\KeywordTok{public}\\NormalTok{ Child MyChild }\\OperatorTok{\\{} \\KeywordTok{get}\\OperatorTok{;} \\KeywordTok{set}\\OperatorTok{;} \\OperatorTok{\\}}\n\n    \\KeywordTok{public} \\DataTypeTok{object} \\FunctionTok{Clone}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\CommentTok{//}\\AlertTok{TODO}\\CommentTok{: serialize + unserialize }\n        \\CommentTok{//with System.Text.Json.JsonSerializer}\n\n        \\DataTypeTok{var}\\NormalTok{ p }\\OperatorTok{=} \\FunctionTok{ShallowClone}\\OperatorTok{();}\n        \\CommentTok{//}\\AlertTok{TODO}\\CommentTok{: clone the child }\n        \\DataTypeTok{var}\\NormalTok{ c }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{Child}\\OperatorTok{();}\n\\NormalTok{        c}\\OperatorTok{.}\\FunctionTok{Age} \\OperatorTok{=} \\KeywordTok{this}\\OperatorTok{.}\\FunctionTok{MyChild}\\OperatorTok{.}\\FunctionTok{Age}\\OperatorTok{;}\n\n\\NormalTok{        p}\\OperatorTok{.}\\FunctionTok{MyChild} \\OperatorTok{=}\\NormalTok{ c}\\OperatorTok{;}\n        \\KeywordTok{return}\\NormalTok{ p}\\OperatorTok{;}\n    \\OperatorTok{\\}}\n\n    \\KeywordTok{public}\\NormalTok{ Parent }\\FunctionTok{ShallowClone}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\KeywordTok{return} \\KeywordTok{this}\\OperatorTok{.}\\FunctionTok{MemberwiseClone}\\OperatorTok{()} \\KeywordTok{as}\\NormalTok{ Parent}\\OperatorTok{;}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nPrototype}\\label{see-source-code-for-microsoft-implementation-of-prototype}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/System/Object.CoreCLR.cs}{SourceCode\nObject.MemberwiseClone} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/System/Object.CoreCLR.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-14}\n\n\\href{https://wiki.c2.com/?PrototypePattern}{C2Wiki} :\n\\url{https://wiki.c2.com/?PrototypePattern}\n\n\\href{http://www.dofactory.com/net/Prototype-design-pattern}{dofactory}\n: \\url{http://www.dofactory.com/net/Prototype-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-Prototype}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-Prototype}\n\n\\href{https://en.wikipedia.org/wiki/Prototype_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Prototype_pattern}\n\n\\subsubsection{Homework}\\label{homework-14}\n\nImagine that you have a cow farm and you want to create a new cow.\nImplement a prototype that will allow you to clone a cow. The cow should\nhave a name and a weight.\n\n\\subsection{Pattern: Singleton}\\label{pattern-singleton}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Singleton}\n\nSingleton pattern restricts the instantiation of a class to one\nobject.It is used when you want to have one instance of a class that is\nshared across the application.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-15}\n\nYou have a factory to create objects. You want to have a single point of\ncreation for all the objects. You can use the Singleton pattern to\nensure that only one instance of the factory is created and that all\nrequests for object creation are handled by that single instance.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--11}\n\n\\paragraph{Singleton}\\label{singleton}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Data}\\OperatorTok{.}\\FunctionTok{OleDb}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ Singleton}\\OperatorTok{;}\n\\CommentTok{/// }\\KeywordTok{\\textless{}summary\\textgreater{}}\n\\CommentTok{/// }\n\\CommentTok{///sealed class Singleton}\n\\CommentTok{///\\{}\n\\CommentTok{///    private Singleton() \\{ \\}}\n\\CommentTok{///    public static readonly Singleton Instance = new Singleton();}\n\\CommentTok{///\\}}\n\\CommentTok{///}\n\\CommentTok{/// }\\KeywordTok{\\textless{}/summary\\textgreater{}}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ SingletonDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{GetFactory}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\CommentTok{//cannot do new}\n        \\CommentTok{//OleDbFactory factory=new OleDbFactory();}\n        \\CommentTok{//get singleton instance}\n\\NormalTok{        OleDbFactory factory }\\OperatorTok{=}\\NormalTok{ OleDbFactory}\\OperatorTok{.}\\FunctionTok{Instance}\\OperatorTok{;}\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nSingleton}\\label{see-source-code-for-microsoft-implementation-of-singleton}\n\n\\href{https://referencesource.microsoft.com/\\#System.Data/fx/src/data/System/Data/OleDb/OleDbFactory.cs}{SourceCode\nOleDbFactory.Instance} :\n\\url{https://referencesource.microsoft.com/\\#System.Data/fx/src/data/System/Data/OleDb/OleDbFactory.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-15}\n\n\\href{https://wiki.c2.com/?SingletonPattern}{C2Wiki} :\n\\url{https://wiki.c2.com/?SingletonPattern}\n\n\\href{http://www.dofactory.com/net/singleton-design-pattern}{dofactory}\n: \\url{http://www.dofactory.com/net/singleton-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-singleton}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-singleton}\n\n\\href{https://en.wikipedia.org/wiki/Singleton_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Singleton_pattern}\n\n\\subsubsection{Homework}\\label{homework-15}\n\nImplement a singleton that will allow you to create a single instance of\na logger that logs to a file and to a console.\n\n\\subsection{Pattern: Strategy}\\label{pattern-strategy}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Strategy}\n\nStrategy pattern allows a client to choose from a family of algorithms\nat runtime.It is used when the client expects to have multiple\nalgorithms and wants to choose one of them at runtime.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-16}\n\nYou want to have a function that sort objects based on a specific\ncriteria. You want to let the developer to provide the sort criteria.\nYou want also allow the sorting behavior (the strategy) to be selected\nat runtime. You can use the Strategy pattern to let developer define the\nsorting criteria and the strategy to be used at runtime.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--12}\n\n\\paragraph{Strategy}\\label{strategy}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{.}\\FunctionTok{Collections}\\OperatorTok{.}\\FunctionTok{Generic}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ Strategy}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ StrategyDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{SortWithDifferentStrategies}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n\\NormalTok{        List}\\OperatorTok{\\textless{}}\\DataTypeTok{int}\\OperatorTok{\\textgreater{}}\\NormalTok{ al }\\OperatorTok{=} \\KeywordTok{new} \\OperatorTok{();}\n\\NormalTok{        al}\\OperatorTok{.}\\FunctionTok{Add}\\OperatorTok{(}\\DecValTok{102}\\OperatorTok{);}\n\\NormalTok{        al}\\OperatorTok{.}\\FunctionTok{Add}\\OperatorTok{(}\\DecValTok{201}\\OperatorTok{);}\n        \\CommentTok{// Strategy 1: Sorts the list in ascending order.}\n\\NormalTok{        al}\\OperatorTok{.}\\FunctionTok{Sort}\\OperatorTok{((}\\NormalTok{x}\\OperatorTok{,}\\NormalTok{ y}\\OperatorTok{)} \\OperatorTok{=\\textgreater{}}\\NormalTok{ x}\\OperatorTok{.}\\FunctionTok{CompareTo}\\OperatorTok{(}\\NormalTok{y}\\OperatorTok{));}\n\n        \\KeywordTok{for} \\OperatorTok{(}\\DataTypeTok{int}\\NormalTok{ i }\\OperatorTok{=} \\DecValTok{0}\\OperatorTok{;}\\NormalTok{ i }\\OperatorTok{\\textless{}}\\NormalTok{ al}\\OperatorTok{.}\\FunctionTok{Count}\\OperatorTok{;}\\NormalTok{ i}\\OperatorTok{++)}\n        \\OperatorTok{\\{}\n\\NormalTok{            Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{al}\\OperatorTok{[}\\NormalTok{i}\\OperatorTok{]);}\n        \\OperatorTok{\\}}\n\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\StringTok{\"{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}\"}\\OperatorTok{);}\n\n        \\CommentTok{// Strategy 2: Sorts the list in descending order.}\n\\NormalTok{        al}\\OperatorTok{.}\\FunctionTok{Sort}\\OperatorTok{((}\\NormalTok{y}\\OperatorTok{,}\\NormalTok{ x}\\OperatorTok{)} \\OperatorTok{=\\textgreater{}}\\NormalTok{ x}\\OperatorTok{.}\\FunctionTok{CompareTo}\\OperatorTok{(}\\NormalTok{y}\\OperatorTok{));}\n        \\KeywordTok{for} \\OperatorTok{(}\\DataTypeTok{int}\\NormalTok{ i }\\OperatorTok{=} \\DecValTok{0}\\OperatorTok{;}\\NormalTok{ i }\\OperatorTok{\\textless{}}\\NormalTok{ al}\\OperatorTok{.}\\FunctionTok{Count}\\OperatorTok{;}\\NormalTok{ i}\\OperatorTok{++)}\n        \\OperatorTok{\\{}\n\\NormalTok{            Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{al}\\OperatorTok{[}\\NormalTok{i}\\OperatorTok{]);}\n        \\OperatorTok{\\}}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\StringTok{\"{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}\"}\\OperatorTok{);}\n        \\CommentTok{// Strategy 3: Sorts the list based on the last digit of each number.}\n\\NormalTok{        al}\\OperatorTok{.}\\FunctionTok{Sort}\\OperatorTok{((}\\NormalTok{x}\\OperatorTok{,}\\NormalTok{ y}\\OperatorTok{)} \\OperatorTok{=\\textgreater{}} \\FunctionTok{LastDigit}\\OperatorTok{(}\\NormalTok{x}\\OperatorTok{).}\\FunctionTok{CompareTo}\\OperatorTok{(}\\FunctionTok{LastDigit}\\OperatorTok{(}\\NormalTok{y}\\OperatorTok{)));}\n        \\KeywordTok{for} \\OperatorTok{(}\\DataTypeTok{int}\\NormalTok{ i }\\OperatorTok{=} \\DecValTok{0}\\OperatorTok{;}\\NormalTok{ i }\\OperatorTok{\\textless{}}\\NormalTok{ al}\\OperatorTok{.}\\FunctionTok{Count}\\OperatorTok{;}\\NormalTok{ i}\\OperatorTok{++)}\n        \\OperatorTok{\\{}\n\\NormalTok{            Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{al}\\OperatorTok{[}\\NormalTok{i}\\OperatorTok{]);}\n        \\OperatorTok{\\}}\n\n        \\DataTypeTok{var}\\NormalTok{ array }\\OperatorTok{=}\\NormalTok{ al}\\OperatorTok{.}\\FunctionTok{FindAll}\\OperatorTok{(}\\NormalTok{it }\\OperatorTok{=\\textgreater{}}\\NormalTok{ it }\\OperatorTok{\\textgreater{}} \\DecValTok{10}\\OperatorTok{);}\n\n\n    \\OperatorTok{\\}}\n\n    \\KeywordTok{static} \\DataTypeTok{int} \\FunctionTok{LastDigit}\\OperatorTok{(}\\DataTypeTok{int}\\NormalTok{ x}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n        \\KeywordTok{return}\\NormalTok{ x }\\OperatorTok{\\%} \\DecValTok{10}\\OperatorTok{;}\n    \\OperatorTok{\\}}\n\n\\OperatorTok{\\}}\n\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nStrategy}\\label{see-source-code-for-microsoft-implementation-of-strategy}\n\n\\href{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Array.cs}{SourceCode\nArray.Sort} :\n\\url{https://source.dot.net/\\#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Array.cs}\n\n\\subsubsection{Learn More}\\label{learn-more-16}\n\n\\href{https://wiki.c2.com/?StrategyPattern}{C2Wiki} :\n\\url{https://wiki.c2.com/?StrategyPattern}\n\n\\href{http://www.dofactory.com/net/strategy-design-pattern}{dofactory} :\n\\url{http://www.dofactory.com/net/strategy-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-strategy}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-strategy}\n\n\\href{https://en.wikipedia.org/wiki/Strategy_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Strategy_pattern}\n\n\\subsubsection{Homework}\\label{homework-16}\n\nImage you want to serialize classes to XML,JSON and CSV. Implement a\nstrategy that will allow you to choose between XML , JSON and CSV\nserialization at runtime.\n\n\\subsection{Pattern: Visitor}\\label{pattern-visitor}\n\nRead online at\n\\url{https://ignatandrei.github.io/patterns/docs/patterns/Visitor}\n\nVisitor pattern is a way of separating an algorithm from an object\nstructure on which it operates.A practical result of this separation is\nthe ability to add new operations to existing object structures without\nmodifying the structures.\n\n\\subsubsection{Purpose of .NET\nimplementation}\\label{purpose-of-net-implementation-17}\n\nRoslyn is a syntax analyzer for C\\#. You want to provide a way for other\nto analyze/modify the syntax of a C\\# code. You can use the Visitor\npattern to traverse the syntax tree and perform operations on the nodes\nof the tree. The Visitor pattern allows you to separate the algorithm\nfrom the data structure, making it easier to add new operations to the\nsyntax tree without modifying the existing classes.\n\n\\subsubsection{Example in .NET :}\\label{example-in-net--13}\n\n\\paragraph{Visitor}\\label{visitor}\n\n\\begin{Shaded}\n\\begin{Highlighting}[]\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{CodeAnalysis}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{CodeAnalysis}\\OperatorTok{.}\\FunctionTok{CSharp}\\OperatorTok{;}\n\\KeywordTok{using}\\NormalTok{ Microsoft}\\OperatorTok{.}\\FunctionTok{CodeAnalysis}\\OperatorTok{.}\\FunctionTok{CSharp}\\OperatorTok{.}\\FunctionTok{Syntax}\\OperatorTok{;}\n\n\\KeywordTok{namespace}\\NormalTok{ Visitor}\\OperatorTok{;}\n\\KeywordTok{internal} \\KeywordTok{class}\\NormalTok{ VisitorDemo}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{VisitMethods}\\OperatorTok{()}\n    \\OperatorTok{\\{}\n        \\DataTypeTok{var}\\NormalTok{ Code }\\OperatorTok{=}\\NormalTok{ @}\\StringTok{\"\"\"}\n\\KeywordTok{using}\\NormalTok{ System}\\OperatorTok{;}\n\\KeywordTok{namespace}\\NormalTok{ Test1}\n\\OperatorTok{\\{}\n    \\KeywordTok{class}\\NormalTok{ Program}\n    \\OperatorTok{\\{}\n        \\KeywordTok{static} \\DataTypeTok{void} \\FunctionTok{Main}\\OperatorTok{(}\\DataTypeTok{string}\\OperatorTok{[]}\\NormalTok{ args}\\OperatorTok{)}\n        \\OperatorTok{\\{}\n              \\DataTypeTok{var}\\NormalTok{ dt}\\OperatorTok{=}\\NormalTok{DateTime}\\OperatorTok{.}\\FunctionTok{Now}\\OperatorTok{;}\n\\NormalTok{              Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{dt}\\OperatorTok{);}\n        \\OperatorTok{\\}}\n     \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\n\\StringTok{\"\"\";}\n        \\DataTypeTok{var}\\NormalTok{ tree }\\OperatorTok{=}\\NormalTok{ CSharpSyntaxTree}\\OperatorTok{.}\\FunctionTok{ParseText}\\OperatorTok{(}\\NormalTok{Code}\\OperatorTok{);}\n\n        \\DataTypeTok{var}\\NormalTok{ node }\\OperatorTok{=}\\NormalTok{ tree}\\OperatorTok{.}\\FunctionTok{GetRoot}\\OperatorTok{();}\n\n\\NormalTok{        MethodVisiting LG }\\OperatorTok{=} \\KeywordTok{new} \\FunctionTok{MethodVisiting}\\OperatorTok{();}\n        \\CommentTok{//start visiting}\n        \\DataTypeTok{var}\\NormalTok{ sn }\\OperatorTok{=}\\NormalTok{ LG}\\OperatorTok{.}\\FunctionTok{Visit}\\OperatorTok{(}\\NormalTok{node}\\OperatorTok{);}\n\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\KeywordTok{public} \\KeywordTok{class}\\NormalTok{ MethodVisiting }\\OperatorTok{:}\\NormalTok{ CSharpSyntaxRewriter}\n\\OperatorTok{\\{}\n    \\KeywordTok{public} \\KeywordTok{override}\\NormalTok{ SyntaxNode}\\OperatorTok{?} \\FunctionTok{VisitMethodDeclaration}\\OperatorTok{(}\\NormalTok{MethodDeclarationSyntax node}\\OperatorTok{)}\n    \\OperatorTok{\\{}\n        \\KeywordTok{if} \\OperatorTok{(}\\NormalTok{node}\\OperatorTok{.}\\FunctionTok{Body} \\OperatorTok{==} \\KeywordTok{null} \\OperatorTok{||}\\NormalTok{ node}\\OperatorTok{.}\\FunctionTok{Body}\\OperatorTok{.}\\FunctionTok{Statements}\\OperatorTok{.}\\FunctionTok{Count} \\OperatorTok{==} \\DecValTok{0}\\OperatorTok{)}\n            \\KeywordTok{return} \\KeywordTok{base}\\OperatorTok{.}\\FunctionTok{VisitMethodDeclaration}\\OperatorTok{(}\\NormalTok{node}\\OperatorTok{);}\n\n        \\DataTypeTok{var}\\NormalTok{ parent }\\OperatorTok{=}\\NormalTok{ node}\\OperatorTok{.}\\FunctionTok{Parent} \\KeywordTok{as}\\NormalTok{ ClassDeclarationSyntax}\\OperatorTok{;}\n        \n        \\KeywordTok{if} \\OperatorTok{(}\\NormalTok{parent }\\OperatorTok{==} \\KeywordTok{null}\\OperatorTok{)}\n            \\KeywordTok{return} \\KeywordTok{base}\\OperatorTok{.}\\FunctionTok{VisitMethodDeclaration}\\OperatorTok{(}\\NormalTok{node}\\OperatorTok{);}\n\n        \\DataTypeTok{var}\\NormalTok{ nameMethod }\\OperatorTok{=}\\NormalTok{ node}\\OperatorTok{.}\\FunctionTok{Identifier}\\OperatorTok{.}\\FunctionTok{Text}\\OperatorTok{;}\n        \\DataTypeTok{var}\\NormalTok{ nameClass }\\OperatorTok{=}\\NormalTok{ parent}\\OperatorTok{.}\\FunctionTok{Identifier}\\OperatorTok{.}\\FunctionTok{Text}\\OperatorTok{;}\n\\NormalTok{        Console}\\OperatorTok{.}\\FunctionTok{WriteLine}\\OperatorTok{(}\\NormalTok{$}\\StringTok{\"visiting \\{nameMethod\\} from \\{nameClass\\}\"}\\OperatorTok{);}\n\n        \\KeywordTok{return} \\KeywordTok{base}\\OperatorTok{.}\\FunctionTok{VisitMethodDeclaration}\\OperatorTok{(}\\NormalTok{node}\\OperatorTok{);}\n\n    \\OperatorTok{\\}}\n\\OperatorTok{\\}}\n\\end{Highlighting}\n\\end{Shaded}\n\n\\subsubsection{See Source Code for Microsoft implementation of\nVisitor}\\label{see-source-code-for-microsoft-implementation-of-visitor}\n\n\\href{https://github.com/dotnet/roslyn/blob/cecdb802007a49e346215c0afdce354d6c111112/src/Compilers/CSharp/Portable/Syntax/CSharpSyntaxRewriter.cs\\#L17}{SourceCode\nCSharpSyntaxRewriter} :\n\\url{https://github.com/dotnet/roslyn/blob/cecdb802007a49e346215c0afdce354d6c111112/src/Compilers/CSharp/Portable/Syntax/CSharpSyntaxRewriter.cs\\#L17}\n\n\\subsubsection{Learn More}\\label{learn-more-17}\n\n\\href{http://wiki.c2.com/?VisitorPattern}{C2Wiki} :\n\\url{http://wiki.c2.com/?VisitorPattern}\n\n\\href{https://wiki.c2.com/?VisitorPattern}{C2Wiki} :\n\\url{https://wiki.c2.com/?VisitorPattern}\n\n\\href{http://www.dofactory.com/net/visitor-design-pattern}{dofactory} :\n\\url{http://www.dofactory.com/net/visitor-design-pattern}\n\n\\href{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-visitor}{DPH}\n:\n\\url{https://github.com/kamranahmedse/design-patterns-for-humans?tab=readme-ov-file\\#-visitor}\n\n\\href{https://en.wikipedia.org/wiki/Visitor_pattern}{Wikipedia} :\n\\url{https://en.wikipedia.org/wiki/Visitor_pattern}\n\n\\subsubsection{Homework}\\label{homework-17}\n\nImplement a visitor that will allow you to calculate the total price of\na shopping cart. The shopping cart should contain items with a price and\na quantity. Visit every item and make the sum.\n\n\\end{document}\n",
+        "description": "Source:"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "",
+        "description": "LaTeX run number 1"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex.fmt)\n restricted \\write18 enabled.\nentering extended mode\n(C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7/input.tex\nLaTeX2e <2024-06-01> patch level 2\nL3 programming layer <2024-07-20>\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\article.cls\nDocument Class: article 2024/02/08 v1.4n Standard LaTeX document class\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\size10.clo))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsmath.sty\nFor additional information on amsmath, use the `?' option.\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amstext.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsgen.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsbsy.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsopn.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\amssymb.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\amsfonts.sty))\n(C:\\Program Files\\MiKTeX\\tex/generic/iftex\\iftex.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/l3kernel\\expl3.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/l3backend\\l3backend-xetex.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math-xete\nx.sty (C:\\Program Files\\MiKTeX\\tex/latex/l3packages/xparse\\xparse.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/l3packages/l3keys2e\\l3keys2e.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec-xetex.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\fontenc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec.cfg)))\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\fix-cm.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\ts1enc.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math-tabl\ne.tex))) (C:\\Program Files\\MiKTeX\\tex/latex/lm\\lmodern.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/upquote\\upquote.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\textcomp.sty))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\keyval.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/etoolbox\\etoolbox.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype-xetex.def)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype.cfg))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/parskip\\parskip.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/kvoptions\\kvoptions.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/ltxcmds\\ltxcmds.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/kvsetkeys\\kvsetkeys.sty)))\n(C:\\Program Files\\MiKTeX\\tex/latex/xcolor\\xcolor.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-cfg\\color.cfg)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-def\\xetex.def)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\mathcolor.ltx))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/fancyvrb\\fancyvrb.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\graphicx.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\graphics.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\trig.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-cfg\\graphics.cfg)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/bookmark\\bookmark.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\hyperref.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/kvdefinekeys\\kvdefinekeys.st\ny) (C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/pdfescape\\pdfescape.sty\n(C:\\Program Files\\MiKTeX\\tex/generic/pdftexcmds\\pdftexcmds.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/infwarerr\\infwarerr.sty)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/hycolor\\hycolor.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\nameref.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/refcount\\refcount.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/gettitlestring\\gettitlestrin\ng.sty))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/stringenc\\stringenc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\pd1enc.def)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/intcalc\\intcalc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\puenc.def)\n(C:\\Program Files\\MiKTeX\\tex/latex/url\\url.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/bitset\\bitset.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/bigintcalc\\bigintcalc.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\atbegshi-ltx.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\hxetex.def\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/rerunfilecheck\\rerunfilecheck.\nsty (C:\\Program Files\\MiKTeX\\tex/latex/base\\atveryend-ltx.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/uniquecounter\\uniquecounter.\nsty)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/bookmark\\bkm-dvipdfm.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/xurl\\xurl.sty)\nNo file input.aux.\n\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-LatinModernRoman.\ncfg)\n\nPackage hyperref Warning: Rerun to get /PageLabels entry.\n\n(C:\\Program Files\\MiKTeX\\tex/latex/lm\\omllmm.fd)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\umsa.fd)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-msa.cfg)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\umsb.fd)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-msb.cfg)\nNo file input.toc.\n\n[1]\n[2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[13]\nOverfull \\hbox (111.42pt too wide) in paragraph at lines 879--882\n[]\\TU/lmr/m/n/10 SourceCode Microsoft.Extensions.DependencyInjection.ServiceCol\nlectionServiceExtensions.AddSingleton[]\n\n[14]\n[15]\n[16]\n[17]\n[18]\n[19]\n[20]\n[21]\n[22]\n[23]\n[24]\n[25]\n[26]\n[27]\n[28]\n[29]\n[30] (C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\input.aux)\n\nLaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.\n\n )\n(see the transcript file for additional information)\nOutput written on C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\i\nnput.pdf (30 pages).\nTranscript written on C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59\na7\\input.log.\n",
+        "description": "LaTeX output"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "Package hyperref Warning: Rerun to get /PageLabels entry.\nLaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.\nTOC changed",
+        "description": "Rerun needed"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "",
+        "description": "LaTeX run number 2"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex.fmt)\n restricted \\write18 enabled.\nentering extended mode\n(C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7/input.tex\nLaTeX2e <2024-06-01> patch level 2\nL3 programming layer <2024-07-20>\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\article.cls\nDocument Class: article 2024/02/08 v1.4n Standard LaTeX document class\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\size10.clo))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsmath.sty\nFor additional information on amsmath, use the `?' option.\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amstext.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsgen.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsbsy.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsopn.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\amssymb.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\amsfonts.sty))\n(C:\\Program Files\\MiKTeX\\tex/generic/iftex\\iftex.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/l3kernel\\expl3.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/l3backend\\l3backend-xetex.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math-xete\nx.sty (C:\\Program Files\\MiKTeX\\tex/latex/l3packages/xparse\\xparse.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/l3packages/l3keys2e\\l3keys2e.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec-xetex.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\fontenc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec.cfg)))\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\fix-cm.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\ts1enc.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math-tabl\ne.tex))) (C:\\Program Files\\MiKTeX\\tex/latex/lm\\lmodern.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/upquote\\upquote.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\textcomp.sty))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\keyval.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/etoolbox\\etoolbox.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype-xetex.def)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype.cfg))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/parskip\\parskip.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/kvoptions\\kvoptions.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/ltxcmds\\ltxcmds.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/kvsetkeys\\kvsetkeys.sty)))\n(C:\\Program Files\\MiKTeX\\tex/latex/xcolor\\xcolor.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-cfg\\color.cfg)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-def\\xetex.def)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\mathcolor.ltx))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/fancyvrb\\fancyvrb.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\graphicx.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\graphics.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\trig.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-cfg\\graphics.cfg)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/bookmark\\bookmark.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\hyperref.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/kvdefinekeys\\kvdefinekeys.st\ny) (C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/pdfescape\\pdfescape.sty\n(C:\\Program Files\\MiKTeX\\tex/generic/pdftexcmds\\pdftexcmds.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/infwarerr\\infwarerr.sty)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/hycolor\\hycolor.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\nameref.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/refcount\\refcount.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/gettitlestring\\gettitlestrin\ng.sty))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/stringenc\\stringenc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\pd1enc.def)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/intcalc\\intcalc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\puenc.def)\n(C:\\Program Files\\MiKTeX\\tex/latex/url\\url.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/bitset\\bitset.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/bigintcalc\\bigintcalc.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\atbegshi-ltx.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\hxetex.def\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/rerunfilecheck\\rerunfilecheck.\nsty (C:\\Program Files\\MiKTeX\\tex/latex/base\\atveryend-ltx.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/uniquecounter\\uniquecounter.\nsty)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/bookmark\\bkm-dvipdfm.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/xurl\\xurl.sty)\n(C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\input.aux)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-LatinModernRoman.\ncfg) (C:\\Program Files\\MiKTeX\\tex/latex/lm\\omllmm.fd)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\umsa.fd)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-msa.cfg)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\umsb.fd)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-msb.cfg)\n(C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\input.toc\n[1]\n[2])\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[13]\n[14]\n[15]\n[16]\nOverfull \\hbox (111.42pt too wide) in paragraph at lines 879--882\n[]\\TU/lmr/m/n/10 SourceCode Microsoft.Extensions.DependencyInjection.ServiceCol\nlectionServiceExtensions.AddSingleton[]\n\n[17]\n[18]\n[19]\n[20]\n[21]\n[22]\n[23]\n[24]\n[25]\n[26]\n[27]\n[28]\n[29]\n[30]\n[31]\n[32] (C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\input.aux)\n\nLaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.\n\n )\n(see the transcript file for additional information)\nOutput written on C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\i\nnput.pdf (32 pages).\nTranscript written on C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59\na7\\input.log.\n",
+        "description": "LaTeX output"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.\nTOC changed",
+        "description": "Rerun needed"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "",
+        "description": "LaTeX run number 3"
+    },
+    {
+        "type": "MakePDFInfo",
+        "verbosity": "INFO",
+        "contents": "This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex.fmt)\n restricted \\write18 enabled.\nentering extended mode\n(C:/Users/ignat/AppData/Local/Temp/tex2pdf.-ed41cf5bb1ad59a7/input.tex\nLaTeX2e <2024-06-01> patch level 2\nL3 programming layer <2024-07-20>\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\article.cls\nDocument Class: article 2024/02/08 v1.4n Standard LaTeX document class\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\size10.clo))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsmath.sty\nFor additional information on amsmath, use the `?' option.\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amstext.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsgen.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsbsy.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsmath\\amsopn.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\amssymb.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\amsfonts.sty))\n(C:\\Program Files\\MiKTeX\\tex/generic/iftex\\iftex.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/l3kernel\\expl3.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/l3backend\\l3backend-xetex.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math-xete\nx.sty (C:\\Program Files\\MiKTeX\\tex/latex/l3packages/xparse\\xparse.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/l3packages/l3keys2e\\l3keys2e.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec-xetex.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\fontenc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/fontspec\\fontspec.cfg)))\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\fix-cm.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\ts1enc.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/unicode-math\\unicode-math-tabl\ne.tex))) (C:\\Program Files\\MiKTeX\\tex/latex/lm\\lmodern.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/upquote\\upquote.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\textcomp.sty))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\keyval.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/etoolbox\\etoolbox.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype-xetex.def)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\microtype.cfg))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/parskip\\parskip.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/kvoptions\\kvoptions.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/ltxcmds\\ltxcmds.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/kvsetkeys\\kvsetkeys.sty)))\n(C:\\Program Files\\MiKTeX\\tex/latex/xcolor\\xcolor.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-cfg\\color.cfg)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-def\\xetex.def)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\mathcolor.ltx))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/fancyvrb\\fancyvrb.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\graphicx.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\graphics.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics\\trig.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/graphics-cfg\\graphics.cfg)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/bookmark\\bookmark.sty\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\hyperref.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/kvdefinekeys\\kvdefinekeys.st\ny) (C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/pdfescape\\pdfescape.sty\n(C:\\Program Files\\MiKTeX\\tex/generic/pdftexcmds\\pdftexcmds.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/infwarerr\\infwarerr.sty)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/hycolor\\hycolor.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\nameref.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/refcount\\refcount.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/gettitlestring\\gettitlestrin\ng.sty))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/stringenc\\stringenc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\pd1enc.def)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/intcalc\\intcalc.sty)\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\puenc.def)\n(C:\\Program Files\\MiKTeX\\tex/latex/url\\url.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/bitset\\bitset.sty\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/bigintcalc\\bigintcalc.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/base\\atbegshi-ltx.sty))\n(C:\\Program Files\\MiKTeX\\tex/latex/hyperref\\hxetex.def\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/rerunfilecheck\\rerunfilecheck.\nsty (C:\\Program Files\\MiKTeX\\tex/latex/base\\atveryend-ltx.sty)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/generic/uniquecounter\\uniquecounter.\nsty)))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/bookmark\\bkm-dvipdfm.def))\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/xurl\\xurl.sty)\n(C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\input.aux)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-LatinModernRoman.\ncfg) (C:\\Program Files\\MiKTeX\\tex/latex/lm\\omllmm.fd)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\umsa.fd)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-msa.cfg)\n(C:\\Program Files\\MiKTeX\\tex/latex/amsfonts\\umsb.fd)\n(C:\\Users\\ignat\\AppData\\Roaming\\MiKTeX\\tex/latex/microtype\\mt-msb.cfg)\n(C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\input.toc\n[1]\n[2])\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[13]\n[14]\n[15]\n[16]\nOverfull \\hbox (111.42pt too wide) in paragraph at lines 879--882\n[]\\TU/lmr/m/n/10 SourceCode Microsoft.Extensions.DependencyInjection.ServiceCol\nlectionServiceExtensions.AddSingleton[]\n\n[17]\n[18]\n[19]\n[20]\n[21]\n[22]\n[23]\n[24]\n[25]\n[26]\n[27]\n[28]\n[29]\n[30]\n[31]\n[32] (C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\input.aux) )\n(see the transcript file for additional information)\nOutput written on C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59a7\\i\nnput.pdf (32 pages).\nTranscript written on C:/Users\\ignat\\AppData\\Local\\Temp\\tex2pdf.-ed41cf5bb1ad59\na7\\input.log.\n",
+        "description": "LaTeX output"
     }
 ]

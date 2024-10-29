@@ -17,8 +17,7 @@ tags:
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/Decorator
 
 <!-- id : 8 -->
-Decorator allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.    <br />
-
+Decorator allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.
 ## Purpose of .NET implementation
 
 Stream is a perfect example of the Decorator pattern.    <br />

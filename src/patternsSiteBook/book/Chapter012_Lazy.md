@@ -4,8 +4,7 @@
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/Lazy
 
 <!-- id : 14 -->
-Lazy initialization is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.    <br />
-
+Lazy initialization is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.
 ## Purpose of .NET implementation
 
 You want to access one object that is difficult to create.    <br />

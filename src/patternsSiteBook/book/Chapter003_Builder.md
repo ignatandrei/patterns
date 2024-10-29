@@ -4,8 +4,7 @@
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/Builder
 
 <!-- id : 1 -->
-The intent of the Builder design pattern is to separate the construction of a complex object from its representation.    <br />
-
+The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
 ## Purpose of .NET implementation
 
 You want to let the developer construct a SqlConnectionString.    <br />

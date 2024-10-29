@@ -4,9 +4,7 @@
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/Singleton
 
 <!-- id : 10 -->
-Singleton pattern restricts the instantiation of a class to one object.    <br />
-It is used when you want to have one instance of a class that is shared across the application.    <br />
-
+Singleton pattern restricts the instantiation of a class to one object.It is used when you want to have one instance of a class that is shared across the application.
 ## Purpose of .NET implementation
 
 You have a factory to create objects.    <br />

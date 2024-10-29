@@ -17,8 +17,7 @@ tags:
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/AbstractFactory
 
 <!-- id : 17 -->
-Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.    <br />
-
+Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
 ## Purpose of .NET implementation
 
 You want to create commands for any specific database type in order to obtain data from a database.    <br />

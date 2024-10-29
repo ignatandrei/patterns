@@ -6,7 +6,9 @@
     "locations": [
     {
       "name": "pandoc",
-      "value": ".pandoc/pandoc.exe",
+      
+      "valueNear": ".pandoc/pandoc.exe",
+      "value": "%LocalAppData%\\Pandoc\\pandoc.exe",
       "valueInstall": "%LocalAppData%\\Pandoc\\pandoc.exe"
     }
 
@@ -30,7 +32,8 @@
       {
         "name":"make an pdf with miktext",
         "value":"pandoc -d .settings/pandocHTML.yaml  --resource-path book --metadata=title:\"{title}\" --metadata=author:\"{author}\" --title \"{title}\" --pdf-engine xelatex -o .output/index1.pdf",
-        "enabled":false
+        "enabled":true,
+        "redirectOutput":true
       }
     ]
 }

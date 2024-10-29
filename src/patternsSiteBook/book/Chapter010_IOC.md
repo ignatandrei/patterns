@@ -4,9 +4,7 @@
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/IOC
 
 <!-- id : 13 -->
-Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework.    <br />
-It's a design principle in which custom-written portions of a computer program receive the flow of control from a generic framework.    <br />
-
+Inversion of Control is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework.It's a design principle in which custom-written portions of a computer program receive the flow of control from a generic framework.
 ## Purpose of .NET implementation
 
 You want people to work with the file system . Possibly without a file or a directory that exists, but just with implementation.    <br />

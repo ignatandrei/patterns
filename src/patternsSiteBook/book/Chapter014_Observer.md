@@ -4,8 +4,7 @@
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/Observer
 
 <!-- id : 18 -->
-Observer pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.    <br />
-
+Observer pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 ## Purpose of .NET implementation
 
 You want to see when properties of an object are modified, to know how to react in the GUI.    <br />

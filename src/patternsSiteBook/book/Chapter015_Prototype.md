@@ -4,8 +4,7 @@
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/Prototype
 
 <!-- id : 5 -->
-It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.    <br />
-
+It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
 ## Purpose of .NET implementation
 
 If you want to clone an object ( that has members and methods ), the easy way is to copy the members into a new instance.    <br />

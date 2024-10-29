@@ -4,8 +4,7 @@
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/FluentInterface
 
 <!-- id : 15 -->
-Fluent interface allows you do have method chaining.    <br />
-
+Fluent interface allows you do have method chaining.
 ## Purpose of .NET implementation
 
 The methods of a service collection instance is called multiple times( e.g. for .AddSingleton).    <br />

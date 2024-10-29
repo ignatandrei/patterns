@@ -4,8 +4,7 @@
 Read online at https://ignatandrei.github.io/patterns/docs/patterns/Factory
 
 <!-- id : 6 -->
-A factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be new.    <br />
-
+A factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be new.
 ## Purpose of .NET implementation
 
 For getting data from Web, you can have a HttpWebRequest or FtpWebRequest.    <br />
