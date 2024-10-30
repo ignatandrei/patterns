@@ -1,6 +1,6 @@
 {
     "book":{
-        "title":"Pattern in .NET Core",
+        "title":"Patterns found in .NET Core Source Code",
         "author":"Andrei Ignat"
     },
     "locations": [
@@ -17,12 +17,12 @@
       {
         "name": "make a html",
         "value": "-d .settings/pandocHTML.yaml --resource-path book --metadata=title:\"{title}\" --metadata=author:\"{author}\" --title \"{title}\" -o .output/index.html",
-        "enabled":false
+        "enabled":true
       },      
       {
         "name": "make a word",
         "value": "-d .settings/pandocHTML.yaml  --resource-path book --metadata=title:\"{title}\" --metadata=author:\"{author}\" --title \"{title}\" -o .output/index.docx",
-        "enabled":false
+        "enabled":true
       },
       {
         "name":"make an epub",
@@ -32,7 +32,7 @@
       {
         "name":"make an pdf with miktext",
         "value":"-d .settings/pandocHTML.yaml  --resource-path book --metadata=title:\"{title}\" --metadata=author:\"{author}\" --title \"{title}\" --pdf-engine xelatex -o .output/index1.pdf",
-        "enabled":true,
+        "enabled":false,
         "redirectOutput":false
       }
     ]

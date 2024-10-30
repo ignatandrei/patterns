@@ -11,7 +11,7 @@ from: gfm
 reference-doc: .settings/customWord.docx
 
 # leave blank for input from stdin, use [] for no input:
-# Number files 19 
+# Number files 20 
 input-files: 
 - book/Introduction.md 
 - book/Chapter001_AbstractFactory.md 
@@ -31,7 +31,8 @@ input-files:
 - book/Chapter015_Prototype.md 
 - book/Chapter016_Singleton.md 
 - book/Chapter017_Strategy.md 
-- book/Chapter018_Visitor.md
+- book/Chapter018_Visitor.md 
+- book/Conclusion.md
 
 # or you may use input-file: with a single value
 # defaults:
