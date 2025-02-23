@@ -608,6 +608,24 @@
       "Link":"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0",
       "Name":"File Providers in ASP.NET Core"
 
+    },
+    {
+      "Id":97,
+      "IDPatternData":19,
+      "Link":"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-8.0",
+      "Name":"File Providers in ASP.NET Core"
+    },
+    {
+      "Id":98,
+      "IDPatternData":19,
+      "Link":"https://en.wikipedia.org/wiki/Composite_pattern",
+      "Name":"Wikipedia"
+    },
+    {
+      "Id":99,
+      "IDPatternData":19,
+      "Link":"https://github.com/dotnet/runtime/blob/2a51ee3fd10c2a5af5d44e710ef804813f73bf75/src/libraries/Microsoft.Extensions.FileProviders.Composite/src/CompositeFileProvider.cs#L15",
+      "Name":"SourceCode Composite Provider"
     }
 
 ]

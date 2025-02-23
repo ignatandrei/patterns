@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Patterns
 ---
 
-# Patterns With Examples from .NET  :  18
+# Patterns With Examples from .NET  :  19
 
 
         ## [AbstractFactory](/docs/patterns/AbstractFactory)
@@ -22,6 +22,11 @@ title: Patterns
 
     
         ## [Chain](/docs/patterns/Chain)
+
+
+
+    
+        ## [CompositeProvider](/docs/patterns/CompositeProvider)
 
 
 

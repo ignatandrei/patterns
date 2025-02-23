@@ -1,5 +1,5 @@
 
-# Patterns With Examples from .NET  :  18
+# Patterns With Examples from .NET  :  19
 
 
 ## [AbstractFactory](https://ignatandrei.github.io/patterns/docs/patterns/AbstractFactory)
@@ -18,6 +18,11 @@
 
     
 ## [Chain](https://ignatandrei.github.io/patterns/docs/patterns/Chain)
+
+
+
+    
+## [CompositeProvider](https://ignatandrei.github.io/patterns/docs/patterns/CompositeProvider)
 
 
 

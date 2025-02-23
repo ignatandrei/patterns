@@ -198,6 +198,16 @@
     "Description":"Observer pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.",
     "Tags":"behavioral,design pattern",
     "Homework":"Imagine you have a logger that logs to a file and to a console. Implement an observable logger that will allow you to subscribe to the logger and to be notified when the logger logs a message."
+  },
+  {
+    "Id":19,
+    "Stage":"done",
+    "Title":"CompositeProvider",
+    "ClassNames":"CompositeProvider",
+    "DemoFileCsproj":"CompositeProvider.csproj",
+    "Description":"Composite pattern is a structural design pattern that lets you compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.",
+    "Tags":"structural,design pattern",
+    "Homework":"Imagine you have a logger that logs to a file and to a console. Implement a composite logger that will allow you to log to multiple loggers at the same time."
   }
 
 

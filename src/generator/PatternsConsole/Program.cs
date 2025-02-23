@@ -60,7 +60,7 @@ GeneratorFiles generator=new(all);
 await generator.Initialize(Path.Combine(rootFolderFromGit,"src","examples"));
 await generator.WriteDocusaurus(Path.Combine(rootFolderFromGit, "src","patternsSite","docs"));
 await generator.WriteBook(Path.Combine(rootFolderFromGit, "src", "patternsSiteBook"));
-await generator.WriteBlog(18);
+await generator.WriteBlog(19);
 await generator.WriteReadme(Path.Combine(rootFolderFromGit,"README.md"));
 await generator.CreateZip(
     Path.Combine(rootFolderFromGit, "src", "examples"),

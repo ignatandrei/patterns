@@ -232,5 +232,18 @@
     "Line7": "",
     "Line8": "",
     "Line9": ""
+  },
+  {
+    "Id": 19,
+    "Line1": "Composite Provider pattern is a structural design pattern that lets you compose objects into tree structures to represent part-whole hierarchies",
+    "Line10": "",
+    "Line2": " Composite lets clients treat individual objects and compositions of objects uniformly",
+    "Line3": "",
+    "Line4": "",
+    "Line5": "",
+    "Line6": "",
+    "Line7": "",
+    "Line8": "",
+    "Line9": ""
   }
 ]

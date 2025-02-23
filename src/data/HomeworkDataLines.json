@@ -229,10 +229,10 @@
   },
   {
     "Id": 19,
-    "Line1": "Imagine that you have a logger that logs to a file and to a console",
+    "Line1": "Imagine that you have 2 loggers , for a file and a console",
     "Line10": "",
-    "Line2": " Implement a builder that will allow you to create a logger with different configurations",
-    "Line3": " For example, you can set the log level, the log format, and the log destination",
+    "Line2": "Implement a composite provider that allows you to log to multiple destinations at the same time",
+    "Line3": "",
     "Line4": "",
     "Line5": "",
     "Line6": "",

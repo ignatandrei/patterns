@@ -123,6 +123,11 @@
     "Id":18,
     "Line1":"You want to see when properties of an object are modified, to know how to react in the GUI",
     "Line2":"You can use the Observer pattern to notify the GUI when the properties of the object are modified"
+  },
+  {
+    "Id":19,
+    "Line1":"You want to switch between different implementations of an interface at runtime",
+    "Line2":"You can use the Composite Provider pattern to provide a single interface that can be implemented by multiple classes, allowing you to switch between different implementations at runtime"
   }
 
 ]

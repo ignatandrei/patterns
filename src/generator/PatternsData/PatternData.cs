@@ -1,7 +1,9 @@
 ﻿
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
 
 namespace PatternsData;
+[DebuggerDisplay("{Id} {Title}")]
 public class PatternData
 {
     public int Id { get; set; }
